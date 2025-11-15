@@ -1,0 +1,64 @@
+/// @class auto
+{
+	// 立ち上がり時の移行にかかる時間(sec)
+	"kickOffTime" : 3.0,
+	"throwInTime" : 5.0,
+	"goalKickTime" : 8.0,
+	"cornerKickTime" : 8.0,
+	"freeKickTime" : 8.0,
+	"penaltyKickTime" : 8.0,
+	"offenceSwitchTime" : 5.0,
+
+	// 避けられる選手の速度によって円のサイズを変える
+	// もっとも小さいときの円のサイズ割合
+	"distRateMin" : 0.5,
+
+	// もっとも円が小さくなるときのスピード(km/h)
+	"speedMin" : 5.0,
+
+	// もっとも円が大きくなるときのスピード(km/h)
+	"speedMax" : 15.0,
+
+	// 楕円中心のオフセット
+	"offset" : 1.0,
+
+	// 押す選手を中心とした進入禁止円長径
+	"longDist" : 8.0,
+
+	// 押す選手を中心とした進入禁止円短径
+	"shortDist" : 8.0,
+
+	// 押す選手を中心とした進入禁止円長径最小値
+	"longDistMin" : 4.0,
+
+	// 押す選手を中心とした進入禁止円短径最小値
+	"shortDistMin" : 4.0,
+
+	// 曖昧と判定されるアングル差
+	"subtleAngleSub" : 20.0,
+
+	// 曖昧と判定されるアングル差
+	"subtleAngleSubMargin" : 20.0,
+
+	// Moderate回避時の角速度
+	"angleVelocity" : 20.0,
+
+	// 目的地がこの値より遠ければRUN
+	"distRun" : 3.0,
+	"distRunMargin" : 0.75,
+
+	// 目的地がこの値より遠ければDASH
+	"distDash" : 5.0,
+	"distDashMargin" : 1.0,
+
+	// 目的地がこの値より遠ければMOVE
+	"distMove" : 7.0,
+	"distMoveMargin" : 3.0,
+
+	// 前方にいると判断する角度
+	"majorAngle" : 70.0,
+	"majorAngleMargin" : 20.0,
+
+	// 移動方向を維持する速度(km/h)
+	"keepMoveAngleSpeed" : 7.0
+}

@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fox formatVersion="2" fileVersion="0">
+	<classes>
+		<class name="Data" super="Entity" version="1"/>
+		<class name="Entity" version="1"/>
+		<class name="DataSet" super="Data" version="0"/>
+		<class name="TransformData" super="Data" version="4"/>
+		<class name="SituationPlayerData" super="TransformData" version="2"/>
+		<class name="DataElement" super="Entity" version="1"/>
+		<class name="TransformEntity" super="DataElement" version="0"/>
+		<class name="ShearTransformEntity" super="DataElement" version="0"/>
+		<class name="PivotTransformEntity" super="DataElement" version="0"/>
+	</classes>
+	<entities>
+		<entity class="DataSet" addr="0x26469C60" id="0x40e6">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="dataList" type="EntityPtr" container="StringMap">
+					<value key="D01">0x2CA18190</value>
+					<value key="D02">0x2CA18800</value>
+					<value key="D03">0x2CA18A30</value>
+					<value key="D04">0x2CA18C50</value>
+					<value key="D05">0x2CA18E80</value>
+					<value key="D06">0x2CA190A0</value>
+					<value key="D07">0x2CA192D0</value>
+					<value key="D08">0x2CA194F0</value>
+					<value key="D09">0x2CA19720</value>
+					<value key="D10">0x2CA19940</value>
+					<value key="D11">0x2CA19B70</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA18190" id="0x40e8">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D01</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF55F80</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8A80</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x00E3D450</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF55F80" id="0x40ec">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18190</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-47.617271" y="0.000000" z="-0.317131"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8A80" id="0x40ee">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18190</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x00E3D450" id="0x40f0">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18190</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA18800" id="0x40f2">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D02</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF56020</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8100</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x00E3D8D0</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF56020" id="0x40f6">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18800</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-20.096636" y="0.000000" z="6.904739"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8100" id="0x40f8">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18800</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x00E3D8D0" id="0x40fa">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18800</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA18A30" id="0x40fc">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D03</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF560C0</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8780</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x00E3D600</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF560C0" id="0x4100">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18A30</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-20.358446" y="0.000000" z="-7.802489"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8780" id="0x4102">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18A30</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x00E3D600" id="0x4104">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18A30</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA18C50" id="0x4106">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D04</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF56160</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8D80</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x00E3D690</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF56160" id="0x410a">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18C50</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-17.450115" y="0.000015" z="17.888208"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8D80" id="0x410c">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18C50</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x00E3D690" id="0x410e">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18C50</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA18E80" id="0x4110">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D05</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF56200</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8B80</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x26308060</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF56200" id="0x4114">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18E80</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-17.983767" y="0.000000" z="-18.909187"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8B80" id="0x4116">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18E80</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x26308060" id="0x4118">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA18E80</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA190A0" id="0x411a">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D06</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF562A0</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8F00</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x263083C0</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF562A0" id="0x411e">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA190A0</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-9.565897" y="-0.874189" z="4.471200"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8F00" id="0x4120">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA190A0</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x263083C0" id="0x4122">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA190A0</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA192D0" id="0x4124">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D07</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF56340</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8E00</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x00E3CEB0</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF56340" id="0x4128">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA192D0</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-9.503529" y="0.000000" z="-5.804074"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8E00" id="0x412a">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA192D0</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x00E3CEB0" id="0x412c">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA192D0</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA194F0" id="0x412e">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D08</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF563E0</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8C00</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x26307E20</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF563E0" id="0x4132">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA194F0</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-1.484750" y="0.000000" z="11.034589"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8C00" id="0x4134">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA194F0</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x26307E20" id="0x4136">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA194F0</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA19720" id="0x4138">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D09</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF56480</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8980</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x263084E0</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF56480" id="0x413c">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19720</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-1.239841" y="0.000000" z="-10.510250"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8980" id="0x413e">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19720</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x263084E0" id="0x4140">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19720</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA19940" id="0x4142">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D10</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF56520</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8E80</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x263082A0</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF56520" id="0x4146">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19940</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-2.007318" y="0.224392" z="28.193663"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8E80" id="0x4148">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19940</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x263082A0" id="0x414a">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19940</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="SituationPlayerData" addr="0x2CA19B70" id="0x414c">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="name" type="String" container="StaticArray" arraySize="1">
+					<value>D11</value>
+				</property>
+				<property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x26469C60</value>
+				</property>
+				<property name="dataTags" type="uint8" container="StringMap"/>
+				<property name="dataUserTags" type="uint8" container="StringMap"/>
+				<property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x00000000</value>
+				</property>
+				<property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2CF55E40</value>
+				</property>
+				<property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x262F8900</value>
+				</property>
+				<property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+					<value>0x2630D9A0</value>
+				</property>
+				<property name="children" type="EntityHandle" container="List"/>
+				<property name="flags" type="uint32" container="StaticArray" arraySize="1">
+					<value>2147483655</value>
+				</property>
+				<property name="RouteData" type="EntityLink" container="StaticArray" arraySize="1">
+					<value packagePath="" archivePath="" nameInArchive="">0x00000000</value>
+				</property>
+				<property name="nodeColor" type="Color" container="StaticArray" arraySize="1">
+					<value r="1.000000" g="1.000000" b="0.000000" a="1.000000"/>
+				</property>
+				<property name="animeKind" type="int32" enumName="SituationPlayerData_RESET_KIND" container="StaticArray" arraySize="1">
+					<value>NOTHING</value>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="TransformEntity" addr="0x2CF55E40" id="0x4150">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19B70</value>
+				</property>
+				<property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="1.000000" y="1.000000" z="1.000000"/>
+				</property>
+				<property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000" w="1.000000"/>
+				</property>
+				<property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="-1.540573" y="0.337856" z="-28.121618"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="ShearTransformEntity" addr="0x262F8900" id="0x4152">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19B70</value>
+				</property>
+				<property name="shearTransform_shear" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+		<entity class="PivotTransformEntity" addr="0x2630D9A0" id="0x4154">
+			<staticProperties>
+				<property name="scriptClassName" type="String" container="StaticArray" arraySize="1">
+					<value/>
+				</property>
+				<property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+					<value>0x2CA19B70</value>
+				</property>
+				<property name="pivotTransform_pivot" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+				<property name="pivotTransform_pivotTranslation" type="Vector3" container="StaticArray" arraySize="1">
+					<value x="0.000000" y="0.000000" z="0.000000"/>
+				</property>
+			</staticProperties>
+			<dynamicProperties/>
+		</entity>
+	</entities>
+</fox>
+

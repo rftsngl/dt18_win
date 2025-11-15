@@ -1,0 +1,26 @@
+/// @class auto
+{
+	// テスト的に配列データとして扱ってみる。並びはChangeKind順でNONEを無視した並び
+	"dist" : [
+		{ "value" : 2.0 }, // 敵がボールを保持している時
+		{ "value" : 8.0 }, // 味方がボールを保持している時
+		{ "value" : 8.0 }, // セットプレイ
+		{ "value" : 8.0 }  // スティック入力時
+	],
+	
+	"disp" : [
+		{ "value" : false  }, // HOME側
+		{ "value" : false  }  // AWAY側
+	],	
+
+	// usr05091が個人的に追加した処理を有効にするかどうか
+	"customEnable" : true,
+	
+	"stickGage" : 0.0,
+	
+	"keepEnemyAdjustSide" : 6.0,
+	
+	"keepFriendAdjustSide" : 15.0,
+	
+	"keepEnemyAuto" : 5.0
+}

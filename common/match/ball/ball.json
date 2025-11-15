@@ -1,0 +1,166 @@
+/// @class auto
+// Configuration options
+{
+	//----------------------------------------------
+	// 基本データ
+	//----------------------------------------------
+	// 反発係数
+	"boundRate" : 0.70,
+	
+	// 摩擦係数
+	//"frictionBoundRate" : 0.978,
+	"frictionBoundRate" : 0.968,
+	//"frictionRollRate" : 0.985,
+	"frictionRollRateMax" : 0.990,
+	"frictionRollRateMin" : 0.988,
+	"frictionRollSpeedMax" : 10.0,
+	"frictionRollSpeedMin" : 2.0,
+		
+	// XZ平面の速度が下記の時速以下になったら停止扱いにする
+	"stopSpeed" : 0.175,
+	
+	// ドラッグクライシス速度：この速度以上だと空気抵抗が現象する
+	"dragSpeedMin" : 75.0,
+	"dragSpeedMax" : 105.0,
+	
+	// 速度がドラッグクライシス速度以下の時の空気抵抗値 (基本)
+	"airRegistNormal" : 1.0,
+
+	//----------------------------------------------
+	// マグナス力調整用
+	//----------------------------------------------
+	// マグナス力をどれくらいの割合で仕様するか？
+	"magnusRate" : 0.03,
+		
+	// 浮力の調整値
+	"backSpinBuoyancyRate" : 1.0,
+	// バックスピンの時のLogの係数
+	"backSpinLogRate" : 7.0,
+	
+	// トップスピンがかかっている際の上昇中、下降中の影響力
+	"topSpinChangeSpeed" : 10.0,
+	"topSpinRiseDecRate" : 1.0,	
+	"topSpinDownDecRate" : 1.0,
+	
+	// 無回転時、仮想的にトップスピンがかかっている際の上昇中、下降中の影響力
+	"nonSpinTopRiseDecRate" : 1.0,	
+	"nonSpinTopDownDecRate" : 1.0,	
+	
+	//----------------------------------------------
+	// 無回転調整用
+	//----------------------------------------------
+	// 無回転時、マグナス力を回転時にたいしてどれほど使うかの割合
+	"nonSpinRate" : 1.0,
+	
+	// 無回転の影響開始速度
+	"nonSpinMin" : 45.0,
+	
+	// 無回転の影響最高速度
+	"nonSpinMax" : 100.0,	
+	
+	//----------------------------------------------
+	// バウンド時に考慮する内容_1
+	//    回転力を平面速度に変換する
+	//----------------------------------------------
+	
+	// 回転数→平面速度への変換情報
+	
+	// rollから速度への変換変数
+	// rollの最大値
+	"rollToSpeedMaxRoll" : 8.0,
+	"rollToSpeedMaxKPH"  : 23.0,
+	
+	"rollToSpeedSpeedYRateBase" : 0.6,
+	"rollToSpeedSpeedYMin": 8.0,
+	"rollToSpeedSpeedYMax": 20.0,
+		
+	// curveから速度への変換変数
+	"curveToSpeedMaxCurve" : 8.0,
+	"curveToSpeedMaxKPH"  : 2.0,
+	
+	"curveToSpeedSpeedYRateBase" : 0.5,
+	"curveToSpeedSpeedYMin": 8.0,
+	"curveToSpeedSpeedYMax": 20.0,
+
+	
+	// バックスピンやトップスピン時の反発係数最大影響%
+	"rollToBoundAdd" : 0.11,
+	"rollToBoundRollMin" : 1.0,
+	"rollToBoundRollMax" : 9.0,
+	
+	//----------------------------------------------
+	// バウンド時に考慮する内容_2
+	//    落下速度が大きい時は地面にめり込むと考える
+	//----------------------------------------------
+	
+	// 地面のめり込む影響を受け始める最低最大速度
+	"boundBoundSpeedMin" : 2.0,
+	"boundBoundSpeedMax" : 15.0,
+	// めり込みの影響度による反発係数の調整
+	// → 通常から何%変化させたいか？
+	"boundCheckBoundAddRate" : 21,
+
+	// 地面のめり込む影響を受け始める最低最大速度
+	"boundFrictionSpeedMin" : 10.0,
+	"boundFrictionSpeedMax" : 25.0,
+	// めり込みの影響度による摩擦係数の調整
+	// → 通常から何%変化させたいか？
+	"boundCheckFrictionAddRate" : 15,
+
+	// 地面のめり込む影響を受け始める最低最大速度
+	"boundRotationSpeedMin" : 5.0,
+	"boundRotationSpeedMax" : 20.0,
+	// めり込みの影響度による回転力の現象割合
+	// → 通常から何%変化させたいか？
+	"boundCheckRotationDecRate" : 0,
+
+	//----------------------------------------------
+	// バウンド時に考慮する内容_3
+	//    グラウンダー製の速いボールの判断
+	//----------------------------------------------
+	"grounderSpeed" : 16.0,
+	"grounderCTan" : 16.0,
+	
+	"grounderFrictionRate" : 0.99,
+	//"grounderFrictionRate" : 0.90,
+	//"grounderBoundYAdd" : 0.095,
+	"grounderBoundYAdd" : 0.07,
+	//"grounderBoundYAdd" : 0.10,
+	
+	//----------------------------------------------
+	// バウンド時の回転への影響
+	//----------------------------------------------
+	"boundToRotationBaseXZ" : 0.24,
+	"boundToRotationAddRateXZ" : 0.43,
+	"boundToRotationSpeedMinXZ" : 6.0,
+	"boundToRotationSpeedMaxXZ" : 32.0,
+	
+	"boundRollMax" : 9.0,
+	
+	"boundToRotationBaseY" : 0.1,
+	"boundToRotationAddRateY" : 0.5,
+	"boundToRotationSpeedMinY" : 10.0,
+	"boundToRotationSpeedMaxY" : 25.0,
+	
+	//----------------------------------------------
+	// キック時のボール回転、スピードを強制する時
+	//----------------------------------------------
+	"naturalRoll" : 2.0,
+	
+	"speedCustom" : false,
+	"rotationCustom" : false,
+	
+	// 蹴り出しスピード
+	"debugKickSpeed" : 35.0,
+	
+	// 蹴り出し角度
+	"debugKickAngle" : 3.0,
+
+	// 1秒間での縦回転数
+	"roll" : -2.0,
+	
+	// 1秒間での横回転数
+	"curve" : 0.0
+	
+	
+}

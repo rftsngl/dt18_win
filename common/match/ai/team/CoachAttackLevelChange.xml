@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<Tree Id="CoachAttackLevelChange.xml" Type="Action" AnswerFile="CoachAttackLevel.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape11" />
+        <Connector End="Shape3" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="FuncShape2" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape10" />
+        <Connector End="Shape6" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape3" ConfigId="FuncShape3" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape2" />
+        <Connector End="Shape7" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape4" ConfigId="FuncShape4" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape10" />
+        <Connector End="Shape9" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape5" ConfigId="FuncShape5" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape10" />
+        <Connector End="Shape9" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape6" ConfigId="FuncShape6" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape4" />
+        <Connector End="Shape8" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape7" ConfigId="FuncShape7" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape5" />
+        <Connector End="Shape8" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape8" ConfigId="DEFENSIVE" NodeType="Answer" />
+    <Node NodeId="Shape9" ConfigId="OFFENSIVE" NodeType="Answer" />
+    <Node NodeId="Shape10" ConfigId="BALANCE" NodeType="Answer" />
+    <Node NodeId="Shape11" ConfigId="BALANCE" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckMatchStatus" NameJ="試合状況">
+          <Args>
+            <Arg Type="MatchStatus" Value="IN_PLAY" ValueJ="インプレイ" OptionType="Not">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape2">
+      <Funcs>
+        <Func Name="CheckTimeDesignatedHalf" NameJ="時間(0-120の範囲)">
+          <Args>
+            <Arg Type="Time" Value="HALF_2ND" ValueJ="後半">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0" ValueJ="0" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape3">
+      <Funcs>
+        <Func Name="CheckTimeDesignatedHalf" NameJ="時間(0-120の範囲)">
+          <Args>
+            <Arg Type="Time" Value="HALF_2ND" ValueJ="後半">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="30" ValueJ="30" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape4">
+      <Funcs>
+        <Func Name="CheckTargetGoalDifference" NameJ="目標得点差と現在の得点差を比較">
+          <Args>
+            <Arg Type="Numeric" Value="-2" ValueJ="-2" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape5">
+      <Funcs>
+        <Func Name="CheckTargetGoalDifference" NameJ="目標得点差と現在の得点差を比較">
+          <Args>
+            <Arg Type="Numeric" Value="-1" ValueJ="-1" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape6">
+      <Funcs>
+        <Func Name="CheckTargetGoalDifference" NameJ="目標得点差と現在の得点差を比較">
+          <Args>
+            <Arg Type="Numeric" Value="2" ValueJ="2" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape7">
+      <Funcs>
+        <Func Name="CheckTargetGoalDifference" NameJ="目標得点差と現在の得点差を比較">
+          <Args>
+            <Arg Type="Numeric" Value="1" ValueJ="1" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="62" Y="14" />
+      <Size Width="77" Height="44" />
+      <Comment Text="インプレイ中" />
+    </Parameter>
+    <Parameter>
+      <Location X="50" Y="195" />
+      <Size Width="101" Height="44" />
+      <Comment Text="後半以降" />
+    </Parameter>
+    <Parameter>
+      <Location X="50" Y="101" />
+      <Size Width="101" Height="44" />
+      <Comment Text="後半30分以降" />
+    </Parameter>
+    <Parameter>
+      <Location X="402" Y="194" />
+      <Size Width="162" Height="48" />
+      <Comment Text="目標得点差との差　-2以下" />
+    </Parameter>
+    <Parameter>
+      <Location X="625" Y="100" />
+      <Size Width="162" Height="48" />
+      <Comment Text="目標得点差との差　-1以下&#xD;&#xA;" />
+    </Parameter>
+    <Parameter>
+      <Location X="185" Y="193" />
+      <Size Width="162" Height="48" />
+      <Comment Text="目標得点差との差　+2以上&#xD;&#xA;" />
+    </Parameter>
+    <Parameter>
+      <Location X="290" Y="96" />
+      <Size Width="162" Height="48" />
+      <Comment Text="目標得点差との差　+1以上&#xD;&#xA;" />
+    </Parameter>
+    <Parameter>
+      <Location X="275" Y="330" />
+      <Size Width="94" Height="32" />
+      <Comment Text="守備的" />
+    </Parameter>
+    <Parameter>
+      <Location X="558" Y="317" />
+      <Size Width="98" Height="32" />
+      <Comment Text="攻撃的" />
+    </Parameter>
+    <Parameter>
+      <Location X="136" Y="403" />
+      <Size Width="96" Height="32" />
+      <Comment Text="通常" />
+    </Parameter>
+    <Parameter>
+      <Location X="262" Y="17" />
+      <Size Width="96" Height="32" />
+      <Comment Text="通常" />
+    </Parameter>
+  </Parameters>
+  <WindowSize Width="793" Height="1122" />
+</Tree>

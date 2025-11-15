@@ -1,0 +1,31 @@
+/// @class auto
+//MatchAIPatternDefenceCover
+
+{	
+	// カバー距離
+	"coverDist" : 5.5,
+	
+	// カバー調整距離
+	"coverAdjustDist" : 2.0,
+	
+	// カバーDF距離
+	"coverDfDist" : 5.0,
+	
+	// カバー角度
+	"coverAngle" : 60.0,
+	
+	// カバーDF角度
+	"coverDfAngle" : 65.0,
+	
+	// カバーDF角度(カバー対象が抜かれている場合)
+	"coverDfAngle2" : 45.0,
+	
+	// カバー対象位置として認識する未来フレーム
+	"futureFrame" : 10,
+	
+	// 目標ラインから許容するX距離
+	"diffTargetLineX" : 5.0,
+	
+	// 目標ラインから許容するX距離(継続)
+	"diffContinueTargetLineX" : 7.0
+}

@@ -1,0 +1,8 @@
+/// @class auto
+{
+	"longpassInplayUse" : false,
+	
+	"longpassSpeedKPHMin" : 30.0,
+	
+	"longpassSpeedKPHMax" : 90.0	
+}

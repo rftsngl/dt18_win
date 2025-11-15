@@ -1,0 +1,23 @@
+/// @class auto
+// Configuration options
+{
+	// ボールとのチェックZ距離
+	"checkZ"      : 22.0,
+	"checkZ_good" : 28.0,
+	
+	// ボールとのチェック距離
+	"checkBallDist"      : 30.0,
+	"checkBallDist_good" : 35.0,
+	
+	// 最終ラインからのチェック距離
+	"checkLastLineDist"      : 7.0,
+	"checkLastLineDist_good" : 10.0,
+	
+	//BPとの体の向きチェック
+	"angleDiff"      : 60.0,
+	"angleDiff_good" : 100.0,
+	
+	//BPのボール距離チェック
+	"checkBallDistBP"      : 1.0,
+	"checkBallDistBP_good" : 1.5
+}

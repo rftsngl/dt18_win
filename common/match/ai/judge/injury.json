@@ -1,0 +1,34 @@
+/// @class auto
+// Configuration options
+{
+	//----------------------------------------
+	// レベル ダメージ閾値 0～255の範囲であること。
+	//----------------------------------------
+	//微傷
+	"levelDamageMicro" : 120,
+	//軽傷
+	"levelDamageMinor" : 180,
+	//中傷
+	"levelDamageMiddle" : 220,
+	//重傷
+	"levelDamageSerious" : 240,
+	
+	//----------------------------------------
+	//  ダメージ閾値 0～255の範囲であること。
+	//----------------------------------------
+	//打撲
+	"symptomDamageBruise" : 120,
+	//炎症
+	"symptomDamageInflammation" : 160,
+	//裂傷
+	"symptomDamageLaceration" : 220,
+	//肉離れ
+	"symptomDamageTearMuscle" : 230,
+	//靱帯(捻挫)
+	"symptomDamageLigament" : 240,
+	//骨折
+	"symptomDamageFracture" : 250,
+
+
+	"dummy" : 0
+}

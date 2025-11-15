@@ -1,0 +1,111 @@
+/// @class auto
+// Configuration options
+{
+	//--------------------------------------------
+	//チャンス飛び出し用
+	//--------------------------------------------
+	// ボールとのチェック距離
+	"checkBallDist_chance"      : 12.0,
+	"checkBallDist_chance_good" : 15.0,
+
+	// 角度差
+	"angleDiff_chance"      : 40.0,
+	"angleDiff_chance_good" : 100.0,
+	
+	// 最終ラインとのチェック距離
+	"checkLastLineDist_chance"      : 10.0,
+	"checkLastLineDist_chance_good" : 15.0,
+	
+	// 交点チェック距離0
+	"checkCrossPointDist0_chance"      : 5.0,
+	"checkCrossPointDist0_chance_good" : 2.0,
+	
+	// 交点チェック距離1
+	"checkCrossPointDist1_chance"      : 6.0,
+	"checkCrossPointDist1_chance_good" : 3.0,
+	
+	// 交点チェック距離2
+	"checkCrossPointDist2_chance"      : 7.0,
+	"checkCrossPointDist2_chance_good" : 4.0,
+	
+	// チャンスとして認識するスコア
+	"chanceScore"      : 100,
+	"chanceScore_good" : 90,
+	
+	//--------------------------------------------
+	//サイド飛び出し用
+	//--------------------------------------------
+	// BPとの体の向きチェック
+	"angleDiff_side"      : 40.0,
+	"angleDiff_side_good" : 100.0,
+	
+	// 扇範囲チェック角度範囲0
+	"angleWidth0"      : 5.0,
+	"angleWidth0_good" : 25.0,
+	
+	// 扇範囲チェック角度範囲1
+	"angleWidth1"      : 10.0,
+	"angleWidth1_good" : 40.0,
+	
+	// 扇範囲チェック角度範囲2
+	"angleWidth2"      : 20.0,
+	"angleWidth2_good" : 55.0,
+	
+	//扇範囲チェック距離0
+	"sectorDist0"      : 20.0,
+	"sectorDist0_good" : 25.0,
+	
+	//扇範囲チェック距離1
+	"sectorDist1"      : 15.0,
+	"sectorDist1_good" : 20.0,
+	
+	//扇範囲チェック距離2
+	"sectorDist2"      : 10.0,
+	"sectorDist2_good" : 15.0,
+	
+	//--------------------------------------------
+	//サイドに流れる飛び出し用
+	//--------------------------------------------
+	//エリア評価のチェック
+	"checkScore_flow"      : 95,
+	"checkScore_flow_good" : 80,
+	
+	//Z距離チェック
+	"checkZ_flow"      : 15.0,
+	"checkZ_flow_good" : 20.0,
+	
+	// 最終ラインとのチェック距離
+	"checkLastLineDist_flow"      : 5.0,
+	"checkLastLineDist_flow_good" : 10.0,
+	
+	//--------------------------------------------
+	//２列目からの飛び出し用
+	//--------------------------------------------
+	//BPから後方距離チェック
+	"checkBackDist_second"      : 3.0,
+	"checkBackDist_second_good" : 5.0,
+	
+	//Z距離チェック
+	"checkZ_second"      : 15.0,
+	"checkZ_second_good" : 20.0,
+	
+	// ボールとのチェック距離
+	"checkBallDist_second"      : 15.0,
+	"checkBallDist_second_good" : 20.0,
+	
+	// BPとの体の向きチェック
+	"angleDiff_second"      : 45.0,
+	"angleDiff_second_good" : 100.0,
+	
+	//--------------------------------------------
+	//カウンター飛び出し用
+	//--------------------------------------------
+	//Z距離チェック
+	"checkZ_counter"      : 15.0,
+	"checkZ_counter_good" : 20.0,
+	
+	// ボールとのチェック距離
+	"checkBallDist_counter"      : 18.0,
+	"checkBallDist_counter_good" : 22.0
+	
+}

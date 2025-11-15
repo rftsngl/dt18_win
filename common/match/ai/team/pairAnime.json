@@ -1,0 +1,35 @@
+/// @class auto
+// Configuration options
+{
+	// 発生させるかどうかの処理
+	"stopEnable" : false,
+	"moveEnable" : true,
+	"highballEnable" : true,
+
+
+	// 停止時の決着までの時間
+	"stopDecideFrame" : 90,
+
+	// 移動時の決着までの時間
+	"moveDecideFrame" : 50,
+
+
+
+	// ニュートラル状態時は判定継続させるかどうか
+	"neutralContinue" : false,
+	
+	// パラメータの最大差
+	"paramDiffMax" : 20.0,
+	
+	// パラメータによる競り合い勝敗割合の調整量
+	"adjustRateHighFromParam" : 0.125,
+	
+	// パラメータによる競り合い勝敗割合の調整量
+	"adjustRateFromParam" : 0.25,
+	
+	// 位置関係による競り合い勝敗割合の調整量
+	"adjustRateFromPosition" : 0.2,
+	
+	// 1度目の当たりで勝敗が決定する為に必要な差
+	"firstContactMargin" : 10
+}

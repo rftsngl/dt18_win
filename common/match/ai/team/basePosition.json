@@ -1,0 +1,322 @@
+/// @class auto
+// Configuration options
+{
+	//----------------------------------------
+	// 攻撃時の設定
+	//----------------------------------------
+	// 攻撃時のFW-DF間の距離感
+	"lengthOf" : 40.0,
+
+	// 攻撃時のサイドへの広がり具合
+	"offencWideLength" : 50.0,
+	
+	// サイドラインとのマージン
+	"marginSide" : 10.0,
+
+	// 攻撃割合の全体調整
+	"adjustFrontOF" : 18.0,
+
+	// 攻撃割合の全体調整
+	"adjustBackOF" : 0.0,
+
+	// 前への上がり速度変化
+	"xposiRateCustom" : false,
+	
+	// FWカテゴリの大きさ
+	"fwGroupRate" : 0.8,
+	
+	// チーム行動からグループ毎の行動に変化するのを許可するかどうか
+	"teamToGroupAdjustEnable" : false,
+	
+	// チーム行動からグループ毎の行動に変化する距離
+	"teamToGroupAdjustStart" : -10.0,
+	
+	// チーム行動からグループ毎の行動に変化する距離
+	"teamToGroupAdjustEnd" : 0.0,
+	
+	// Z座標の補正→通常より開く処理
+	"offenceZposiAdjust" : true,
+	
+	// Z座標の補正開始位置調整距離
+	"offenceZposiAdjustDist" : 0.0,
+	
+	// サイドに開く処理で外に開いた選手に対する中央の選手のサイドへの移動距離調整
+	"openSideAdjustZRate" : 0.15,
+	
+	
+	//----------------------------------------
+	// セットプレイ用の調整
+	//----------------------------------------
+	"adjustSetplay" : true,
+	
+	"setplayToInplayHeightMin" : 0.3,
+	"setplayToInplayHeightMax" : 0.9,
+
+	// ゴールキック用の調整
+	"gklBaseX"          : 8.0,
+	"gklBaseZRate"      : 0.5,
+	"gklAdjustRateX"    : 0.0,
+	"gklAdjustRateZ_FW" : 0.0,
+	"gklAdjustRateZ_MF" : 0.0,
+	"gklAdjustRateZ_DF" : 0.0,
+	"gklSupportRate"    : 20.0,
+	"gklWidthZ"         : 38.0,
+	
+	"gksBaseX"            : 30.0,
+	"gksBaseZRate"        : 0.5,
+	"gksAdjustRateX"      : 0.0,
+	"gksAdjustRateZ_FW"   : 0.0,
+	"gksAdjustRateZ_MF"   : 0.0,
+	"gksAdjustRateZ_DF"   : 0.0,
+	"gksHalfLineRateX_SB" : 60.0,
+	"gksSideLineRateZ_SB" : 0.0,
+	"gksPenaltyLineRateX_DF" : 40.0,
+	"gksWidthZ"           : 50.0,
+	
+
+	// 攻撃時のサイドへの広がり具合
+	"throwinWidthZ" : 25.0,	
+	
+	//スローイン、守備時のFW-DF間の距離感
+	"throwinLengthDf" : 20.0,	
+	
+	// フリーキック時のMFの上がり具合
+	"freeKickAdjustRateX_MF" : 1.0,
+	"freeKickAdjustRateZ_FW" : 63.0,
+	"freeKickAdjustRateZ"    : 55.0,
+	
+	// フリーキック時のあがる人の設定
+	"freekickAttackAddNum" : 2,
+	"freekickAttackForce0" : -1,
+	"freekickAttackForce1" : -1,
+	"freekickAttackForce2" : -1,
+	
+	// キックオフ時の攻撃側守備ライン位置
+	"kickoffDfLineX" : -18.0,
+	
+
+	//----------------------------------------
+	// 守備時の設定
+	//----------------------------------------
+	// 守備時のFW-DF間の距離感
+	"lengthDf" : 25.0,
+	// サイドへの偏り具合
+	"wideRate" : 0.1,
+
+	//攻撃時のDFラインの高さ
+	"dfLineRate": 0.3,
+	
+	// DFラインの高さ調整
+	"dfLine" : 10,
+
+	// DFカテゴリの大きさ
+	"dfGroupRate" : 0.4,
+
+	// FWラインの高さ調整≒プレス開始位置
+	"pressRate" : 0.5,
+	
+	// FW-MFの最低距離間
+	"minDistMF_FW" : 1.5,
+
+	// MF-DFの最低距離間
+	"minDistMF_DF" : 6.0,
+
+	// MFラインの高さ調整
+	"mfLineRate" : 0.2,
+
+	// MFカテゴリの大きさ
+	"mfGroupRate" : 0.3,
+	
+	// DFラインがボールにあわせて下がりはじめるボールとの距離
+	"dfLineBack" : 10.0,
+	
+	//DFの半分幅(3人用)
+	"dfLineWidth_3" : 18.0,
+	//DFの半分幅(4人用)
+	"dfLineWidth_4" : 23.0,
+	//DFの半分幅(5人用)
+	"dfLineWidth_5" : 28.0,
+	//DFの半分幅(コーナーキック用)
+	"dfLineWidth_Corner" : 10.0,
+	
+	//DFが攻め込まれたときに絞るDF幅の最大割合
+	"dfLineCloseRate" : 0.7,
+
+	// 強制的にカテゴリ間の距離を等間隔にする
+	"dfForceAverageZ" : true,
+
+	// 基本ポジションじゃなくてボール方面に寄る処理
+	"dfAdjustZ" : true,
+	
+	// ボール側に最大で何%ほど近づくか？
+	"dfAdjustZRateMax" : 40.0,
+
+	// ボール方面に寄せつけすぎないようにする幅
+	"dfAdjustZCheckWidthMin" : 5.0,
+
+	// マージンを含めた影響範囲の届く最大距離
+	"dfAdjustZCheckWidthMax" : 30.0,
+	
+	// X軸距離がこの距離以下だとボール方向に寄る調整値が最大になる
+	"dfAdjustZCheckLenMin" : 12.5,
+
+	// X軸距離がこの距離以上だとボール方向に寄る調整値がなくなる
+	"dfAdjustZCheckLenMax" : 20.0,
+
+
+	// 守備ラインの最大の高さ調整
+	"dfLineAdjustMax" : -4.0,
+	"dfLineAdjustMin" : -4.0,
+
+
+	// 守備ラインがセンターラインまで上がる時のボール位置調整
+	"dfLineCenterAdjustMax" :  2.0,
+	"dfLineCenterAdjustMin" : -10.0,
+	
+
+	// カバー処理を有効にするかどうか？
+	"dfCoverEnable" : true,
+	
+	// カバー側による処理を有効にするかどうか？
+	"dfCoverAdjustX" : true,
+	
+	// 基本ポジションをどれくらいカバー位置に近づけるか？
+	"coverRateZ" : 0.4,
+	
+	
+	// ユーザーポジションによる調整
+	"dfUserPositionAdjustEnable" : true,
+	"dfUserPositionAdjustRate"   : 1.0,
+	"dfUserPositionAdjustTime"   : 30,
+	
+	
+	// 敵の攻撃幅に合わせる処理
+	"dfAttackWidthEnable" : true,
+	
+	// デバッグ用途：敵の攻撃幅に限定する
+	"dfAttackWidthForce" : true,
+	
+	// グループの先頭からどれくらい前方の敵を認識するか
+	"dfAttackWidthFront" : 7.8,
+	
+	// グループの後方からどれくらい後ろの敵を認識するか
+	"dfAttackWidthBack" : 2.0,
+	
+	// マージン
+	"dfAttackWidthMarginFront" : 12.0,
+	
+	// マージン
+	"dfAttackWidthMarginBack" : 5.0,
+	
+	
+	// コーナーキック時のMFラインの広がり具合
+	"cornerkickDefenceMFWidth" : 100.0,
+	
+	// MFが逆サイドをどれくらいサポートするか？
+	"cornerkickDefenceMFSide" : 100.0,
+	
+	// ゴールキック時にディフェンスラインがどれくらい上がるか？
+	"gksDefenceBackRate" : 100.0,
+	"gklDefenceBackRate" : 40.0,
+	
+	// スペースカバーの割合
+	"spaceCoverRate" : 0.4,
+	
+	// DF目標ラインの最大値調整を行なうMFライン得点
+	"mfLineScore_adjustMax" : 150.0,
+	
+	// DFラインとMFライン幅の何分割を最大補正値とするか
+	"adjustDiv" : 4.0,
+
+	// WALKするMFラインのスコア
+	"walkMfLineScore" : 160.0,
+	
+	//----------------------------------------
+	// 攻守共通の処理
+	//----------------------------------------
+	// 逆サイド側を基本ポジション寄り前側にずらす
+	"slide" : false,
+
+	// スライド方式 0:比例 1:2次曲線
+	"slideKind" : 0,
+
+	// スライド幅の最高値
+	"slideWidth" : 3.0,
+
+	// スライド幅が最高になる時の距離
+	"slideDistMax" : 25.0,
+	
+	// スライド幅の最低値を維持する距離
+	"slideDistMin" : 8.0,
+	
+	// スライド判定させる距離
+	"slideJudgeWidthBase" : 10.0,
+	
+	// スライド判定のマージン
+	"slideJudgeWidthMargin" : 10.0,	
+
+
+	// X軸目標ラインの変化量
+	"targetLineXVariation" : 0.2,
+	
+	// Z軸目標ラインの変化量
+	"targetLineZVariation" : 0.2,
+
+	//----------------------------------------
+	// 移動系の敷居値 間借りしてます・・
+	//----------------------------------------
+	// 動き出し距離
+	"moveStartDist" : 0.8,
+
+	// 移動系の速度チェック
+	"forceWalkDist" : 1.2,
+	
+	// 移動系の速度チェック
+	"forceJogDist" : 2.4,
+
+	// 移動系の速度チェック
+	"forceDashDist" : 9.0,
+
+	// ダッシュからランに遷移する目標との距離
+	"speedDownRunDist" : 5.0,
+
+	// ジョグからランに遷移する目標との距離
+	"speedUpRunDist" : 4.0,
+	
+	//----------------------------------------
+	// 連携パラによってカバーを遅らせる
+	//----------------------------------------
+	
+	// 連携パラが反映する範囲
+	"upperConnectionParam" : 70.0,
+	"lowerConnectionParam" : 50.0,
+	
+	// 連携パラによるカバーをしない最大時間
+	"maxWaitTime" : 30.0,
+	
+	//　攻撃意識によって基本ポジションのX座標を上げる
+	"adjustXFromAttackAwareness3" : 2.5,
+	"adjustXFromAttackAwareness4" : 5.0,
+	
+	// デバッグ用　TODO::削除予定
+	"defenceCompact" : 20,
+	
+	//コンパクトネスパラに対してのFWのX座標理想ライン調整距離
+	"adjustXCompactFW" : 0.5,
+	
+	//コンパクトネスパラに対してのZ座標理想ラインの調整距離
+	"adjustZCompact" : 1.0,
+	
+	//コンパクトネスパラに対してのZ座標理想ライン下限の調整距離
+	"adjustZMinCompact" : 0.5,
+	
+	//----------------------------------------
+	// ゾーンディフェンス
+	//----------------------------------------
+	
+	//マッチアップ選手がDF⇒MFになる場合のチェック基本距離
+	"checkBaseDist" : 4.0,
+	
+	//マッチアップ選手がDF⇒MFになる場合のチェック調整距離
+	"checkAdjustDist" : 3.0
+}

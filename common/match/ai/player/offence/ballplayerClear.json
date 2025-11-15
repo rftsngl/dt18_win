@@ -1,0 +1,58 @@
+/// @class auto
+//BallKeepActionOrderClear
+{
+	//*****CheckClearTiming()*****************************************************
+	//クリア判定
+	
+	//ペナルティエリア内かゴールから一定距離内でボールを持っているときに相手選手が近くに一定数いたらクリア
+	//クリアするか考える距離(エリア内かこの距離以内でボールを持っていたら)
+	"clearCheckGoalDistArea" : 20.0,
+	//ちょっと近い
+	"checkFarCountDist":9.0,
+	//↑の人は移動角度がこれよりボール方向ならカウント
+	"farCountMoveAngle":30.0,
+	//近い。これ以内ならカウント
+	"nearCountDist":4.5,
+	//ちょっと近い人がこれより多ければクリア
+	"clearCountFar":2.0,
+	//近い人がこれより多ければクリア
+	"clearCountNear":1.0,
+	
+	//↑まででクリアされなかったとき-----------------------------------
+	
+	//ゴールに近いところでのクリアを考える距離--------------------------
+	"clearCheckGoalDistNear" : 14.0,
+	//ボールが相手選手方向か
+	"clearCheckNearAngle":124.5,
+	//これより相手に近ければクリア
+	"clearEnemyDistNear":6.0,
+	//キーパー用の距離
+	"clearEnemyDistNearGK":6.0,
+	//キーパーがトラップせずにクリア
+	"clearEnemyDistNearGKDirect":8.0,
+	//相手が遠距離(ドリブル)
+	"clearEnemyDistDribble":4.0,
+	//いいトラップができてない判定
+	"clearBadTrapSpeed":11.2,
+	"clearBadTrapAngle":112.5,
+	//前を向いていない
+	"notClearBodyAngle":112.5,
+	
+	//まあまあ近い時のクリアを考えるゴールからの距離--------------------
+	"clearCheckGoalDistFar" : 20.0,
+	//さらにこれより自身と近ければ考える
+	"clearCheckEnemyDistFar":4.0,
+	//もしくはこれより近くて
+	"clearCheckEnemyDistNear":2.0,
+	//角度がこの角度より向かってきているなら考える
+	"clearCheckEnemyAngleNear":56.3,
+	
+	//ルーズボールのクリア判定
+	//相手選手がボール方向
+	"clearCheckEnemyAngleLooseBall":78.8,
+	//相手ゴール方向を向いている
+	"clearCheckGoalAngleLooseBall":78.8
+	
+	//ルーズボールじゃない
+	//後方にスペースがある(スペースにドリブル)
+}

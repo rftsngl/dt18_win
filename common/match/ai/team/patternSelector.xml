@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Tree Id="patternSelector.xml" Type="Action" AnswerFile="Pattern.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector TreeId="data/common/ai/team/defence/defencePatternSelector.xml" End="Shape1" />
+        <Connector TreeId="data/common/ai/team/offence/offencePatternSelector.xml" End="Shape1" />
+      </Connectors>
+    </Node>
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckOffence" NameJ="オフェンスか">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="359" Y="15" />
+      <Size Width="99" Height="32" />
+      <Comment Text="オフェンス" />
+      <Reference>
+        <Affirmative>
+          <Location X="161" Y="22" />
+          <Size Width="77" Height="32" />
+          <Comment Text="インプレイ" />
+        </Affirmative>
+        <Negative>
+          <Location X="579" Y="16" />
+          <Size Width="108" Height="32" />
+          <Comment Text="壁ジャンプチェック&#xD;&#xA;" />
+        </Negative>
+      </Reference>
+    </Parameter>
+  </Parameters>
+</Tree>

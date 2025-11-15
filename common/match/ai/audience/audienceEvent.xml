@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Tree Id="audienceEvent.xml" Type="Role" AnswerFile="Role.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Role">
+      <Connectors>
+        <Connector End="" />
+        <Connector End="Shape2" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="NONE" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckBallTouchKind" NameJ="ボールタッチ">
+          <Args>
+            <Arg Type="BallTouchKind" Value="SHOOT" ValueJ="シュート" OptionType="Not">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="121" Y="76" />
+      <Size Width="134" Height="32" />
+      <Comment Text="ボールタッチがシュート" />
+    </Parameter>
+    <Parameter>
+      <Location X="420" Y="74" />
+      <Size Width="40" Height="32" />
+      <Comment Text="なし" />
+    </Parameter>
+  </Parameters>
+</Tree>

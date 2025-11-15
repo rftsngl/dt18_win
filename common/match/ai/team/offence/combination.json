@@ -1,0 +1,62 @@
+/// @class auto
+{
+	//  0: COMB_KIND_DECOY_00	234567 外　デコイ＋とびだし
+	//  1: COMB_KIND_DECOY_01	234567 中　デコイ＋とびだし
+	//  2: COMB_KIND_DECOY_02	
+	//  3: COMB_KIND_DECOY_03	
+	//  4: COMB_KIND_WEDGE_00	5678910 内 同サイド くさび＋とびだし
+	//  5: COMB_KIND_WEDGE_01	5678910 内 逆サイド くさび＋とびだし
+	//  6: COMB_KIND_WEDGE_02	69	外 くさび＋とびだし
+	//  7: COMB_KIND_WEDGE_03	
+	//  8: COMB_KIND_CROSS_CROSS	0124	near far 飛び出し　クロス受け
+	//  9: COMB_KIND_CROSS_01	0124	line　　クロス受け
+	// 10: COMB_KIND_CROSS_RETURN	0124	折り返し　クロス受け
+	// 11: COMB_KIND_SIDE_CHANGE	57810	side change
+	// 12: COMB_KIND_OVERLAP	2457810	SB overlap
+	// 13: COMB_KIND_SHOOT_COURCE	234	シュート
+	// 14: COMB_KIND_MAX
+	
+	// 00  **  01
+	// 02  03  04
+	// 05  06  07
+	// 08  09  10
+
+	"combs" : 
+	[
+		// HOME側
+		{
+			"area" :
+			[
+				{ "kind": 14 }, // Area00
+				{ "kind": 14 }, // Area01
+				{ "kind": 10 }, // Area02
+				{ "kind": 14 }, // Area03
+				{ "kind": 8  }, // Area04
+				{ "kind": 14 }, // Area05
+				{ "kind": 6  }, // Area06
+				{ "kind": 1  }, // Area07
+				{ "kind": 14 }, // Area08
+				{ "kind": 14 }, // Area09
+				{ "kind": 14 }  // Area10
+			]
+		},
+		
+		// AWAY側
+		{
+			"area" :
+			[
+				{ "kind": 8  }, // Area00
+				{ "kind": 10 }, // Area01
+				{ "kind": 6  }, // Area02
+				{ "kind": 13 }, // Area03
+				{ "kind": 0  }, // Area04
+				{ "kind": 4  }, // Area05
+				{ "kind": 14 }, // Area06
+				{ "kind": 12 }, // Area07
+				{ "kind": 4  }, // Area08
+				{ "kind": 14 }, // Area09
+				{ "kind": 12 }  // Area10
+			]
+		}
+	]
+}

@@ -1,0 +1,155 @@
+/// @class auto
+//BallKeepActionOrderPass
+{
+	/*----------------------------------*
+	 | BallKeepActionOrderPassBackSpace	|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassBackSpace::GetTarget()*****************************************************
+	//パスターゲット探し
+	
+	//遠すぎ
+	"passBackDist":20.0,
+	
+	//ラストライン付近に居ない
+	"passBackDistLLine":6.0,
+	
+	//プレイヤーとゴールの距離のレートを求めるときの距離の上下限
+	"passBackBodyToAttackAngle":80.0,
+	
+	//走っていない
+	"passBackTargetSpeed":12.0,
+	
+	//パス出せそうか
+	//ターゲットのどれくらい先に出すとするか
+	"passBackPointAddDist":6.0,
+	
+	
+	//*****BallKeepActionOrderPassBackSpace::CheckPassCourse()*****************************************************
+	//パスコースのチェック
+	
+	//チェックする扇形の範囲
+	"checkSectorWidthBack":30.0,
+	
+	//フライと切り替える距離
+	"flyDist":5.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassFrontLine	|
+	 *----------------------------------*/	
+	//*****BallKeepActionOrderPassFrontLine::GetTarget()*****************************************************
+	//
+	
+	//自身がフリーの時、相手選手がいなければダイレクトパスを自重する距離(BallKeepActionOrderPassVsCount::GetTarget(),passSafetyでも使用)
+	"directEnemyDist":8.0,
+	
+	//近すぎ
+	"passFrontDistNear":5.0,
+	//遠すぎ
+	"passFrontDistFar":20.0,
+	
+	//*****BallKeepActionOrderPassFrontLine::CheckPassCourse()*****************************************************
+	//パスコースのチェック
+	
+	//チェックする扇形の範囲
+	"checkSectorWidthFront":15.0,
+	//↑をパス能力に応じて広げるときの最大値
+	"checkSectorWidthFrontAdd":10.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderVsCount		|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassVsCount::GetTarget()*****************************************************
+	
+	//近すぎ
+	"passVsDistNear":5.0,
+	//遠すぎ
+	"passVsDistFar":20.0,
+	
+	
+	//*****BallKeepActionOrderPassVsCount::CheckPassCourse()*****************************************************
+	//パスコースのチェック
+	
+	//チェックする扇形の範囲
+	"checkSectorWidthVs":15.0,
+	//↑をパス能力に応じて広げるときの最大値
+	"checkSectorWidthVsAdd":10.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderSideChange	|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassSideChange::GetTarget()*****************************************************
+	
+	//攻めコースがある状況ではやらない(攻めている方向の相手選手の人数を数える)
+	//攻め方向から相手選手をチェックする扇形の範囲
+	"checkEnemySideChangeWidth":90.0,
+	//扇形の長さ
+	"checkEnemySideChangeLength":10.0,
+	//この人数いなければサイドチェンジは考えない
+	"checkEnemySideChangeNum":2,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassSafety	|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassSafety::GetTarget()*****************************************************
+	
+	//相手選手が近くなければ不要
+	"dangerEnemyDist":6.0,
+	
+	//ターゲットのチェック
+	//遠すぎ
+	"passSafetyPlayerTargetDist":20.0,
+	//ターゲットに相手選手近すぎ
+	"passSafetyTargetEnemyDist":6.0,
+	//体の角度的に出したくない角度
+	"passSafetyTargetEnemyAngle":225.0,
+	
+	
+	//*****BallKeepActionOrderPassSafety::CheckPassCourse()*****************************************************
+	//パスコースのチェック
+	
+	//チェックする扇形の範囲
+	"checkSectorWidthSafety":30.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassCentering	|
+	 *----------------------------------*/
+ 	//*****BallKeepActionOrderPassCentering::GetTarget()*****************************************************
+	
+	//相手選手が近くなければ考えない
+	"centeringEnemyDist":6.0,
+	
+	//ターゲットのチェック
+	//ペナルティマークから離れている
+	"centeringTargetPMarkDist":15.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassLong		|
+	 *----------------------------------*/
+	 //*****BallKeepActionOrderPassLong::GetTarget()*****************************************************
+	 
+	 //フリーかチェックする距離の最小値
+	 "freeCheckDistMin":10.0,
+	 //パス能力に応じて加算
+	 "freeCheckDistAdd":15.0,
+	 
+	 //ターゲットが前方にいるかチェックする角度
+	 //これ以上はダメ
+	 "checkTargetAngleNear":67.5,
+	 //これ以上は距離チェック
+	 "checkTargetAngleFar":33.8,
+	 
+	 //ターゲットとの距離
+	 //近すぎ
+	 "passLongDistNear":25.0,
+	 //遠すぎ
+	 "passLongDistFar":45.0,
+	 
+	 //体の向き
+	 "passLongBodyAngle":78.8
+}

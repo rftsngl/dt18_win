@@ -1,0 +1,20 @@
+/// @class auto
+{
+	// 予測避けの時に、これより近かったらジャンプして、これより遠かったらしゃがむ(m)
+	"predictionJumpDist" : 2.0,
+	
+	// 共通チェック時、これより遠かったら避けない(m)
+	"needDodgeDistCommon" : 2.0,
+	
+	// これより遅かったら避けない
+	"needDodgeSpeed" : 0.8,
+	
+	// ボールが身長+この値より高かったら避けない(m)
+	"needDodgeHeight" : 0.7,
+
+	// シュートコース上にいるかチェックするときにポストから外にこの幅だけ余裕をもつ(m)
+	"shootCourseMargin" : 3.5,
+	
+	// 予測避けチェック時、これより遠かったら避けない(m)
+	"needDodgeDistBeforeKick" : 6.0
+}

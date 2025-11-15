@@ -1,0 +1,119 @@
+/// @class auto
+{
+	// 現在の移動値の仕様割合
+
+	// パスの検索幅
+	"angleAddValue" : 4.0,
+
+	// パスの最低角度幅
+	"angleWidthMin" : 16.0,
+	
+	// 最低距離として反映する距離
+	"dashMoveSecForPassgetMin" : 0.5,
+	
+	// ターゲットの距離感でパスの出し場所の調整を行う
+	"targetDistZMin" : 14.0,
+	"targetDistZMax" : 20.0,
+	
+	"targetDistMin" : 8.0,
+	"targetDistMax" : 30.0,
+	"targetDistSec" : 1.0,
+	
+	"angleRateMin" : 85.0,
+	"angleRateMax" : 120.0,
+
+	"angleRateMinFly" : 85.0,
+	"angleRateMaxFly" : 120.0,
+
+	// 現在の移動値の反映内容
+	"moveContinueFrameMin" : 25.0,
+	"moveContinueFrameMax" : 50.0,
+	"moveContinueFrameAdjustZposi" : 15.0,
+
+	//-----------------------------------------------------
+	// ボールの挙動の方に受けてがあわせる時
+	//-----------------------------------------------------
+	"ballRouteAdjustMoveFrame" : 60.0,
+
+
+	//-----------------------------------------------------
+	// パスコースの邪魔になる選手の調整
+	//-----------------------------------------------------
+
+	// 壁認識する選手の移動方向の長さ
+	"wallTargetDistFrameMin" :  10.0,
+	"wallTargetDistFrameMax" : 110.0,
+
+	// 壁認識する選手の移動と逆方向の長さ
+	"wallTargetReverseDistRate" : 0.2,
+
+	// 壁認識する選手の調整幅
+	"wallTargetAdjustAngleWidth" : 45.0,
+
+	//-----------------------------------------------------
+	// パスターゲットを基準とした処理の調整
+	//-----------------------------------------------------
+
+	// 現在のボールとターゲットの方向と近い場合をはじく
+	"passgetAngleSub" : 0.0,
+	
+	// パスのコースまでの距離が一定距離以下なら挙動をかえる？
+	"passgetLineDiff" : 5.0,
+	"passgetOutSideDiff" : 1.2,
+	"passgetMoveAngleDiff" : 2.0,
+	
+	"passgetMovePointRate"    : 40.0,
+	"passgetMovePointDistMax" : 2.2,
+	"passgetMovePointDistMin" : 1.8,
+
+	// スルーパスのボールに対して後ろに着きたいときの挙動調整
+	"passgetMoveLateDist"  : 4.0,
+	"passgetMoveLateRate"  : 70.0,
+	"passgetMoveLateFrame" : -24, // あまり短いとトラップしてしまう・・
+	
+	// パス取得時の移動速度をRunとして考える基準の距離
+	"distToPassgetSpeed" : 3.0,
+
+	// パスコースと選手の距離が離れている時
+	"passgetSpeedRate" : 96.0,
+
+	// パスコースと選手の位置が近い場合の速度	
+	"passgetSpeedRate2" : 93.0,
+
+
+	//-----------------------------------------------------
+	// パスの出し場所の最低距離制限
+	//-----------------------------------------------------
+
+	// パスの出し場所が今のボール位置とどれくらい離れている必要があるか？
+	"passPointDistMin" : 7.0,
+
+	//-----------------------------------------------------
+	// フライパス用の調整
+	//-----------------------------------------------------
+
+	// ノーバウンドで到達させる距離
+	"boundDist0" : 23.0,
+	
+	// 1バウンドで到達させる距離
+	"boundDist1" : 40.0,
+
+	// フライパス時に最低距離をどれだけ最長距離に近づけるか？
+	"flyDistRate" : 45.0,
+	
+	//-----------------------------------------------------
+	// マニュアルパス用の調整
+	//-----------------------------------------------------
+	//　基本マニュアルパススピード
+	"manualPassSpeedBase" : 35.0,
+	//　マニュアルパススピード調整値
+	"manualPassSpeedAdjust" : 35.0,
+	
+	//　基本マニュアルパス射出角度
+	"manualPassAngleYBase" : 4.0,
+	//　基本マニュアルパス射出角度調整値
+	"manualPassAngleYAdjust" : 6.0,
+	
+	//　マニュアルフライパス時の調整射出角度
+	"manualFlyPassAngleYAdjust" : 25.0
+}

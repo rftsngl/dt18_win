@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<Tree Id="burst.xml" Type="Action" AnswerFile="PadCommand.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape4" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="PAD_COMMAND_KIND_NUTMEG" NodeType="Answer" />
+    <Node NodeId="Shape3" ConfigId="PAD_COMMAND_KIND_NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape4" ConfigId="FuncShape4" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape5" />
+        <Connector End="Shape12" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape5" ConfigId="PAD_COMMAND_KIND_NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape6" ConfigId="FuncShape6" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape10" />
+        <Connector End="Shape13" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape18" ConfigId="FuncShape18" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape14" />
+        <Connector End="Shape16" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape10" ConfigId="PAD_COMMAND_KIND_NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape12" ConfigId="FuncShape12" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape17" />
+        <Connector End="Shape6" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape13" ConfigId="FuncShape13" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape18" />
+        <Connector End="Shape2" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape14" ConfigId="PAD_COMMAND_KIND_NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape16" ConfigId="PAD_COMMAND_KIND_BIG_BRIDGE" NodeType="Answer" />
+    <Node NodeId="Shape17" ConfigId="PAD_COMMAND_KIND_NOTHING" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckButton" NameJ="ボタンの状態をチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_ACTION" ValueJ="アクション(R2)">
+              <Options />
+            </Arg>
+            <Arg Type="ButtonStatus" Value="RRESS" ValueJ="押し続けている状態">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape4">
+      <Funcs>
+        <Func Name="CheckButtonPress" NameJ="ボタンが長押しされているかをチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_DASH" ValueJ="ダッシュ(R1)">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="1" ValueJ="1">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="24" ValueJ="24">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0" ValueJ="0">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape6">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="ENEMY" ValueJ="敵" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="TargetPlayerB" NameJ="対象B(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareDist" NameJ="対象AB間の距離を比較">
+          <Args>
+            <Arg Type="Numeric" Value="5" ValueJ="5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareAngle" NameJ="二種類の角度を比較する">
+          <Args>
+            <Arg Type="AngleKind" Value="MoveB" ValueJ="対象Bの進行方向" OptionType="Inverse">
+              <Options />
+            </Arg>
+            <Arg Type="AngleKind" Value="AB" ValueJ="対象Aから見たBの角度" OptionType="Inverse">
+              <Options>
+                <Option Value="NOT" ValueJ="反転" />
+              </Options>
+            </Arg>
+            <Arg Type="Numeric" Value="80" ValueJ="80" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape18">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="ENEMY" ValueJ="敵" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="TargetPlayerB" NameJ="対象B(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareDist" NameJ="対象AB間の距離を比較">
+          <Args>
+            <Arg Type="Numeric" Value="5" ValueJ="5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareAngle" NameJ="二種類の角度を比較する">
+          <Args>
+            <Arg Type="AngleKind" Value="MoveB" ValueJ="対象Bの進行方向" OptionType="Inverse">
+              <Options />
+            </Arg>
+            <Arg Type="AngleKind" Value="AB" ValueJ="対象Aから見たBの角度" OptionType="Inverse">
+              <Options>
+                <Option Value="NOT" ValueJ="反転" />
+              </Options>
+            </Arg>
+            <Arg Type="Numeric" Value="80" ValueJ="80" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckSortListPlayer" NameJ="ターゲットに近い順">
+          <Args>
+            <Arg Type="Numeric" Value="1" ValueJ="1" OptionType="Sign">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareAngle" NameJ="二種類の角度を比較する">
+          <Args>
+            <Arg Type="AngleKind" Value="MoveB" ValueJ="対象Bの進行方向" OptionType="Inverse">
+              <Options />
+            </Arg>
+            <Arg Type="AngleKind" Value="StickLB" ValueJ="対象BのスティックLを倒した角度" OptionType="Inverse">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="60" ValueJ="60" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape12">
+      <Funcs>
+        <Func Name="CheckStickPower" NameJ="スティックの倒し具合">
+          <Args>
+            <Arg Type="StickKind" Value="STICK_L" ValueJ="左スティック">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0.2" ValueJ="0.2" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape13">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="ENEMY" ValueJ="敵" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="TargetPlayerB" NameJ="対象B(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareDist" NameJ="対象AB間の距離を比較">
+          <Args>
+            <Arg Type="Numeric" Value="5" ValueJ="5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareAngle" NameJ="二種類の角度を比較する">
+          <Args>
+            <Arg Type="AngleKind" Value="MoveB" ValueJ="対象Bの進行方向" OptionType="Inverse">
+              <Options />
+            </Arg>
+            <Arg Type="AngleKind" Value="AB" ValueJ="対象Aから見たBの角度" OptionType="Inverse">
+              <Options>
+                <Option Value="NOT" ValueJ="反転" />
+              </Options>
+            </Arg>
+            <Arg Type="Numeric" Value="80" ValueJ="80" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckSortListPlayer" NameJ="ターゲットに近い順">
+          <Args>
+            <Arg Type="Numeric" Value="1" ValueJ="1" OptionType="Sign">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CompareAngle" NameJ="二種類の角度を比較する">
+          <Args>
+            <Arg Type="AngleKind" Value="StickLB" ValueJ="対象BのスティックLを倒した角度" OptionType="Inverse">
+              <Options />
+            </Arg>
+            <Arg Type="AngleKind" Value="AB" ValueJ="対象Aから見たBの角度" OptionType="Inverse">
+              <Options>
+                <Option Value="NOT" ValueJ="反転" />
+              </Options>
+            </Arg>
+            <Arg Type="Numeric" Value="30" ValueJ="30" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="65" Y="10" />
+      <Size Width="97" Height="32" />
+      <Comment Text="R2を押している" />
+    </Parameter>
+    <Parameter>
+      <Location X="527" Y="247" />
+      <Size Width="104" Height="32" />
+      <Comment Text="股抜き" />
+    </Parameter>
+    <Parameter>
+      <Location X="285" Y="13" />
+      <Size Width="104" Height="32" />
+      <Comment Text="なし" />
+    </Parameter>
+    <Parameter>
+      <Location X="66" Y="91" />
+      <Size Width="98" Height="32" />
+      <Comment Text="R1を押している" />
+    </Parameter>
+    <Parameter>
+      <Location X="286" Y="89" />
+      <Size Width="100" Height="32" />
+      <Comment Text="なし" />
+    </Parameter>
+    <Parameter>
+      <Location X="28" Y="250" />
+      <Size Width="173" Height="32" />
+      <Comment Text="進行方向に敵がいて近い" />
+    </Parameter>
+    <Parameter>
+      <Location X="253" Y="336" />
+      <Size Width="252" Height="32" />
+      <Comment Text="Lスティックを進行方向に対し斜め前方に倒した" />
+    </Parameter>
+    <Parameter>
+      <Location X="55" Y="424" />
+      <Size Width="119" Height="32" />
+      <Comment Text="なし" />
+    </Parameter>
+    <Parameter>
+      <Location X="29" Y="163" />
+      <Size Width="171" Height="32" />
+      <Comment Text="Lスティックが倒れている" />
+    </Parameter>
+    <Parameter>
+      <Location X="276" Y="247" />
+      <Size Width="205" Height="32" />
+      <Comment Text="Lスティックをマークがいる方向に倒した" />
+    </Parameter>
+    <Parameter>
+      <Location X="322" Y="421" />
+      <Size Width="107" Height="32" />
+      <Comment Text="なし" />
+    </Parameter>
+    <Parameter>
+      <Location X="571" Y="338" />
+      <Size Width="105" Height="32" />
+      <Comment Text="裏街道" />
+    </Parameter>
+    <Parameter>
+      <Location X="285" Y="163" />
+      <Size Width="98" Height="32" />
+      <Comment Text="なし" />
+    </Parameter>
+  </Parameters>
+</Tree>

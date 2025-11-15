@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Tree Id="offencePatternSelector.xml" Type="Action" AnswerFile="Pattern.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="OffencePatternSelectorFuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape8" />
+        <Connector End="Shape7" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape7" ConfigId="NONE" NodeType="Answer" />
+    <Node NodeId="Shape8" ConfigId="NONE" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="OffencePatternSelectorFuncShape1">
+      <Funcs>
+        <Func Name="ConditionNone" NameJ="条件なし">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="519" Y="18" />
+      <Size Width="63" Height="32" />
+      <Comment Text="条件なし" />
+      <Modifier Name="T4131190\usr00007031" Time="2012/08/14 13:13:42" />
+    </Parameter>
+    <Parameter>
+      <Location X="504" Y="352" />
+      <Size Width="75" Height="32" />
+      <Comment Text="パターンなし" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="678" Y="19" />
+      <Size Width="73" Height="32" />
+      <Comment Text="パターンなし" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+  </Parameters>
+  <WindowSize Width="793.7008" Height="1122.52" />
+</Tree>

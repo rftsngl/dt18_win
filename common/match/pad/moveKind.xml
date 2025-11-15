@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Tree Id="moveKind.xml" Type="Action" AnswerFile="MoveKind.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape2" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="STEP_MOVE" NodeType="Answer" />
+    <Node NodeId="Shape3" ConfigId="FREE_MOVE" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckButton" NameJ="ボタンの状態をチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_ACTION" ValueJ="アクション(R2)">
+              <Options />
+            </Arg>
+            <Arg Type="ButtonStatus" Value="RRESS" ValueJ="押し続けている状態">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="106" Y="41" />
+      <Size Width="166" Height="32" />
+      <Comment Text="R2 = PRESS状態" />
+    </Parameter>
+    <Parameter>
+      <Location X="41" Y="168" />
+      <Size Width="124" Height="32" />
+      <Comment Text="ステップ移動" />
+    </Parameter>
+    <Parameter>
+      <Location X="234" Y="168" />
+      <Size Width="111" Height="32" />
+      <Comment Text="フリーラン" />
+    </Parameter>
+  </Parameters>
+</Tree>

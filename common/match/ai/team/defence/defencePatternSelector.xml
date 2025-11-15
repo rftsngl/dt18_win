@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Tree Id="defencePatternSelector.xml" Type="Action" AnswerFile="Pattern.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="DefencePatternSelectorFuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape5" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape3" ConfigId="DEFENCE_NORMAL" NodeType="Answer" />
+    <Node NodeId="Shape5" ConfigId="DEFENCE_WALL_JUMP" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="DefencePatternSelectorFuncShape1">
+      <Funcs>
+        <Func Name="CheckWallJump" NameJ="壁ジャンプチェック">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="283" Y="52" />
+      <Size Width="101" Height="32" />
+      <Comment Text="壁ジャンプチェック&#xD;&#xA;" />
+    </Parameter>
+    <Parameter>
+      <Location X="135" Y="52" />
+      <Size Width="96" Height="32" />
+      <Comment Text="通常ディフェンス" />
+    </Parameter>
+    <Parameter>
+      <Location X="439" Y="52" />
+      <Size Width="79" Height="32" />
+      <Comment Text="壁ジャンプ" />
+    </Parameter>
+  </Parameters>
+</Tree>

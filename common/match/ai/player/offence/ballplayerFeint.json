@@ -1,0 +1,365 @@
+/// @class auto
+//BallKeepActionOrderFeint
+{
+	//*****FEINT_KIND_SCISSORS_OUT*****************************************************
+
+	//ボールとの距離チェック--------------------------------
+	//調べる未来フレーム
+	"checkBallFrameScissorsOut":8,
+	//ボールとの距離
+	"checkBallDistScissorsOut":1.25,
+	
+	//進行方向チェック--------------------------------------
+	//体の向きに進んでいるときにしかしない
+	"checkMoveBallAngleScissorsOut":22.5,
+	//相手ゴールに向かっているか
+	"checkEnemyGoalAngleScissorsOut":90.0,
+	//相手サイドに向かっているか
+	"checkEnemySideAngleScissorsOut":33.75,
+	
+	//相手選手との位置関係--------------------------------
+	//調べる未来フレーム
+	"checkEnemyFrameScissorsOut":10,
+	//近すぎる
+	"checkEnemyDistNearScissorsOut":1.0,
+	//遠すぎるなら不要
+	"checkEnemyDistFarScissorsOut":1.5,
+	
+	//範囲内人数チェック
+	//範囲(角度)
+	"countBpSafetyWidthScissorsOut":360.0,
+	//距離
+	"countBpSafetyLengthScissorsOut":4.0,
+	//フレーム数
+	"countBpSafetyFrameScissorsOut":12,
+	//範囲内の相手人数
+	"countBpSafetyCountScissorsOut":2,
+	
+	//相手が向かってきているか
+	"checkEnemyBallAngleScissorsOut":45.0,
+	
+	//相手が並走しているか
+	"checkEnemyRunTogetherAngleScissorsOut":45.0,
+	
+	//相手が相手ゴール方向にいるか
+	"checkEnemyGoalEnemyAngleScissorsOut":90.0,
+	
+	//相手選手の状態------------------------------------------
+	//相手選手が体の向きに進んでいるか
+	"checkEnemyMoveAngleScissorsOut":22.5,
+	
+	//方向決定-----------------------------------------------
+	//ターンする方向
+	"turnAngleScissorsOut":135.0,
+	
+	//方向決定後処理---------------------------------------------
+	//フェイントの距離
+	"feintDistScissorsOut":12.0,
+	
+	//ターン先に人がいないかチェックする範囲
+	"checkTurnEndSafetyWidthScissorsOut":90.0,
+
+
+	//*****FEINT_KIND_DOUBLETOUCH*****************************************************
+	
+	//場所的にやらない---------------------------------------
+	//相手ゴールとの距離
+	"checkDistToEnemyGoalDoubletouch":40.0,
+	//相手ラストラインとの距離
+	"checkDistToEnemyLLineDoubletouch":8.0,
+
+	//ボールとの距離チェック--------------------------------
+	//ボールとの距離
+	"checkBallDistDoubletouch":1.5,
+	
+	//進行方向チェック--------------------------------------
+	//体の向きに進んでいるときにしかしない
+	"checkMoveBallAngleDoubletouch":22.5,
+	//相手ゴールに向かっているか
+	"checkEnemyGoalAngleDoubletouch":45.0,
+	//相手サイドに向かっているか
+	"checkEnemySideAngleDoubletouch":45.0,
+	
+	//相手選手との位置関係--------------------------------
+	//調べる未来フレーム
+	"checkEnemyFrameDoubletouch":8,
+	//近すぎる
+	"checkEnemyDistNearDoubletouch":0.5,
+	//遠すぎるなら不要
+	"checkEnemyDistFarDoubletouch":2.2,
+	
+	//範囲内人数チェック
+	//範囲(角度)
+	"countBpSafetyWidthDoubletouch":45.0,
+	//距離
+	"countBpSafetyLengthDoubletouch":4.0,
+	//フレーム数
+	"countBpSafetyFrameDoubletouch":12,
+	//範囲内の相手人数
+	"countBpSafetyCountDoubletouch":2,
+	//相手が相手ゴール方向にいるか
+	"checkEnemyGoalEnemyAngleDoubletouch":45.0,
+	
+	//相手選手の状態------------------------------------------
+	//相手が向かってきているか
+	"checkEnemyBallAngleDoubletouch":90.0,
+	
+	//方向決定-----------------------------------------------
+	//ターンする方向
+	"turnAngleDoubletouch":90.0,
+	
+
+	//*****FEINT_KIND_ERACICO(_REVERSE)*****************************************************
+	
+	//場所的にやらない--------------------------------------
+	//相手ゴールとの距離
+	"checkDistToEnemyGoalEracico":40.0,
+	
+	//ボールとの距離チェック--------------------------------
+	//ボールとの距離
+	"checkBallDistEracico":1.5,
+	
+	//進行方向チェック--------------------------------------
+	//体の向きに進んでいるときにしかしない
+	"checkMoveBallAngleEracico":22.5,
+	//相手ゴールに向かっているか
+	"checkEnemyGoalAngleEracico":45.0,
+	//相手サイドに向かっているか
+	"checkEnemySideAngleEracico":45.0,
+	
+	//相手選手との位置関係--------------------------------
+	//調べる未来フレーム
+	"checkEnemyFrameEracico":8,
+	//近すぎる
+	"checkEnemyDistNearEracico":2.0,
+	//遠すぎるなら不要
+	"checkEnemyDistFarEracico":5.0,
+	
+	//範囲内人数チェック
+	//範囲(角度)
+	"countBpSafetyWidthEracico":360.0,
+	//距離
+	"countBpSafetyLengthEracico":4.0,
+	//フレーム数
+	"countBpSafetyFrameEracico":12,
+	//範囲内の相手人数
+	"countBpSafetyCountEracico":2,
+	
+	//相手が相手(前方)ゴール方向にいるか
+	"checkEnemyGoalEnemyAngleEracico":45.0,
+	
+	//方向決定-----------------------------------------------
+	//ターンする方向
+	"turnAngleEracico":45.0,
+	
+	//方向決定後処理---------------------------------------------
+	//フェイントの距離
+	"feintDistEracico":7.0,
+	
+	//ターン先に人がいないかチェックする範囲
+	"checkTurnEndSafetyWidthEracico":90.0,
+	
+	
+	//*****FEINT_KIND_ROULETTE*****************************************************
+	
+	//場所的にやらない--------------------------------------
+	//相手ゴールとの距離
+	//近すぎる
+	"checkDistToEnemyGoalNearRoulette":5.0,
+	
+	//ボールとの距離チェック--------------------------------
+	//調べる未来フレーム
+	"checkBallFrameRoulette":8,
+	//ボールとの距離
+	"checkBallDistRoulette":1.0,
+	
+	//進行方向チェック--------------------------------------
+	//体の向きに進んでいるときにしかしない
+	"checkMoveBallAngleRoulette":22.5,
+	//相手ゴールに向かっているか
+	"checkEnemyGoalAngleRoulette":45.0,
+	//相手サイドに向かっているか
+	"checkEnemySideAngleRoulette":45.0,
+	
+	//相手選手との位置関係--------------------------------
+	//調べる未来フレーム
+	"checkEnemyFrameRoulette":10,
+	//近すぎる
+	"checkEnemyDistNearRoulette":1.0,
+	//遠すぎるなら不要
+	"checkEnemyDistFarRoulette":1.5,
+	
+	//範囲内人数チェック
+	//範囲(角度)
+	"countBpSafetyWidthRoulette":360.0,
+	//距離
+	"countBpSafetyLengthRoulette":2.0,
+	//フレーム数
+	"countBpSafetyFrameRoulette":12,
+	//範囲内の相手人数
+	"countBpSafetyCountRoulette":2,
+	
+	//相手がボールに向かってきているか
+	"checkEnemyBallAngleRoulette":33.75,
+	
+	//相手が自分の方に向かってきているか
+	//プレイヤーから見たボールと、プレイヤーから見た相手選手の角度の差
+	"checkEnemySubBallEnemyRoulette":45.0,
+	//プレイヤーから見たボールと、相手選手の移動する角度の差
+	"checkEnemySubBallEnemyMoveRoulette":135.0,
+	//相手選手からみたボールの現在と未来の座標の角度差
+	"checkEnemySubEnemyToBallMoveRoulette":45.0,
+	
+	//相手が並走しているか
+	"checkEnemyRunTogetherAngleRoulette":45.0,
+	
+	//斜めに抜けそうか
+	//プレイヤーと相手選手の移動ベクトルの角度差
+	"checkEnemyMoveAngleSubFastestRoulette":85.7,
+	"checkEnemyMoveAngleSubFasterRoulette":80.1,
+	"checkEnemyMoveAngleSubFastRoulette":45.0,
+	
+	//相手選手の状態------------------------------------------
+	//相手選手が体の向きに進んでいるか
+	"checkEnemyMoveAngleRoulette":22.5,
+	
+	//方向決定-----------------------------------------------
+	//ターンする方向
+	"turnAngleRoulette":45.0,
+	
+	//方向決定後処理---------------------------------------------
+	//フェイントの距離
+	"feintDistRouletteNormal":7.0,
+	"feintDistRouletteSingleAdd":5.0,
+	
+	//ターン先に人がいないかチェックする範囲
+	"checkTurnEndSafetyWidthRoulette":90.0,
+	
+
+	//*****FEINT_KIND_STEP_KICK*****************************************************
+	
+	//場所的にやらない--------------------------------------
+	//相手ゴールとの距離
+	//遠すぎる
+	"checkDistToEnemyGoalNearStepKick":20.0,
+	
+	//ボールとの距離チェック--------------------------------
+	//調べる未来フレーム
+	"checkBallFrameStepKick":8,
+	//ボールとの距離
+	"checkBallDistStepKick":1.25,
+	
+	//進行方向チェック--------------------------------------
+	//体の向きに進んでいるときにしかしない
+	"checkMoveBallAngleStepKick":22.5,
+	//相手ゴールに向かっているか
+	"checkEnemyGoalAngleStepKick":45.0,
+	//相手サイドに向かっているか
+	"checkEnemySideAngleStepKick":45.0,
+	
+	//相手選手との位置関係--------------------------------
+	//調べる未来フレーム
+	"checkEnemyFrameStepKick":10,
+	//近すぎる
+	"checkEnemyDistNearStepKick":1.0,
+	//遠すぎるなら不要
+	"checkEnemyDistFarStepKick":2.25,
+	
+	//範囲内人数チェック
+	//範囲(角度)
+	"countBpSafetyWidthStepKick":360.0,
+	//距離
+	"countBpSafetyLengthStepKick":3.0,
+	//フレーム数
+	"countBpSafetyFrameStepKick":12,
+	//範囲内の相手人数
+	"countBpSafetyCountStepKick":2,
+	
+	//相手が自分の方に向かってきているか
+	//プレイヤーから見たボールと、プレイヤーから見た相手選手の角度の差
+	"checkEnemySubBallEnemyStepKick":67.5,
+	//プレイヤーから見たボールと、相手選手の移動する角度の差
+	"checkEnemySubBallEnemyMoveStepKick":112.5,
+	//相手選手からみたボールの現在と未来の座標の角度差
+	"checkEnemySubEnemyToBallMoveStepKick":45.0,
+	
+	//相手選手の状態------------------------------------------
+	//相手選手が体の向きに進んでいるか
+	"checkEnemyMoveAngleStepKick":22.5,
+	
+	//方向決定-----------------------------------------------
+	//ターンする方向
+	"turnAngleStepKick":45.0,
+	
+	//方向決定後処理---------------------------------------------
+	//フェイントの距離
+	"feintDistStepKick":15.0,
+	
+	//ターン先に人がいないかチェックする範囲
+	"checkTurnEndSafetyWidthStepKick":112.5,
+	
+	
+	//*****FEINT_KIND_ONETIME(エッジターン)*****************************************************
+
+	//場所的にやらない--------------------------------------
+	//FieldX,Zの半分からの距離
+	"checkDistFieldXZOnetime":40.0,
+	
+	//ボールとの距離チェック--------------------------------
+	//調べる未来フレーム
+	"checkBallFrameOnetime":8,
+	//ボールとの距離
+	"checkBallDistOnetime":0.75,
+	
+	//進行方向チェック--------------------------------------
+	//体の向きに進んでいるときにしかしない
+	"checkMoveBallAngleOnetime":22.5,
+	//相手サイドに向かっているか
+	"checkEnemySideAngleOnetime":90.0,
+	
+	//相手選手との位置関係--------------------------------
+	//調べる未来フレーム
+	"checkEnemyFrameOnetime":10,
+	//近すぎる
+	"checkEnemyDistNearOnetime":1.0,
+	//遠すぎるなら不要
+	"checkEnemyDistFarOnetime":2.0,
+	
+	//範囲内人数チェック
+	//範囲(角度)
+	"countBpSafetyWidthOnetime":360.0,
+	//距離
+	"countBpSafetyLengthOnetime":5.0,
+	//フレーム数
+	"countBpSafetyFrameOnetime":12,
+	//範囲内の相手人数
+	"countBpSafetyCountOnetime":2,
+	
+	//相手選手から見たボールと、相手選手の移動する角度の差
+	"checkEnemySubBallEnemyMoveOnetime":33.75,
+	
+	//プレイヤーからみた相手ゴールと相手選手の角度差
+	"checkEnemySubGoaLEnemyOnetime":90.0,
+	
+	//相手が自分の方に向かってきているか
+	//プレイヤーから見たボールと、プレイヤーから見た相手選手の角度の差
+	"checkEnemySubBallEnemyOnetime":90.0,
+	
+	
+	
+	//相手選手の状態------------------------------------------
+	//相手選手が体の向きに進んでいるか
+	"checkEnemyMoveAngleOnetime":22.5,
+	
+	//方向決定-----------------------------------------------
+	//ターンする方向
+	"turnAngleOnetime":112.5,
+	
+	//方向決定後処理---------------------------------------------
+	//フェイントの距離
+	"feintDistOnetime":15.0,
+	
+	//ターン先に人がいないかチェックする範囲
+	"checkTurnEndSafetyWidthOnetime":90.0
+
+}

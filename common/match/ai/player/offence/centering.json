@@ -1,0 +1,14 @@
+/// @class auto
+{
+	// センタリング時のカーブ基本値(rps)
+	"centeringCurveBase" : 4.0,
+	
+	// センタリング時のカーブ補正最大値(rps)
+	"centeringCurveAdjustMax" : 4.5,
+	
+	// センタリング最大速度(高い)
+	"centeringMaxSpeedHigh" : 93.0,
+	
+	// センタリング最大速度(低い)
+	"centeringMaxSpeedLow" : 89.0
+}

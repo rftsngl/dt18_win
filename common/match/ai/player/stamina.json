@@ -1,0 +1,19 @@
+/// @class auto
+// Configuration options
+
+{
+	//守備させられている疲労
+    "defenceTired":1,
+    //ドリブルの疲労
+	"dribbleTired":2,
+	//スピードによる疲労
+	"speedTired":1,
+	//ぶつかった時の疲労
+	"contactTired":5,
+	//競り合っているときの疲労
+	"jostleTired":2,
+	//基礎代謝
+	"metabolism":10,
+	//ダッシュスタミナが減ったときの疲れ
+	"dashTired":5
+}

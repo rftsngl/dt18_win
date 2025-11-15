@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<Tree Id="defenceGkAutoPk.xml" Type="Action" AnswerFile="Action.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape18" />
+        <Connector End="Shape10" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape3" ConfigId="NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape4" ConfigId="FuncShape4" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape5" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape5" ConfigId="FuncShape5" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape6" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape6" ConfigId="FuncShape6" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape7" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape7" ConfigId="KP_BLOCK" NodeType="Answer" />
+    <Node NodeId="Shape15" ConfigId="KP_PUNCH" NodeType="Answer" />
+    <Node NodeId="Shape9" ConfigId="KP_CATCH" NodeType="Answer" />
+    <Node NodeId="Shape10" ConfigId="FuncShape10" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape4" />
+        <Connector End="Shape11" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape11" ConfigId="FuncShape11" NodeType="Condition">
+      <Connectors>
+        <Connector End="" />
+        <Connector End="Shape12" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape12" ConfigId="FuncShape12" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape4" />
+        <Connector End="Shape14" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape14" ConfigId="FuncShape14" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape16" />
+        <Connector End="Shape9" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape16" ConfigId="FuncShape16" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape4" />
+        <Connector End="Shape15" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape17" ConfigId="KP_SEEN_OFF" NodeType="Answer" />
+    <Node NodeId="Shape18" ConfigId="FuncShape18" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape17" />
+        <Connector End="Shape4" />
+      </Connectors>
+    </Node>
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckGoalKeeperFlag" NameJ="ゴールキーパー判断フラグチェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="CATCH" ValueJ="キャッチandパンチング">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape4">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFutureBallPosGoalKeeper" NameJ="GK用ボール未来座標チェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="BLOCK" ValueJ="ブロック">
+              <Options />
+            </Arg>
+            <Arg Type="Axis" Value="PARALLEL" ValueJ="体の向きに対して平行方向">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0.5" ValueJ="0.5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape5">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFutureBallPosGoalKeeper" NameJ="GK用ボール未来座標チェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="BLOCK" ValueJ="ブロック">
+              <Options />
+            </Arg>
+            <Arg Type="Axis" Value="UPSIDE" ValueJ="上方向">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="2" ValueJ="2" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape6">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFutureBallPosGoalKeeper" NameJ="GK用ボール未来座標チェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="BLOCK" ValueJ="ブロック">
+              <Options />
+            </Arg>
+            <Arg Type="Axis" Value="VERTICAL" ValueJ="体の向きに対して垂直方向">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0.9" ValueJ="0.9" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape10">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFutureBallPosGoalKeeper" NameJ="GK用ボール未来座標チェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="CATCH" ValueJ="キャッチandパンチング">
+              <Options />
+            </Arg>
+            <Arg Type="Axis" Value="PARALLEL" ValueJ="体の向きに対して平行方向">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0.5" ValueJ="0.5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape11">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFutureBallPosGoalKeeper" NameJ="GK用ボール未来座標チェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="CATCH" ValueJ="キャッチandパンチング">
+              <Options />
+            </Arg>
+            <Arg Type="Axis" Value="UPSIDE" ValueJ="上方向">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="2.5" ValueJ="2.5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape12">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFutureBallPosGoalKeeper" NameJ="GK用ボール未来座標チェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="CATCH" ValueJ="キャッチandパンチング">
+              <Options />
+            </Arg>
+            <Arg Type="Axis" Value="VERTICAL" ValueJ="体の向きに対して垂直方向">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0.9" ValueJ="0.9" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape14">
+      <Funcs>
+        <Func Name="CheckBallSpeed" NameJ="ボールの速度">
+          <Args>
+            <Arg Type="Numeric" Value="60" ValueJ="60" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape16">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFutureBallPosGoalKeeper" NameJ="GK用ボール未来座標チェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="CATCH" ValueJ="キャッチandパンチング">
+              <Options />
+            </Arg>
+            <Arg Type="Axis" Value="UPSIDE" ValueJ="上方向">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="2" ValueJ="2" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape18">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckGoalKeeperFlag" NameJ="ゴールキーパー判断フラグチェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="BLOCK" ValueJ="ブロック">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="126" Y="59" />
+      <Size Width="160" Height="32" />
+      <Comment Text="キャッチ・ブロック判断フラグチェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/18 15:56:20" />
+    </Parameter>
+    <Parameter>
+      <Location X="493" Y="574" />
+      <Size Width="83" Height="32" />
+      <Comment Text="アクションなし" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 9:48:42" />
+    </Parameter>
+    <Parameter>
+      <Location X="380" Y="377" />
+      <Size Width="139" Height="32" />
+      <Comment Text="ボール未来X座標チェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 10:36:36" />
+    </Parameter>
+    <Parameter>
+      <Location X="380" Y="437" />
+      <Size Width="136" Height="32" />
+      <Comment Text="ボール未来Y座標チェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 9:51:05" />
+    </Parameter>
+    <Parameter>
+      <Location X="380" Y="494" />
+      <Size Width="137" Height="32" />
+      <Comment Text="ボール未来Z座標チェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 13:03:12" />
+    </Parameter>
+    <Parameter>
+      <Location X="372" Y="570" />
+      <Size Width="87" Height="32" />
+      <Comment Text="ブロック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 9:52:50" />
+    </Parameter>
+    <Parameter>
+      <Location X="216" Y="583" />
+      <Size Width="86" Height="32" />
+      <Comment Text="パンチ" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 11:17:03" />
+    </Parameter>
+    <Parameter>
+      <Location X="81" Y="518" />
+      <Size Width="86" Height="32" />
+      <Comment Text="キャッチ" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 10:18:40" />
+    </Parameter>
+    <Parameter>
+      <Location X="121" Y="211" />
+      <Size Width="147" Height="32" />
+      <Comment Text="ボール未来X座標チェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 10:29:40" />
+    </Parameter>
+    <Parameter>
+      <Location X="119" Y="274" />
+      <Size Width="143" Height="32" />
+      <Comment Text="ボール未来Y座標チェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 11:25:30" />
+    </Parameter>
+    <Parameter>
+      <Location X="118" Y="378" />
+      <Size Width="145" Height="32" />
+      <Comment Text="ボール未来Z座標チェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 13:03:03" />
+    </Parameter>
+    <Parameter>
+      <Location X="101" Y="444" />
+      <Size Width="173" Height="32" />
+      <Comment Text="ボールスピードが遅ければキャッチ" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 11:15:01" />
+    </Parameter>
+    <Parameter>
+      <Location X="190" Y="516" />
+      <Size Width="143" Height="32" />
+      <Comment Text="ボール未来Y座標チェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 12:37:34" />
+    </Parameter>
+    <Parameter>
+      <Location X="532" Y="63" />
+      <Size Width="167" Height="32" />
+      <Comment Text="ボールを見送る" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/15 17:15:51" />
+    </Parameter>
+    <Parameter>
+      <Location X="342" Y="63" />
+      <Size Width="141" Height="32" />
+      <Comment Text="ブロック判断フラグチェック" />
+      <Modifier Name="T4131093\usr10033157" Time="2012/06/18 16:26:40" />
+    </Parameter>
+  </Parameters>
+  <WindowSize Width="793" Height="1122" />
+</Tree>

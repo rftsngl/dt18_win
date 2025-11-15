@@ -1,0 +1,122 @@
+/// @class auto
+//MatchAIPatternDefence
+
+{
+    // 基準としてみる未来フレーム
+    "predictionFrame":40,
+
+    //この距離より基本ポジションがボールに近くて役割の無いOHから前の選手がコースをカットしにいく
+    "beginCutBaseDist":20.0,
+    
+    //もしくは現在地がこれよりボールに近い
+    "beginCutCurrentDist":15.0,
+    
+    //コースカットするときにまずボールにこの距離まで近づく
+    "courseCutDist":15.0,
+    
+    //FWはこれよりボールに近い相手のコースを切れれば切る。courseCutDistの二倍を超えない方がいいかも
+    "courseCutTargetDistOver":20.0,
+    
+    //近すぎてもいらない
+    "courseCutTargetDistUnder":5.0,
+    
+    //FWはボールからの角度がこれより自分に近い相手のコースを切れれば切る
+    "courseCutTargetAngle":120.0,
+    
+    //パスコースを切るときに、対象がマーカーの影に入っているとする角度
+    "restrictAngle":90.0,
+    
+    //前回ディレイに行ってた人は少し選ばれやすく(ディレイ担当選び)
+    "continueAdvantageDelay":5.0,
+    
+    //前回プレスに行ってた人は少し選ばれやすく(プレス担当選び)
+    "continueAdvantagePress":3.0,
+    
+    //プレス開始地点
+    "matchUpStartLine":10,
+    
+    //プレス開始地点の最大値
+     "matchUpStartLineMax":40.0,
+    
+    //何フレーム先のボール座標を基準にするか
+    "matchUpBallFutureFrame":20,
+    
+    //ボールにマッチアップする人数
+    
+    //FORMATION_AREA_OVER_TOP
+    "matchUpCountOverTopDanger":1,
+    "matchUpCountOverTopDefault":1,
+    
+    //FORMATION_AREA_TOP_TO_MIDDLE
+    "matchUpCountTopToMidSafe":1,
+    "matchUpCountTopToMidCaution":1,
+    
+    //FORMATION_AREA_MIDDLE_TO_LAST
+    "matchUpCountMidToLastDefault":1,
+    
+    //FORMATION_AREA_UNDER_LAST:
+    
+    //基本ポジションから離れても許す距離（Z軸）
+    "matchUpZLimit":5.0,
+    
+    //DFグループの最終ラインから何m前の敵にまで対応するか
+    "matchUpDfXLimit":10.0,
+
+    //MFグループの理想ラインから何m前の敵にまで対応するか
+    "matchUpMfXLimit":10.0,
+    
+    //FWグループの理想ラインから何m後ろの敵にまで対応するか
+    "matchUpFwXLimit":4.0,
+
+	//自分からゴール方向への角度と自分からボールへの角度の差が幾つで後追いとみなすか
+    "matchUpBackFollowAngle":70.0,
+
+    // 継続用
+    //Z軸で基本ポジションからのずれを許容する距離
+    "matchUpContinueAddZLimit":2.0,
+    
+    //DFグループの最終ラインから何m前の敵にまで対応するか
+    "matchUpContinueAddDfXLimit":2.0,
+
+    //MFグループの理想ラインから何m前の敵にまで対応するか
+    "matchUpContinueAddMfXLimit":2.0,
+
+	//自分からゴール方向への角度と自分からボールへの角度の差が幾つで後追いとみなすか
+    "matchUpContinueAddBackFollowAngle":10.0,
+    
+	//必ず継続するボールとの距離
+    "matchUpMustContinueDist":3.0,
+    
+   	//継続を優遇する距離（継続選手以外は実際の距離+この距離で計算する）
+    "matchUpContinueAddBallDist":1.5,
+ 
+   	//継続を優遇する距離（継続選手以外は実際の距離+この距離で計算する）
+    "matchUpContinueDistSub":4.0,
+    
+    //守備意識が低い場合マッチアップを行なわない距離
+    "matchUpLimitDistDefensiveAwareness0" : 5.0,
+    "matchUpLimitDistDefensiveAwareness1" : 8.0,
+    
+    //守備意識が高い場合マッチアップ可能な距離を伸ばす
+    "matchUpAdjustLineCheckDistDefensiveAwareness3" : 6.0,
+    "matchUpAdjustLineCheckDistDefensiveAwareness4" : 12.0,
+    
+    //挟み込みに行く最大距離
+    "maxSandDist" : 14.0,
+    
+    //プレスパラメータによる距離調整
+    "adjustSandDist" : 10.0,
+    
+    //プレスパラメータによるドリブルに対する反応時間調整
+    "adjustDribbleWaitTimer" : 10.0,
+    
+    //----------------------------------------
+	// 連携パラによってカバーを遅らせる
+	//----------------------------------------
+    // 連携パラが反映する範囲
+	"upperConnectionParam" : 70.0,
+	"lowerConnectionParam" : 50.0,
+	
+	// 連携パラによるカバーをしない最大時間
+	"maxWaitTime" : 30.0
+}
