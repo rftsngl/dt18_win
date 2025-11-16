@@ -2,57 +2,57 @@
 // Configuration options
 {
 	//----------------------------------------
-	// UŒ‚Žž‚ÌÝ’è
+	// ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ÌÝ’ï¿½
 	//----------------------------------------
-	// UŒ‚Žž‚ÌFW-DFŠÔ‚Ì‹——£Š´
+	// ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½FW-DFï¿½Ô‚Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½
 	"lengthOf" : 40.0,
 
-	// UŒ‚Žž‚ÌƒTƒCƒh‚Ö‚ÌL‚ª‚è‹ï‡
+	// ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ÌƒTï¿½Cï¿½hï¿½Ö‚ÌLï¿½ï¿½ï¿½ï¿½ï‡
 	"offencWideLength" : 50.0,
 	
-	// ƒTƒCƒhƒ‰ƒCƒ“‚Æ‚Ìƒ}[ƒWƒ“
+	// ï¿½Tï¿½Cï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Æ‚Ìƒ}ï¿½[ï¿½Wï¿½ï¿½
 	"marginSide" : 10.0,
 
-	// UŒ‚Š„‡‚Ì‘S‘Ì’²®
+	// ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘Sï¿½Ì’ï¿½ï¿½ï¿½
 	"adjustFrontOF" : 18.0,
 
-	// UŒ‚Š„‡‚Ì‘S‘Ì’²®
+	// ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘Sï¿½Ì’ï¿½ï¿½ï¿½
 	"adjustBackOF" : 0.0,
 
-	// ‘O‚Ö‚Ìã‚ª‚è‘¬“x•Ï‰»
+	// ï¿½Oï¿½Ö‚Ìã‚ªï¿½è‘¬ï¿½xï¿½Ï‰ï¿½
 	"xposiRateCustom" : false,
 	
-	// FWƒJƒeƒSƒŠ‚Ì‘å‚«‚³
+	// FWï¿½Jï¿½eï¿½Sï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½
 	"fwGroupRate" : 0.8,
 	
-	// ƒ`[ƒ€s“®‚©‚çƒOƒ‹[ƒv–ˆ‚Ìs“®‚É•Ï‰»‚·‚é‚Ì‚ð‹–‰Â‚·‚é‚©‚Ç‚¤‚©
+	// ï¿½`ï¿½[ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½Ìsï¿½ï¿½ï¿½É•Ï‰ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½
 	"teamToGroupAdjustEnable" : false,
 	
-	// ƒ`[ƒ€s“®‚©‚çƒOƒ‹[ƒv–ˆ‚Ìs“®‚É•Ï‰»‚·‚é‹——£
+	// ï¿½`ï¿½[ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½Ìsï¿½ï¿½ï¿½É•Ï‰ï¿½ï¿½ï¿½ï¿½é‹—ï¿½ï¿½
 	"teamToGroupAdjustStart" : -10.0,
 	
-	// ƒ`[ƒ€s“®‚©‚çƒOƒ‹[ƒv–ˆ‚Ìs“®‚É•Ï‰»‚·‚é‹——£
+	// ï¿½`ï¿½[ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½Ìsï¿½ï¿½ï¿½É•Ï‰ï¿½ï¿½ï¿½ï¿½é‹—ï¿½ï¿½
 	"teamToGroupAdjustEnd" : 0.0,
 	
-	// ZÀ•W‚Ì•â³¨’Êí‚æ‚èŠJ‚­ˆ—
+	// Zï¿½ï¿½ï¿½Wï¿½Ì•â³ï¿½ï¿½ï¿½Êï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"offenceZposiAdjust" : true,
 	
-	// ZÀ•W‚Ì•â³ŠJŽnˆÊ’u’²®‹——£
+	// Zï¿½ï¿½ï¿½Wï¿½Ì•â³ï¿½Jï¿½nï¿½Ê’uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"offenceZposiAdjustDist" : 0.0,
 	
-	// ƒTƒCƒh‚ÉŠJ‚­ˆ—‚ÅŠO‚ÉŠJ‚¢‚½‘IŽè‚É‘Î‚·‚é’†‰›‚Ì‘IŽè‚ÌƒTƒCƒh‚Ö‚ÌˆÚ“®‹——£’²®
+	// ï¿½Tï¿½Cï¿½hï¿½ÉŠJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅŠOï¿½ÉŠJï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½É‘Î‚ï¿½ï¿½é’†ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ÌƒTï¿½Cï¿½hï¿½Ö‚ÌˆÚ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"openSideAdjustZRate" : 0.15,
 	
 	
 	//----------------------------------------
-	// ƒZƒbƒgƒvƒŒƒC—p‚Ì’²®
+	// ï¿½Zï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½pï¿½Ì’ï¿½ï¿½ï¿½
 	//----------------------------------------
 	"adjustSetplay" : true,
 	
 	"setplayToInplayHeightMin" : 0.3,
 	"setplayToInplayHeightMax" : 0.9,
 
-	// ƒS[ƒ‹ƒLƒbƒN—p‚Ì’²®
+	// ï¿½Sï¿½[ï¿½ï¿½ï¿½Lï¿½bï¿½Nï¿½pï¿½Ì’ï¿½ï¿½ï¿½
 	"gklBaseX"          : 8.0,
 	"gklBaseZRate"      : 0.5,
 	"gklAdjustRateX"    : 0.0,
@@ -74,249 +74,249 @@
 	"gksWidthZ"           : 50.0,
 	
 
-	// UŒ‚Žž‚ÌƒTƒCƒh‚Ö‚ÌL‚ª‚è‹ï‡
+	// ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ÌƒTï¿½Cï¿½hï¿½Ö‚ÌLï¿½ï¿½ï¿½ï¿½ï‡
 	"throwinWidthZ" : 25.0,	
 	
-	//ƒXƒ[ƒCƒ“AŽç”õŽž‚ÌFW-DFŠÔ‚Ì‹——£Š´
+	//ï¿½Xï¿½ï¿½ï¿½[ï¿½Cï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½FW-DFï¿½Ô‚Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½
 	"throwinLengthDf" : 20.0,	
 	
-	// ƒtƒŠ[ƒLƒbƒNŽž‚ÌMF‚Ìã‚ª‚è‹ï‡
+	// ï¿½tï¿½ï¿½ï¿½[ï¿½Lï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½MFï¿½Ìã‚ªï¿½ï¿½ï‡
 	"freeKickAdjustRateX_MF" : 1.0,
 	"freeKickAdjustRateZ_FW" : 63.0,
 	"freeKickAdjustRateZ"    : 55.0,
 	
-	// ƒtƒŠ[ƒLƒbƒNŽž‚Ì‚ ‚ª‚él‚ÌÝ’è
+	// ï¿½tï¿½ï¿½ï¿½[ï¿½Lï¿½bï¿½Nï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ÌÝ’ï¿½
 	"freekickAttackAddNum" : 2,
 	"freekickAttackForce0" : -1,
 	"freekickAttackForce1" : -1,
 	"freekickAttackForce2" : -1,
 	
-	// ƒLƒbƒNƒIƒtŽž‚ÌUŒ‚‘¤Žç”õƒ‰ƒCƒ“ˆÊ’u
+	// ï¿½Lï¿½bï¿½Nï¿½Iï¿½tï¿½ï¿½ï¿½ÌUï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ê’u
 	"kickoffDfLineX" : -18.0,
 	
 
 	//----------------------------------------
-	// Žç”õŽž‚ÌÝ’è
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌÝ’ï¿½
 	//----------------------------------------
-	// Žç”õŽž‚ÌFW-DFŠÔ‚Ì‹——£Š´
-	"lengthDf" : 25.0,
-	// ƒTƒCƒh‚Ö‚Ì•Î‚è‹ï‡
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½FW-DFï¿½Ô‚Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½
+	"lengthDf" : 22.0,
+	// ï¿½Tï¿½Cï¿½hï¿½Ö‚Ì•Î‚ï¿½
 	"wideRate" : 0.1,
 
-	//UŒ‚Žž‚ÌDFƒ‰ƒCƒ“‚Ì‚‚³
-	"dfLineRate": 0.3,
+	//ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½DFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
+	"dfLineRate": 0.4,
 	
-	// DFƒ‰ƒCƒ“‚Ì‚‚³’²®
+	// DFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"dfLine" : 10,
 
-	// DFƒJƒeƒSƒŠ‚Ì‘å‚«‚³
-	"dfGroupRate" : 0.4,
+	// DFï¿½Jï¿½eï¿½Sï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½
+	"dfGroupRate" : 0.5,
 
-	// FWƒ‰ƒCƒ“‚Ì‚‚³’²®àƒvƒŒƒXŠJŽnˆÊ’u
-	"pressRate" : 0.5,
+	// FWï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Xï¿½Jï¿½nï¿½Ê’u
+	"pressRate" : 0.6,
 	
-	// FW-MF‚ÌÅ’á‹——£ŠÔ
+	// FW-MFï¿½ÌÅ’á‹—ï¿½ï¿½ï¿½ï¿½
 	"minDistMF_FW" : 1.5,
 
-	// MF-DF‚ÌÅ’á‹——£ŠÔ
+	// MF-DFï¿½ÌÅ’á‹—ï¿½ï¿½ï¿½ï¿½
 	"minDistMF_DF" : 6.0,
 
-	// MFƒ‰ƒCƒ“‚Ì‚‚³’²®
+	// MFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"mfLineRate" : 0.2,
 
-	// MFƒJƒeƒSƒŠ‚Ì‘å‚«‚³
+	// MFï¿½Jï¿½eï¿½Sï¿½ï¿½ï¿½Ì‘å‚«ï¿½ï¿½
 	"mfGroupRate" : 0.3,
 	
-	// DFƒ‰ƒCƒ“‚ªƒ{[ƒ‹‚É‚ ‚í‚¹‚Ä‰º‚ª‚è‚Í‚¶‚ß‚éƒ{[ƒ‹‚Æ‚Ì‹——£
+	// DFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½[ï¿½ï¿½ï¿½É‚ï¿½ï¿½í‚¹ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ß‚ï¿½{ï¿½[ï¿½ï¿½ï¿½Æ‚Ì‹ï¿½ï¿½ï¿½
 	"dfLineBack" : 10.0,
 	
-	//DF‚Ì”¼•ª•(3l—p)
+	//DFï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½(3ï¿½lï¿½p)
 	"dfLineWidth_3" : 18.0,
-	//DF‚Ì”¼•ª•(4l—p)
+	//DFï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½(4ï¿½lï¿½p)
 	"dfLineWidth_4" : 23.0,
-	//DF‚Ì”¼•ª•(5l—p)
+	//DFï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½(5ï¿½lï¿½p)
 	"dfLineWidth_5" : 28.0,
-	//DF‚Ì”¼•ª•(ƒR[ƒi[ƒLƒbƒN—p)
+	//DFï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Rï¿½[ï¿½iï¿½[ï¿½Lï¿½bï¿½Nï¿½p)
 	"dfLineWidth_Corner" : 10.0,
 	
-	//DF‚ªU‚ßž‚Ü‚ê‚½‚Æ‚«‚Éi‚éDF•‚ÌÅ‘åŠ„‡
+	//DFï¿½ï¿½ï¿½Uï¿½ßï¿½ï¿½Ü‚ê‚½ï¿½Æ‚ï¿½ï¿½Éiï¿½ï¿½DFï¿½ï¿½ï¿½ÌÅ‘åŠ„ï¿½ï¿½
 	"dfLineCloseRate" : 0.7,
 
-	// ‹­§“I‚ÉƒJƒeƒSƒŠŠÔ‚Ì‹——£‚ð“™ŠÔŠu‚É‚·‚é
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ÉƒJï¿½eï¿½Sï¿½ï¿½ï¿½Ô‚Ì‹ï¿½ï¿½ï¿½ï¿½ð“™ŠÔŠuï¿½É‚ï¿½ï¿½ï¿½
 	"dfForceAverageZ" : true,
 
-	// Šî–{ƒ|ƒWƒVƒ‡ƒ“‚¶‚á‚È‚­‚Äƒ{[ƒ‹•û–Ê‚ÉŠñ‚éˆ—
+	// ï¿½ï¿½{ï¿½|ï¿½Wï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Äƒ{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ÉŠï¿½éˆï¿½ï¿½
 	"dfAdjustZ" : true,
 	
-	// ƒ{[ƒ‹‘¤‚ÉÅ‘å‚Å‰½%‚Ù‚Ç‹ß‚Ã‚­‚©H
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÉÅ‘ï¿½Å‰ï¿½%ï¿½Ù‚Ç‹ß‚Ã‚ï¿½ï¿½ï¿½ï¿½H
 	"dfAdjustZRateMax" : 40.0,
 
-	// ƒ{[ƒ‹•û–Ê‚ÉŠñ‚¹‚Â‚¯‚·‚¬‚È‚¢‚æ‚¤‚É‚·‚é•
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ÉŠñ‚¹‚Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½é•
 	"dfAdjustZCheckWidthMin" : 5.0,
 
-	// ƒ}[ƒWƒ“‚ðŠÜ‚ß‚½‰e‹¿”ÍˆÍ‚Ì“Í‚­Å‘å‹——£
+	// ï¿½}ï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ß‚ï¿½ï¿½eï¿½ï¿½ï¿½ÍˆÍ‚Ì“Í‚ï¿½ï¿½Å‘å‹—ï¿½ï¿½
 	"dfAdjustZCheckWidthMax" : 30.0,
 	
-	// XŽ²‹——£‚ª‚±‚Ì‹——£ˆÈ‰º‚¾‚Æƒ{[ƒ‹•ûŒü‚ÉŠñ‚é’²®’l‚ªÅ‘å‚É‚È‚é
+	// Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½È‰ï¿½ï¿½ï¿½ï¿½Æƒ{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŠï¿½é’²ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½Å‘ï¿½É‚È‚ï¿½
 	"dfAdjustZCheckLenMin" : 12.5,
 
-	// XŽ²‹——£‚ª‚±‚Ì‹——£ˆÈã‚¾‚Æƒ{[ƒ‹•ûŒü‚ÉŠñ‚é’²®’l‚ª‚È‚­‚È‚é
+	// Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½Èã‚¾ï¿½Æƒ{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŠï¿½é’²ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½
 	"dfAdjustZCheckLenMax" : 20.0,
 
 
-	// Žç”õƒ‰ƒCƒ“‚ÌÅ‘å‚Ì‚‚³’²®
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ÌÅ‘ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"dfLineAdjustMax" : -4.0,
 	"dfLineAdjustMin" : -4.0,
 
 
-	// Žç”õƒ‰ƒCƒ“‚ªƒZƒ“ƒ^[ƒ‰ƒCƒ“‚Ü‚Åã‚ª‚éŽž‚Ìƒ{[ƒ‹ˆÊ’u’²®
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½^ï¿½[ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ü‚Åã‚ªï¿½éŽžï¿½Ìƒ{ï¿½[ï¿½ï¿½ï¿½Ê’uï¿½ï¿½ï¿½ï¿½
 	"dfLineCenterAdjustMax" :  2.0,
 	"dfLineCenterAdjustMin" : -10.0,
 	
 
-	// ƒJƒo[ˆ—‚ð—LŒø‚É‚·‚é‚©‚Ç‚¤‚©H
+	// ï¿½Jï¿½oï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½É‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½H
 	"dfCoverEnable" : true,
 	
-	// ƒJƒo[‘¤‚É‚æ‚éˆ—‚ð—LŒø‚É‚·‚é‚©‚Ç‚¤‚©H
+	// ï¿½Jï¿½oï¿½[ï¿½ï¿½ï¿½É‚ï¿½éˆï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½É‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½H
 	"dfCoverAdjustX" : true,
 	
-	// Šî–{ƒ|ƒWƒVƒ‡ƒ“‚ð‚Ç‚ê‚­‚ç‚¢ƒJƒo[ˆÊ’u‚É‹ß‚Ã‚¯‚é‚©H
+	// ï¿½ï¿½{ï¿½|ï¿½Wï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ê‚­ï¿½ç‚¢ï¿½Jï¿½oï¿½[ï¿½Ê’uï¿½É‹ß‚Ã‚ï¿½ï¿½é‚©ï¿½H
 	"coverRateZ" : 0.4,
 	
 	
-	// ƒ†[ƒU[ƒ|ƒWƒVƒ‡ƒ“‚É‚æ‚é’²®
+	// ï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½|ï¿½Wï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½é’²ï¿½ï¿½
 	"dfUserPositionAdjustEnable" : true,
 	"dfUserPositionAdjustRate"   : 1.0,
 	"dfUserPositionAdjustTime"   : 30,
 	
 	
-	// “G‚ÌUŒ‚•‚É‡‚í‚¹‚éˆ—
+	// ï¿½Gï¿½ÌUï¿½ï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½í‚¹ï¿½éˆï¿½ï¿½
 	"dfAttackWidthEnable" : true,
 	
-	// ƒfƒoƒbƒO—p“rF“G‚ÌUŒ‚•‚ÉŒÀ’è‚·‚é
+	// ï¿½fï¿½oï¿½bï¿½Oï¿½pï¿½rï¿½Fï¿½Gï¿½ÌUï¿½ï¿½ï¿½ï¿½ï¿½ÉŒï¿½ï¿½è‚·ï¿½ï¿½
 	"dfAttackWidthForce" : true,
 	
-	// ƒOƒ‹[ƒv‚Ìæ“ª‚©‚ç‚Ç‚ê‚­‚ç‚¢‘O•û‚Ì“G‚ð”FŽ¯‚·‚é‚©
+	// ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½Ìæ“ªï¿½ï¿½ï¿½ï¿½Ç‚ê‚­ï¿½ç‚¢ï¿½Oï¿½ï¿½ï¿½Ì“Gï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½é‚©
 	"dfAttackWidthFront" : 7.8,
 	
-	// ƒOƒ‹[ƒv‚ÌŒã•û‚©‚ç‚Ç‚ê‚­‚ç‚¢Œã‚ë‚Ì“G‚ð”FŽ¯‚·‚é‚©
+	// ï¿½Oï¿½ï¿½ï¿½[ï¿½vï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ê‚­ï¿½ç‚¢ï¿½ï¿½ï¿½Ì“Gï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½é‚©
 	"dfAttackWidthBack" : 2.0,
 	
-	// ƒ}[ƒWƒ“
+	// ï¿½}ï¿½[ï¿½Wï¿½ï¿½
 	"dfAttackWidthMarginFront" : 12.0,
 	
-	// ƒ}[ƒWƒ“
+	// ï¿½}ï¿½[ï¿½Wï¿½ï¿½
 	"dfAttackWidthMarginBack" : 5.0,
 	
 	
-	// ƒR[ƒi[ƒLƒbƒNŽž‚ÌMFƒ‰ƒCƒ“‚ÌL‚ª‚è‹ï‡
+	// ï¿½Rï¿½[ï¿½iï¿½[ï¿½Lï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½MFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ÌLï¿½ï¿½ï¿½ï¿½ï‡
 	"cornerkickDefenceMFWidth" : 100.0,
 	
-	// MF‚ª‹tƒTƒCƒh‚ð‚Ç‚ê‚­‚ç‚¢ƒTƒ|[ƒg‚·‚é‚©H
+	// MFï¿½ï¿½ï¿½tï¿½Tï¿½Cï¿½hï¿½ï¿½ï¿½Ç‚ê‚­ï¿½ç‚¢ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½é‚©ï¿½H
 	"cornerkickDefenceMFSide" : 100.0,
 	
-	// ƒS[ƒ‹ƒLƒbƒNŽž‚ÉƒfƒBƒtƒFƒ“ƒXƒ‰ƒCƒ“‚ª‚Ç‚ê‚­‚ç‚¢ã‚ª‚é‚©H
+	// ï¿½Sï¿½[ï¿½ï¿½ï¿½Lï¿½bï¿½Nï¿½ï¿½ï¿½Éƒfï¿½Bï¿½tï¿½Fï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ê‚­ï¿½ç‚¢ï¿½ã‚ªï¿½é‚©ï¿½H
 	"gksDefenceBackRate" : 100.0,
 	"gklDefenceBackRate" : 40.0,
 	
-	// ƒXƒy[ƒXƒJƒo[‚ÌŠ„‡
+	// ï¿½Xï¿½yï¿½[ï¿½Xï¿½Jï¿½oï¿½[ï¿½ÌŠï¿½ï¿½ï¿½
 	"spaceCoverRate" : 0.4,
 	
-	// DF–Ú•Wƒ‰ƒCƒ“‚ÌÅ‘å’l’²®‚ðs‚È‚¤MFƒ‰ƒCƒ““¾“_
+	// DFï¿½Ú•Wï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ÌÅ‘ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½È‚ï¿½MFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½_
 	"mfLineScore_adjustMax" : 150.0,
 	
-	// DFƒ‰ƒCƒ“‚ÆMFƒ‰ƒCƒ“•‚Ì‰½•ªŠ„‚ðÅ‘å•â³’l‚Æ‚·‚é‚©
+	// DFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½MFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ì‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‘ï¿½â³ï¿½lï¿½Æ‚ï¿½ï¿½é‚©
 	"adjustDiv" : 4.0,
 
-	// WALK‚·‚éMFƒ‰ƒCƒ“‚ÌƒXƒRƒA
+	// WALKï¿½ï¿½ï¿½ï¿½MFï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ÌƒXï¿½Rï¿½A
 	"walkMfLineScore" : 160.0,
 	
 	//----------------------------------------
-	// UŽç‹¤’Ê‚Ìˆ—
+	// ï¿½Uï¿½ç‹¤ï¿½Ê‚Ìï¿½ï¿½ï¿½
 	//----------------------------------------
-	// ‹tƒTƒCƒh‘¤‚ðŠî–{ƒ|ƒWƒVƒ‡ƒ“Šñ‚è‘O‘¤‚É‚¸‚ç‚·
+	// ï¿½tï¿½Tï¿½Cï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½|ï¿½Wï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½É‚ï¿½ï¿½ç‚·
 	"slide" : false,
 
-	// ƒXƒ‰ƒCƒh•ûŽ® 0:”ä—á 1:2ŽŸ‹Èü
+	// ï¿½Xï¿½ï¿½ï¿½Cï¿½hï¿½ï¿½ï¿½ï¿½ 0:ï¿½ï¿½ï¿½ 1:2ï¿½ï¿½ï¿½Èï¿½
 	"slideKind" : 0,
 
-	// ƒXƒ‰ƒCƒh•‚ÌÅ‚’l
+	// ï¿½Xï¿½ï¿½ï¿½Cï¿½hï¿½ï¿½ï¿½ÌÅï¿½ï¿½l
 	"slideWidth" : 3.0,
 
-	// ƒXƒ‰ƒCƒh•‚ªÅ‚‚É‚È‚éŽž‚Ì‹——£
+	// ï¿½Xï¿½ï¿½ï¿½Cï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½É‚È‚éŽžï¿½Ì‹ï¿½ï¿½ï¿½
 	"slideDistMax" : 25.0,
 	
-	// ƒXƒ‰ƒCƒh•‚ÌÅ’á’l‚ðˆÛŽ‚·‚é‹——£
+	// ï¿½Xï¿½ï¿½ï¿½Cï¿½hï¿½ï¿½ï¿½ÌÅ’ï¿½lï¿½ï¿½ï¿½ÛŽï¿½ï¿½ï¿½ï¿½é‹—ï¿½ï¿½
 	"slideDistMin" : 8.0,
 	
-	// ƒXƒ‰ƒCƒh”»’è‚³‚¹‚é‹——£
+	// ï¿½Xï¿½ï¿½ï¿½Cï¿½hï¿½ï¿½ï¿½è‚³ï¿½ï¿½ï¿½é‹—ï¿½ï¿½
 	"slideJudgeWidthBase" : 10.0,
 	
-	// ƒXƒ‰ƒCƒh”»’è‚Ìƒ}[ƒWƒ“
+	// ï¿½Xï¿½ï¿½ï¿½Cï¿½hï¿½ï¿½ï¿½ï¿½Ìƒ}ï¿½[ï¿½Wï¿½ï¿½
 	"slideJudgeWidthMargin" : 10.0,	
 
 
-	// XŽ²–Ú•Wƒ‰ƒCƒ“‚Ì•Ï‰»—Ê
+	// Xï¿½ï¿½ï¿½Ú•Wï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ì•Ï‰ï¿½ï¿½ï¿½
 	"targetLineXVariation" : 0.2,
 	
-	// ZŽ²–Ú•Wƒ‰ƒCƒ“‚Ì•Ï‰»—Ê
+	// Zï¿½ï¿½ï¿½Ú•Wï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ì•Ï‰ï¿½ï¿½ï¿½
 	"targetLineZVariation" : 0.2,
 
 	//----------------------------------------
-	// ˆÚ“®Œn‚Ì•~‹’l ŠÔŽØ‚è‚µ‚Ä‚Ü‚·EE
+	// ï¿½Ú“ï¿½ï¿½nï¿½Ì•~ï¿½ï¿½ï¿½l ï¿½ÔŽØ‚è‚µï¿½Ä‚Ü‚ï¿½ï¿½Eï¿½E
 	//----------------------------------------
-	// “®‚«o‚µ‹——£
+	// ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"moveStartDist" : 0.8,
 
-	// ˆÚ“®Œn‚Ì‘¬“xƒ`ƒFƒbƒN
+	// ï¿½Ú“ï¿½ï¿½nï¿½Ì‘ï¿½ï¿½xï¿½`ï¿½Fï¿½bï¿½N
 	"forceWalkDist" : 1.2,
 	
-	// ˆÚ“®Œn‚Ì‘¬“xƒ`ƒFƒbƒN
+	// ï¿½Ú“ï¿½ï¿½nï¿½Ì‘ï¿½ï¿½xï¿½`ï¿½Fï¿½bï¿½N
 	"forceJogDist" : 2.4,
 
-	// ˆÚ“®Œn‚Ì‘¬“xƒ`ƒFƒbƒN
+	// ï¿½Ú“ï¿½ï¿½nï¿½Ì‘ï¿½ï¿½xï¿½`ï¿½Fï¿½bï¿½N
 	"forceDashDist" : 9.0,
 
-	// ƒ_ƒbƒVƒ…‚©‚çƒ‰ƒ“‚É‘JˆÚ‚·‚é–Ú•W‚Æ‚Ì‹——£
+	// ï¿½_ï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½çƒ‰ï¿½ï¿½ï¿½É‘Jï¿½Ú‚ï¿½ï¿½ï¿½Ú•Wï¿½Æ‚Ì‹ï¿½ï¿½ï¿½
 	"speedDownRunDist" : 5.0,
 
-	// ƒWƒ‡ƒO‚©‚çƒ‰ƒ“‚É‘JˆÚ‚·‚é–Ú•W‚Æ‚Ì‹——£
+	// ï¿½Wï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½çƒ‰ï¿½ï¿½ï¿½É‘Jï¿½Ú‚ï¿½ï¿½ï¿½Ú•Wï¿½Æ‚Ì‹ï¿½ï¿½ï¿½
 	"speedUpRunDist" : 4.0,
 	
 	//----------------------------------------
-	// ˜AŒgƒpƒ‰‚É‚æ‚Á‚ÄƒJƒo[‚ð’x‚ç‚¹‚é
+	// ï¿½Aï¿½gï¿½pï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ÄƒJï¿½oï¿½[ï¿½ï¿½xï¿½ç‚¹ï¿½ï¿½
 	//----------------------------------------
 	
-	// ˜AŒgƒpƒ‰‚ª”½‰f‚·‚é”ÍˆÍ
+	// ï¿½Aï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½Íˆï¿½
 	"upperConnectionParam" : 70.0,
 	"lowerConnectionParam" : 50.0,
 	
-	// ˜AŒgƒpƒ‰‚É‚æ‚éƒJƒo[‚ð‚µ‚È‚¢Å‘åŽžŠÔ
+	// ï¿½Aï¿½gï¿½pï¿½ï¿½ï¿½É‚ï¿½ï¿½Jï¿½oï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Å‘åŽžï¿½ï¿½
 	"maxWaitTime" : 30.0,
 	
-	//@UŒ‚ˆÓŽ¯‚É‚æ‚Á‚ÄŠî–{ƒ|ƒWƒVƒ‡ƒ“‚ÌXÀ•W‚ðã‚°‚é
+	//ï¿½@ï¿½Uï¿½ï¿½ï¿½ÓŽï¿½ï¿½É‚ï¿½ï¿½ï¿½ÄŠï¿½{ï¿½|ï¿½Wï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ã‚°ï¿½ï¿½
 	"adjustXFromAttackAwareness3" : 2.5,
 	"adjustXFromAttackAwareness4" : 5.0,
 	
-	// ƒfƒoƒbƒO—p@TODO::íœ—\’è
+	// ï¿½fï¿½oï¿½bï¿½Oï¿½pï¿½@TODO::ï¿½íœï¿½\ï¿½ï¿½
 	"defenceCompact" : 20,
 	
-	//ƒRƒ“ƒpƒNƒgƒlƒXƒpƒ‰‚É‘Î‚µ‚Ä‚ÌFW‚ÌXÀ•W—‘zƒ‰ƒCƒ“’²®‹——£
+	//ï¿½Rï¿½ï¿½ï¿½pï¿½Nï¿½gï¿½lï¿½Xï¿½pï¿½ï¿½ï¿½É‘Î‚ï¿½ï¿½Ä‚ï¿½FWï¿½ï¿½Xï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½zï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"adjustXCompactFW" : 0.5,
 	
-	//ƒRƒ“ƒpƒNƒgƒlƒXƒpƒ‰‚É‘Î‚µ‚Ä‚ÌZÀ•W—‘zƒ‰ƒCƒ“‚Ì’²®‹——£
+	//ï¿½Rï¿½ï¿½ï¿½pï¿½Nï¿½gï¿½lï¿½Xï¿½pï¿½ï¿½ï¿½É‘Î‚ï¿½ï¿½Ä‚ï¿½Zï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½zï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"adjustZCompact" : 1.0,
 	
-	//ƒRƒ“ƒpƒNƒgƒlƒXƒpƒ‰‚É‘Î‚µ‚Ä‚ÌZÀ•W—‘zƒ‰ƒCƒ“‰ºŒÀ‚Ì’²®‹——£
+	//ï¿½Rï¿½ï¿½ï¿½pï¿½Nï¿½gï¿½lï¿½Xï¿½pï¿½ï¿½ï¿½É‘Î‚ï¿½ï¿½Ä‚ï¿½Zï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½zï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"adjustZMinCompact" : 0.5,
 	
 	//----------------------------------------
-	// ƒ][ƒ“ƒfƒBƒtƒFƒ“ƒX
+	// ï¿½]ï¿½[ï¿½ï¿½ï¿½fï¿½Bï¿½tï¿½Fï¿½ï¿½ï¿½X
 	//----------------------------------------
 	
-	//ƒ}ƒbƒ`ƒAƒbƒv‘IŽè‚ªDFËMF‚É‚È‚éê‡‚Ìƒ`ƒFƒbƒNŠî–{‹——£
+	//ï¿½}ï¿½bï¿½`ï¿½Aï¿½bï¿½vï¿½Iï¿½è‚ªDFï¿½ï¿½MFï¿½É‚È‚ï¿½ê‡ï¿½Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½
 	"checkBaseDist" : 4.0,
 	
-	//ƒ}ƒbƒ`ƒAƒbƒv‘IŽè‚ªDFËMF‚É‚È‚éê‡‚Ìƒ`ƒFƒbƒN’²®‹——£
+	//ï¿½}ï¿½bï¿½`ï¿½Aï¿½bï¿½vï¿½Iï¿½è‚ªDFï¿½ï¿½MFï¿½É‚È‚ï¿½ê‡ï¿½Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"checkAdjustDist" : 3.0
 }
