@@ -36,3 +36,6 @@ yarn-error.log*
 # Uncomment if you want to ignore compiled/generated files
 # *.bin
 # *.compiled
+
+# Original backup folder
+dt18_win_original/
