@@ -2,109 +2,109 @@
 // Configuration options
 {
 	//--------------------------------------------
-	//ƒ`ƒƒƒ“ƒX”ò‚Ño‚µ—p
+	//ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½ï¿½Ñoï¿½ï¿½ï¿½p
 	//--------------------------------------------
-	// ƒ{[ƒ‹‚Æ‚Ìƒ`ƒFƒbƒN‹——£
-	"checkBallDist_chance"      : 12.0,
-	"checkBallDist_chance_good" : 15.0,
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½Æ‚Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
+	"checkBallDist_chance"      : 15.0,
+	"checkBallDist_chance_good" : 18.0,
 
-	// Šp“x·
-	"angleDiff_chance"      : 40.0,
-	"angleDiff_chance_good" : 100.0,
+	// ï¿½pï¿½xï¿½ï¿½
+	"angleDiff_chance"      : 50.0,
+	"angleDiff_chance_good" : 110.0,
 	
-	// ÅIƒ‰ƒCƒ“‚Æ‚Ìƒ`ƒFƒbƒN‹——£
-	"checkLastLineDist_chance"      : 10.0,
-	"checkLastLineDist_chance_good" : 15.0,
+	// ï¿½ÅIï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Æ‚Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
+	"checkLastLineDist_chance"      : 12.0,
+	"checkLastLineDist_chance_good" : 18.0,
 	
-	// Œğ“_ƒ`ƒFƒbƒN‹——£0
-	"checkCrossPointDist0_chance"      : 5.0,
-	"checkCrossPointDist0_chance_good" : 2.0,
+	// ï¿½ï¿½_ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½0
+	"checkCrossPointDist0_chance"      : 4.0,
+	"checkCrossPointDist0_chance_good" : 1.5,
 	
-	// Œğ“_ƒ`ƒFƒbƒN‹——£1
-	"checkCrossPointDist1_chance"      : 6.0,
-	"checkCrossPointDist1_chance_good" : 3.0,
+	// ï¿½ï¿½_ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½1
+	"checkCrossPointDist1_chance"      : 5.0,
+	"checkCrossPointDist1_chance_good" : 2.5,
 	
-	// Œğ“_ƒ`ƒFƒbƒN‹——£2
-	"checkCrossPointDist2_chance"      : 7.0,
-	"checkCrossPointDist2_chance_good" : 4.0,
+	// ï¿½ï¿½_ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½2
+	"checkCrossPointDist2_chance"      : 6.0,
+	"checkCrossPointDist2_chance_good" : 3.5,
 	
-	// ƒ`ƒƒƒ“ƒX‚Æ‚µ‚Ä”F¯‚·‚éƒXƒRƒA
+	// ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Æ‚ï¿½ï¿½Ä”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Rï¿½A
 	"chanceScore"      : 100,
 	"chanceScore_good" : 90,
 	
 	//--------------------------------------------
-	//ƒTƒCƒh”ò‚Ño‚µ—p
+	//ï¿½Tï¿½Cï¿½hï¿½ï¿½Ñoï¿½ï¿½ï¿½p
 	//--------------------------------------------
-	// BP‚Æ‚Ì‘Ì‚ÌŒü‚«ƒ`ƒFƒbƒN
+	// BPï¿½Æ‚Ì‘Ì‚ÌŒï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	"angleDiff_side"      : 40.0,
 	"angleDiff_side_good" : 100.0,
 	
-	// î”ÍˆÍƒ`ƒFƒbƒNŠp“x”ÍˆÍ0
+	// ï¿½ï¿½ÍˆÍƒ`ï¿½Fï¿½bï¿½Nï¿½pï¿½xï¿½Íˆï¿½0
 	"angleWidth0"      : 5.0,
 	"angleWidth0_good" : 25.0,
 	
-	// î”ÍˆÍƒ`ƒFƒbƒNŠp“x”ÍˆÍ1
+	// ï¿½ï¿½ÍˆÍƒ`ï¿½Fï¿½bï¿½Nï¿½pï¿½xï¿½Íˆï¿½1
 	"angleWidth1"      : 10.0,
 	"angleWidth1_good" : 40.0,
 	
-	// î”ÍˆÍƒ`ƒFƒbƒNŠp“x”ÍˆÍ2
+	// ï¿½ï¿½ÍˆÍƒ`ï¿½Fï¿½bï¿½Nï¿½pï¿½xï¿½Íˆï¿½2
 	"angleWidth2"      : 20.0,
 	"angleWidth2_good" : 55.0,
 	
-	//î”ÍˆÍƒ`ƒFƒbƒN‹——£0
+	//ï¿½ï¿½ÍˆÍƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½0
 	"sectorDist0"      : 20.0,
 	"sectorDist0_good" : 25.0,
 	
-	//î”ÍˆÍƒ`ƒFƒbƒN‹——£1
+	//ï¿½ï¿½ÍˆÍƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½1
 	"sectorDist1"      : 15.0,
 	"sectorDist1_good" : 20.0,
 	
-	//î”ÍˆÍƒ`ƒFƒbƒN‹——£2
+	//ï¿½ï¿½ÍˆÍƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½2
 	"sectorDist2"      : 10.0,
 	"sectorDist2_good" : 15.0,
 	
 	//--------------------------------------------
-	//ƒTƒCƒh‚É—¬‚ê‚é”ò‚Ño‚µ—p
+	//ï¿½Tï¿½Cï¿½hï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½Ñoï¿½ï¿½ï¿½p
 	//--------------------------------------------
-	//ƒGƒŠƒA•]‰¿‚Ìƒ`ƒFƒbƒN
+	//ï¿½Gï¿½ï¿½ï¿½Aï¿½]ï¿½ï¿½ï¿½Ìƒ`ï¿½Fï¿½bï¿½N
 	"checkScore_flow"      : 95,
 	"checkScore_flow_good" : 80,
 	
-	//Z‹——£ƒ`ƒFƒbƒN
+	//Zï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	"checkZ_flow"      : 15.0,
 	"checkZ_flow_good" : 20.0,
 	
-	// ÅIƒ‰ƒCƒ“‚Æ‚Ìƒ`ƒFƒbƒN‹——£
+	// ï¿½ÅIï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Æ‚Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
 	"checkLastLineDist_flow"      : 5.0,
 	"checkLastLineDist_flow_good" : 10.0,
 	
 	//--------------------------------------------
-	//‚Q—ñ–Ú‚©‚ç‚Ì”ò‚Ño‚µ—p
+	//ï¿½Qï¿½ï¿½Ú‚ï¿½ï¿½ï¿½Ì”ï¿½Ñoï¿½ï¿½ï¿½p
 	//--------------------------------------------
-	//BP‚©‚çŒã•û‹——£ƒ`ƒFƒbƒN
+	//BPï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	"checkBackDist_second"      : 3.0,
 	"checkBackDist_second_good" : 5.0,
 	
-	//Z‹——£ƒ`ƒFƒbƒN
+	//Zï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	"checkZ_second"      : 15.0,
 	"checkZ_second_good" : 20.0,
 	
-	// ƒ{[ƒ‹‚Æ‚Ìƒ`ƒFƒbƒN‹——£
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½Æ‚Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
 	"checkBallDist_second"      : 15.0,
 	"checkBallDist_second_good" : 20.0,
 	
-	// BP‚Æ‚Ì‘Ì‚ÌŒü‚«ƒ`ƒFƒbƒN
+	// BPï¿½Æ‚Ì‘Ì‚ÌŒï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	"angleDiff_second"      : 45.0,
 	"angleDiff_second_good" : 100.0,
 	
 	//--------------------------------------------
-	//ƒJƒEƒ“ƒ^[”ò‚Ño‚µ—p
+	//ï¿½Jï¿½Eï¿½ï¿½ï¿½^ï¿½[ï¿½ï¿½Ñoï¿½ï¿½ï¿½p
 	//--------------------------------------------
-	//Z‹——£ƒ`ƒFƒbƒN
+	//Zï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	"checkZ_counter"      : 15.0,
 	"checkZ_counter_good" : 20.0,
 	
-	// ƒ{[ƒ‹‚Æ‚Ìƒ`ƒFƒbƒN‹——£
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½Æ‚Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
 	"checkBallDist_counter"      : 18.0,
 	"checkBallDist_counter_good" : 22.0
 	

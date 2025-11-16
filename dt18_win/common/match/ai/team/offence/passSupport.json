@@ -2,25 +2,25 @@
 // Configuration options
 {
 	// �T�|�[�g�G���A���a
-	"innerDiameter" : 7.0,
+	"innerDiameter" : 6.0,
 
 	// �T�|�[�g�G���A�O�a
-	"outerDiameter" : 9.0,
+	"outerDiameter" : 8.0,
 	
 	// �T�|�[�g��������
-	"adjustSupportDist" : 8.0,
+	"adjustSupportDist" : 7.0,
 
 	// �O���ɂ����قǃT�|�[�g��������������B���̍ő刳�k���B
 	"supportDistRate" : 0.90,
 
 	// �X�y�[�X�Ƃ��ĔF�������`�̕ӂ̒���
-	"spaceRectLength" : 5.0,
+	"spaceRectLength" : 6.0,
 
 	// �p�����T�|�[�g�ʒu�X�V�p�x
-	"timeUpdateDelta" : 40,
+	"timeUpdateDelta" : 35,
 
 	// ���肵���Ƃ݂Ȃ����{�[���v���C���[�̐i�s��������
-	"angleAbsAve" : 20.0,
+	"angleAbsAve" : 25.0,
 
 	// �p�����ɃX�R�A�ɂ�����W��
 	"scoreWeight" : 0.65,
