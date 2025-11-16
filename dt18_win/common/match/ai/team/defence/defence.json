@@ -12,7 +12,7 @@
     "beginCutCurrentDist":15.0,
     
     //�R�[�X�J�b�g����Ƃ��ɂ܂��{�[���ɂ��̋����܂ŋ߂Â�
-    "courseCutDist":15.0,
+    "courseCutDist":12.0,
     
     //FW�͂�����{�[���ɋ߂�����̃R�[�X��؂��ΐ؂�BcourseCutDist�̓�{�𒴂��Ȃ�������������
     "courseCutTargetDistOver":20.0,
@@ -33,7 +33,7 @@
     "continueAdvantagePress":3.0,
     
     //�v���X�J�n�n�_
-    "matchUpStartLine":25,
+    "matchUpStartLine":30,
     
     //�v���X�J�n�n�_�̍ő�l
      "matchUpStartLineMax":50.0,
