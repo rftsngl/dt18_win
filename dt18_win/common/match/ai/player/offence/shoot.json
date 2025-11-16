@@ -1,64 +1,64 @@
 /// @class auto
 {
-	// –¢—ˆÀ•WƒtƒŒ[ƒ€
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½
 	"future" : 30,
 
-	// ƒVƒ…[ƒg‚¸‚ê‘äŒ`è‡’l
-	"outTrapezoid0" : 90.0,
+	// ï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½`è‡’l
+	"outTrapezoid0" : 60.0,
 	"outTrapezoid1" : 10.0,
 
-	// ƒVƒ…[ƒg‚¸‚êÅ‘åŠp“x
-	"outAngle" : 15.0,
+	// ï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½Å‘ï¿½pï¿½x
+	"outAngle" : 10.0,
 
-	// ƒ`ƒbƒvƒLƒbƒNè‡’l(‹——£/ƒ[ƒgƒ‹)
+	// ï¿½`ï¿½bï¿½vï¿½Lï¿½bï¿½Nè‡’l(ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½)
 	"chipThreshold0" : 0.0,
 	"chipThreshold1" : 8.0,
 
-	// ƒVƒ…[ƒg•ûŒü‚Æ‚Ý‚È‚·Šp“x·
+	// ï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ý‚È‚ï¿½ï¿½pï¿½xï¿½ï¿½
 	"loopAngleSub" : 30.0,
 
 
-	// ƒ‹[ƒvƒVƒ…[ƒgŠî–{‘¬“x
-	"loopSpeed" : 50.0,
+	// ï¿½ï¿½ï¿½[ï¿½vï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½{ï¿½ï¿½ï¿½x
+	"loopSpeed" : 45.0,
 
-	// ƒ‹[ƒvƒVƒ…[ƒgÅ‘å‰ÁŽZ‘¬“x
-	"loopSpeedDelta" : 50.0,
+	// ï¿½ï¿½ï¿½[ï¿½vï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½Å‘ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½x
+	"loopSpeedDelta" : 40.0,
 
-	// ƒ‹[ƒvƒVƒ…[ƒgŠî–{‹ÂŠp
+	// ï¿½ï¿½ï¿½[ï¿½vï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½{ï¿½p
 	"loopElevation" : 20.0,
 
-	// ƒ‹[ƒvƒVƒ…[ƒgÅ‘å‰ÁŽZ‹ÂŠp
+	// ï¿½ï¿½ï¿½[ï¿½vï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½Å‘ï¿½ï¿½ï¿½Zï¿½p
 	"loopElevationDelta" : 30.0,
 
-	// ƒ‹[ƒvƒVƒ…[ƒgŠî–{ƒXƒsƒ“
-	"loopSpin" : -1.0,
+	// ï¿½ï¿½ï¿½[ï¿½vï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½{ï¿½Xï¿½sï¿½ï¿½
+	"loopSpin" : -0.5,
 
-	// ƒ‹[ƒvƒVƒ…[ƒgÅ‘å‰ÁŽZƒXƒsƒ“
-	"loopSpinDelta" : -3.0,
+	// ï¿½ï¿½ï¿½[ï¿½vï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½Å‘ï¿½ï¿½ï¿½Zï¿½Xï¿½sï¿½ï¿½
+	"loopSpinDelta" : -2.0,
 
 
-	// ƒ`ƒbƒvƒLƒbƒNŠî–{‘¬“x
-	"chipSpeed" : 35.0,
+	// ï¿½`ï¿½bï¿½vï¿½Lï¿½bï¿½Nï¿½ï¿½{ï¿½ï¿½ï¿½x
+	"chipSpeed" : 40.0,
 
-	// ƒ`ƒbƒvƒLƒbƒNÅ‘å‰ÁŽZ‘¬“x
-	"chipSpeedDelta" : 50.0,
+	// ï¿½`ï¿½bï¿½vï¿½Lï¿½bï¿½Nï¿½Å‘ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½x
+	"chipSpeedDelta" : 45.0,
 
-	// ƒ`ƒbƒvƒLƒbƒNŠî–{‹ÂŠp
-	"chipElevation" : 18.0,
+	// ï¿½`ï¿½bï¿½vï¿½Lï¿½bï¿½Nï¿½ï¿½{ï¿½p
+	"chipElevation" : 20.0,
 
-	// ƒ`ƒbƒvƒLƒbƒNÅ‘å‰ÁŽZ‹ÂŠp
+	// ï¿½`ï¿½bï¿½vï¿½Lï¿½bï¿½Nï¿½Å‘ï¿½ï¿½ï¿½Zï¿½p
 	"chipElevationDelta" : 12.0,
 
-	// ƒ`ƒbƒvƒLƒbƒNŠî–{ƒXƒsƒ“
+	// ï¿½`ï¿½bï¿½vï¿½Lï¿½bï¿½Nï¿½ï¿½{ï¿½Xï¿½sï¿½ï¿½
 	"chipSpin" : 0.0,
 
-	// ƒ`ƒbƒvƒLƒbƒNÅ‘å‰ÁŽZƒXƒsƒ“
+	// ï¿½`ï¿½bï¿½vï¿½Lï¿½bï¿½Nï¿½Å‘ï¿½ï¿½ï¿½Zï¿½Xï¿½sï¿½ï¿½
 	"chipSpinDelta" : -2.0,
 
 
-	// ŒÒ”²‚«ƒVƒ…[ƒgŠî–{‘¬“x
-	"nutmegSpeed" : 50.0,
+	// ï¿½Ò”ï¿½ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½{ï¿½ï¿½ï¿½x
+	"nutmegSpeed" : 45.0,
 
-	// ŒÒ”²‚«ƒVƒ…[ƒgÅ‘å‰ÁŽZ‘¬“x
-	"nutmegSpeedDelta" : 50.0
+	// ï¿½Ò”ï¿½ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½Å‘ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½x
+	"nutmegSpeedDelta" : 40.0
 }

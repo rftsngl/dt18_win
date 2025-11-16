@@ -23,11 +23,11 @@
 	//�߂�����
 	"checkEnemyDistNearScissorsOut":0.8,
 	//��������Ȃ�s�v
-	"checkEnemyDistFarScissorsOut":1.2,
+	"checkEnemyDistFarScissorsOut":1.5,
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthScissorsOut":360.0,
+	"countBpSafetyWidthScissorsOut":120.0,
 	//����
 	"countBpSafetyLengthScissorsOut":4.0,
 	//�t���[����
@@ -54,7 +54,7 @@
 	
 	//��������㏈��---------------------------------------------
 	//�t�F�C���g�̋���
-	"feintDistScissorsOut":12.0,
+	"feintDistScissorsOut":8.0,
 	
 	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
 	"checkTurnEndSafetyWidthScissorsOut":90.0,
@@ -133,11 +133,11 @@
 	//�߂�����
 	"checkEnemyDistNearEracico":1.5,
 	//��������Ȃ�s�v
-	"checkEnemyDistFarEracico":4.0,
+	"checkEnemyDistFarEracico":3.0,
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthEracico":360.0,
+	"countBpSafetyWidthEracico":120.0,
 	//����
 	"countBpSafetyLengthEracico":4.0,
 	//�t���[����
@@ -154,7 +154,7 @@
 	
 	//��������㏈��---------------------------------------------
 	//�t�F�C���g�̋���
-	"feintDistEracico":7.0,
+	"feintDistEracico":6.0,
 	
 	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
 	"checkTurnEndSafetyWidthEracico":90.0,
@@ -187,11 +187,11 @@
 	//�߂�����
 	"checkEnemyDistNearRoulette":1.0,
 	//��������Ȃ�s�v
-	"checkEnemyDistFarRoulette":1.5,
+	"checkEnemyDistFarRoulette":1.8,
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthRoulette":360.0,
+	"countBpSafetyWidthRoulette":150.0,
 	//����
 	"countBpSafetyLengthRoulette":2.0,
 	//�t���[����
@@ -267,7 +267,7 @@
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthStepKick":360.0,
+	"countBpSafetyWidthStepKick":120.0,
 	//����
 	"countBpSafetyLengthStepKick":3.0,
 	//�t���[����
@@ -293,7 +293,7 @@
 	
 	//��������㏈��---------------------------------------------
 	//�t�F�C���g�̋���
-	"feintDistStepKick":15.0,
+	"feintDistStepKick":10.0,
 	
 	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
 	"checkTurnEndSafetyWidthStepKick":112.5,
@@ -357,7 +357,7 @@
 	
 	//��������㏈��---------------------------------------------
 	//�t�F�C���g�̋���
-	"feintDistOnetime":15.0,
+	"feintDistOnetime":10.0,
 	
 	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
 	"checkTurnEndSafetyWidthOnetime":90.0

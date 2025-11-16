@@ -9,7 +9,7 @@
 	
 	// ���C�W��
 	//"frictionBoundRate" : 0.978,
-	"frictionBoundRate" : 0.950,
+	"frictionBoundRate" : 0.940,
 	//"frictionRollRate" : 0.985,
 	"frictionRollRateMax" : 0.982,
 	"frictionRollRateMin" : 0.980,
@@ -17,10 +17,10 @@
 	"frictionRollSpeedMin" : 2.0,
 		
 	// XZ���ʂ̑��x�����L�̎����ȉ��ɂȂ������~�����ɂ���
-	"stopSpeed" : 0.22,
+	"stopSpeed" : 0.25,
 	
 	// �h���b�O�N���C�V�X���x�F���̑��x�ȏゾ�Ƌ�C��R�����ۂ���
-	"dragSpeedMin" : 75.0,
+	"dragSpeedMin" : 70.0,
 	"dragSpeedMax" : 90.0,
 	
 	// ���x���h���b�O�N���C�V�X���x�ȉ��̎��̋�C��R�l (��{)
@@ -121,10 +121,10 @@
 	"grounderSpeed" : 16.0,
 	"grounderCTan" : 16.0,
 	
-	"grounderFrictionRate" : 0.99,
+	"grounderFrictionRate" : 0.975,
 	//"grounderFrictionRate" : 0.90,
 	//"grounderBoundYAdd" : 0.095,
-	"grounderBoundYAdd" : 0.07,
+	"grounderBoundYAdd" : 0.08,
 	//"grounderBoundYAdd" : 0.10,
 	
 	//----------------------------------------------

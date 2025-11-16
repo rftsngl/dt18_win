@@ -1,23 +1,23 @@
 /// @class auto
 // Configuration options
 {
-	// ƒ{[ƒ‹‚Æ‚Ìƒ`ƒFƒbƒNZ‹——£
-	"checkZ"      : 22.0,
-	"checkZ_good" : 28.0,
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½Æ‚Ìƒ`ï¿½Fï¿½bï¿½NZï¿½ï¿½ï¿½ï¿½
+	"checkZ"      : 18.0,
+	"checkZ_good" : 22.0,
 	
-	// ƒ{[ƒ‹‚Æ‚Ìƒ`ƒFƒbƒN‹——£
-	"checkBallDist"      : 30.0,
-	"checkBallDist_good" : 35.0,
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½Æ‚Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
+	"checkBallDist"      : 24.0,
+	"checkBallDist_good" : 28.0,
 	
-	// ÅIƒ‰ƒCƒ“‚©‚ç‚Ìƒ`ƒFƒbƒN‹——£
-	"checkLastLineDist"      : 7.0,
-	"checkLastLineDist_good" : 10.0,
+	// ï¿½ÅIï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
+	"checkLastLineDist"      : 5.0,
+	"checkLastLineDist_good" : 7.0,
 	
-	//BP‚Æ‚Ì‘Ì‚ÌŒü‚«ƒ`ƒFƒbƒN
-	"angleDiff"      : 60.0,
-	"angleDiff_good" : 100.0,
+	//BPï¿½Æ‚Ì‘Ì‚ÌŒï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
+	"angleDiff"      : 45.0,
+	"angleDiff_good" : 75.0,
 	
-	//BP‚Ìƒ{[ƒ‹‹——£ƒ`ƒFƒbƒN
+	//BPï¿½Ìƒ{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	"checkBallDistBP"      : 1.0,
 	"checkBallDistBP_good" : 1.5
 }

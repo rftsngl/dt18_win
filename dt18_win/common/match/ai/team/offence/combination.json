@@ -1,19 +1,19 @@
 /// @class auto
 {
-	//  0: COMB_KIND_DECOY_00	234567 ŠO@ƒfƒRƒC{‚Æ‚Ñ‚¾‚µ
-	//  1: COMB_KIND_DECOY_01	234567 ’†@ƒfƒRƒC{‚Æ‚Ñ‚¾‚µ
+	//  0: COMB_KIND_DECOY_00	234567 ï¿½Oï¿½@ï¿½fï¿½Rï¿½Cï¿½{ï¿½Æ‚Ñ‚ï¿½ï¿½ï¿½
+	//  1: COMB_KIND_DECOY_01	234567 ï¿½ï¿½ï¿½@ï¿½fï¿½Rï¿½Cï¿½{ï¿½Æ‚Ñ‚ï¿½ï¿½ï¿½
 	//  2: COMB_KIND_DECOY_02	
 	//  3: COMB_KIND_DECOY_03	
-	//  4: COMB_KIND_WEDGE_00	5678910 “à “¯ƒTƒCƒh ‚­‚³‚Ñ{‚Æ‚Ñ‚¾‚µ
-	//  5: COMB_KIND_WEDGE_01	5678910 “à ‹tƒTƒCƒh ‚­‚³‚Ñ{‚Æ‚Ñ‚¾‚µ
-	//  6: COMB_KIND_WEDGE_02	69	ŠO ‚­‚³‚Ñ{‚Æ‚Ñ‚¾‚µ
+	//  4: COMB_KIND_WEDGE_00	5678910 ï¿½ï¿½ ï¿½ï¿½ï¿½Tï¿½Cï¿½h ï¿½ï¿½ï¿½ï¿½ï¿½Ñ{ï¿½Æ‚Ñ‚ï¿½ï¿½ï¿½
+	//  5: COMB_KIND_WEDGE_01	5678910 ï¿½ï¿½ ï¿½tï¿½Tï¿½Cï¿½h ï¿½ï¿½ï¿½ï¿½ï¿½Ñ{ï¿½Æ‚Ñ‚ï¿½ï¿½ï¿½
+	//  6: COMB_KIND_WEDGE_02	69	ï¿½O ï¿½ï¿½ï¿½ï¿½ï¿½Ñ{ï¿½Æ‚Ñ‚ï¿½ï¿½ï¿½
 	//  7: COMB_KIND_WEDGE_03	
-	//  8: COMB_KIND_CROSS_CROSS	0124	near far ”ò‚Ño‚µ@ƒNƒƒXó‚¯
-	//  9: COMB_KIND_CROSS_01	0124	line@@ƒNƒƒXó‚¯
-	// 10: COMB_KIND_CROSS_RETURN	0124	Ü‚è•Ô‚µ@ƒNƒƒXó‚¯
+	//  8: COMB_KIND_CROSS_CROSS	0124	near far ï¿½ï¿½Ñoï¿½ï¿½ï¿½@ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½
+	//  9: COMB_KIND_CROSS_01	0124	lineï¿½@ï¿½@ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½
+	// 10: COMB_KIND_CROSS_RETURN	0124	ï¿½Ü‚ï¿½Ô‚ï¿½ï¿½@ï¿½Nï¿½ï¿½ï¿½Xï¿½ï¿½
 	// 11: COMB_KIND_SIDE_CHANGE	57810	side change
 	// 12: COMB_KIND_OVERLAP	2457810	SB overlap
-	// 13: COMB_KIND_SHOOT_COURCE	234	ƒVƒ…[ƒg
+	// 13: COMB_KIND_SHOOT_COURCE	234	ï¿½Vï¿½ï¿½ï¿½[ï¿½g
 	// 14: COMB_KIND_MAX
 	
 	// 00  **  01
@@ -23,15 +23,15 @@
 
 	"combs" : 
 	[
-		// HOME‘¤
+		// HOMEï¿½ï¿½
 		{
 			"area" :
 			[
 				{ "kind": 14 }, // Area00
 				{ "kind": 14 }, // Area01
-				{ "kind": 10 }, // Area02
+				{ "kind": 14 }, // Area02
 				{ "kind": 14 }, // Area03
-				{ "kind": 8  }, // Area04
+				{ "kind": 14 }, // Area04
 				{ "kind": 14 }, // Area05
 				{ "kind": 6  }, // Area06
 				{ "kind": 1  }, // Area07
@@ -41,19 +41,19 @@
 			]
 		},
 		
-		// AWAY‘¤
+		// AWAYï¿½ï¿½
 		{
 			"area" :
 			[
-				{ "kind": 8  }, // Area00
+				{ "kind": 14 }, // Area00
 				{ "kind": 10 }, // Area01
 				{ "kind": 6  }, // Area02
-				{ "kind": 13 }, // Area03
+				{ "kind": 14 }, // Area03
 				{ "kind": 0  }, // Area04
-				{ "kind": 4  }, // Area05
+				{ "kind": 14 }, // Area05
 				{ "kind": 14 }, // Area06
 				{ "kind": 12 }, // Area07
-				{ "kind": 4  }, // Area08
+				{ "kind": 14 }, // Area08
 				{ "kind": 14 }, // Area09
 				{ "kind": 12 }  // Area10
 			]

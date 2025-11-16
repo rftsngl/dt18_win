@@ -1,22 +1,22 @@
 /// @class auto
 {
-	// Œ»Ý‚ÌˆÚ“®’l‚ÌŽd—lŠ„‡
+	// ï¿½ï¿½ï¿½Ý‚ÌˆÚ“ï¿½ï¿½lï¿½ÌŽdï¿½lï¿½ï¿½ï¿½ï¿½
 
-	// ƒpƒX‚ÌŒŸõ•
+	// ï¿½pï¿½Xï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½
 	"angleAddValue" : 4.0,
 
-	// ƒpƒX‚ÌÅ’áŠp“x•
-	"angleWidthMin" : 16.0,
+	// ï¿½pï¿½Xï¿½ÌÅ’ï¿½pï¿½xï¿½ï¿½
+	"angleWidthMin" : 14.0,
 	
-	// Å’á‹——£‚Æ‚µ‚Ä”½‰f‚·‚é‹——£
+	// ï¿½Å’á‹—ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä”ï¿½ï¿½fï¿½ï¿½ï¿½é‹—ï¿½ï¿½
 	"dashMoveSecForPassgetMin" : 0.5,
 	
-	// ƒ^[ƒQƒbƒg‚Ì‹——£Š´‚ÅƒpƒX‚Ìo‚µêŠ‚Ì’²®‚ðs‚¤
+	// ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åƒpï¿½Xï¿½Ìoï¿½ï¿½ï¿½êŠï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	"targetDistZMin" : 14.0,
 	"targetDistZMax" : 20.0,
 	
 	"targetDistMin" : 8.0,
-	"targetDistMax" : 30.0,
+	"targetDistMax" : 25.0,
 	"targetDistSec" : 1.0,
 	
 	"angleRateMin" : 85.0,
@@ -25,40 +25,40 @@
 	"angleRateMinFly" : 85.0,
 	"angleRateMaxFly" : 120.0,
 
-	// Œ»Ý‚ÌˆÚ“®’l‚Ì”½‰f“à—e
+	// ï¿½ï¿½ï¿½Ý‚ÌˆÚ“ï¿½ï¿½lï¿½Ì”ï¿½ï¿½fï¿½ï¿½ï¿½e
 	"moveContinueFrameMin" : 25.0,
 	"moveContinueFrameMax" : 50.0,
 	"moveContinueFrameAdjustZposi" : 15.0,
 
 	//-----------------------------------------------------
-	// ƒ{[ƒ‹‚Ì‹““®‚Ì•û‚ÉŽó‚¯‚Ä‚ª‚ ‚í‚¹‚éŽž
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ÉŽó‚¯‚Ä‚ï¿½ï¿½ï¿½ï¿½í‚¹ï¿½éŽž
 	//-----------------------------------------------------
 	"ballRouteAdjustMoveFrame" : 60.0,
 
 
 	//-----------------------------------------------------
-	// ƒpƒXƒR[ƒX‚ÌŽ×–‚‚É‚È‚é‘IŽè‚Ì’²®
+	// ï¿½pï¿½Xï¿½Rï¿½[ï¿½Xï¿½ÌŽ×–ï¿½ï¿½É‚È‚ï¿½Iï¿½ï¿½Ì’ï¿½ï¿½ï¿½
 	//-----------------------------------------------------
 
-	// •Ç”FŽ¯‚·‚é‘IŽè‚ÌˆÚ“®•ûŒü‚Ì’·‚³
+	// ï¿½Ç”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ÌˆÚ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½
 	"wallTargetDistFrameMin" :  10.0,
 	"wallTargetDistFrameMax" : 110.0,
 
-	// •Ç”FŽ¯‚·‚é‘IŽè‚ÌˆÚ“®‚Æ‹t•ûŒü‚Ì’·‚³
+	// ï¿½Ç”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ÌˆÚ“ï¿½ï¿½Æ‹tï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½
 	"wallTargetReverseDistRate" : 0.2,
 
-	// •Ç”FŽ¯‚·‚é‘IŽè‚Ì’²®•
+	// ï¿½Ç”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½
 	"wallTargetAdjustAngleWidth" : 45.0,
 
 	//-----------------------------------------------------
-	// ƒpƒXƒ^[ƒQƒbƒg‚ðŠî€‚Æ‚µ‚½ˆ—‚Ì’²®
+	// ï¿½pï¿½Xï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½ï¿½ï¿½î€ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½
 	//-----------------------------------------------------
 
-	// Œ»Ý‚Ìƒ{[ƒ‹‚Æƒ^[ƒQƒbƒg‚Ì•ûŒü‚Æ‹ß‚¢ê‡‚ð‚Í‚¶‚­
+	// ï¿½ï¿½ï¿½Ý‚Ìƒ{ï¿½[ï¿½ï¿½ï¿½Æƒ^ï¿½[ï¿½Qï¿½bï¿½gï¿½Ì•ï¿½ï¿½ï¿½ï¿½Æ‹ß‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½
 	"passgetAngleSub" : 0.0,
 	
-	// ƒpƒX‚ÌƒR[ƒX‚Ü‚Å‚Ì‹——£‚ªˆê’è‹——£ˆÈ‰º‚È‚ç‹““®‚ð‚©‚¦‚éH
-	"passgetLineDiff" : 5.0,
+	// ï¿½pï¿½Xï¿½ÌƒRï¿½[ï¿½Xï¿½Ü‚Å‚Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‹—ï¿½ï¿½ï¿½È‰ï¿½ï¿½È‚ç‹“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½H
+	"passgetLineDiff" : 4.0,
 	"passgetOutSideDiff" : 1.2,
 	"passgetMoveAngleDiff" : 2.0,
 	
@@ -66,54 +66,54 @@
 	"passgetMovePointDistMax" : 2.2,
 	"passgetMovePointDistMin" : 1.8,
 
-	// ƒXƒ‹[ƒpƒX‚Ìƒ{[ƒ‹‚É‘Î‚µ‚ÄŒã‚ë‚É’…‚«‚½‚¢‚Æ‚«‚Ì‹““®’²®
-	"passgetMoveLateDist"  : 4.0,
+	// ï¿½Xï¿½ï¿½ï¿½[ï¿½pï¿½Xï¿½Ìƒ{ï¿½[ï¿½ï¿½ï¿½É‘Î‚ï¿½ï¿½ÄŒï¿½ï¿½É’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	"passgetMoveLateDist"  : 3.5,
 	"passgetMoveLateRate"  : 70.0,
-	"passgetMoveLateFrame" : -24, // ‚ ‚Ü‚è’Z‚¢‚Æƒgƒ‰ƒbƒv‚µ‚Ä‚µ‚Ü‚¤EE
+	"passgetMoveLateFrame" : -24, // ï¿½ï¿½ï¿½Ü‚ï¿½Zï¿½ï¿½ï¿½Æƒgï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Eï¿½E
 	
-	// ƒpƒXŽæ“¾Žž‚ÌˆÚ“®‘¬“x‚ðRun‚Æ‚µ‚Äl‚¦‚éŠî€‚Ì‹——£
+	// ï¿½pï¿½Xï¿½æ“¾ï¿½ï¿½ï¿½ÌˆÚ“ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½Runï¿½Æ‚ï¿½ï¿½Älï¿½ï¿½ï¿½ï¿½î€ï¿½Ì‹ï¿½ï¿½ï¿½
 	"distToPassgetSpeed" : 3.0,
 
-	// ƒpƒXƒR[ƒX‚Æ‘IŽè‚Ì‹——£‚ª—£‚ê‚Ä‚¢‚éŽž
-	"passgetSpeedRate" : 96.0,
+	// ï¿½pï¿½Xï¿½Rï¿½[ï¿½Xï¿½Æ‘Iï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éŽž
+	"passgetSpeedRate" : 90.0,
 
-	// ƒpƒXƒR[ƒX‚Æ‘IŽè‚ÌˆÊ’u‚ª‹ß‚¢ê‡‚Ì‘¬“x	
-	"passgetSpeedRate2" : 93.0,
+	// ï¿½pï¿½Xï¿½Rï¿½[ï¿½Xï¿½Æ‘Iï¿½ï¿½ÌˆÊ’uï¿½ï¿½ï¿½ß‚ï¿½ï¿½ê‡ï¿½Ì‘ï¿½ï¿½x	
+	"passgetSpeedRate2" : 87.0,
 
 
 	//-----------------------------------------------------
-	// ƒpƒX‚Ìo‚µêŠ‚ÌÅ’á‹——£§ŒÀ
+	// ï¿½pï¿½Xï¿½Ìoï¿½ï¿½ï¿½êŠï¿½ÌÅ’á‹—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	//-----------------------------------------------------
 
-	// ƒpƒX‚Ìo‚µêŠ‚ª¡‚Ìƒ{[ƒ‹ˆÊ’u‚Æ‚Ç‚ê‚­‚ç‚¢—£‚ê‚Ä‚¢‚é•K—v‚ª‚ ‚é‚©H
+	// ï¿½pï¿½Xï¿½Ìoï¿½ï¿½ï¿½êŠï¿½ï¿½ï¿½ï¿½ï¿½Ìƒ{ï¿½[ï¿½ï¿½ï¿½Ê’uï¿½Æ‚Ç‚ê‚­ï¿½ç‚¢ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½H
 	"passPointDistMin" : 7.0,
 
 	//-----------------------------------------------------
-	// ƒtƒ‰ƒCƒpƒX—p‚Ì’²®
+	// ï¿½tï¿½ï¿½ï¿½Cï¿½pï¿½Xï¿½pï¿½Ì’ï¿½ï¿½ï¿½
 	//-----------------------------------------------------
 
-	// ƒm[ƒoƒEƒ“ƒh‚Å“ž’B‚³‚¹‚é‹——£
+	// ï¿½mï¿½[ï¿½oï¿½Eï¿½ï¿½ï¿½hï¿½Å“ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½é‹—ï¿½ï¿½
 	"boundDist0" : 23.0,
 	
-	// 1ƒoƒEƒ“ƒh‚Å“ž’B‚³‚¹‚é‹——£
+	// 1ï¿½oï¿½Eï¿½ï¿½ï¿½hï¿½Å“ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½é‹—ï¿½ï¿½
 	"boundDist1" : 40.0,
 
-	// ƒtƒ‰ƒCƒpƒXŽž‚ÉÅ’á‹——£‚ð‚Ç‚ê‚¾‚¯Å’·‹——£‚É‹ß‚Ã‚¯‚é‚©H
+	// ï¿½tï¿½ï¿½ï¿½Cï¿½pï¿½Xï¿½ï¿½ï¿½ÉÅ’á‹—ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ê‚¾ï¿½ï¿½ï¿½Å’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‹ß‚Ã‚ï¿½ï¿½é‚©ï¿½H
 	"flyDistRate" : 45.0,
 	
 	//-----------------------------------------------------
-	// ƒ}ƒjƒ…ƒAƒ‹ƒpƒX—p‚Ì’²®
+	// ï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½pï¿½Xï¿½pï¿½Ì’ï¿½ï¿½ï¿½
 	//-----------------------------------------------------
-	//@Šî–{ƒ}ƒjƒ…ƒAƒ‹ƒpƒXƒXƒs[ƒh
-	"manualPassSpeedBase" : 35.0,
-	//@ƒ}ƒjƒ…ƒAƒ‹ƒpƒXƒXƒs[ƒh’²®’l
-	"manualPassSpeedAdjust" : 35.0,
+	//ï¿½@ï¿½ï¿½{ï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½pï¿½Xï¿½Xï¿½sï¿½[ï¿½h
+	"manualPassSpeedBase" : 32.0,
+	//ï¿½@ï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½pï¿½Xï¿½Xï¿½sï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½l
+	"manualPassSpeedAdjust" : 32.0,
 	
-	//@Šî–{ƒ}ƒjƒ…ƒAƒ‹ƒpƒXŽËoŠp“x
-	"manualPassAngleYBase" : 4.0,
-	//@Šî–{ƒ}ƒjƒ…ƒAƒ‹ƒpƒXŽËoŠp“x’²®’l
-	"manualPassAngleYAdjust" : 6.0,
+	//ï¿½@ï¿½ï¿½{ï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½pï¿½Xï¿½Ëoï¿½pï¿½x
+	"manualPassAngleYBase" : 3.5,
+	//ï¿½@ï¿½ï¿½{ï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½pï¿½Xï¿½Ëoï¿½pï¿½xï¿½ï¿½ï¿½ï¿½ï¿½l
+	"manualPassAngleYAdjust" : 5.5,
 	
-	//@ƒ}ƒjƒ…ƒAƒ‹ƒtƒ‰ƒCƒpƒXŽž‚Ì’²®ŽËoŠp“x
+	//ï¿½@ï¿½}ï¿½jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Cï¿½pï¿½Xï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½Ëoï¿½pï¿½x
 	"manualFlyPassAngleYAdjust" : 25.0
 }

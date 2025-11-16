@@ -1,46 +1,46 @@
 /// @class auto
 {
 	//-------------------------
-	// ‚‚¢
+	// ï¿½ï¿½ï¿½ï¿½
 	//-------------------------
-	// Å’á‚Ì‚‚³
+	// ï¿½Å’ï¿½Ìï¿½ï¿½ï¿½
 	"highHeightMin" : 2.0,
 
-	// Å‘å‚Ì‚‚³
-	"highHeightMax" : 9.0,
+	// ï¿½Å‘ï¿½Ìï¿½ï¿½ï¿½
+	"highHeightMax" : 7.5,
 
-	// ‹——£‚É‚æ‚Á‚Ä‚‚³‚ð•Ï‚¦‚é
+	// ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½
 	"highDistMin" : 5.0,
-	"highDistMax" : 60.0,
+	"highDistMax" : 50.0,
 
-	// ‰ñ“]
+	// ï¿½ï¿½]
 	"highRoll" : -2.0,
 
-	// ‚‚³
+	// ï¿½ï¿½ï¿½ï¿½
 	"highY" : 1.2,
 
 	//-------------------------
-	// ’á‚¢
+	// ï¿½á‚¢
 	//-------------------------
-	// Å’á‚Ì‚‚³
+	// ï¿½Å’ï¿½Ìï¿½ï¿½ï¿½
 	"lowHeightMin" : 1.5,
 
-	// Å‘å‚Ì‚‚³
-	"lowHeightMax" : 5.0,
+	// ï¿½Å‘ï¿½Ìï¿½ï¿½ï¿½
+	"lowHeightMax" : 4.5,
 
-	// ‹——£‚É‚æ‚Á‚Ä‚‚³‚ð•Ï‚¦‚é
+	// ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½
 	"lowDistMin" : 5.0,
-	"lowDistMax" : 60.0,
+	"lowDistMax" : 50.0,
 
-	// ‰ñ“]
+	// ï¿½ï¿½]
 	"lowRoll" : -2.4,
 
-	// ‚‚³
+	// ï¿½ï¿½ï¿½ï¿½
 	"lowY" : 0.3,
 
-	// ƒoƒEƒ“ƒh‚³‚¹‚éè‡’l
+	// ï¿½oï¿½Eï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‡’l
 	"lowBoundDist" : 40.0,
 
-	// ƒoƒEƒ“ƒh‚³‚¹‚éŠ„‡
-	"lowBoundRate" : 0.90
+	// ï¿½oï¿½Eï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½éŠ„ï¿½ï¿½
+	"lowBoundRate" : 0.87
 }
