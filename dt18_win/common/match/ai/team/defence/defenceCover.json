@@ -3,22 +3,22 @@
 
 {	
 	// �J�o�[����
-	"coverDist" : 4.5,
+	"coverDist" : 3.5,
 	
 	// �J�o�[��������
 	"coverAdjustDist" : 1.5,
 	
 	// �J�o�[DF����
-	"coverDfDist" : 4.0,
+	"coverDfDist" : 3.0,
 	
 	// �J�o�[�p�x
-	"coverAngle" : 55.0,
+	"coverAngle" : 65.0,
 	
 	// �J�o�[DF�p�x
-	"coverDfAngle" : 60.0,
+	"coverDfAngle" : 70.0,
 	
 	// �J�o�[DF�p�x(�J�o�[�Ώۂ�������Ă���ꍇ)
-	"coverDfAngle2" : 40.0,
+	"coverDfAngle2" : 50.0,
 	
 	// �J�o�[�Ώۈʒu�Ƃ��ĔF�����関���t���[��
 	"futureFrame" : 10,
