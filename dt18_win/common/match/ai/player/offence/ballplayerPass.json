@@ -5,32 +5,32 @@
 	 | BallKeepActionOrderPassBackSpace	|
 	 *----------------------------------*/
 	//*****BallKeepActionOrderPassBackSpace::GetTarget()*****************************************************
-	//ƒpƒXƒ^[ƒQƒbƒg’T‚µ
+	//ï¿½pï¿½Xï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Tï¿½ï¿½
 	
-	//‰“‚·‚¬
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"passBackDist":20.0,
 	
-	//ƒ‰ƒXƒgƒ‰ƒCƒ“•t‹ß‚É‹‚È‚¢
+	//ï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½tï¿½ß‚É‹ï¿½ï¿½È‚ï¿½
 	"passBackDistLLine":6.0,
 	
-	//ƒvƒŒƒCƒ„[‚ÆƒS[ƒ‹‚Ì‹——£‚ÌƒŒ[ƒg‚ð‹‚ß‚é‚Æ‚«‚Ì‹——£‚Ìã‰ºŒÀ
+	//ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ÆƒSï¿½[ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½Æ‚ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½Ìã‰ºï¿½ï¿½
 	"passBackBodyToAttackAngle":80.0,
 	
-	//‘–‚Á‚Ä‚¢‚È‚¢
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½
 	"passBackTargetSpeed":12.0,
 	
-	//ƒpƒXo‚¹‚»‚¤‚©
-	//ƒ^[ƒQƒbƒg‚Ì‚Ç‚ê‚­‚ç‚¢æ‚Éo‚·‚Æ‚·‚é‚©
+	//ï¿½pï¿½Xï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	//ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Ì‚Ç‚ê‚­ï¿½ç‚¢ï¿½ï¿½Éoï¿½ï¿½ï¿½Æ‚ï¿½ï¿½é‚©
 	"passBackPointAddDist":6.0,
 	
 	
 	//*****BallKeepActionOrderPassBackSpace::CheckPassCourse()*****************************************************
-	//ƒpƒXƒR[ƒX‚Ìƒ`ƒFƒbƒN
+	//ï¿½pï¿½Xï¿½Rï¿½[ï¿½Xï¿½Ìƒ`ï¿½Fï¿½bï¿½N
 	
-	//ƒ`ƒFƒbƒN‚·‚éîŒ`‚Ì”ÍˆÍ
+	//ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Ì”Íˆï¿½
 	"checkSectorWidthBack":30.0,
 	
-	//ƒtƒ‰ƒC‚ÆØ‚è‘Ö‚¦‚é‹——£
+	//ï¿½tï¿½ï¿½ï¿½Cï¿½ÆØ‚ï¿½Ö‚ï¿½ï¿½é‹—ï¿½ï¿½
 	"flyDist":5.0,
 	
 	
@@ -40,21 +40,21 @@
 	//*****BallKeepActionOrderPassFrontLine::GetTarget()*****************************************************
 	//
 	
-	//Ž©g‚ªƒtƒŠ[‚ÌŽžA‘ŠŽè‘IŽè‚ª‚¢‚È‚¯‚ê‚Îƒ_ƒCƒŒƒNƒgƒpƒX‚ðŽ©d‚·‚é‹——£(BallKeepActionOrderPassVsCount::GetTarget(),passSafety‚Å‚àŽg—p)
+	//ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½tï¿½ï¿½ï¿½[ï¿½ÌŽï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Iï¿½è‚ªï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Îƒ_ï¿½Cï¿½ï¿½ï¿½Nï¿½gï¿½pï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½é‹—ï¿½ï¿½(BallKeepActionOrderPassVsCount::GetTarget(),passSafetyï¿½Å‚ï¿½ï¿½gï¿½p)
 	"directEnemyDist":8.0,
 	
-	//‹ß‚·‚¬
+	//ï¿½ß‚ï¿½ï¿½ï¿½
 	"passFrontDistNear":5.0,
-	//‰“‚·‚¬
-	"passFrontDistFar":20.0,
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	"passFrontDistFar":18.0,
 	
 	//*****BallKeepActionOrderPassFrontLine::CheckPassCourse()*****************************************************
-	//ƒpƒXƒR[ƒX‚Ìƒ`ƒFƒbƒN
+	//ï¿½pï¿½Xï¿½Rï¿½[ï¿½Xï¿½Ìƒ`ï¿½Fï¿½bï¿½N
 	
-	//ƒ`ƒFƒbƒN‚·‚éîŒ`‚Ì”ÍˆÍ
-	"checkSectorWidthFront":15.0,
-	//ª‚ðƒpƒX”\—Í‚É‰ž‚¶‚ÄL‚°‚é‚Æ‚«‚ÌÅ‘å’l
-	"checkSectorWidthFrontAdd":10.0,
+	//ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ÍˆÌ”ï¿½
+	"checkSectorWidthFront":12.0,
+	//ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Xï¿½\ï¿½Í‚É‰ï¿½ï¿½ï¿½ï¿½ÄLï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÌÅ‘ï¿½l
+	"checkSectorWidthFrontAdd":8.0,
 	
 	
 	/*----------------------------------*
@@ -62,18 +62,18 @@
 	 *----------------------------------*/
 	//*****BallKeepActionOrderPassVsCount::GetTarget()*****************************************************
 	
-	//‹ß‚·‚¬
+	//ï¿½ß‚ï¿½ï¿½ï¿½
 	"passVsDistNear":5.0,
-	//‰“‚·‚¬
-	"passVsDistFar":20.0,
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	"passVsDistFar":18.0,
 	
 	
 	//*****BallKeepActionOrderPassVsCount::CheckPassCourse()*****************************************************
-	//ƒpƒXƒR[ƒX‚Ìƒ`ƒFƒbƒN
+	//ï¿½pï¿½Xï¿½Rï¿½[ï¿½Xï¿½Ìƒ`ï¿½Fï¿½bï¿½N
 	
-	//ƒ`ƒFƒbƒN‚·‚éîŒ`‚Ì”ÍˆÍ
+	//ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Ì”Íˆï¿½
 	"checkSectorWidthVs":15.0,
-	//ª‚ðƒpƒX”\—Í‚É‰ž‚¶‚ÄL‚°‚é‚Æ‚«‚ÌÅ‘å’l
+	//ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Xï¿½\ï¿½Í‚É‰ï¿½ï¿½ï¿½ï¿½ÄLï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÌÅ‘ï¿½l
 	"checkSectorWidthVsAdd":10.0,
 	
 	
@@ -82,12 +82,12 @@
 	 *----------------------------------*/
 	//*****BallKeepActionOrderPassSideChange::GetTarget()*****************************************************
 	
-	//U‚ßƒR[ƒX‚ª‚ ‚éó‹µ‚Å‚Í‚â‚ç‚È‚¢(U‚ß‚Ä‚¢‚é•ûŒü‚Ì‘ŠŽè‘IŽè‚Ìl”‚ð”‚¦‚é)
-	//U‚ß•ûŒü‚©‚ç‘ŠŽè‘IŽè‚ðƒ`ƒFƒbƒN‚·‚éîŒ`‚Ì”ÍˆÍ
+	//ï¿½Uï¿½ßƒRï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó‹µ‚Å‚Í‚ï¿½ï¿½È‚ï¿½(ï¿½Uï¿½ß‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½Iï¿½ï¿½Ìlï¿½ï¿½ï¿½ð”‚ï¿½ï¿½ï¿½)
+	//ï¿½Uï¿½ß•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‘Šï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Ì”Íˆï¿½
 	"checkEnemySideChangeWidth":90.0,
-	//îŒ`‚Ì’·‚³
+	//ï¿½ï¿½`ï¿½Ì’ï¿½ï¿½ï¿½
 	"checkEnemySideChangeLength":10.0,
-	//‚±‚Ìl”‚¢‚È‚¯‚ê‚ÎƒTƒCƒhƒ`ƒFƒ“ƒW‚Íl‚¦‚È‚¢
+	//ï¿½ï¿½ï¿½Ìlï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ÎƒTï¿½Cï¿½hï¿½`ï¿½Fï¿½ï¿½ï¿½Wï¿½Ílï¿½ï¿½ï¿½È‚ï¿½
 	"checkEnemySideChangeNum":2,
 	
 	
@@ -96,22 +96,22 @@
 	 *----------------------------------*/
 	//*****BallKeepActionOrderPassSafety::GetTarget()*****************************************************
 	
-	//‘ŠŽè‘IŽè‚ª‹ß‚­‚È‚¯‚ê‚Î•s—v
+	//ï¿½ï¿½ï¿½ï¿½Iï¿½è‚ªï¿½ß‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½Î•sï¿½v
 	"dangerEnemyDist":6.0,
 	
-	//ƒ^[ƒQƒbƒg‚Ìƒ`ƒFƒbƒN
-	//‰“‚·‚¬
+	//ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Ìƒ`ï¿½Fï¿½bï¿½N
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"passSafetyPlayerTargetDist":20.0,
-	//ƒ^[ƒQƒbƒg‚É‘ŠŽè‘IŽè‹ß‚·‚¬
+	//ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½É‘ï¿½ï¿½ï¿½Iï¿½ï¿½ß‚ï¿½ï¿½ï¿½
 	"passSafetyTargetEnemyDist":6.0,
-	//‘Ì‚ÌŠp“x“I‚Éo‚µ‚½‚­‚È‚¢Šp“x
+	//ï¿½Ì‚ÌŠpï¿½xï¿½Iï¿½Éoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½pï¿½x
 	"passSafetyTargetEnemyAngle":225.0,
 	
 	
 	//*****BallKeepActionOrderPassSafety::CheckPassCourse()*****************************************************
-	//ƒpƒXƒR[ƒX‚Ìƒ`ƒFƒbƒN
+	//ï¿½pï¿½Xï¿½Rï¿½[ï¿½Xï¿½Ìƒ`ï¿½Fï¿½bï¿½N
 	
-	//ƒ`ƒFƒbƒN‚·‚éîŒ`‚Ì”ÍˆÍ
+	//ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Ì”Íˆï¿½
 	"checkSectorWidthSafety":30.0,
 	
 	
@@ -120,11 +120,11 @@
 	 *----------------------------------*/
  	//*****BallKeepActionOrderPassCentering::GetTarget()*****************************************************
 	
-	//‘ŠŽè‘IŽè‚ª‹ß‚­‚È‚¯‚ê‚Îl‚¦‚È‚¢
+	//ï¿½ï¿½ï¿½ï¿½Iï¿½è‚ªï¿½ß‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½Îlï¿½ï¿½ï¿½È‚ï¿½
 	"centeringEnemyDist":6.0,
 	
-	//ƒ^[ƒQƒbƒg‚Ìƒ`ƒFƒbƒN
-	//ƒyƒiƒ‹ƒeƒBƒ}[ƒN‚©‚ç—£‚ê‚Ä‚¢‚é
+	//ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Ìƒ`ï¿½Fï¿½bï¿½N
+	//ï¿½yï¿½iï¿½ï¿½ï¿½eï¿½Bï¿½}ï¿½[ï¿½Nï¿½ï¿½ï¿½ç—£ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½
 	"centeringTargetPMarkDist":15.0,
 	
 	
@@ -133,23 +133,23 @@
 	 *----------------------------------*/
 	 //*****BallKeepActionOrderPassLong::GetTarget()*****************************************************
 	 
-	 //ƒtƒŠ[‚©ƒ`ƒFƒbƒN‚·‚é‹——£‚ÌÅ¬’l
+	 //ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½é‹—ï¿½ï¿½ï¿½ÌÅï¿½ï¿½l
 	 "freeCheckDistMin":10.0,
-	 //ƒpƒX”\—Í‚É‰ž‚¶‚Ä‰ÁŽZ
+	 //ï¿½pï¿½Xï¿½\ï¿½Í‚É‰ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½Z
 	 "freeCheckDistAdd":15.0,
 	 
-	 //ƒ^[ƒQƒbƒg‚ª‘O•û‚É‚¢‚é‚©ƒ`ƒFƒbƒN‚·‚éŠp“x
-	 //‚±‚êˆÈã‚Íƒ_ƒ
+	 //ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½É‚ï¿½ï¿½é‚©ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½pï¿½x
+	 //ï¿½ï¿½ï¿½ï¿½Èï¿½Íƒ_ï¿½ï¿½
 	 "checkTargetAngleNear":67.5,
-	 //‚±‚êˆÈã‚Í‹——£ƒ`ƒFƒbƒN
+	 //ï¿½ï¿½ï¿½ï¿½Èï¿½Í‹ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 	 "checkTargetAngleFar":33.8,
 	 
-	 //ƒ^[ƒQƒbƒg‚Æ‚Ì‹——£
-	 //‹ß‚·‚¬
+	 //ï¿½^ï¿½[ï¿½Qï¿½bï¿½gï¿½Æ‚Ì‹ï¿½ï¿½ï¿½
+	 //ï¿½ß‚ï¿½ï¿½ï¿½
 	 "passLongDistNear":25.0,
-	 //‰“‚·‚¬
+	 //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 "passLongDistFar":45.0,
 	 
-	 //‘Ì‚ÌŒü‚«
+	 //ï¿½Ì‚ÌŒï¿½ï¿½ï¿½
 	 "passLongBodyAngle":78.8
 }

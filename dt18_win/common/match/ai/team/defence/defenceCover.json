@@ -1,0 +1,31 @@
+/// @class auto
+//MatchAIPatternDefenceCover
+
+{	
+	// �J�o�[����
+	"coverDist" : 4.5,
+	
+	// �J�o�[��������
+	"coverAdjustDist" : 1.5,
+	
+	// �J�o�[DF����
+	"coverDfDist" : 4.0,
+	
+	// �J�o�[�p�x
+	"coverAngle" : 55.0,
+	
+	// �J�o�[DF�p�x
+	"coverDfAngle" : 60.0,
+	
+	// �J�o�[DF�p�x(�J�o�[�Ώۂ�������Ă���ꍇ)
+	"coverDfAngle2" : 40.0,
+	
+	// �J�o�[�Ώۈʒu�Ƃ��ĔF�����関���t���[��
+	"futureFrame" : 10,
+	
+	// �ڕW���C�����狖�e����X����
+	"diffTargetLineX" : 5.0,
+	
+	// �ڕW���C�����狖�e����X����(�p��)
+	"diffContinueTargetLineX" : 7.0
+}

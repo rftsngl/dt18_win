@@ -1,0 +1,122 @@
+/// @class auto
+//MatchAIPatternDefence
+
+{
+    // ��Ƃ��Ă݂関���t���[��
+    "predictionFrame":40,
+
+    //���̋�������{�|�W�V�������{�[���ɋ߂��Ė����̖���OH����O�̑I�肪�R�[�X���J�b�g���ɂ���
+    "beginCutBaseDist":20.0,
+    
+    //�������͌��ݒn��������{�[���ɋ߂�
+    "beginCutCurrentDist":15.0,
+    
+    //�R�[�X�J�b�g����Ƃ��ɂ܂��{�[���ɂ��̋����܂ŋ߂Â�
+    "courseCutDist":15.0,
+    
+    //FW�͂�����{�[���ɋ߂�����̃R�[�X��؂��ΐ؂�BcourseCutDist�̓�{�𒴂��Ȃ�������������
+    "courseCutTargetDistOver":20.0,
+    
+    //�߂����Ă�����Ȃ�
+    "courseCutTargetDistUnder":5.0,
+    
+    //FW�̓{�[������̊p�x�������莩���ɋ߂�����̃R�[�X��؂��ΐ؂�
+    "courseCutTargetAngle":120.0,
+    
+    //�p�X�R�[�X��؂�Ƃ��ɁA�Ώۂ��}�[�J�[�̉e�ɓ����Ă���Ƃ���p�x
+    "restrictAngle":90.0,
+    
+    //�O��f�B���C�ɍs���Ă��l�͏����I�΂�₷��(�f�B���C�S���I��)
+    "continueAdvantageDelay":5.0,
+    
+    //�O��v���X�ɍs���Ă��l�͏����I�΂�₷��(�v���X�S���I��)
+    "continueAdvantagePress":3.0,
+    
+    //�v���X�J�n�n�_
+    "matchUpStartLine":25,
+    
+    //�v���X�J�n�n�_�̍ő�l
+     "matchUpStartLineMax":50.0,
+    
+    //���t���[����̃{�[�����W����ɂ��邩
+    "matchUpBallFutureFrame":20,
+    
+    //�{�[���Ƀ}�b�`�A�b�v����l��
+    
+    //FORMATION_AREA_OVER_TOP
+    "matchUpCountOverTopDanger":1,
+    "matchUpCountOverTopDefault":1,
+    
+    //FORMATION_AREA_TOP_TO_MIDDLE
+    "matchUpCountTopToMidSafe":1,
+    "matchUpCountTopToMidCaution":1,
+    
+    //FORMATION_AREA_MIDDLE_TO_LAST
+    "matchUpCountMidToLastDefault":1,
+    
+    //FORMATION_AREA_UNDER_LAST:
+    
+    //��{�|�W�V�������痣��Ă����������iZ���j
+    "matchUpZLimit":5.0,
+    
+    //DF�O���[�v�̍ŏI���C�����牽m�O�̓G�ɂ܂őΉ����邩
+    "matchUpDfXLimit":10.0,
+
+    //MF�O���[�v�̗��z���C�����牽m�O�̓G�ɂ܂őΉ����邩
+    "matchUpMfXLimit":10.0,
+    
+    //FW�O���[�v�̗��z���C�����牽m���̓G�ɂ܂őΉ����邩
+    "matchUpFwXLimit":4.0,
+
+	//��������S�[�������ւ̊p�x�Ǝ�������{�[���ւ̊p�x�̍�����Ō�ǂ��Ƃ݂Ȃ���
+    "matchUpBackFollowAngle":70.0,
+
+    // �p���p
+    //Z���Ŋ�{�|�W�V��������̂�������e���鋗��
+    "matchUpContinueAddZLimit":2.0,
+    
+    //DF�O���[�v�̍ŏI���C�����牽m�O�̓G�ɂ܂őΉ����邩
+    "matchUpContinueAddDfXLimit":2.0,
+
+    //MF�O���[�v�̗��z���C�����牽m�O�̓G�ɂ܂őΉ����邩
+    "matchUpContinueAddMfXLimit":2.0,
+
+	//��������S�[�������ւ̊p�x�Ǝ�������{�[���ւ̊p�x�̍�����Ō�ǂ��Ƃ݂Ȃ���
+    "matchUpContinueAddBackFollowAngle":10.0,
+    
+	//�K���p������{�[���Ƃ̋���
+    "matchUpMustContinueDist":3.0,
+    
+   	//�p����D�����鋗���i�p���I��ȊO�͎��ۂ̋���+���̋����Ōv�Z����j
+    "matchUpContinueAddBallDist":1.5,
+ 
+   	//�p����D�����鋗���i�p���I��ȊO�͎��ۂ̋���+���̋����Ōv�Z����j
+    "matchUpContinueDistSub":4.0,
+    
+    //����ӎ����Ⴂ�ꍇ�}�b�`�A�b�v���s�Ȃ�Ȃ�����
+    "matchUpLimitDistDefensiveAwareness0" : 5.0,
+    "matchUpLimitDistDefensiveAwareness1" : 8.0,
+    
+    //����ӎ��������ꍇ�}�b�`�A�b�v�\�ȋ�����L�΂�
+    "matchUpAdjustLineCheckDistDefensiveAwareness3" : 6.0,
+    "matchUpAdjustLineCheckDistDefensiveAwareness4" : 12.0,
+    
+    //���ݍ��݂ɍs���ő勗��
+    "maxSandDist" : 12.0,
+    
+    //�v���X�p�����[�^�ɂ�鋗������
+    "adjustSandDist" : 8.0,
+    
+    //�v���X�p�����[�^�ɂ��h���u���ɑ΂��锽�����Ԓ���
+    "adjustDribbleWaitTimer" : 10.0,
+    
+    //----------------------------------------
+	// �A�g�p���ɂ���ăJ�o�[��x�点��
+	//----------------------------------------
+    // �A�g�p�������f����͈�
+	"upperConnectionParam" : 70.0,
+	"lowerConnectionParam" : 50.0,
+	
+	// �A�g�p���ɂ��J�o�[�����Ȃ��ő厞��
+	"maxWaitTime" : 30.0
+}

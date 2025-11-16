@@ -1,0 +1,365 @@
+/// @class auto
+//BallKeepActionOrderFeint
+{
+	//*****FEINT_KIND_SCISSORS_OUT*****************************************************
+
+	//�{�[���Ƃ̋����`�F�b�N--------------------------------
+	//���ׂ関���t���[��
+	"checkBallFrameScissorsOut":8,
+	//�{�[���Ƃ̋���
+	"checkBallDistScissorsOut":1.25,
+	
+	//�i�s�����`�F�b�N--------------------------------------
+	//�̂̌����ɐi��ł���Ƃ��ɂ������Ȃ�
+	"checkMoveBallAngleScissorsOut":22.5,
+	//����S�[���Ɍ������Ă��邩
+	"checkEnemyGoalAngleScissorsOut":90.0,
+	//����T�C�h�Ɍ������Ă��邩
+	"checkEnemySideAngleScissorsOut":33.75,
+	
+	//����I��Ƃ̈ʒu�֌W--------------------------------
+	//���ׂ関���t���[��
+	"checkEnemyFrameScissorsOut":12,
+	//�߂�����
+	"checkEnemyDistNearScissorsOut":0.8,
+	//��������Ȃ�s�v
+	"checkEnemyDistFarScissorsOut":1.2,
+	
+	//�͈͓��l���`�F�b�N
+	//�͈�(�p�x)
+	"countBpSafetyWidthScissorsOut":360.0,
+	//����
+	"countBpSafetyLengthScissorsOut":4.0,
+	//�t���[����
+	"countBpSafetyFrameScissorsOut":12,
+	//�͈͓��̑���l��
+	"countBpSafetyCountScissorsOut":2,
+	
+	//���肪�������Ă��Ă��邩
+	"checkEnemyBallAngleScissorsOut":45.0,
+	
+	//���肪�������Ă��邩
+	"checkEnemyRunTogetherAngleScissorsOut":45.0,
+	
+	//���肪����S�[�������ɂ��邩
+	"checkEnemyGoalEnemyAngleScissorsOut":90.0,
+	
+	//����I��̏��------------------------------------------
+	//����I�肪�̂̌����ɐi��ł��邩
+	"checkEnemyMoveAngleScissorsOut":22.5,
+	
+	//��������-----------------------------------------------
+	//�^�[���������
+	"turnAngleScissorsOut":135.0,
+	
+	//��������㏈��---------------------------------------------
+	//�t�F�C���g�̋���
+	"feintDistScissorsOut":12.0,
+	
+	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
+	"checkTurnEndSafetyWidthScissorsOut":90.0,
+
+
+	//*****FEINT_KIND_DOUBLETOUCH*****************************************************
+	
+	//�ꏊ�I�ɂ��Ȃ�---------------------------------------
+	//����S�[���Ƃ̋���
+	"checkDistToEnemyGoalDoubletouch":40.0,
+	//���胉�X�g���C���Ƃ̋���
+	"checkDistToEnemyLLineDoubletouch":8.0,
+
+	//�{�[���Ƃ̋����`�F�b�N--------------------------------
+	//�{�[���Ƃ̋���
+	"checkBallDistDoubletouch":1.5,
+	
+	//�i�s�����`�F�b�N--------------------------------------
+	//�̂̌����ɐi��ł���Ƃ��ɂ������Ȃ�
+	"checkMoveBallAngleDoubletouch":22.5,
+	//����S�[���Ɍ������Ă��邩
+	"checkEnemyGoalAngleDoubletouch":45.0,
+	//����T�C�h�Ɍ������Ă��邩
+	"checkEnemySideAngleDoubletouch":45.0,
+	
+	//����I��Ƃ̈ʒu�֌W--------------------------------
+	//���ׂ関���t���[��
+	"checkEnemyFrameDoubletouch":10,
+	//�߂�����
+	"checkEnemyDistNearDoubletouch":0.4,
+	//��������Ȃ�s�v
+	"checkEnemyDistFarDoubletouch":1.8,
+	
+	//�͈͓��l���`�F�b�N
+	//�͈�(�p�x)
+	"countBpSafetyWidthDoubletouch":45.0,
+	//����
+	"countBpSafetyLengthDoubletouch":4.0,
+	//�t���[����
+	"countBpSafetyFrameDoubletouch":12,
+	//�͈͓��̑���l��
+	"countBpSafetyCountDoubletouch":2,
+	//���肪����S�[�������ɂ��邩
+	"checkEnemyGoalEnemyAngleDoubletouch":45.0,
+	
+	//����I��̏��------------------------------------------
+	//���肪�������Ă��Ă��邩
+	"checkEnemyBallAngleDoubletouch":90.0,
+	
+	//��������-----------------------------------------------
+	//�^�[���������
+	"turnAngleDoubletouch":90.0,
+	
+
+	//*****FEINT_KIND_ERACICO(_REVERSE)*****************************************************
+	
+	//�ꏊ�I�ɂ��Ȃ�--------------------------------------
+	//����S�[���Ƃ̋���
+	"checkDistToEnemyGoalEracico":40.0,
+	
+	//�{�[���Ƃ̋����`�F�b�N--------------------------------
+	//�{�[���Ƃ̋���
+	"checkBallDistEracico":1.5,
+	
+	//�i�s�����`�F�b�N--------------------------------------
+	//�̂̌����ɐi��ł���Ƃ��ɂ������Ȃ�
+	"checkMoveBallAngleEracico":22.5,
+	//����S�[���Ɍ������Ă��邩
+	"checkEnemyGoalAngleEracico":45.0,
+	//����T�C�h�Ɍ������Ă��邩
+	"checkEnemySideAngleEracico":45.0,
+	
+	//����I��Ƃ̈ʒu�֌W--------------------------------
+	//���ׂ関���t���[��
+	"checkEnemyFrameEracico":10,
+	//�߂�����
+	"checkEnemyDistNearEracico":1.5,
+	//��������Ȃ�s�v
+	"checkEnemyDistFarEracico":4.0,
+	
+	//�͈͓��l���`�F�b�N
+	//�͈�(�p�x)
+	"countBpSafetyWidthEracico":360.0,
+	//����
+	"countBpSafetyLengthEracico":4.0,
+	//�t���[����
+	"countBpSafetyFrameEracico":12,
+	//�͈͓��̑���l��
+	"countBpSafetyCountEracico":2,
+	
+	//���肪����(�O��)�S�[�������ɂ��邩
+	"checkEnemyGoalEnemyAngleEracico":45.0,
+	
+	//��������-----------------------------------------------
+	//�^�[���������
+	"turnAngleEracico":45.0,
+	
+	//��������㏈��---------------------------------------------
+	//�t�F�C���g�̋���
+	"feintDistEracico":7.0,
+	
+	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
+	"checkTurnEndSafetyWidthEracico":90.0,
+	
+	
+	//*****FEINT_KIND_ROULETTE*****************************************************
+	
+	//�ꏊ�I�ɂ��Ȃ�--------------------------------------
+	//����S�[���Ƃ̋���
+	//�߂�����
+	"checkDistToEnemyGoalNearRoulette":5.0,
+	
+	//�{�[���Ƃ̋����`�F�b�N--------------------------------
+	//���ׂ関���t���[��
+	"checkBallFrameRoulette":10,
+	//�{�[���Ƃ̋���
+	"checkBallDistRoulette":0.8,
+	
+	//�i�s�����`�F�b�N--------------------------------------
+	//�̂̌����ɐi��ł���Ƃ��ɂ������Ȃ�
+	"checkMoveBallAngleRoulette":22.5,
+	//����S�[���Ɍ������Ă��邩
+	"checkEnemyGoalAngleRoulette":45.0,
+	//����T�C�h�Ɍ������Ă��邩
+	"checkEnemySideAngleRoulette":45.0,
+	
+	//����I��Ƃ̈ʒu�֌W--------------------------------
+	//���ׂ関���t���[��
+	"checkEnemyFrameRoulette":10,
+	//�߂�����
+	"checkEnemyDistNearRoulette":1.0,
+	//��������Ȃ�s�v
+	"checkEnemyDistFarRoulette":1.5,
+	
+	//�͈͓��l���`�F�b�N
+	//�͈�(�p�x)
+	"countBpSafetyWidthRoulette":360.0,
+	//����
+	"countBpSafetyLengthRoulette":2.0,
+	//�t���[����
+	"countBpSafetyFrameRoulette":12,
+	//�͈͓��̑���l��
+	"countBpSafetyCountRoulette":2,
+	
+	//���肪�{�[���Ɍ������Ă��Ă��邩
+	"checkEnemyBallAngleRoulette":33.75,
+	
+	//���肪�����̕��Ɍ������Ă��Ă��邩
+	//�v���C���[���猩���{�[���ƁA�v���C���[���猩������I��̊p�x�̍�
+	"checkEnemySubBallEnemyRoulette":45.0,
+	//�v���C���[���猩���{�[���ƁA����I��̈ړ�����p�x�̍�
+	"checkEnemySubBallEnemyMoveRoulette":135.0,
+	//����I�肩��݂��{�[���̌��݂Ɩ����̍��W�̊p�x��
+	"checkEnemySubEnemyToBallMoveRoulette":45.0,
+	
+	//���肪�������Ă��邩
+	"checkEnemyRunTogetherAngleRoulette":45.0,
+	
+	//�΂߂ɔ���������
+	//�v���C���[�Ƒ���I��̈ړ��x�N�g���̊p�x��
+	"checkEnemyMoveAngleSubFastestRoulette":85.7,
+	"checkEnemyMoveAngleSubFasterRoulette":80.1,
+	"checkEnemyMoveAngleSubFastRoulette":45.0,
+	
+	//����I��̏��------------------------------------------
+	//����I�肪�̂̌����ɐi��ł��邩
+	"checkEnemyMoveAngleRoulette":22.5,
+	
+	//��������-----------------------------------------------
+	//�^�[���������
+	"turnAngleRoulette":45.0,
+	
+	//��������㏈��---------------------------------------------
+	//�t�F�C���g�̋���
+	"feintDistRouletteNormal":7.0,
+	"feintDistRouletteSingleAdd":5.0,
+	
+	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
+	"checkTurnEndSafetyWidthRoulette":90.0,
+	
+
+	//*****FEINT_KIND_STEP_KICK*****************************************************
+	
+	//�ꏊ�I�ɂ��Ȃ�--------------------------------------
+	//����S�[���Ƃ̋���
+	//��������
+	"checkDistToEnemyGoalNearStepKick":20.0,
+	
+	//�{�[���Ƃ̋����`�F�b�N--------------------------------
+	//���ׂ関���t���[��
+	"checkBallFrameStepKick":8,
+	//�{�[���Ƃ̋���
+	"checkBallDistStepKick":1.25,
+	
+	//�i�s�����`�F�b�N--------------------------------------
+	//�̂̌����ɐi��ł���Ƃ��ɂ������Ȃ�
+	"checkMoveBallAngleStepKick":22.5,
+	//����S�[���Ɍ������Ă��邩
+	"checkEnemyGoalAngleStepKick":45.0,
+	//����T�C�h�Ɍ������Ă��邩
+	"checkEnemySideAngleStepKick":45.0,
+	
+	//����I��Ƃ̈ʒu�֌W--------------------------------
+	//���ׂ関���t���[��
+	"checkEnemyFrameStepKick":10,
+	//�߂�����
+	"checkEnemyDistNearStepKick":1.0,
+	//��������Ȃ�s�v
+	"checkEnemyDistFarStepKick":2.25,
+	
+	//�͈͓��l���`�F�b�N
+	//�͈�(�p�x)
+	"countBpSafetyWidthStepKick":360.0,
+	//����
+	"countBpSafetyLengthStepKick":3.0,
+	//�t���[����
+	"countBpSafetyFrameStepKick":12,
+	//�͈͓��̑���l��
+	"countBpSafetyCountStepKick":2,
+	
+	//���肪�����̕��Ɍ������Ă��Ă��邩
+	//�v���C���[���猩���{�[���ƁA�v���C���[���猩������I��̊p�x�̍�
+	"checkEnemySubBallEnemyStepKick":67.5,
+	//�v���C���[���猩���{�[���ƁA����I��̈ړ�����p�x�̍�
+	"checkEnemySubBallEnemyMoveStepKick":112.5,
+	//����I�肩��݂��{�[���̌��݂Ɩ����̍��W�̊p�x��
+	"checkEnemySubEnemyToBallMoveStepKick":45.0,
+	
+	//����I��̏��------------------------------------------
+	//����I�肪�̂̌����ɐi��ł��邩
+	"checkEnemyMoveAngleStepKick":22.5,
+	
+	//��������-----------------------------------------------
+	//�^�[���������
+	"turnAngleStepKick":45.0,
+	
+	//��������㏈��---------------------------------------------
+	//�t�F�C���g�̋���
+	"feintDistStepKick":15.0,
+	
+	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
+	"checkTurnEndSafetyWidthStepKick":112.5,
+	
+	
+	//*****FEINT_KIND_ONETIME(�G�b�W�^�[��)*****************************************************
+
+	//�ꏊ�I�ɂ��Ȃ�--------------------------------------
+	//FieldX,Z�̔�������̋���
+	"checkDistFieldXZOnetime":40.0,
+	
+	//�{�[���Ƃ̋����`�F�b�N--------------------------------
+	//���ׂ関���t���[��
+	"checkBallFrameOnetime":8,
+	//�{�[���Ƃ̋���
+	"checkBallDistOnetime":0.75,
+	
+	//�i�s�����`�F�b�N--------------------------------------
+	//�̂̌����ɐi��ł���Ƃ��ɂ������Ȃ�
+	"checkMoveBallAngleOnetime":22.5,
+	//����T�C�h�Ɍ������Ă��邩
+	"checkEnemySideAngleOnetime":90.0,
+	
+	//����I��Ƃ̈ʒu�֌W--------------------------------
+	//���ׂ関���t���[��
+	"checkEnemyFrameOnetime":10,
+	//�߂�����
+	"checkEnemyDistNearOnetime":1.0,
+	//��������Ȃ�s�v
+	"checkEnemyDistFarOnetime":2.0,
+	
+	//�͈͓��l���`�F�b�N
+	//�͈�(�p�x)
+	"countBpSafetyWidthOnetime":360.0,
+	//����
+	"countBpSafetyLengthOnetime":5.0,
+	//�t���[����
+	"countBpSafetyFrameOnetime":12,
+	//�͈͓��̑���l��
+	"countBpSafetyCountOnetime":2,
+	
+	//����I�肩�猩���{�[���ƁA����I��̈ړ�����p�x�̍�
+	"checkEnemySubBallEnemyMoveOnetime":33.75,
+	
+	//�v���C���[����݂�����S�[���Ƒ���I��̊p�x��
+	"checkEnemySubGoaLEnemyOnetime":90.0,
+	
+	//���肪�����̕��Ɍ������Ă��Ă��邩
+	//�v���C���[���猩���{�[���ƁA�v���C���[���猩������I��̊p�x�̍�
+	"checkEnemySubBallEnemyOnetime":90.0,
+	
+	
+	
+	//����I��̏��------------------------------------------
+	//����I�肪�̂̌����ɐi��ł��邩
+	"checkEnemyMoveAngleOnetime":22.5,
+	
+	//��������-----------------------------------------------
+	//�^�[���������
+	"turnAngleOnetime":112.5,
+	
+	//��������㏈��---------------------------------------------
+	//�t�F�C���g�̋���
+	"feintDistOnetime":15.0,
+	
+	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
+	"checkTurnEndSafetyWidthOnetime":90.0
+
+}

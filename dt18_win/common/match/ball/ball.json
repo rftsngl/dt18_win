@@ -1,0 +1,166 @@
+/// @class auto
+// Configuration options
+{
+	//----------------------------------------------
+	// ��{�f�[�^
+	//----------------------------------------------
+	// �����W��
+	"boundRate" : 0.62,
+	
+	// ���C�W��
+	//"frictionBoundRate" : 0.978,
+	"frictionBoundRate" : 0.950,
+	//"frictionRollRate" : 0.985,
+	"frictionRollRateMax" : 0.982,
+	"frictionRollRateMin" : 0.980,
+	"frictionRollSpeedMax" : 10.0,
+	"frictionRollSpeedMin" : 2.0,
+		
+	// XZ���ʂ̑��x�����L�̎����ȉ��ɂȂ������~�����ɂ���
+	"stopSpeed" : 0.22,
+	
+	// �h���b�O�N���C�V�X���x�F���̑��x�ȏゾ�Ƌ�C��R�����ۂ���
+	"dragSpeedMin" : 75.0,
+	"dragSpeedMax" : 90.0,
+	
+	// ���x���h���b�O�N���C�V�X���x�ȉ��̎��̋�C��R�l (��{)
+	"airRegistNormal" : 1.0,
+
+	//----------------------------------------------
+	// �}�O�i�X�͒����p
+	//----------------------------------------------
+	// �}�O�i�X�͂��ǂꂭ�炢�̊����Ŏd�l���邩�H
+	"magnusRate" : 0.038,
+		
+	// ���͂̒����l
+	"backSpinBuoyancyRate" : 1.0,
+	// �o�b�N�X�s���̎���Log�̌W��
+	"backSpinLogRate" : 7.0,
+	
+	// �g�b�v�X�s�����������Ă���ۂ̏㏸���A���~���̉e����
+	"topSpinChangeSpeed" : 10.0,
+	"topSpinRiseDecRate" : 1.0,	
+	"topSpinDownDecRate" : 1.0,
+	
+	// ����]���A���z�I�Ƀg�b�v�X�s�����������Ă���ۂ̏㏸���A���~���̉e����
+	"nonSpinTopRiseDecRate" : 1.0,	
+	"nonSpinTopDownDecRate" : 1.0,	
+	
+	//----------------------------------------------
+	// ����]�����p
+	//----------------------------------------------
+	// ����]���A�}�O�i�X�͂���]���ɂ������Ăǂ�قǎg�����̊���
+	"nonSpinRate" : 1.0,
+	
+	// ����]�̉e���J�n���x
+	"nonSpinMin" : 45.0,
+	
+	// ����]�̉e���ō����x
+	"nonSpinMax" : 100.0,	
+	
+	//----------------------------------------------
+	// �o�E���h���ɍl��������e_1
+	//    ��]�͂𕽖ʑ��x�ɕϊ�����
+	//----------------------------------------------
+	
+	// ��]�������ʑ��x�ւ̕ϊ����
+	
+	// roll���瑬�x�ւ̕ϊ��ϐ�
+	// roll�̍ő�l
+	"rollToSpeedMaxRoll" : 8.0,
+	"rollToSpeedMaxKPH"  : 23.0,
+	
+	"rollToSpeedSpeedYRateBase" : 0.6,
+	"rollToSpeedSpeedYMin": 8.0,
+	"rollToSpeedSpeedYMax": 20.0,
+		
+	// curve���瑬�x�ւ̕ϊ��ϐ�
+	"curveToSpeedMaxCurve" : 8.0,
+	"curveToSpeedMaxKPH"  : 2.0,
+	
+	"curveToSpeedSpeedYRateBase" : 0.5,
+	"curveToSpeedSpeedYMin": 8.0,
+	"curveToSpeedSpeedYMax": 20.0,
+
+	
+	// �o�b�N�X�s����g�b�v�X�s�����̔����W���ő�e��%
+	"rollToBoundAdd" : 0.11,
+	"rollToBoundRollMin" : 1.0,
+	"rollToBoundRollMax" : 9.0,
+	
+	//----------------------------------------------
+	// �o�E���h���ɍl��������e_2
+	//    �������x���傫�����͒n�ʂɂ߂荞�ނƍl����
+	//----------------------------------------------
+	
+	// �n�ʂ̂߂荞�މe�����󂯎n�߂�Œ�ő呬�x
+	"boundBoundSpeedMin" : 2.0,
+	"boundBoundSpeedMax" : 15.0,
+	// �߂荞�݂̉e���x�ɂ�锽���W���̒���
+	// �� �ʏ킩�牽%�ω������������H
+	"boundCheckBoundAddRate" : 21,
+
+	// �n�ʂ̂߂荞�މe�����󂯎n�߂�Œ�ő呬�x
+	"boundFrictionSpeedMin" : 10.0,
+	"boundFrictionSpeedMax" : 25.0,
+	// �߂荞�݂̉e���x�ɂ�門�C�W���̒���
+	// �� �ʏ킩�牽%�ω������������H
+	"boundCheckFrictionAddRate" : 15,
+
+	// �n�ʂ̂߂荞�މe�����󂯎n�߂�Œ�ő呬�x
+	"boundRotationSpeedMin" : 5.0,
+	"boundRotationSpeedMax" : 20.0,
+	// �߂荞�݂̉e���x�ɂ���]�͂̌��ۊ���
+	// �� �ʏ킩�牽%�ω������������H
+	"boundCheckRotationDecRate" : 0,
+
+	//----------------------------------------------
+	// �o�E���h���ɍl��������e_3
+	//    �O���E���_�[���̑����{�[���̔��f
+	//----------------------------------------------
+	"grounderSpeed" : 16.0,
+	"grounderCTan" : 16.0,
+	
+	"grounderFrictionRate" : 0.99,
+	//"grounderFrictionRate" : 0.90,
+	//"grounderBoundYAdd" : 0.095,
+	"grounderBoundYAdd" : 0.07,
+	//"grounderBoundYAdd" : 0.10,
+	
+	//----------------------------------------------
+	// �o�E���h���̉�]�ւ̉e��
+	//----------------------------------------------
+	"boundToRotationBaseXZ" : 0.24,
+	"boundToRotationAddRateXZ" : 0.43,
+	"boundToRotationSpeedMinXZ" : 6.0,
+	"boundToRotationSpeedMaxXZ" : 32.0,
+	
+	"boundRollMax" : 9.0,
+	
+	"boundToRotationBaseY" : 0.1,
+	"boundToRotationAddRateY" : 0.5,
+	"boundToRotationSpeedMinY" : 10.0,
+	"boundToRotationSpeedMaxY" : 25.0,
+	
+	//----------------------------------------------
+	// �L�b�N���̃{�[����]�A�X�s�[�h���������鎞
+	//----------------------------------------------
+	"naturalRoll" : 1.6,
+	
+	"speedCustom" : false,
+	"rotationCustom" : false,
+	
+	// �R��o���X�s�[�h
+	"debugKickSpeed" : 35.0,
+	
+	// �R��o���p�x
+	"debugKickAngle" : 3.0,
+
+	// 1�b�Ԃł̏c��]��
+	"roll" : -2.0,
+	
+	// 1�b�Ԃł̉���]��
+	"curve" : 0.0
+	
+	
+}

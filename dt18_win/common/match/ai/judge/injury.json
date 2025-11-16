@@ -2,31 +2,31 @@
 // Configuration options
 {
 	//----------------------------------------
-	// ƒŒƒxƒ‹ ƒ_ƒ[ƒWè‡’l 0`255‚Ì”ÍˆÍ‚Å‚ ‚é‚±‚ÆB
+	// ï¿½ï¿½ï¿½xï¿½ï¿½ ï¿½_ï¿½ï¿½ï¿½[ï¿½Wè‡’l 0ï¿½`255ï¿½ÍˆÌ”Í‚Å‚ï¿½ï¿½é‚±ï¿½ÆB
 	//----------------------------------------
-	//”÷
-	"levelDamageMicro" : 120,
-	//Œy
-	"levelDamageMinor" : 180,
-	//’†
-	"levelDamageMiddle" : 220,
-	//d
-	"levelDamageSerious" : 240,
+	//ï¿½ï¿½ï¿½ï¿½
+	"levelDamageMicro" : 100,
+	//ï¿½yï¿½ï¿½
+	"levelDamageMinor" : 150,
+	//ï¿½ï¿½ï¿½ï¿½
+	"levelDamageMiddle" : 200,
+	//ï¿½dï¿½ï¿½
+	"levelDamageSerious" : 230,
 	
 	//----------------------------------------
-	//  ƒ_ƒ[ƒWè‡’l 0`255‚Ì”ÍˆÍ‚Å‚ ‚é‚±‚ÆB
+	//  ï¿½_ï¿½ï¿½ï¿½[ï¿½Wè‡’l 0ï¿½`255ï¿½Ì”ÍˆÍ‚Å‚ï¿½ï¿½é‚±ï¿½ÆB
 	//----------------------------------------
-	//‘Å–o
+	//ï¿½Å–o
 	"symptomDamageBruise" : 120,
-	//‰ŠÇ
+	//ï¿½ï¿½ï¿½ï¿½
 	"symptomDamageInflammation" : 160,
-	//—ô
+	//ï¿½ï¿½
 	"symptomDamageLaceration" : 220,
-	//“÷—£‚ê
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"symptomDamageTearMuscle" : 230,
-	//èÕ‘Ñ(”PÁ)
+	//ï¿½Õ‘ï¿½(ï¿½Pï¿½ï¿½)
 	"symptomDamageLigament" : 240,
-	//œÜ
+	//ï¿½ï¿½ï¿½ï¿½
 	"symptomDamageFracture" : 250,
 
 

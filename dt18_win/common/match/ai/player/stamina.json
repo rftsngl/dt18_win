@@ -1,0 +1,19 @@
+/// @class auto
+// Configuration options
+
+{
+	//����������Ă����J
+    "defenceTired":2,
+    //�h���u���̔�J
+	"dribbleTired":3,
+	//�X�s�[�h�ɂ���J
+	"speedTired":2,
+	//�Ԃ��������̔�J
+	"contactTired":7,
+	//���荇���Ă���Ƃ��̔�J
+	"jostleTired":3,
+	//��b���
+	"metabolism":7,
+	//�_�b�V���X�^�~�i���������Ƃ��̔��
+	"dashTired":7
+}
