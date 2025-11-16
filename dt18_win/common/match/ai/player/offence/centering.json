@@ -1,14 +1,14 @@
 /// @class auto
 {
-	// ƒZƒ“ƒ^ƒŠƒ“ƒO‚ÌƒJ[ƒuŠî–{’l(rps)
-	"centeringCurveBase" : 4.0,
+	// ï¿½Zï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ÌƒJï¿½[ï¿½uï¿½ï¿½{ï¿½l(rps)
+	"centeringCurveBase" : 4.2,
 	
-	// ƒZƒ“ƒ^ƒŠƒ“ƒO‚ÌƒJ[ƒu•â³Å‘å’l(rps)
-	"centeringCurveAdjustMax" : 4.5,
+	// ï¿½Zï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ÌƒJï¿½[ï¿½uï¿½â³ï¿½Å‘ï¿½l(rps)
+	"centeringCurveAdjustMax" : 4.8,
 	
-	// ƒZƒ“ƒ^ƒŠƒ“ƒOÅ‘å‘¬“x(‚‚¢)
-	"centeringMaxSpeedHigh" : 93.0,
+	// ï¿½Zï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Å‘å‘¬ï¿½x(ï¿½ï¿½ï¿½ï¿½)
+	"centeringMaxSpeedHigh" : 98.0,
 	
-	// ƒZƒ“ƒ^ƒŠƒ“ƒOÅ‘å‘¬“x(’á‚¢)
-	"centeringMaxSpeedLow" : 89.0
+	// ï¿½Zï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Å‘å‘¬ï¿½x(ï¿½á‚¢)
+	"centeringMaxSpeedLow" : 85.0
 }
