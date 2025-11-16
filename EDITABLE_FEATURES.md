@@ -1,6 +1,178 @@
-# 🎮 DT18 Fox Engine - Düzenlenebilir Özellikler Listesi
+# 🎮 PES 2017 Gameplay Modifikasyonları
 
 > **Son Güncelleme:** 16 Kasım 2025  
+> **Proje:** Fox Engine 2.0 Gameplay Balance Modu  
+> **Versiyon:** 2.0 - Gerçekçi, Zorlayıcı, Dengeli  
+> **Durum:** ✅ Test Edilebilir
+
+---
+
+## 🎯 YAPILAN DEĞİŞİKLİKLER
+
+### ⚽ 1. Duran Top Sistemleri (Set Pieces)
+**Dosyalar:** `penaltykick.json`, `freekick.json`, `centering.json`
+
+**Penaltılar:**
+- Şut hızı aralığı genişletildi: 75→70 km/h (min), 95→120 km/h (max)
+- Sonuç: Daha imha edici penaltılar
+
+**Serbest Vuruşlar:**
+- Uzun pas hızı artırıldı: 90→125 km/h (max)
+- Sonuç: Güçlü direk vuruşlar
+
+**Ortalamalar (Centering):**
+- Curve base: 4.0→4.2 rps (daha keskin eğriler)
+- Hız ve curve ayarlamaları optimize edildi
+- Sonuç: Daha tehlikeli ortalar
+
+### 🛡️ 2. Takım Taktikleri (Team Tactics)
+**Dosya:** `basePosition.json`
+
+**Kompakt Savunma:**
+- Savunma hattı uzunluğu: 25m→22m (daha sıkı)
+- DF line rate: 0.3→0.4 (daha organize)
+- DF group rate: 0.4→0.5 (daha kompakt)
+- Press rate: 0.5→0.6 (daha agresif pressing)
+
+**Sonuç:** Çok daha organize ve sıkı bir savunma sistemi
+
+### 🏃 3. Pressing Stratejisi
+**Dosya:** `defence.json`
+
+**Dengeli Pressing:**
+- Match-up start line: 25m→30m (daha erken baskı)
+- Kurs kesme mesafesi: 15m→12m (daha yakın kontrol)
+
+**Sonuç:** Pas yolları erken kesilir, top kaybı riski artar
+
+### 🎯 4. Adam Adama Markaj (Man Marking)
+**Dosya:** `defenceMark.json`
+
+**Sıkı Markaj:**
+- Marking açısı: 80°→65° (daha dar, daha hassas)
+- Markaj takip mesafesi: 12m→15m (daha uzun süre takip)
+- Zone marking alanı: 12m→15m (X ve Z eksende genişletildi)
+
+**Sonuç:** Rakipler her yerde markajda, pozisyon bulmak çok zor
+
+### 🛡️ 5. Cover Savunması (Defensive Cover)
+**Dosya:** `defenceCover.json`
+
+**Kompakt Cover:**
+- Cover mesafesi: 4.5m→3.5m (daha yakın destek)
+- DF cover mesafesi: 4.0m→3.0m (daha sıkı hat)
+- Cover açıları: 55°→65°, 60°→70° (daha geniş destek açısı)
+- Cover DF angle 2: 40°→50° (top taşırken daha iyi destek)
+
+**Sonuç:** Bir oyuncu atlansa bile boşluklar anında kapanır
+
+### ⚔️ 6. Ofansif Hareket (Offensive Movement)
+**Dosyalar:** `spaceRun.json`, `passSupport.json`
+
+**Boşluğa Koşu (Space Run):**
+- Top mesafesi: 12m→15m / 15m→18m (daha uzun koşular)
+- Koşu açıları: 40°→50° / 100°→110° (daha geniş açılardan)
+- Son hat mesafesi: 10m→12m / 15m→18m (savunma arkasına kolay koşu)
+
+**Pas Desteği (Pass Support):**
+- İç destek alanı: 7m→6m (daha yakın destek)
+- Dış destek alanı: 9m→8m (daha kompakt)
+- Destek mesafesi: 8m→7m (daha çok pas seçeneği)
+- Boşluk algısı: 5m→6m (daha büyük boşluklar kullanılır)
+- Güncelleme hızı: 40→35 frame (daha hızlı reaksiyon)
+- İleri hareket açısı: 20°→25° (daha agresif)
+
+**Sonuç:** Sıkı savunmaya karşı dengeli ofansif tehdit
+
+### 🧠 7. AI Taktik Değişimi
+**Dosya:** `CoachAttackLevelChange.xml`
+
+**Erken Adapte:**
+- Taktik değişim zamanı: 30. dakika→20. dakika
+- AI daha erken reaksiyon gösterir
+
+**Davranış:**
+- 2 gol geride → Tam Ofansif 🔴
+- 1 gol geride → Tam Ofansif 🔴
+- Berabere → Dengeli ⚪
+- 1 gol önde → Savunmacı 🔵
+- 2 gol önde → Savunmacı 🔵
+
+**Sonuç:** AI maç durumuna göre daha akıllı adapte oluyor
+
+---
+
+## 🎮 OYNANIŞA ETKİ
+
+### Savunma Sistemi 🛡️
+✅ **Sıkı Adam Adama Markaj** - Rakipler 65° açıyla yakından takip edilir  
+✅ **Hızlı Boşluk Kapatma** - Cover sistemi 3.5m mesafede anında devreye girer  
+✅ **Kompakt Savunma Hattı** - 22m uzunlukta organize hat  
+✅ **Dengeli Pressing** - 30m hattından itibaren baskı başlar
+
+### Atak Sistemi ⚔️
+✅ **Agresif Boşluğa Koşular** - 15-18m mesafede savunma arkasına koşu  
+✅ **Yakın Pas Desteği** - 6-8m mesafede çok sayıda seçenek  
+✅ **Hızlı Hareket** - 35 frame güncelleme hızı (daha reaktif)  
+✅ **Geniş Açılardan Koşu** - 50-110° açılardan oyun kurulur
+
+### AI Zekası 🧠
+✅ **Erken Taktik Değişimi** - 20. dakikadan itibaren adapte  
+✅ **Skor Durumuna Göre Oyun** - Önde/geride duruma göre strateji değişir
+
+---
+
+## 🏆 SONUÇ
+
+**Oynanış Dengesi:**
+- 🛡️ **Savunma:** Çok sağlam, organize, boşluk bırakmaz
+- ⚔️ **Atak:** Güçlü, yaratıcı, hızlı
+- 🧠 **AI:** Akıllı, adaptif, gerçekçi
+
+**Zorluk Seviyesi:**
+- Gol atmak hem AI hem oyuncu için **çok zorlaştı**
+- İyi oyuncular yaratıcı oyunla savunmayı yıkabilir
+- Gerçekçi, zorlayıcı ve dengeli bir deneyim
+
+**Beklenen Skorlar:** 1-0, 1-1, 2-1 (dengeli, gerçekçi)
+
+---
+
+## 📋 TEKNİK DETAYLAR
+
+### Değiştirilen Dosyalar
+```
+dt18_win/common/match/ai/
+├── player/offence/
+│   ├── penaltykick.json
+│   ├── freekick.json
+│   └── centering.json
+└── team/
+    ├── basePosition.json
+    ├── CoachAttackLevelChange.xml
+    ├── defence/
+    │   ├── defence.json
+    │   ├── defenceMark.json
+    │   └── defenceCover.json
+    └── offence/
+        ├── spaceRun.json
+        └── passSupport.json
+```
+
+### Commit Geçmişi
+```
+2205fe5 tactics: AI erken taktik değişimi - 20. dakikada adapte oluyor
+23635a7 offence: Güçlü ofansif hareket - Sıkı savunmaya karşı dengeli meydan okuma
+497b5ff cover: Kompakt savunma örtüsü - Boşluklar anında kapatılıyor
+73715a4 marking: Sıkı adam adama savunma - Her iki taraf için gol atmak zorlaştı
+8cda1bc defence: Dengeli pressing stratejisi - Pas yolu erken kesilir
+```
+
+---
+
+# 🎮 DT18 Fox Engine - Düzenlenebilir Özellikler Listesi
+
+> **Orijinal Analiz:** 16 Kasım 2025  
 > **Proje:** Fox Engine 2.0 Futbol Oyunu Konfigürasyonu  
 > **Toplam Dosya:** 448 (JSON: 33, XML: 16, FOX: 176, BIN: 221, MD: 2)  
 > **İNCELEME TAMAMLANDI:** BIN dosyaları hariç tüm dosyalar incelendi! ✅
