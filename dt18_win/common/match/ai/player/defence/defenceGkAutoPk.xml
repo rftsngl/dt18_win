@@ -103,7 +103,7 @@
             <Arg Type="Axis" Value="PARALLEL" ValueJ="体の向きに対して平行方向">
               <Options />
             </Arg>
-            <Arg Type="Numeric" Value="0.5" ValueJ="0.5" OptionType="Sign">
+            <Arg Type="Numeric" Value="0.8" ValueJ="0.8" OptionType="Sign">
               <Options>
                 <Option Value="UNDER" ValueJ="以下" />
               </Options>
@@ -129,7 +129,7 @@
             <Arg Type="Axis" Value="UPSIDE" ValueJ="上方向">
               <Options />
             </Arg>
-            <Arg Type="Numeric" Value="2" ValueJ="2" OptionType="Sign">
+            <Arg Type="Numeric" Value="2.6" ValueJ="2.6" OptionType="Sign">
               <Options>
                 <Option Value="UNDER" ValueJ="以下" />
               </Options>
@@ -155,7 +155,7 @@
             <Arg Type="Axis" Value="VERTICAL" ValueJ="体の向きに対して垂直方向">
               <Options />
             </Arg>
-            <Arg Type="Numeric" Value="0.9" ValueJ="0.9" OptionType="Sign">
+            <Arg Type="Numeric" Value="1.4" ValueJ="1.4" OptionType="Sign">
               <Options>
                 <Option Value="UNDER" ValueJ="以下" />
               </Options>
@@ -272,7 +272,7 @@
             <Arg Type="Axis" Value="UPSIDE" ValueJ="上方向">
               <Options />
             </Arg>
-            <Arg Type="Numeric" Value="2" ValueJ="2" OptionType="Sign">
+            <Arg Type="Numeric" Value="2.2" ValueJ="2.2" OptionType="Sign">
               <Options>
                 <Option Value="OVER" ValueJ="以上" />
               </Options>

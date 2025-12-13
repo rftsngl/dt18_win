@@ -85,7 +85,7 @@
             <Arg Type="Time" Value="HALF_2ND" ValueJ="後半">
               <Options />
             </Arg>
-            <Arg Type="Numeric" Value="20" ValueJ="20" OptionType="Sign">
+            <Arg Type="Numeric" Value="30" ValueJ="30" OptionType="Sign">
               <Options>
                 <Option Value="OVER" ValueJ="以上" />
               </Options>
@@ -161,7 +161,7 @@
     <Parameter>
       <Location X="50" Y="101" />
       <Size Width="101" Height="44" />
-      <Comment Text="後半20分以降" />
+      <Comment Text="後半30分以降" />
     </Parameter>
     <Parameter>
       <Location X="402" Y="194" />

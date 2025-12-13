@@ -2,20 +2,20 @@
 // Configuration options
 {
 	// �{�[���Ƃ̃`�F�b�NZ����
-	"checkZ"      : 18.0,
-	"checkZ_good" : 22.0,
+	"checkZ"      : 22.0,
+	"checkZ_good" : 28.0,
 	
 	// �{�[���Ƃ̃`�F�b�N����
-	"checkBallDist"      : 24.0,
-	"checkBallDist_good" : 28.0,
+	"checkBallDist"      : 35.0,
+	"checkBallDist_good" : 35.0,
 	
 	// �ŏI���C������̃`�F�b�N����
-	"checkLastLineDist"      : 5.0,
-	"checkLastLineDist_good" : 7.0,
+	"checkLastLineDist"      : 6.0,
+	"checkLastLineDist_good" : 9.0,
 	
 	//BP�Ƃ̑̂̌����`�F�b�N
-	"angleDiff"      : 45.0,
-	"angleDiff_good" : 75.0,
+	"angleDiff"      : 60.0,
+	"angleDiff_good" : 100.0,
 	
 	//BP�̃{�[�������`�F�b�N
 	"checkBallDistBP"      : 1.0,

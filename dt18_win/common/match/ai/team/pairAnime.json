@@ -1,35 +1,35 @@
 /// @class auto
 // Configuration options
 {
-	// ”­¶‚³‚¹‚é‚©‚Ç‚¤‚©‚Ìˆ—
-	"stopEnable" : false,
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
+	"stopEnable" : true,
 	"moveEnable" : true,
 	"highballEnable" : true,
 
 
-	// ’âŽ~Žž‚ÌŒˆ’…‚Ü‚Å‚ÌŽžŠÔ
-	"stopDecideFrame" : 90,
+	// ï¿½ï¿½~ï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½ï¿½Ü‚Å‚ÌŽï¿½ï¿½ï¿½
+	"stopDecideFrame" : 80,
 
-	// ˆÚ“®Žž‚ÌŒˆ’…‚Ü‚Å‚ÌŽžŠÔ
-	"moveDecideFrame" : 50,
+	// ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ÌŒï¿½ï¿½ï¿½ï¿½Ü‚Å‚ÌŽï¿½ï¿½ï¿½
+	"moveDecideFrame" : 40,
 
 
 
-	// ƒjƒ…[ƒgƒ‰ƒ‹ó‘ÔŽž‚Í”»’èŒp‘±‚³‚¹‚é‚©‚Ç‚¤‚©
+	// ï¿½jï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÔŽï¿½ï¿½Í”ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½
 	"neutralContinue" : false,
 	
-	// ƒpƒ‰ƒ[ƒ^‚ÌÅ‘å·
-	"paramDiffMax" : 20.0,
+	// ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ÌÅ‘å·
+	"paramDiffMax" : 25.0,
 	
-	// ƒpƒ‰ƒ[ƒ^‚É‚æ‚é‹£‚è‡‚¢Ÿ”sŠ„‡‚Ì’²®—Ê
-	"adjustRateHighFromParam" : 0.125,
+	// ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½É‚ï¿½é‹£ï¿½è‡ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½
+	"adjustRateHighFromParam" : 0.2,
 	
-	// ƒpƒ‰ƒ[ƒ^‚É‚æ‚é‹£‚è‡‚¢Ÿ”sŠ„‡‚Ì’²®—Ê
-	"adjustRateFromParam" : 0.25,
+	// ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½É‚ï¿½é‹£ï¿½è‡ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½
+	"adjustRateFromParam" : 0.35,
 	
-	// ˆÊ’uŠÖŒW‚É‚æ‚é‹£‚è‡‚¢Ÿ”sŠ„‡‚Ì’²®—Ê
-	"adjustRateFromPosition" : 0.2,
+	// ï¿½Ê’uï¿½ÖŒWï¿½É‚ï¿½é‹£ï¿½è‡ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½ï¿½ï¿½
+	"adjustRateFromPosition" : 0.15,
 	
-	// 1“x–Ú‚Ì“–‚½‚è‚ÅŸ”s‚ªŒˆ’è‚·‚éˆ×‚É•K—v‚È·
+	// 1ï¿½xï¿½Ú‚Ì“ï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½è‚·ï¿½ï¿½×‚É•Kï¿½vï¿½Èï¿½
 	"firstContactMargin" : 10
 }

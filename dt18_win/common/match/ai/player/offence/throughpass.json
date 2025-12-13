@@ -6,7 +6,7 @@
 	"angleAddValue" : 4.0,
 
 	// �p�X�̍Œ�p�x��
-	"angleWidthMin" : 14.0,
+	"angleWidthMin" : 16.0,
 	
 	// �Œ዗���Ƃ��Ĕ��f���鋗��
 	"dashMoveSecForPassgetMin" : 0.5,
@@ -16,7 +16,7 @@
 	"targetDistZMax" : 20.0,
 	
 	"targetDistMin" : 8.0,
-	"targetDistMax" : 25.0,
+	"targetDistMax" : 30.0,
 	"targetDistSec" : 1.0,
 	
 	"angleRateMin" : 85.0,
@@ -58,7 +58,7 @@
 	"passgetAngleSub" : 0.0,
 	
 	// �p�X�̃R�[�X�܂ł̋�������苗���ȉ��Ȃ狓����������H
-	"passgetLineDiff" : 4.0,
+	"passgetLineDiff" : 5.0,
 	"passgetOutSideDiff" : 1.2,
 	"passgetMoveAngleDiff" : 2.0,
 	
@@ -67,7 +67,7 @@
 	"passgetMovePointDistMin" : 1.8,
 
 	// �X���[�p�X�̃{�[���ɑ΂��Č��ɒ��������Ƃ��̋�������
-	"passgetMoveLateDist"  : 3.5,
+	"passgetMoveLateDist"  : 4.0,
 	"passgetMoveLateRate"  : 70.0,
 	"passgetMoveLateFrame" : -24, // ���܂�Z���ƃg���b�v���Ă��܂��E�E
 	
@@ -75,10 +75,10 @@
 	"distToPassgetSpeed" : 3.0,
 
 	// �p�X�R�[�X�ƑI��̋���������Ă��鎞
-	"passgetSpeedRate" : 90.0,
+	"passgetSpeedRate" : 96.0,
 
 	// �p�X�R�[�X�ƑI��̈ʒu���߂��ꍇ�̑��x	
-	"passgetSpeedRate2" : 87.0,
+	"passgetSpeedRate2" : 93.0,
 
 
 	//-----------------------------------------------------
@@ -105,14 +105,14 @@
 	// �}�j���A���p�X�p�̒���
 	//-----------------------------------------------------
 	//�@��{�}�j���A���p�X�X�s�[�h
-	"manualPassSpeedBase" : 32.0,
+	"manualPassSpeedBase" : 38.0,
 	//�@�}�j���A���p�X�X�s�[�h�����l
-	"manualPassSpeedAdjust" : 32.0,
+	"manualPassSpeedAdjust" : 35.0,
 	
 	//�@��{�}�j���A���p�X�ˏo�p�x
-	"manualPassAngleYBase" : 3.5,
+	"manualPassAngleYBase" : 4.0,
 	//�@��{�}�j���A���p�X�ˏo�p�x�����l
-	"manualPassAngleYAdjust" : 5.5,
+	"manualPassAngleYAdjust" : 6.0,
 	
 	//�@�}�j���A���t���C�p�X���̒����ˏo�p�x
 	"manualFlyPassAngleYAdjust" : 25.0

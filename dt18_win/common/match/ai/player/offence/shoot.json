@@ -4,11 +4,11 @@
 	"future" : 30,
 
 	// �V���[�g�����`臒l
-	"outTrapezoid0" : 60.0,
+	"outTrapezoid0" : 90.0,
 	"outTrapezoid1" : 10.0,
 
 	// �V���[�g����ő�p�x
-	"outAngle" : 10.0,
+	"outAngle" : 15.0,
 
 	// �`�b�v�L�b�N臒l(����/���[�g��)
 	"chipThreshold0" : 0.0,
@@ -19,46 +19,46 @@
 
 
 	// ���[�v�V���[�g��{���x
-	"loopSpeed" : 45.0,
+	"loopSpeed" : 50.0,
 
 	// ���[�v�V���[�g�ő���Z���x
-	"loopSpeedDelta" : 40.0,
+	"loopSpeedDelta" : 50.0,
 
-	// ���[�v�V���[�g��{�p
+	// ���[�v�V���[�g��{�p
 	"loopElevation" : 20.0,
 
-	// ���[�v�V���[�g�ő���Z�p
+	// ���[�v�V���[�g�ő���Z�p
 	"loopElevationDelta" : 30.0,
 
 	// ���[�v�V���[�g��{�X�s��
-	"loopSpin" : -0.5,
+	"loopSpin" : -1.0,
 
 	// ���[�v�V���[�g�ő���Z�X�s��
-	"loopSpinDelta" : -2.0,
+	"loopSpinDelta" : -3.0,
 
 
 	// �`�b�v�L�b�N��{���x
-	"chipSpeed" : 40.0,
+	"chipSpeed" : 35.0,
 
 	// �`�b�v�L�b�N�ő���Z���x
-	"chipSpeedDelta" : 45.0,
+	"chipSpeedDelta" : 50.0,
 
-	// �`�b�v�L�b�N��{�p
-	"chipElevation" : 20.0,
+	// �`�b�v�L�b�N��{�p
+	"chipElevation" : 22.0,
 
-	// �`�b�v�L�b�N�ő���Z�p
+	// �`�b�v�L�b�N�ő���Z�p
 	"chipElevationDelta" : 12.0,
 
 	// �`�b�v�L�b�N��{�X�s��
-	"chipSpin" : 0.0,
+	"chipSpin" : -1.5,
 
 	// �`�b�v�L�b�N�ő���Z�X�s��
 	"chipSpinDelta" : -2.0,
 
 
 	// �Ҕ����V���[�g��{���x
-	"nutmegSpeed" : 45.0,
+	"nutmegSpeed" : 50.0,
 
 	// �Ҕ����V���[�g�ő���Z���x
-	"nutmegSpeedDelta" : 40.0
+	"nutmegSpeedDelta" : 50.0
 }

@@ -5,23 +5,23 @@
 	// ��{�f�[�^
 	//----------------------------------------------
 	// �����W��
-	"boundRate" : 0.62,
+	"boundRate" : 0.65,
 	
 	// ���C�W��
 	//"frictionBoundRate" : 0.978,
-	"frictionBoundRate" : 0.940,
+	"frictionBoundRate" : 0.92,
 	//"frictionRollRate" : 0.985,
-	"frictionRollRateMax" : 0.982,
-	"frictionRollRateMin" : 0.980,
+	"frictionRollRateMax" : 0.990,
+	"frictionRollRateMin" : 0.988,
 	"frictionRollSpeedMax" : 10.0,
 	"frictionRollSpeedMin" : 2.0,
 		
 	// XZ���ʂ̑��x�����L�̎����ȉ��ɂȂ������~�����ɂ���
-	"stopSpeed" : 0.25,
+	"stopSpeed" : 0.175,
 	
 	// �h���b�O�N���C�V�X���x�F���̑��x�ȏゾ�Ƌ�C��R�����ۂ���
-	"dragSpeedMin" : 70.0,
-	"dragSpeedMax" : 90.0,
+	"dragSpeedMin" : 75.0,
+	"dragSpeedMax" : 105.0,
 	
 	// ���x���h���b�O�N���C�V�X���x�ȉ��̎��̋�C��R�l (��{)
 	"airRegistNormal" : 1.0,
@@ -30,12 +30,12 @@
 	// �}�O�i�X�͒����p
 	//----------------------------------------------
 	// �}�O�i�X�͂��ǂꂭ�炢�̊����Ŏd�l���邩�H
-	"magnusRate" : 0.038,
+	"magnusRate" : 0.126,
 		
 	// ���͂̒����l
 	"backSpinBuoyancyRate" : 1.0,
 	// �o�b�N�X�s���̎���Log�̌W��
-	"backSpinLogRate" : 7.0,
+	"backSpinLogRate" : 6.0,
 	
 	// �g�b�v�X�s�����������Ă���ۂ̏㏸���A���~���̉e����
 	"topSpinChangeSpeed" : 10.0,
@@ -121,10 +121,10 @@
 	"grounderSpeed" : 16.0,
 	"grounderCTan" : 16.0,
 	
-	"grounderFrictionRate" : 0.975,
+	"grounderFrictionRate" : 0.99,
 	//"grounderFrictionRate" : 0.90,
 	//"grounderBoundYAdd" : 0.095,
-	"grounderBoundYAdd" : 0.08,
+	"grounderBoundYAdd" : 0.07,
 	//"grounderBoundYAdd" : 0.10,
 	
 	//----------------------------------------------
@@ -145,7 +145,7 @@
 	//----------------------------------------------
 	// �L�b�N���̃{�[����]�A�X�s�[�h���������鎞
 	//----------------------------------------------
-	"naturalRoll" : 1.6,
+	"naturalRoll" : 2.0,
 	
 	"speedCustom" : false,
 	"rotationCustom" : false,

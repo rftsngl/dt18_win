@@ -19,15 +19,15 @@
 	
 	//����I��Ƃ̈ʒu�֌W--------------------------------
 	//���ׂ関���t���[��
-	"checkEnemyFrameScissorsOut":12,
+	"checkEnemyFrameScissorsOut":10,
 	//�߂�����
-	"checkEnemyDistNearScissorsOut":0.8,
+	"checkEnemyDistNearScissorsOut":1.0,
 	//��������Ȃ�s�v
 	"checkEnemyDistFarScissorsOut":1.5,
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthScissorsOut":120.0,
+	"countBpSafetyWidthScissorsOut":360.0,
 	//����
 	"countBpSafetyLengthScissorsOut":4.0,
 	//�t���[����
@@ -54,7 +54,7 @@
 	
 	//��������㏈��---------------------------------------------
 	//�t�F�C���g�̋���
-	"feintDistScissorsOut":8.0,
+	"feintDistScissorsOut":3.0,
 	
 	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
 	"checkTurnEndSafetyWidthScissorsOut":90.0,
@@ -82,11 +82,11 @@
 	
 	//����I��Ƃ̈ʒu�֌W--------------------------------
 	//���ׂ関���t���[��
-	"checkEnemyFrameDoubletouch":10,
+	"checkEnemyFrameDoubletouch":8,
 	//�߂�����
-	"checkEnemyDistNearDoubletouch":0.4,
+	"checkEnemyDistNearDoubletouch":0.5,
 	//��������Ȃ�s�v
-	"checkEnemyDistFarDoubletouch":1.8,
+	"checkEnemyDistFarDoubletouch":2.2,
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
@@ -129,15 +129,15 @@
 	
 	//����I��Ƃ̈ʒu�֌W--------------------------------
 	//���ׂ関���t���[��
-	"checkEnemyFrameEracico":10,
+	"checkEnemyFrameEracico":8,
 	//�߂�����
-	"checkEnemyDistNearEracico":1.5,
+	"checkEnemyDistNearEracico":2.0,
 	//��������Ȃ�s�v
-	"checkEnemyDistFarEracico":3.0,
+	"checkEnemyDistFarEracico":5.0,
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthEracico":120.0,
+	"countBpSafetyWidthEracico":360.0,
 	//����
 	"countBpSafetyLengthEracico":4.0,
 	//�t���[����
@@ -154,7 +154,7 @@
 	
 	//��������㏈��---------------------------------------------
 	//�t�F�C���g�̋���
-	"feintDistEracico":6.0,
+	"feintDistEracico":7.0,
 	
 	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
 	"checkTurnEndSafetyWidthEracico":90.0,
@@ -169,9 +169,9 @@
 	
 	//�{�[���Ƃ̋����`�F�b�N--------------------------------
 	//���ׂ関���t���[��
-	"checkBallFrameRoulette":10,
+	"checkBallFrameRoulette":8,
 	//�{�[���Ƃ̋���
-	"checkBallDistRoulette":0.8,
+	"checkBallDistRoulette":1.0,
 	
 	//�i�s�����`�F�b�N--------------------------------------
 	//�̂̌����ɐi��ł���Ƃ��ɂ������Ȃ�
@@ -187,11 +187,11 @@
 	//�߂�����
 	"checkEnemyDistNearRoulette":1.0,
 	//��������Ȃ�s�v
-	"checkEnemyDistFarRoulette":1.8,
+	"checkEnemyDistFarRoulette":1.5,
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthRoulette":150.0,
+	"countBpSafetyWidthRoulette":360.0,
 	//����
 	"countBpSafetyLengthRoulette":2.0,
 	//�t���[����
@@ -267,7 +267,7 @@
 	
 	//�͈͓��l���`�F�b�N
 	//�͈�(�p�x)
-	"countBpSafetyWidthStepKick":120.0,
+	"countBpSafetyWidthStepKick":360.0,
 	//����
 	"countBpSafetyLengthStepKick":3.0,
 	//�t���[����
@@ -293,7 +293,7 @@
 	
 	//��������㏈��---------------------------------------------
 	//�t�F�C���g�̋���
-	"feintDistStepKick":10.0,
+	"feintDistStepKick":3.0,
 	
 	//�^�[����ɐl�����Ȃ����`�F�b�N����͈�
 	"checkTurnEndSafetyWidthStepKick":112.5,

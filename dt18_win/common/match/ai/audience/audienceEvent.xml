@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Tree Id="audienceEvent.xml" Type="Role" AnswerFile="Role.xml">
   <Nodes>
     <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Role">
@@ -14,7 +14,7 @@
       <Funcs>
         <Func Name="CheckBallTouchKind" NameJ="ボールタッチ">
           <Args>
-            <Arg Type="BallTouchKind" Value="SHOOT" ValueJ="シュート" OptionType="Not">
+            <Arg Type="BallTouchKind" Value="SHOOT" ValueJ="シュート">
               <Options />
             </Arg>
           </Args>

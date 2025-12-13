@@ -10,6 +10,7 @@ Desktop.ini
 
 # Editor directories and files
 .vscode/
+.cursor/
 .idea/
 *.swp
 *.swo
@@ -38,4 +39,10 @@ yarn-error.log*
 # *.compiled
 
 # Original backup folder
-dt18_win_original/
+# dt18_win_original/
+
+# dt90_win folder
+# dt90_win/
+
+# Project documentation
+Risk_Siniflandirmasi.md

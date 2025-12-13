@@ -7,11 +7,11 @@
 	"highHeightMin" : 2.0,
 
 	// �ő�̍���
-	"highHeightMax" : 7.5,
+	"highHeightMax" : 12.0,
 
 	// �����ɂ���č�����ς���
 	"highDistMin" : 5.0,
-	"highDistMax" : 50.0,
+	"highDistMax" : 60.0,
 
 	// ��]
 	"highRoll" : -2.0,
@@ -26,11 +26,11 @@
 	"lowHeightMin" : 1.5,
 
 	// �ő�̍���
-	"lowHeightMax" : 4.5,
+	"lowHeightMax" : 3.5,
 
 	// �����ɂ���č�����ς���
 	"lowDistMin" : 5.0,
-	"lowDistMax" : 50.0,
+	"lowDistMax" : 60.0,
 
 	// ��]
 	"lowRoll" : -2.4,
@@ -42,5 +42,5 @@
 	"lowBoundDist" : 40.0,
 
 	// �o�E���h�����銄��
-	"lowBoundRate" : 0.87
+	"lowBoundRate" : 0.90
 }

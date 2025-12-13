@@ -1,64 +1,64 @@
 /// @class auto
 // Configuration options
 {
-	// ï¿½Tï¿½|ï¿½[ï¿½gï¿½Gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½a
-	"innerDiameter" : 6.0,
+	// ƒTƒ|[ƒgƒGƒŠƒA“àŒa
+	"innerDiameter" : 8.0,
 
-	// ï¿½Tï¿½|ï¿½[ï¿½gï¿½Gï¿½ï¿½ï¿½Aï¿½Oï¿½a
-	"outerDiameter" : 8.0,
+	// ƒTƒ|[ƒgƒGƒŠƒAŠOŒa
+	"outerDiameter" : 10.0,
 	
-	// ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-	"adjustSupportDist" : 7.0,
+	// ƒTƒ|[ƒg’²®‹——£
+	"adjustSupportDist" : 10.0,
 
-	// ï¿½Oï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ù‚ÇƒTï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ÌÅ‘åˆ³ï¿½kï¿½ï¿½ï¿½B
+	// ‘O•û‚É‚¢‚­‚Ù‚ÇƒTƒ|[ƒg‹——£‚ð‹·‚­‚·‚éB‚»‚ÌÅ‘åˆ³k—¦B
 	"supportDistRate" : 0.90,
 
-	// ï¿½Xï¿½yï¿½[ï¿½Xï¿½Æ‚ï¿½ï¿½Ä”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Ì•Ó‚Ì’ï¿½ï¿½ï¿½
+	// ƒXƒy[ƒX‚Æ‚µ‚Ä”FŽ¯‚·‚é‹éŒ`‚Ì•Ó‚Ì’·‚³
 	"spaceRectLength" : 6.0,
 
-	// ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½Ê’uï¿½Xï¿½Vï¿½pï¿½x
-	"timeUpdateDelta" : 35,
+	// Œp‘±ŽžƒTƒ|[ƒgˆÊ’uXV•p“x
+	"timeUpdateDelta" : 30,
 
-	// ï¿½ï¿½ï¿½è‚µï¿½ï¿½ï¿½Æ‚Ý‚È‚ï¿½ï¿½ï¿½ï¿½{ï¿½[ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ìiï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-	"angleAbsAve" : 25.0,
+	// ˆÀ’è‚µ‚½‚Æ‚Ý‚È‚³‚ê‚éƒ{[ƒ‹ƒvƒŒƒCƒ„[‚Ìis•ûŒü·•ª
+	"angleAbsAve" : 20.0,
 
-	// ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ÉƒXï¿½Rï¿½Aï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½
+	// Œp‘±Žž‚ÉƒXƒRƒA‚É‚©‚©‚éŒW”
 	"scoreWeight" : 0.65,
 
-	// ï¿½Vï¿½Kï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½Xï¿½Rï¿½A(ï¿½Ã‚ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½Ê’uï¿½ÆVï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½Ê’uï¿½Æ‚Ì‹ï¿½ï¿½ï¿½)
+	// V‹KŽž‚Ì‹——£ƒXƒRƒA(ŒÃ‚¢ƒTƒ|[ƒgˆÊ’u‚ÆV‚µ‚¢ƒTƒ|[ƒgˆÊ’u‚Æ‚Ì‹——£)
 	"scoreDistDefault" : 1.0,
 
-	// ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Rï¿½Aï¿½Pï¿½ï¿½(6mï¿½ï¿½1ï¿½_)
+	// ‹——£ƒXƒRƒA’PˆÊ(6m‚Å1“_)
 	"scoreDistUnit" : 6.0,
 
-	// ï¿½pï¿½xï¿½Xï¿½Rï¿½Aï¿½Pï¿½ï¿½(30ï¿½xï¿½ï¿½ï¿½Æ‚É‰ï¿½ï¿½_ï¿½É‚È‚é‚©)
+	// Šp“xƒXƒRƒA’PˆÊ(30“x‚²‚Æ‚É‰½“_‚É‚È‚é‚©)
 	"scoreAngleRate" : 1.5,
 
-	// ï¿½Ú“Iï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ì’lï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½RUN
+	// –Ú“I’n‚ª‚±‚Ì’l‚æ‚è‰“‚¯‚ê‚ÎRUN
 	"distRun" : 5.0,
 	"distRunMargin" : 2.0,
 
-	// ï¿½Ú“Iï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ì’lï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½DASH
+	// –Ú“I’n‚ª‚±‚Ì’l‚æ‚è‰“‚¯‚ê‚ÎDASH
 	"distDash" : 15.0,
 	"distDashMargin" : 0.0,
 	
-	// ï¿½Aï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½Íˆï¿½
+	// ˜AŒgƒpƒ‰‚ª”½‰f‚·‚é”ÍˆÍ
 	"upperConnectionParam" : 70.0,
 	"lowerConnectionParam" : 50.0,
 	
-	// ï¿½Aï¿½gï¿½pï¿½ï¿½ï¿½É‚ï¿½ï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ð”»’fï¿½ï¿½ï¿½È‚ï¿½ï¿½Å‘åŽžï¿½ï¿½
+	// ˜AŒgƒpƒ‰‚É‚æ‚éƒTƒ|[ƒgˆ—‚ð”»’f‚µ‚È‚¢Å‘åŽžŠÔ
 	"maxWaitTime" : 60.0,
 	
-	// ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^:ï¿½pï¿½Xï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½@TODO::ï¿½íœï¿½\ï¿½ï¿½
+	// ƒpƒ‰ƒ[ƒ^:ƒpƒXƒTƒ|[ƒg‹——£@TODO::íœ—\’è
 	"passSupportDist" : 20,
 	
-	// ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^:ï¿½pï¿½Xï¿½Tï¿½|ï¿½[ï¿½gï¿½ÓŽï¿½ï¿½@TODO::ï¿½íœï¿½\ï¿½ï¿½
+	// ƒpƒ‰ƒ[ƒ^:ƒpƒXƒTƒ|[ƒgˆÓŽ¯@TODO::íœ—\’è
 	"passSupportRisk" : 0,
 	
-	// ï¿½ï¿½{ï¿½|ï¿½Wï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ÆƒTï¿½|ï¿½[ï¿½gï¿½Ê’uï¿½Æ‚Ì‹ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½p
+	// Šî–{ƒ|ƒWƒVƒ‡ƒ“‚ÆƒTƒ|[ƒgˆÊ’u‚Æ‚Ì‹——£ƒ`ƒFƒbƒN—p
 	"passSupportRiskMinDist" : 10.0,
 	"passSupportRiskAdjustDist" : 15.0,
 	
-	// TODO::ï¿½fï¿½oï¿½bï¿½Oï¿½pï¿½@ï¿½ï¿½ï¿½uï¿½ï¿½
+	// TODO::ƒfƒoƒbƒO—p@‰¼’u‚«
 	"offenceSwitch": 0
 }

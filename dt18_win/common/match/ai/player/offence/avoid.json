@@ -1,6 +1,6 @@
 /// @class auto
 {
-	// —§‚¿ã‚ª‚èŽž‚ÌˆÚs‚É‚©‚©‚éŽžŠÔ(sec)
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½èŽžï¿½ÌˆÚsï¿½É‚ï¿½ï¿½ï¿½ï¿½éŽžï¿½ï¿½(sec)
 	"kickOffTime" : 3.0,
 	"throwInTime" : 5.0,
 	"goalKickTime" : 8.0,
@@ -9,56 +9,56 @@
 	"penaltyKickTime" : 8.0,
 	"offenceSwitchTime" : 5.0,
 
-	// ”ð‚¯‚ç‚ê‚é‘IŽè‚Ì‘¬“x‚É‚æ‚Á‚Ä‰~‚ÌƒTƒCƒY‚ð•Ï‚¦‚é
-	// ‚à‚Á‚Æ‚à¬‚³‚¢‚Æ‚«‚Ì‰~‚ÌƒTƒCƒYŠ„‡
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½Ì‘ï¿½ï¿½xï¿½É‚ï¿½ï¿½ï¿½Ä‰~ï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½Ï‚ï¿½ï¿½ï¿½
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ì‰~ï¿½ÌƒTï¿½Cï¿½Yï¿½ï¿½ï¿½ï¿½
 	"distRateMin" : 0.5,
 
-	// ‚à‚Á‚Æ‚à‰~‚ª¬‚³‚­‚È‚é‚Æ‚«‚ÌƒXƒs[ƒh(km/h)
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Æ‚ï¿½ï¿½ÌƒXï¿½sï¿½[ï¿½h(km/h)
 	"speedMin" : 5.0,
 
-	// ‚à‚Á‚Æ‚à‰~‚ª‘å‚«‚­‚È‚é‚Æ‚«‚ÌƒXƒs[ƒh(km/h)
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½~ï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½È‚ï¿½Æ‚ï¿½ï¿½ÌƒXï¿½sï¿½[ï¿½h(km/h)
 	"speedMax" : 15.0,
 
-	// ‘È‰~’†S‚ÌƒIƒtƒZƒbƒg
+	// ï¿½È‰~ï¿½ï¿½ï¿½Sï¿½ÌƒIï¿½tï¿½Zï¿½bï¿½g
 	"offset" : 1.0,
 
-	// ‰Ÿ‚·‘IŽè‚ð’†S‚Æ‚µ‚½i“ü‹ÖŽ~‰~’·Œa
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ð’†Sï¿½Æ‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ÖŽ~ï¿½~ï¿½ï¿½ï¿½a
 	"longDist" : 8.0,
 
-	// ‰Ÿ‚·‘IŽè‚ð’†S‚Æ‚µ‚½i“ü‹ÖŽ~‰~’ZŒa
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ð’†Sï¿½Æ‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ÖŽ~ï¿½~ï¿½Zï¿½a
 	"shortDist" : 8.0,
 
-	// ‰Ÿ‚·‘IŽè‚ð’†S‚Æ‚µ‚½i“ü‹ÖŽ~‰~’·ŒaÅ¬’l
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ð’†Sï¿½Æ‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ÖŽ~ï¿½~ï¿½ï¿½ï¿½aï¿½Åï¿½ï¿½l
 	"longDistMin" : 4.0,
 
-	// ‰Ÿ‚·‘IŽè‚ð’†S‚Æ‚µ‚½i“ü‹ÖŽ~‰~’ZŒaÅ¬’l
-	"shortDistMin" : 4.0,
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ð’†Sï¿½Æ‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ÖŽ~ï¿½~ï¿½Zï¿½aï¿½Åï¿½ï¿½l
+	"shortDistMin" : 3.0,
 
-	// žB–†‚Æ”»’è‚³‚ê‚éƒAƒ“ƒOƒ‹·
+	// ï¿½Bï¿½ï¿½ï¿½Æ”ï¿½ï¿½è‚³ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½
 	"subtleAngleSub" : 20.0,
 
-	// žB–†‚Æ”»’è‚³‚ê‚éƒAƒ“ƒOƒ‹·
+	// ï¿½Bï¿½ï¿½ï¿½Æ”ï¿½ï¿½è‚³ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½
 	"subtleAngleSubMargin" : 20.0,
 
-	// Moderate‰ñ”ðŽž‚ÌŠp‘¬“x
-	"angleVelocity" : 20.0,
+	// Moderateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŠpï¿½ï¿½ï¿½x
+	"angleVelocity" : 25.0,
 
-	// –Ú“I’n‚ª‚±‚Ì’l‚æ‚è‰“‚¯‚ê‚ÎRUN
-	"distRun" : 3.0,
+	// ï¿½Ú“Iï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ì’lï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½RUN
+	"distRun" : 2.5,
 	"distRunMargin" : 0.75,
 
-	// –Ú“I’n‚ª‚±‚Ì’l‚æ‚è‰“‚¯‚ê‚ÎDASH
-	"distDash" : 5.0,
+	// ï¿½Ú“Iï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ì’lï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½DASH
+	"distDash" : 4.5,
 	"distDashMargin" : 1.0,
 
-	// –Ú“I’n‚ª‚±‚Ì’l‚æ‚è‰“‚¯‚ê‚ÎMOVE
-	"distMove" : 7.0,
+	// ï¿½Ú“Iï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Ì’lï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½MOVE
+	"distMove" : 6.0,
 	"distMoveMargin" : 3.0,
 
-	// ‘O•û‚É‚¢‚é‚Æ”»’f‚·‚éŠp“x
+	// ï¿½Oï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½pï¿½x
 	"majorAngle" : 70.0,
 	"majorAngleMargin" : 20.0,
 
-	// ˆÚ“®•ûŒü‚ðˆÛŽ‚·‚é‘¬“x(km/h)
+	// ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÛŽï¿½ï¿½ï¿½ï¿½é‘¬ï¿½x(km/h)
 	"keepMoveAngleSpeed" : 7.0
 }

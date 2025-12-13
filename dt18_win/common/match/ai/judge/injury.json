@@ -2,16 +2,16 @@
 // Configuration options
 {
 	//----------------------------------------
-	// ���x�� �_���[�W臒l 0�`255�͈̔͂ł��邱�ƁB
+	// ���x�� �_���[�W臒l 0�`255�͈̔͂ł��邱�ƁB
 	//----------------------------------------
 	//����
-	"levelDamageMicro" : 100,
+	"levelDamageMicro" : 85,
 	//�y��
 	"levelDamageMinor" : 150,
 	//����
-	"levelDamageMiddle" : 200,
+	"levelDamageMiddle" : 220,
 	//�d��
-	"levelDamageSerious" : 230,
+	"levelDamageSerious" : 240,
 	
 	//----------------------------------------
 	//  �_���[�W臒l 0�`255�͈̔͂ł��邱�ƁB
@@ -23,7 +23,7 @@
 	//��
 	"symptomDamageLaceration" : 220,
 	//������
-	"symptomDamageTearMuscle" : 230,
+	"symptomDamageTearMuscle" : 210,
 	//�Ց�(�P��)
 	"symptomDamageLigament" : 240,
 	//����

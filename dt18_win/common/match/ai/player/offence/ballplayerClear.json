@@ -2,57 +2,57 @@
 //BallKeepActionOrderClear
 {
 	//*****CheckClearTiming()*****************************************************
-	//ƒNƒŠƒA”»’è
+	//ï¿½Nï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½
 	
-	//ƒyƒiƒ‹ƒeƒBƒGƒŠƒA“à‚©ƒS[ƒ‹‚©‚çˆê’è‹——£“à‚Åƒ{[ƒ‹‚ðŽ‚Á‚Ä‚¢‚é‚Æ‚«‚É‘ŠŽè‘IŽè‚ª‹ß‚­‚Éˆê’è”‚¢‚½‚çƒNƒŠƒA
-	//ƒNƒŠƒA‚·‚é‚©l‚¦‚é‹——£(ƒGƒŠƒA“à‚©‚±‚Ì‹——£ˆÈ“à‚Åƒ{[ƒ‹‚ðŽ‚Á‚Ä‚¢‚½‚ç)
+	//ï¿½yï¿½iï¿½ï¿½ï¿½eï¿½Bï¿½Gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‹—ï¿½ï¿½ï¿½ï¿½ï¿½Åƒ{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½É‘ï¿½ï¿½ï¿½Iï¿½è‚ªï¿½ß‚ï¿½ï¿½Éˆï¿½è”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½A
+	//ï¿½Nï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½é‚©ï¿½lï¿½ï¿½ï¿½é‹—ï¿½ï¿½(ï¿½Gï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½ï¿½È“ï¿½ï¿½Åƒ{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½)
 	"clearCheckGoalDistArea" : 20.0,
-	//‚¿‚å‚Á‚Æ‹ß‚¢
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹ß‚ï¿½
 	"checkFarCountDist":9.0,
-	//ª‚Ìl‚ÍˆÚ“®Šp“x‚ª‚±‚ê‚æ‚èƒ{[ƒ‹•ûŒü‚È‚çƒJƒEƒ“ƒg
+	//ï¿½ï¿½ï¿½Ìlï¿½ÍˆÚ“ï¿½ï¿½pï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Jï¿½Eï¿½ï¿½ï¿½g
 	"farCountMoveAngle":30.0,
-	//‹ß‚¢B‚±‚êˆÈ“à‚È‚çƒJƒEƒ“ƒg
+	//ï¿½ß‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½È“ï¿½ï¿½È‚ï¿½Jï¿½Eï¿½ï¿½ï¿½g
 	"nearCountDist":4.5,
-	//‚¿‚å‚Á‚Æ‹ß‚¢l‚ª‚±‚ê‚æ‚è‘½‚¯‚ê‚ÎƒNƒŠƒA
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹ß‚ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‘½ï¿½ï¿½ï¿½ï¿½ÎƒNï¿½ï¿½ï¿½A
 	"clearCountFar":2.0,
-	//‹ß‚¢l‚ª‚±‚ê‚æ‚è‘½‚¯‚ê‚ÎƒNƒŠƒA
+	//ï¿½ß‚ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‘½ï¿½ï¿½ï¿½ï¿½ÎƒNï¿½ï¿½ï¿½A
 	"clearCountNear":1.0,
 	
-	//ª‚Ü‚Å‚ÅƒNƒŠƒA‚³‚ê‚È‚©‚Á‚½‚Æ‚«-----------------------------------
+	//ï¿½ï¿½ï¿½Ü‚Å‚ÅƒNï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½-----------------------------------
 	
-	//ƒS[ƒ‹‚É‹ß‚¢‚Æ‚±‚ë‚Å‚ÌƒNƒŠƒA‚ðl‚¦‚é‹——£--------------------------
+	//ï¿½Sï¿½[ï¿½ï¿½ï¿½É‹ß‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Å‚ÌƒNï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½lï¿½ï¿½ï¿½é‹—ï¿½ï¿½--------------------------
 	"clearCheckGoalDistNear" : 14.0,
-	//ƒ{[ƒ‹‚ª‘ŠŽè‘IŽè•ûŒü‚©
+	//ï¿½{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"clearCheckNearAngle":124.5,
-	//‚±‚ê‚æ‚è‘ŠŽè‚É‹ß‚¯‚ê‚ÎƒNƒŠƒA
+	//ï¿½ï¿½ï¿½ï¿½ï¿½è‘Šï¿½ï¿½É‹ß‚ï¿½ï¿½ï¿½ÎƒNï¿½ï¿½ï¿½A
 	"clearEnemyDistNear":6.0,
-	//ƒL[ƒp[—p‚Ì‹——£
+	//ï¿½Lï¿½[ï¿½pï¿½[ï¿½pï¿½Ì‹ï¿½ï¿½ï¿½
 	"clearEnemyDistNearGK":6.0,
-	//ƒL[ƒp[‚ªƒgƒ‰ƒbƒv‚¹‚¸‚ÉƒNƒŠƒA
+	//ï¿½Lï¿½[ï¿½pï¿½[ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ÉƒNï¿½ï¿½ï¿½A
 	"clearEnemyDistNearGKDirect":8.0,
-	//‘ŠŽè‚ª‰“‹——£(ƒhƒŠƒuƒ‹)
+	//ï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½hï¿½ï¿½ï¿½uï¿½ï¿½)
 	"clearEnemyDistDribble":4.0,
-	//‚¢‚¢ƒgƒ‰ƒbƒv‚ª‚Å‚«‚Ä‚È‚¢”»’è
+	//ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ä‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½
 	"clearBadTrapSpeed":11.2,
 	"clearBadTrapAngle":112.5,
-	//‘O‚ðŒü‚¢‚Ä‚¢‚È‚¢
+	//ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½
 	"notClearBodyAngle":112.5,
 	
-	//‚Ü‚ ‚Ü‚ ‹ß‚¢Žž‚ÌƒNƒŠƒA‚ðl‚¦‚éƒS[ƒ‹‚©‚ç‚Ì‹——£--------------------
-	"clearCheckGoalDistFar" : 20.0,
-	//‚³‚ç‚É‚±‚ê‚æ‚èŽ©g‚Æ‹ß‚¯‚ê‚Îl‚¦‚é
+	//ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½ß‚ï¿½ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½Sï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‹ï¿½ï¿½ï¿½--------------------
+	"clearCheckGoalDistFar" : 25.0,
+	//ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½èŽ©ï¿½gï¿½Æ‹ß‚ï¿½ï¿½ï¿½Îlï¿½ï¿½ï¿½ï¿½
 	"clearCheckEnemyDistFar":4.0,
-	//‚à‚µ‚­‚Í‚±‚ê‚æ‚è‹ß‚­‚Ä
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½ï¿½
 	"clearCheckEnemyDistNear":2.0,
-	//Šp“x‚ª‚±‚ÌŠp“x‚æ‚èŒü‚©‚Á‚Ä‚«‚Ä‚¢‚é‚È‚çl‚¦‚é
+	//ï¿½pï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ÌŠpï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½È‚ï¿½lï¿½ï¿½ï¿½ï¿½
 	"clearCheckEnemyAngleNear":56.3,
 	
-	//ƒ‹[ƒYƒ{[ƒ‹‚ÌƒNƒŠƒA”»’è
-	//‘ŠŽè‘IŽè‚ªƒ{[ƒ‹•ûŒü
+	//ï¿½ï¿½ï¿½[ï¿½Yï¿½{ï¿½[ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½
+	//ï¿½ï¿½ï¿½ï¿½Iï¿½è‚ªï¿½{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	"clearCheckEnemyAngleLooseBall":78.8,
-	//‘ŠŽèƒS[ƒ‹•ûŒü‚ðŒü‚¢‚Ä‚¢‚é
+	//ï¿½ï¿½ï¿½ï¿½Sï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½
 	"clearCheckGoalAngleLooseBall":78.8
 	
-	//ƒ‹[ƒYƒ{[ƒ‹‚¶‚á‚È‚¢
-	//Œã•û‚ÉƒXƒy[ƒX‚ª‚ ‚é(ƒXƒy[ƒX‚ÉƒhƒŠƒuƒ‹)
+	//ï¿½ï¿½ï¿½[ï¿½Yï¿½{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
+	//ï¿½ï¿½ï¿½ï¿½ÉƒXï¿½yï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Xï¿½yï¿½[ï¿½Xï¿½Éƒhï¿½ï¿½ï¿½uï¿½ï¿½)
 }

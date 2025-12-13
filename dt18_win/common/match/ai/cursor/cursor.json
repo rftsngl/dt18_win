@@ -1,19 +1,19 @@
 /// @class auto
 {
-	// �e�X�g�I�ɔz��f�[�^�Ƃ��Ĉ����Ă݂�B���т�ChangeKind����NONE�𖳎���������
+	// テスト的に配列データとして扱ってみる。並びはChangeKind順でNONEを無視した並び
 	"dist" : [
-		{ "value" : 2.0 }, // �G���{�[����ێ����Ă��鎞
-		{ "value" : 8.0 }, // �������{�[����ێ����Ă��鎞
-		{ "value" : 8.0 }, // �Z�b�g�v���C
-		{ "value" : 8.0 }  // �X�e�B�b�N���͎�
+		{ "value" : 4.0 }, // 敵がボールを保持している時
+		{ "value" : 8.0 }, // 味方がボールを保持している時
+		{ "value" : 8.0 }, // セットプレイ
+		{ "value" : 8.0 }  // スティック入力時
 	],
 	
 	"disp" : [
-		{ "value" : false  }, // HOME��
-		{ "value" : false  }  // AWAY��
+		{ "value" : false  }, // HOME側
+		{ "value" : false  }  // AWAY側
 	],	
 
-	// usr05091���l�I�ɒǉ�����������L���ɂ��邩�ǂ���
+	// usr05091が個人的に追加した処理を有効にするかどうか
 	"customEnable" : true,
 	
 	"stickGage" : 0.0,
@@ -22,5 +22,6 @@
 	
 	"keepFriendAdjustSide" : 15.0,
 	
-	"keepEnemyAuto" : 5.0
+	"keepEnemyAuto" : 2.0
 }
+

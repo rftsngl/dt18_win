@@ -1,20 +1,20 @@
 /// @class auto
 {
-	// —\‘ª”ð‚¯‚ÌŽž‚ÉA‚±‚ê‚æ‚è‹ß‚©‚Á‚½‚çƒWƒƒƒ“ƒv‚µ‚ÄA‚±‚ê‚æ‚è‰“‚©‚Á‚½‚ç‚µ‚á‚ª‚Þ(m)
+	// ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ÉAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ÄAï¿½ï¿½ï¿½ï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚µï¿½á‚ªï¿½ï¿½(m)
 	"predictionJumpDist" : 2.0,
 	
-	// ‹¤’Êƒ`ƒFƒbƒNŽžA‚±‚ê‚æ‚è‰“‚©‚Á‚½‚ç”ð‚¯‚È‚¢(m)
+	// ï¿½ï¿½ï¿½Êƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½(m)
 	"needDodgeDistCommon" : 2.0,
 	
-	// ‚±‚ê‚æ‚è’x‚©‚Á‚½‚ç”ð‚¯‚È‚¢
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
 	"needDodgeSpeed" : 0.8,
 	
-	// ƒ{[ƒ‹‚ªg’·+‚±‚Ì’l‚æ‚è‚‚©‚Á‚½‚ç”ð‚¯‚È‚¢(m)
+	// ï¿½{ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½+ï¿½ï¿½ï¿½Ì’lï¿½ï¿½è‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½(m)
 	"needDodgeHeight" : 0.7,
 
-	// ƒVƒ…[ƒgƒR[ƒXã‚É‚¢‚é‚©ƒ`ƒFƒbƒN‚·‚é‚Æ‚«‚Éƒ|ƒXƒg‚©‚çŠO‚É‚±‚Ì•‚¾‚¯—]—T‚ð‚à‚Â(m)
-	"shootCourseMargin" : 3.5,
+	// ï¿½Vï¿½ï¿½ï¿½[ï¿½gï¿½Rï¿½[ï¿½Xï¿½ï¿½É‚ï¿½ï¿½é‚©ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Éƒ|ï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½Oï¿½É‚ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½Tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(m)
+	"shootCourseMargin" : 1.5,
 	
-	// —\‘ª”ð‚¯ƒ`ƒFƒbƒNŽžA‚±‚ê‚æ‚è‰“‚©‚Á‚½‚ç”ð‚¯‚È‚¢(m)
-	"needDodgeDistBeforeKick" : 6.0
+	// ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½è‰“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½(m)
+	"needDodgeDistBeforeKick" : 3.0
 }

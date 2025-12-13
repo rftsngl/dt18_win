@@ -99,21 +99,21 @@
 	// ������̐ݒ�
 	//----------------------------------------
 	// �������FW-DF�Ԃ̋�����
-	"lengthDf" : 22.0,
-	// �T�C�h�ւ̕΂�
+	"lengthDf" : 25.0,
+	// �T�C�h�ւ̕΂�
 	"wideRate" : 0.1,
 
 	//�U������DF���C���̍���
-	"dfLineRate": 0.4,
+	"dfLineRate": 0.3,
 	
 	// DF���C���̍�������
 	"dfLine" : 10,
 
 	// DF�J�e�S���̑傫��
-	"dfGroupRate" : 0.5,
+	"dfGroupRate" : 0.4,
 
 	// FW���C���̍����������v���X�J�n�ʒu
-	"pressRate" : 0.6,
+	"pressRate" : 0.5,
 	
 	// FW-MF�̍Œ዗����
 	"minDistMF_FW" : 1.5,
@@ -299,13 +299,13 @@
 	"adjustXFromAttackAwareness4" : 5.0,
 	
 	// �f�o�b�O�p�@TODO::�폜�\��
-	"defenceCompact" : 20,
+	"defenceCompact" : 25,
 	
 	//�R���p�N�g�l�X�p���ɑ΂��Ă�FW��X���W���z���C����������
 	"adjustXCompactFW" : 0.5,
 	
 	//�R���p�N�g�l�X�p���ɑ΂��Ă�Z���W���z���C���̒�������
-	"adjustZCompact" : 1.0,
+	"adjustZCompact" : 0.95,
 	
 	//�R���p�N�g�l�X�p���ɑ΂��Ă�Z���W���z���C�������̒�������
 	"adjustZMinCompact" : 0.5,

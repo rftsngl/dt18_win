@@ -5,28 +5,28 @@
 	//�`�����X��яo���p
 	//--------------------------------------------
 	// �{�[���Ƃ̃`�F�b�N����
-	"checkBallDist_chance"      : 15.0,
-	"checkBallDist_chance_good" : 18.0,
+	"checkBallDist_chance"      : 12.0,
+	"checkBallDist_chance_good" : 15.0,
 
 	// �p�x��
-	"angleDiff_chance"      : 50.0,
-	"angleDiff_chance_good" : 110.0,
+	"angleDiff_chance"      : 40.0,
+	"angleDiff_chance_good" : 100.0,
 	
 	// �ŏI���C���Ƃ̃`�F�b�N����
-	"checkLastLineDist_chance"      : 12.0,
-	"checkLastLineDist_chance_good" : 18.0,
+	"checkLastLineDist_chance"      : 10.0,
+	"checkLastLineDist_chance_good" : 15.0,
 	
 	// ��_�`�F�b�N����0
-	"checkCrossPointDist0_chance"      : 4.0,
-	"checkCrossPointDist0_chance_good" : 1.5,
+	"checkCrossPointDist0_chance"      : 5.0,
+	"checkCrossPointDist0_chance_good" : 2.0,
 	
 	// ��_�`�F�b�N����1
-	"checkCrossPointDist1_chance"      : 5.0,
-	"checkCrossPointDist1_chance_good" : 2.5,
+	"checkCrossPointDist1_chance"      : 6.0,
+	"checkCrossPointDist1_chance_good" : 3.0,
 	
 	// ��_�`�F�b�N����2
-	"checkCrossPointDist2_chance"      : 6.0,
-	"checkCrossPointDist2_chance_good" : 3.5,
+	"checkCrossPointDist2_chance"      : 7.0,
+	"checkCrossPointDist2_chance_good" : 4.0,
 	
 	// �`�����X�Ƃ��ĔF������X�R�A
 	"chanceScore"      : 100,
@@ -94,7 +94,7 @@
 	"checkBallDist_second_good" : 20.0,
 	
 	// BP�Ƃ̑̂̌����`�F�b�N
-	"angleDiff_second"      : 45.0,
+	"angleDiff_second"      : 60.0,
 	"angleDiff_second_good" : 100.0,
 	
 	//--------------------------------------------

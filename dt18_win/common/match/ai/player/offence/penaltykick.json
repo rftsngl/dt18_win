@@ -1,6 +1,6 @@
 /// @class auto
 {
-	"shootSpeedKPHMin" : 70.0,
+	"shootSpeedKPHMin" : 60.0,
 	
-	"shootSpeedKPHMax" : 120.0
+	"shootSpeedKPHMax" : 105.0
 }

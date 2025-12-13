@@ -5,15 +5,15 @@
 	//����������Ă����J
     "defenceTired":2,
     //�h���u���̔�J
-	"dribbleTired":4,
+	"dribbleTired":3,
 	//�X�s�[�h�ɂ���J
-	"speedTired":3,
-	//�Ԃ��������̔�J
+	"speedTired":1,
+	//�Ԃ��������̔�J
 	"contactTired":7,
 	//���荇���Ă���Ƃ��̔�J
-	"jostleTired":4,
+	"jostleTired":2,
 	//��b���
-	"metabolism":5,
+	"metabolism":10,
 	//�_�b�V���X�^�~�i���������Ƃ��̔��
-	"dashTired":9
+	"dashTired":10
 }

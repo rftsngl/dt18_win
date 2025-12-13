@@ -1,14 +1,14 @@
 /// @class auto
 {
 	// �Z���^�����O���̃J�[�u��{�l(rps)
-	"centeringCurveBase" : 4.2,
+	"centeringCurveBase" : 4.0,
 	
 	// �Z���^�����O���̃J�[�u�␳�ő�l(rps)
-	"centeringCurveAdjustMax" : 4.8,
+	"centeringCurveAdjustMax" : 5.5,
 	
 	// �Z���^�����O�ő呬�x(����)
-	"centeringMaxSpeedHigh" : 98.0,
+	"centeringMaxSpeedHigh" : 88.0,
 	
 	// �Z���^�����O�ő呬�x(�Ⴂ)
-	"centeringMaxSpeedLow" : 85.0
+	"centeringMaxSpeedLow" : 82.0
 }
