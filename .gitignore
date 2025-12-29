@@ -10,8 +10,10 @@ Desktop.ini
 
 # Editor directories and files
 .vscode/
+.github/
 .cursor/
 .idea/
+.mypy_cache/
 *.swp
 *.swo
 *~
@@ -44,5 +46,16 @@ yarn-error.log*
 # dt90_win folder
 # dt90_win/
 
+# Pes Gameplay Editor
+pes-gameplay-editor/
+
 # Project documentation
 Risk_Siniflandirmasi.md
+
+# PES File Crypter 
+PES File Crypter 2018 V2.0/
+
+# binary_ninja_mcp
+binary_ninja_mcp/
+
+Knowledge/
