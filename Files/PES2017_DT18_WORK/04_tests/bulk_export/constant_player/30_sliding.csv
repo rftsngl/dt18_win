@@ -1,0 +1,9 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,0,0x0000,0x000016F0,00 00 80 40,1082130432,1082130432,4.0,float32_candidate,4
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,1,0x0004,0x000016F4,00 00 40 3F,1061158912,1061158912,0.75,float32_candidate,0.75
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,2,0x0008,0x000016F8,00 00 10 41,1091567616,1091567616,9.0,float32_candidate,9
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,3,0x000C,0x000016FC,9A 99 99 3F,1067030938,1067030938,1.2000000476837158,float32_candidate,1.2
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,4,0x0010,0x00001700,66 66 66 3F,1063675494,1063675494,0.8999999761581421,float32_candidate,0.9
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,5,0x0014,0x00001704,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,6,0x0018,0x00001708,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,sliding.o,30,0x000016F0,32,raw_4byte_fields,0,0x0000,0x000016F0,32,7,0x001C,0x0000170C,00 00 00 00,0,0,0.0,int32_or_flag,0

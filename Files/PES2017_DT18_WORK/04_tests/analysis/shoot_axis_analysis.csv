@@ -1,0 +1,37 @@
+analysis_type,family,record,field,values,metric,result,delta,ratio,interpretation
+record_horizontal_curve,A,1,,"80, 80, 82, 84, 90, 98",non_decreasing,True,,,Record içindeki F0-F5 dizisinin artan curve gibi davranıp davranmadığı.
+record_horizontal_curve,A,2,,"62, 64, 72, 79, 84, 90",non_decreasing,True,,,Record içindeki F0-F5 dizisinin artan curve gibi davranıp davranmadığı.
+record_horizontal_curve,A,3,,"45, 45, 62, 74, 78, 82",non_decreasing,True,,,Record içindeki F0-F5 dizisinin artan curve gibi davranıp davranmadığı.
+record_horizontal_curve,B,6,,"95, 100, 105, 115, 120, 120",non_decreasing,True,,,Record içindeki F0-F5 dizisinin artan curve gibi davranıp davranmadığı.
+record_horizontal_curve,B,7,,"70, 70, 80, 95, 115, 115",non_decreasing,True,,,Record içindeki F0-F5 dizisinin artan curve gibi davranıp davranmadığı.
+record_horizontal_curve,B,8,,"56, 56, 68, 82, 84, 90",non_decreasing,True,,,Record içindeki F0-F5 dizisinin artan curve gibi davranıp davranmadığı.
+family_vertical_axis,A,1->2->3,F0,"80, 62, 45",non_increasing,True,-35,0.5625,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,A,1->2->3,F1,"80, 64, 45",non_increasing,True,-35,0.5625,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,A,1->2->3,F2,"82, 72, 62",non_increasing,True,-20,0.756098,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,A,1->2->3,F3,"84, 79, 74",non_increasing,True,-10,0.880952,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,A,1->2->3,F4,"90, 84, 78",non_increasing,True,-12,0.866667,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,A,1->2->3,F5,"98, 90, 82",non_increasing,True,-16,0.836735,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,B,6->7->8,F0,"95, 70, 56",non_increasing,True,-39,0.589474,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,B,6->7->8,F1,"100, 70, 56",non_increasing,True,-44,0.56,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,B,6->7->8,F2,"105, 80, 68",non_increasing,True,-37,0.647619,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,B,6->7->8,F3,"115, 95, 82",non_increasing,True,-33,0.713043,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,B,6->7->8,F4,"120, 115, 84",non_increasing,True,-36,0.7,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_vertical_axis,B,6->7->8,F5,"120, 115, 90",non_increasing,True,-30,0.75,Aile içinde record ekseninde değerlerin yüksekten düşüğe gidip gitmediği.
+family_B_minus_A,A_vs_B,1<->6,F0,"A=80, B=95",B_greater_than_A,True,15,1.1875,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,1<->6,F1,"A=80, B=100",B_greater_than_A,True,20,1.25,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,1<->6,F2,"A=82, B=105",B_greater_than_A,True,23,1.28049,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,1<->6,F3,"A=84, B=115",B_greater_than_A,True,31,1.36905,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,1<->6,F4,"A=90, B=120",B_greater_than_A,True,30,1.33333,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,1<->6,F5,"A=98, B=120",B_greater_than_A,True,22,1.22449,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,2<->7,F0,"A=62, B=70",B_greater_than_A,True,8,1.12903,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,2<->7,F1,"A=64, B=70",B_greater_than_A,True,6,1.09375,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,2<->7,F2,"A=72, B=80",B_greater_than_A,True,8,1.11111,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,2<->7,F3,"A=79, B=95",B_greater_than_A,True,16,1.20253,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,2<->7,F4,"A=84, B=115",B_greater_than_A,True,31,1.36905,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,2<->7,F5,"A=90, B=115",B_greater_than_A,True,25,1.27778,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,3<->8,F0,"A=45, B=56",B_greater_than_A,True,11,1.24444,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,3<->8,F1,"A=45, B=56",B_greater_than_A,True,11,1.24444,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,3<->8,F2,"A=62, B=68",B_greater_than_A,True,6,1.09677,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,3<->8,F3,"A=74, B=82",B_greater_than_A,True,8,1.10811,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,3<->8,F4,"A=78, B=84",B_greater_than_A,True,6,1.07692,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.
+family_B_minus_A,A_vs_B,3<->8,F5,"A=82, B=90",B_greater_than_A,True,8,1.09756,Family B’nin aynı konumdaki Family A değerinden büyük olup olmadığı.

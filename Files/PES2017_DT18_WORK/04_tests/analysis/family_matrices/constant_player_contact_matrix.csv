@@ -1,0 +1,2 @@
+file,section,record,record_offset,record_length,parse_mode,F0,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,F17,F18,F19
+constant_player.bin,contact.o,0,0x00000950,80,raw_4byte_fields,0,56,0.45,0.45,0.5,0.25,0.15,0.2,0.6,0.5,0.8,0.8,35,27,0.15,0.04,0.06,0.03,0,0

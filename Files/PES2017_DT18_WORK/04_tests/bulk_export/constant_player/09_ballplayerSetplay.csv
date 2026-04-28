@@ -1,0 +1,13 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,0,0x0010,0x00000810,00 00 40 41,1094713344,1094713344,12.0,float32_candidate,12
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,1,0x0014,0x00000814,00 00 20 42,1109393408,1109393408,40.0,float32_candidate,40
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,2,0x0018,0x00000818,00 00 F0 41,1106247680,1106247680,30.0,float32_candidate,30
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,3,0x001C,0x0000081C,00 00 B8 41,1102577664,1102577664,23.0,float32_candidate,23
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,4,0x0020,0x00000820,00 00 48 42,1112014848,1112014848,50.0,float32_candidate,50
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,5,0x0024,0x00000824,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,6,0x0028,0x00000828,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,0,0x0010,0x00000810,32,7,0x002C,0x0000082C,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,1,0x0030,0x00000830,16,0,0x0030,0x00000830,00 00 0C 42,1108082688,1108082688,35.0,float32_candidate,35
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,1,0x0030,0x00000830,16,1,0x0034,0x00000834,00 00 00 40,1073741824,1073741824,2.0,float32_candidate,2
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,1,0x0030,0x00000830,16,2,0x0038,0x00000838,00 00 C8 41,1103626240,1103626240,25.0,float32_candidate,25
+constant_player.bin,ballplayerSetplay.o,9,0x00000800,64,record_table,1,0x0030,0x00000830,16,3,0x003C,0x0000083C,00 00 00 00,0,0,0.0,int32_or_flag,0

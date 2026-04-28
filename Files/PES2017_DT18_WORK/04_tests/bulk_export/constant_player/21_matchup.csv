@@ -1,0 +1,13 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,0,0x0000,0x00000CF0,00 00 C8 41,1103626240,1103626240,25.0,float32_candidate,25
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,1,0x0004,0x00000CF4,00 00 40 40,1077936128,1077936128,3.0,float32_candidate,3
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,2,0x0008,0x00000CF8,00 00 11 43,1125187584,1125187584,145.0,float32_candidate,145
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,3,0x000C,0x00000CFC,00 00 8C 42,1116471296,1116471296,70.0,float32_candidate,70
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,4,0x0010,0x00000D00,00 00 AA 42,1118437376,1118437376,85.0,float32_candidate,85
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,5,0x0014,0x00000D04,00 00 F0 41,1106247680,1106247680,30.0,float32_candidate,30
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,6,0x0018,0x00000D08,00 00 DC 42,1121714176,1121714176,110.0,float32_candidate,110
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,7,0x001C,0x00000D0C,00 00 A0 40,1084227584,1084227584,5.0,float32_candidate,5
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,8,0x0020,0x00000D10,01 00 00 00,1,1,1.401298464324817e-45,int32_or_flag,1
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,9,0x0024,0x00000D14,00 00 60 40,1080033280,1080033280,3.5,float32_candidate,3.5
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,10,0x0028,0x00000D18,00 00 80 3F,1065353216,1065353216,1.0,float32_candidate,1
+constant_player.bin,matchup.o,21,0x00000CF0,48,raw_4byte_fields,0,0x0000,0x00000CF0,48,11,0x002C,0x00000D1C,00 00 00 00,0,0,0.0,int32_or_flag,0

@@ -1,0 +1,5 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_match.bin,cursor.o,5,0x00000C40,16,raw_4byte_fields,0,0x0000,0x00000C40,16,0,0x0000,0x00000C40,00 00 00 41,1090519040,1090519040,8.0,float32_candidate,8
+constant_match.bin,cursor.o,5,0x00000C40,16,raw_4byte_fields,0,0x0000,0x00000C40,16,1,0x0004,0x00000C44,00 00 70 41,1097859072,1097859072,15.0,float32_candidate,15
+constant_match.bin,cursor.o,5,0x00000C40,16,raw_4byte_fields,0,0x0000,0x00000C40,16,2,0x0008,0x00000C48,00 00 00 3F,1056964608,1056964608,0.5,float32_candidate,0.5
+constant_match.bin,cursor.o,5,0x00000C40,16,raw_4byte_fields,0,0x0000,0x00000C40,16,3,0x000C,0x00000C4C,00 00 00 3F,1056964608,1056964608,0.5,float32_candidate,0.5

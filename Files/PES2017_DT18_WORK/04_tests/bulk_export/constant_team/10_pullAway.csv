@@ -1,0 +1,13 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,0,0x0000,0x00000A20,00 00 B4 42,1119092736,1119092736,90.0,float32_candidate,90
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,1,0x0004,0x00000A24,00 00 0C 43,1124859904,1124859904,140.0,float32_candidate,140
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,2,0x0008,0x00000A28,00 00 B0 41,1102053376,1102053376,22.0,float32_candidate,22
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,3,0x000C,0x00000A2C,00 00 A0 40,1084227584,1084227584,5.0,float32_candidate,5
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,4,0x0010,0x00000A30,00 00 D0 40,1087373312,1087373312,6.5,float32_candidate,6.5
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,5,0x0014,0x00000A34,00 00 F0 41,1106247680,1106247680,30.0,float32_candidate,30
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,6,0x0018,0x00000A38,00 00 E0 40,1088421888,1088421888,7.0,float32_candidate,7
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,7,0x001C,0x00000A3C,00 00 50 41,1095761920,1095761920,13.0,float32_candidate,13
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,8,0x0020,0x00000A40,00 00 D8 41,1104674816,1104674816,27.0,float32_candidate,27
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,9,0x0024,0x00000A44,00 00 0C 42,1108082688,1108082688,35.0,float32_candidate,35
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,10,0x0028,0x00000A48,00 01 01 01,16843008,16843008,2.3694275473575467e-38,int32_or_flag,16843008
+constant_team.bin,pullAway.o,10,0x00000A20,48,raw_4byte_fields,0,0x0000,0x00000A20,48,11,0x002C,0x00000A4C,01 00 00 00,1,1,1.401298464324817e-45,int32_or_flag,1

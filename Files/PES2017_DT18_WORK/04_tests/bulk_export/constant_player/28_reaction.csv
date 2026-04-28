@@ -1,0 +1,5 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_player.bin,reaction.o,28,0x000015A0,16,raw_4byte_fields,0,0x0000,0x000015A0,16,0,0x0000,0x000015A0,01 00 00 00,1,1,1.401298464324817e-45,int32_or_flag,1
+constant_player.bin,reaction.o,28,0x000015A0,16,raw_4byte_fields,0,0x0000,0x000015A0,16,1,0x0004,0x000015A4,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,reaction.o,28,0x000015A0,16,raw_4byte_fields,0,0x0000,0x000015A0,16,2,0x0008,0x000015A8,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,reaction.o,28,0x000015A0,16,raw_4byte_fields,0,0x0000,0x000015A0,16,3,0x000C,0x000015AC,00 00 00 00,0,0,0.0,int32_or_flag,0

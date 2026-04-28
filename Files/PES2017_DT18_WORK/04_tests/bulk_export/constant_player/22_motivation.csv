@@ -1,0 +1,9 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,0,0x0000,0x00000D20,10 00 00 00,16,16,2.2420775429197073e-44,int32_or_flag,16
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,1,0x0004,0x00000D24,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,2,0x0008,0x00000D28,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,3,0x000C,0x00000D2C,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,4,0x0010,0x00000D30,33 33 73 3F,1064514355,1064514355,0.949999988079071,float32_candidate,0.95
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,5,0x0014,0x00000D34,66 66 86 3F,1065772646,1065772646,1.0499999523162842,float32_candidate,1.05
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,6,0x0018,0x00000D38,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,motivation.o,22,0x00000D20,32,raw_4byte_fields,0,0x0000,0x00000D20,32,7,0x001C,0x00000D3C,00 00 00 00,0,0,0.0,int32_or_flag,0

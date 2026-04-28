@@ -1,0 +1,11 @@
+file,section,record,record_offset,record_length,parse_mode,F0,F1,F2,F3,F4,F5,F6,F7
+constant_player.bin,shoot.o,0,0x000015E0,32,record_table,50,5,10,6,2,1.2,0,0
+constant_player.bin,shoot.o,1,0x00001600,32,record_table,80,80,82,84,90,98,0,0
+constant_player.bin,shoot.o,2,0x00001620,32,record_table,62,64,72,79,84,90,0,0
+constant_player.bin,shoot.o,3,0x00001640,32,record_table,45,45,62,74,78,82,0,0
+constant_player.bin,shoot.o,4,0x00001660,16,record_table,26.5,3,0.5,0,,,,
+constant_player.bin,shoot.o,5,0x00001670,16,record_table,28,0.8,80,40,,,,
+constant_player.bin,shoot.o,6,0x00001680,32,record_table,95,100,105,115,120,120,0,0
+constant_player.bin,shoot.o,7,0x000016A0,32,record_table,70,70,80,95,115,115,0,0
+constant_player.bin,shoot.o,8,0x000016C0,32,record_table,56,56,68,82,84,90,0,0
+constant_player.bin,shoot.o,9,0x000016E0,16,record_table,28,3,0.5,0,,,,

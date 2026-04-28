@@ -1,0 +1,2 @@
+file,section,record,record_offset,record_length,parse_mode,F0,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,F17,F18,F19,F20,F21,F22,F23,F24,F25,F26,F27,F28,F29,F30,F31,F32,F33,F34,F35
+constant_team.bin,defence.o,0,0x00000630,144,raw_4byte_fields,10,10,5,3,50,35,6,20,6,12,70,20,10,1.5,2,2,2,4,1,1,1,1,1,10,4,5,8,10,3,10,26,5,14,30,40,80

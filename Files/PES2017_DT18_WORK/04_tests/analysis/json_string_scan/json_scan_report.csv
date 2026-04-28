@@ -1,0 +1,42 @@
+file,source_type,source_offset_hex,encoding,json_type,keys_preview,text_preview
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	12, 			8, 				2, 				1, 				0,				0				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	5, 				5, 				3, 				3, 				0,				0				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				0, 				1,				1,	 			1,				1				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				1, 				1, 				1, 				1,				1				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				1, 				1, 				1, 				1,				1				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				0, 				1,				1, 				1,				1				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				0, 				1, 				1, 				1,				1				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				0, 				0, 				1, 				1,				1				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				0, 				0, 				1, 				1,				1				]"
+01_extracted\common\match\ai\cpuLevel.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"[	0, 				1, 				1, 				1, 				1,				1				]"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""µ±¯½óÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""µ½uÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""|µ½uÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""£µ½uÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""|µÄßµ½uÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""wèÔàÉµ±¯½óÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""wèÔàÉµ½uÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""wèÔàÉ|µ½uÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""wèÔàÉ£µ½uÔ"" }"
+01_extracted\common\match\pad\feint.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""value"" : ""ñ]JnÊu"" }"
+01_extracted\common\match\ai\cursor\cursor.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{ ""value"" : 4.0 }"
+01_extracted\common\match\ai\cursor\cursor.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{ ""value"" : 8.0 }"
+01_extracted\common\match\ai\cursor\cursor.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{ ""value"" : 8.0 }"
+01_extracted\common\match\ai\cursor\cursor.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{ ""value"" : 8.0 }"
+01_extracted\common\match\ai\cursor\cursor.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{ ""value"" : false  }"
+01_extracted\common\match\ai\cursor\cursor.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{ ""value"" : false  }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 14 }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 14 }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 10 }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 14 }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 8  }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 14 }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 6  }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 1  }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 14 }"
+01_extracted\common\match\ai\team\offence\combination.json,raw_file_embedded_json_block,0x00000000,latin-1,embedded_block,,"{ ""kind"": 14 }"
+01_extracted\common\match\ai\player\offence\ballplayer.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{\n	""dummy"" : 0\n}"
+01_extracted\common\match\ai\player\offence\ballplayerAnalyze.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{\n	""dummy"" : 0\n}"
+01_extracted\common\match\ai\player\offence\freekick.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{\n	""longpassInplayUse"" : false,\n	\n	""longpassSpeedKPHMin"" : 30.0,\n	\n	""longpassSpeedKPHMax"" : 115.0	\n}"
+01_extracted\common\match\ai\player\offence\goalKick.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{\n	""distMinBase"" : 20.0,\n	""distMinDelta"" : 35.0,\n	""distMaxBase"" : 40.0,\n	""distMaxDelta"" : 35.0,\n	\n	""angleBase"" : 10.0,\n	""angleDelta"" : 2.0,\n\n	""distManualBase"" : 35.0,\n	""distManualDelta"" : 35.0\n}"
+01_extracted\common\match\ai\player\offence\penaltykick.json,raw_file_embedded_json_block,0x00000000,utf-8,embedded_block,,"{\n	""shootSpeedKPHMin"" : 60.0,\n	\n	""shootSpeedKPHMax"" : 105.0\n}"

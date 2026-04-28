@@ -1,0 +1,9 @@
+file,section,section_index,section_file_offset_hex,section_length,parse_mode,record,record_local_offset_hex,record_file_offset_hex,record_length,field,field_local_offset_hex,field_file_offset_hex,bytes_hex,int32,uint32,float32,preferred_type,preferred_value
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,0,0x0000,0x00000840,00 00 F0 41,1106247680,1106247680,30.0,float32_candidate,30
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,1,0x0004,0x00000844,00 00 48 42,1112014848,1112014848,50.0,float32_candidate,50
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,2,0x0008,0x00000848,00 00 20 41,1092616192,1092616192,10.0,float32_candidate,10
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,3,0x000C,0x0000084C,00 00 80 41,1098907648,1098907648,16.0,float32_candidate,16
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,4,0x0010,0x00000850,00 00 D0 41,1104150528,1104150528,26.0,float32_candidate,26
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,5,0x0014,0x00000854,00 00 80 41,1098907648,1098907648,16.0,float32_candidate,16
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,6,0x0018,0x00000858,00 00 00 00,0,0,0.0,int32_or_flag,0
+constant_player.bin,ballplayerShoot.o,10,0x00000840,32,raw_4byte_fields,0,0x0000,0x00000840,32,7,0x001C,0x0000085C,00 00 00 00,0,0,0.0,int32_or_flag,0

@@ -1,0 +1,74 @@
+file,section,section_offset,section_length,parse_mode,record_count,field_total,float_total,float_ratio,dominant_pattern,dominant_role,pattern_counts,role_counts,focus_section
+constant_player.bin,contact.o,0x00000950,80,raw_4byte_fields,1,20,17,0.8500,mixed_numeric_group,gameplay_float_block_candidate,mixed_numeric_group:1,gameplay_float_block_candidate:1,True
+constant_team.bin,defenceCover.o,0x000006C0,144,raw_4byte_fields,1,36,29,0.8056,mixed_numeric_group,gameplay_float_block_candidate,mixed_numeric_group:1,gameplay_float_block_candidate:1,True
+constant_team.bin,diagonalRun.o,0x00000890,96,raw_4byte_fields,1,24,19,0.7917,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,True
+constant_team.bin,defence.o,0x00000630,144,raw_4byte_fields,1,36,28,0.7778,repeated_value_group,gameplay_float_block_candidate,repeated_value_group:1,gameplay_float_block_candidate:1,True
+constant_player.bin,flypass.o,0x000009F0,256,record_table,2,52,40,0.7692,monotonic_decreasing_or_flat,gameplay_float_block_candidate,monotonic_decreasing_or_flat:1; repeated_value_group:1,gameplay_float_block_candidate:2,True
+constant_player.bin,shoot.o,0x000015B0,320,record_table,10,68,52,0.7647,monotonic_increasing_or_flat,curve_candidate,monotonic_increasing_or_flat:6; small_mixed_scalar_group:2; monotonic_decreasing_or_flat:2,curve_candidate:6; gameplay_float_block_candidate:4,True
+constant_team.bin,spaceRun.o,0x00000B30,336,raw_4byte_fields,1,84,63,0.7500,repeated_value_group,gameplay_float_block_candidate,repeated_value_group:1,gameplay_float_block_candidate:1,True
+constant_player.bin,ballplayerShoot.o,0x00000840,32,raw_4byte_fields,1,8,6,0.7500,small_mixed_scalar_group,gameplay_float_block_candidate,small_mixed_scalar_group:1,gameplay_float_block_candidate:1,True
+constant_player.bin,throughpass.o,0x000017C0,480,raw_4byte_fields,1,120,88,0.7333,repeated_value_group,gameplay_float_block_candidate,repeated_value_group:1,gameplay_float_block_candidate:1,True
+constant_team.bin,defenceMark.o,0x00000750,320,raw_4byte_fields,1,80,55,0.6875,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,True
+constant_player.bin,grounderpass.o,0x00000BF0,256,record_table,3,48,32,0.6667,repeated_value_group,gameplay_float_block_candidate,repeated_value_group:2; small_mixed_scalar_group:1,gameplay_float_block_candidate:2; generic_numeric_block:1,True
+constant_player.bin,ballplayerSetplay.o,0x00000800,64,record_table,2,12,8,0.6667,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:2,generic_numeric_block:1; gameplay_float_block_candidate:1,True
+constant_match.bin,ball.o,0x00000280,608,raw_4byte_fields,1,152,99,0.6513,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,True
+constant_team.bin,support.o,0x00000D50,240,raw_4byte_fields,1,60,37,0.6167,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,True
+constant_player.bin,ballplayerGk.o,0x000006E0,96,record_table,3,20,12,0.6000,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:2; monotonic_decreasing_or_flat:1,generic_numeric_block:2; gameplay_float_block_candidate:1,True
+constant_player.bin,ballplayerDribble.o,0x000005B0,288,record_table,7,64,31,0.4844,monotonic_decreasing_or_flat,generic_numeric_block,monotonic_decreasing_or_flat:2; mixed_numeric_group:2; small_mixed_scalar_group:2; all_zero:1,generic_numeric_block:6; gameplay_float_block_candidate:1,True
+constant_player.bin,dribble.o,0x000009A0,80,raw_4byte_fields,1,20,8,0.4000,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,True
+constant_player.bin,moveOnPass.o,0x00000D40,32,raw_4byte_fields,1,8,3,0.3750,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:1,generic_numeric_block:1,True
+constant_player.bin,passget.o,0x00000D60,208,raw_4byte_fields,1,52,18,0.3462,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,True
+constant_match.bin,cpuLevel.o,0x00000770,1232,record_table,34,272,15,0.0551,flag_group,flag_block_candidate,flag_group:25; monotonic_decreasing_or_flat:8; monotonic_increasing_or_flat:1,flag_block_candidate:25; curve_candidate:9,True
+constant_player.bin,ballplayerDebug.o,0x000003D0,480,record_table,4,116,0,0.0000,constant_repeated_nonzero,generic_numeric_block,constant_repeated_nonzero:4,generic_numeric_block:4,True
+constant_player.bin,ballplayerPass.o,0x00000740,192,record_table,9,36,0,0.0000,all_zero,generic_numeric_block,all_zero:9,generic_numeric_block:9,True
+constant_player.bin,ballplayer.o,0x000003A0,16,raw_4byte_fields,1,4,0,0.0000,single_scalar,generic_numeric_block,single_scalar:1,generic_numeric_block:1,True
+constant_player.bin,ballplayerAnalyze.o,0x000003B0,16,raw_4byte_fields,1,4,0,0.0000,all_zero,generic_numeric_block,all_zero:1,generic_numeric_block:1,True
+constant_player.bin,ballplayerClear.o,0x000003C0,16,raw_4byte_fields,1,4,0,0.0000,all_zero,generic_numeric_block,all_zero:1,generic_numeric_block:1,True
+constant_player.bin,ballplayerFeint.o,0x000006D0,16,raw_4byte_fields,1,4,0,0.0000,all_zero,generic_numeric_block,all_zero:1,generic_numeric_block:1,True
+constant_player.bin,goalKick.o,0x00000BD0,32,raw_4byte_fields,1,8,8,1.0000,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,cursor.o,0x00000C40,16,raw_4byte_fields,1,4,4,1.0000,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_player.bin,avoid.o,0x00000350,80,raw_4byte_fields,1,20,18,0.9000,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_player.bin,matchup.o,0x00000CF0,48,raw_4byte_fields,1,12,10,0.8333,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_team.bin,pullAway.o,0x00000A20,48,raw_4byte_fields,1,12,10,0.8333,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,modeMatchup.o,0x00003140,224,raw_4byte_fields,1,56,46,0.8214,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_player.bin,gk.o,0x00000B50,128,raw_4byte_fields,1,32,26,0.8125,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_team.bin,basePosition.o,0x000001A0,864,raw_4byte_fields,1,216,153,0.7083,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_player.bin,sliding.o,0x000016F0,32,raw_4byte_fields,1,8,5,0.6250,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:1,generic_numeric_block:1,False
+constant_match.bin,cameraInplay.o,0x000005E0,352,record_table,5,80,47,0.5875,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:2; constant_repeated_nonzero:1; monotonic_increasing_or_flat:1; mixed_numeric_group:1,generic_numeric_block:5,False
+constant_player.bin,centering.o,0x000008B0,160,raw_4byte_fields,1,40,21,0.5250,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_player.bin,tackle.o,0x00001710,176,raw_4byte_fields,1,44,23,0.5227,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_team.bin,lineBreak.o,0x000008F0,64,raw_4byte_fields,1,16,8,0.5000,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_match.bin,inplayDemo.o,0x00002A20,32,raw_4byte_fields,1,8,4,0.5000,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:1,generic_numeric_block:1,False
+constant_match.bin,setplayGuideCommon.o,0x00004370,32,raw_4byte_fields,1,8,4,0.5000,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:1,generic_numeric_block:1,False
+constant_team.bin,overlap.o,0x00000930,32,raw_4byte_fields,1,8,4,0.5000,monotonic_decreasing_or_flat,curve_candidate,monotonic_decreasing_or_flat:1,curve_candidate:1,False
+constant_player.bin,freekick.o,0x00000AF0,16,raw_4byte_fields,1,4,2,0.5000,monotonic_decreasing_or_flat,generic_numeric_block,monotonic_decreasing_or_flat:1,generic_numeric_block:1,False
+constant_player.bin,penaltykick.o,0x00000E30,16,raw_4byte_fields,1,4,2,0.5000,monotonic_decreasing_or_flat,generic_numeric_block,monotonic_decreasing_or_flat:1,generic_numeric_block:1,False
+constant_player.bin,trap.o,0x000019A0,448,record_table,6,100,47,0.4700,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:2; repeated_value_group:1; monotonic_increasing_or_flat:1; monotonic_decreasing_or_flat:1; small_mixed_scalar_group:1,generic_numeric_block:5; int_or_flag_block_candidate:1,False
+constant_match.bin,pes15Test.o,0x00003220,176,raw_4byte_fields,1,44,20,0.4545,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,setplayGuideFreeKickNear.o,0x000045A0,176,raw_4byte_fields,1,44,20,0.4545,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,setplayGuideCornerKick.o,0x00004390,176,raw_4byte_fields,1,44,19,0.4318,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,setplayGuideGoalKick.o,0x00004650,176,raw_4byte_fields,1,44,19,0.4318,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,setplayGuideFreeKickMiddle.o,0x000044F0,176,raw_4byte_fields,1,44,18,0.4091,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,throwin.o,0x000048C0,128,raw_4byte_fields,1,32,13,0.4062,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,setplayGuideFreeKickFar.o,0x00004440,176,raw_4byte_fields,1,44,17,0.3864,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_player.bin,freemove.o,0x00000B00,80,raw_4byte_fields,1,20,7,0.3500,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,pesSmart.o,0x000032D0,848,raw_4byte_fields,1,212,59,0.2783,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,blockDebug.o,0x000004E0,256,record_table,3,52,14,0.2692,repeated_value_group,generic_numeric_block,repeated_value_group:1; mixed_numeric_group:1; monotonic_decreasing_or_flat:1,generic_numeric_block:2; int_or_flag_block_candidate:1,False
+constant_team.bin,pairAnime.o,0x00000950,208,raw_4byte_fields,1,52,14,0.2692,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_player.bin,motivation.o,0x00000D20,32,raw_4byte_fields,1,8,2,0.2500,small_mixed_scalar_group,generic_numeric_block,small_mixed_scalar_group:1,generic_numeric_block:1,False
+constant_player.bin,block.o,0x00000860,80,raw_4byte_fields,1,20,4,0.2000,mixed_numeric_group,generic_numeric_block,mixed_numeric_group:1,generic_numeric_block:1,False
+constant_match.bin,feint.o,0x00000C50,7584,record_table,5,1884,373,0.1980,monotonic_increasing_or_flat,curve_candidate,monotonic_increasing_or_flat:3; single_scalar:1; repeated_value_group:1,curve_candidate:3; generic_numeric_block:2,False
+constant_match.bin,teamEmotion.o,0x00004700,448,raw_4byte_fields,1,112,20,0.1786,mixed_numeric_group,int_or_flag_block_candidate,mixed_numeric_group:1,int_or_flag_block_candidate:1,False
+constant_match.bin,mlScreenShot.o,0x00002A40,1792,raw_4byte_fields,1,448,74,0.1652,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_team.bin,combination.o,0x00000510,288,raw_4byte_fields,1,72,6,0.0833,mixed_numeric_group,int_or_flag_block_candidate,mixed_numeric_group:1,int_or_flag_block_candidate:1,False
+constant_match.bin,command.o,0x00000740,48,raw_4byte_fields,1,12,1,0.0833,monotonic_decreasing_or_flat,generic_numeric_block,monotonic_decreasing_or_flat:1,generic_numeric_block:1,False
+constant_match.bin,rating.o,0x00003620,3408,raw_4byte_fields,1,852,43,0.0505,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_player.bin,playStyle.o,0x00000E40,1872,raw_4byte_fields,1,468,0,0.0000,mixed_numeric_group,int_or_flag_block_candidate,mixed_numeric_group:1,int_or_flag_block_candidate:1,False
+constant_team.bin,subConcept.o,0x00000C80,208,raw_4byte_fields,1,52,0,0.0000,monotonic_decreasing_or_flat,curve_candidate,monotonic_decreasing_or_flat:1,curve_candidate:1,False
+constant_team.bin,selectorVision.o,0x00000A50,224,record_table,6,48,0,0.0000,monotonic_increasing_or_flat,curve_candidate,monotonic_increasing_or_flat:4; flag_group:2,curve_candidate:4; flag_block_candidate:2,False
+constant_match.bin,userPlayTendencyTest.o,0x00004940,112,raw_4byte_fields,1,28,0,0.0000,mixed_numeric_group,int_or_flag_block_candidate,mixed_numeric_group:1,int_or_flag_block_candidate:1,False
+constant_team.bin,teamId.o,0x00000E40,112,record_table,2,24,0,0.0000,monotonic_increasing_or_flat,generic_numeric_block,monotonic_increasing_or_flat:1; mixed_numeric_group:1,generic_numeric_block:1; int_or_flag_block_candidate:1,False
+constant_match.bin,injury.o,0x000029F0,48,raw_4byte_fields,1,12,0,0.0000,repeated_value_group,generic_numeric_block,repeated_value_group:1,generic_numeric_block:1,False
+constant_player.bin,press.o,0x00001590,16,raw_4byte_fields,1,4,0,0.0000,all_zero,generic_numeric_block,all_zero:1,generic_numeric_block:1,False
+constant_player.bin,reaction.o,0x000015A0,16,raw_4byte_fields,1,4,0,0.0000,flag_group,flag_block_candidate,flag_group:1,flag_block_candidate:1,False
+constant_team.bin,centeringGet.o,0x00000500,16,raw_4byte_fields,1,4,0,0.0000,single_scalar,generic_numeric_block,single_scalar:1,generic_numeric_block:1,False
