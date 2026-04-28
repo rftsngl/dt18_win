@@ -1,0 +1,20 @@
+/// @class auto
+{
+	// �\�������̎��ɁA������߂�������W�����v���āA�����艓�������炵�Ⴊ��(m)
+	"predictionJumpDist" : 2.0,
+	
+	// ���ʃ`�F�b�N���A�����艓������������Ȃ�(m)
+	"needDodgeDistCommon" : 2.0,
+	
+	// ������x������������Ȃ�
+	"needDodgeSpeed" : 0.8,
+	
+	// �{�[�����g��+���̒l��荂������������Ȃ�(m)
+	"needDodgeHeight" : 0.7,
+
+	// �V���[�g�R�[�X��ɂ��邩�`�F�b�N����Ƃ��Ƀ|�X�g����O�ɂ��̕������]�T������(m)
+	"shootCourseMargin" : 1.5,
+	
+	// �\�������`�F�b�N���A�����艓������������Ȃ�(m)
+	"needDodgeDistBeforeKick" : 3.0
+}

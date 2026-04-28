@@ -1,0 +1,90 @@
+adjustDashSpeedRate
+adjustFlyPassFrame
+adjustFrameSpaceRun
+adjustFrameTime		//array
+adjustFrameTimeBase
+adjustMoveSpeedMax
+adjustPassGetSpeed
+adjustPassGetSpeedFly
+adjustPassSpeedMax
+adjustRatePassGetFrame
+allowAngleWidth		//array
+angleAddValue
+angleRateMax
+angleRateMaxFly
+angleRateMin
+angleRateMinFly
+angleWidthMin
+angleYMax
+ballRouteAdjustMoveFrame
+baseAdjustFrame
+baseDistMax
+baseDistMin
+baseFrame
+basePassGetSpeed
+basePassGetSpeedFly
+basePassSpeedMax
+boundDist0
+boundDist1
+dashMoveSecForPassgetMin
+debugDisp, debugDisp_searchBasePoint	//both in same block
+distMaxAngleY
+distMinAngleY
+distToPassgetSpeed
+flyDistRate
+flyPassSpeedAdjustRate		
+gageAdjustMaxSpeedFlyMinus	//array
+gageAdjustMaxSpeedFlyPlus	//array
+gageAdjustMaxSpeedMinus		//array
+gageAdjustMaxSpeedPlus		//array
+gageAdjustSpeedIntercept
+gageAdjustSpeedInterceptBase
+gageTest1, gageTest3, gageTest4, gageTest5 //all in same block
+injectionAngleMax
+manualFlyPassAngleYAdjust
+manualPassAngleYAdjust
+manualPassAngleYBase
+manualPassSpeedAdjust
+manualPassSpeedBase
+marginFrame_max
+marginFrame_min
+maxPassTargetDist
+minFlyDistFromTarget
+minPassTargetDist
+moveContinueFrameAdjustZposi
+moveContinueFrameMax
+moveContinueFrameMin
+passFrameMargin
+passGetSpeedTest
+passPointDistMin
+passgetAngleSub
+passgetLineDiff
+passgetMoveAngleDiff
+passgetMoveLateDist
+passgetMoveLateFrame
+passgetMoveLateRate
+passgetMovePointDistMax
+passgetMovePointDistMin
+passgetMovePointRate
+passgetOutSideDiff
+passgetSpeedRate
+passgetSpeedRate2
+searchAngleWidth	//array
+searchLengthMax
+searchLengthMax_fly
+searchLengthMin
+searchMaxDist
+searchMaxDistFly
+searchMinDist
+searchMinDistFly
+searchTest, searchTest2, stickTest1, stickTest3 //all in same block
+targetDistMax
+targetDistMin
+targetDistSec
+targetDistZMax
+targetDistZMin
+useSinCurveAngleY
+wallTargetAdjustAngleWidth
+wallTargetDistFrameMax
+wallTargetDistFrameMin
+wallTargetReverseDistRate

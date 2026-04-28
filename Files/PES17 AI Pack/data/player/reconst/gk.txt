@@ -1,0 +1,31 @@
+anime
+	blockFarAdjustAngleLimit
+	blockNearAdjustAngleLimit
+	catchAdjustAngleLimit
+	catchHandSideElapsedTime
+	catchHoldBallSpeed
+	collapsingBallSpeed
+	collapsingElapsedTime
+	contactDeflectAngle
+	contactDeflectDist
+	contactDeflectTest
+	deflectAdjustAngleLimit
+	physicalDeflectTest
+	punchAdjustAngleLimit
+	scoopOutFarAdjustAngleLimit
+	scoopOutNearAdjustAngleLimit
+	snapUnderAdjustAngleLimit
+	
+basePosRateClassicalGk
+basePosRateOffensiveGk
+checkFreeRangeGKLongThrow
+checkFreeRangeGKNormalThrow
+checkFreeRangeLowPantKick
+lowPantKickRangeMax
+lowPantKickRangeMin
+throwRangeLongMax
+throwRangeLongMin
+throwRangeNormalMax
+throwRangeNormalMin
+waitTimeAddMax
+waitTimeAddMin

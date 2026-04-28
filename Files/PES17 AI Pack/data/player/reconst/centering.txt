@@ -1,0 +1,22 @@
+adjustAngle
+adjustAngleHigh
+adjustGageFarZ
+adjustGageNearZ
+adjustSearchAngleRate	//array
+adjustSpeed
+adjustSpeedGrounder
+adjustSpeedHigh
+adjustStartPointRate	//array
+allowAngleWidth			//array
+centeringCurveAdjustMax
+centeringCurveBase
+centeringMaxSpeedHigh
+centeringMaxSpeedLow
+debugDisp, debugDisp_searchBasePoint, forceLowLob, gageTest //all in same block
+isSkillLowLob, isValid_lowLob	//all in same block
+limitBackX
+limitFrontX
+limitZRate				//array
+searchMaxDist
+searchMinDist
+searchTest, searchTest2016, stickTest //all in same block

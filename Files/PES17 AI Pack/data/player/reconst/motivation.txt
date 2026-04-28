@@ -1,0 +1,3 @@
+param_rate
+	effect_down
+	effect_up

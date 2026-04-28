@@ -1,0 +1,6 @@
+BlendTime
+addPenaltyX
+addPenaltyZ
+connectLimit
+isHard, onoff	//both in same block
+targetAngleType

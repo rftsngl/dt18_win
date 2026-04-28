@@ -1,0 +1,24 @@
+1		//HEX 0x01000000, contains adjustAngleFlag, burstTest, cancelAfterRotation, NULL
+45.0	//dribbleAngleLimitDash
+180.0	//dribbleAngleLimitRunToDash
+180.0	//dribbleAngleLimitStopToDash
+0		//dribbleFrontNormalTouchEnable
+1.0		//dribbleFrontNormalTouchRate
+0		//dribbleGotoAddFrame
+50.0	//dribbleStopDist
+100.0	//dribbleStopSpeed
+48		//slowDribble array
+64		//staggerDribble array
+0		//padding
+
+//slowDribble//
+256	//HEX 0x00010000, contains enable, jogEnable, neutralEnable, NULL
+0	//stickKeepTime
+1.0	//stickRate
+0	//padding
+
+//staggerDribble//
+256	//HEX 0x00010000, contains debugAlways, enable, NULL, NULL
+0.8	//enemyDist
+0	//padding
+0	//padding

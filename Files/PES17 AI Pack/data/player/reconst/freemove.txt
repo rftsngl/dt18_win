@@ -1,0 +1,20 @@
+delayAreaAutoStep
+freeMoveStopDist
+
+runLoopBank
+	limitBankLower
+	limitBankUpper
+	rotYLimMax
+	
+runTurnOn
+
+stepMoveFront
+	distAdjust
+		ballSpeedKphMax
+		ballSpeedKphMin
+		enable
+		value
+	distBase
+	mode
+	
+stepMoveSpeed

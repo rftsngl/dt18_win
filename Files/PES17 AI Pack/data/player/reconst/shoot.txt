@@ -1,0 +1,31 @@
+advanceLoop
+	distMax
+	distMin
+	heightMaxForGageMax
+	heightMaxForGageMin
+	heightMinForGageMax
+	heightMinForGageMin
+	
+controlShootGageMax	//array
+controlShootGageMid	//array
+controlShootGageMin	//array
+
+control_dy
+	gageMax
+	gageMin
+	interpolateRate
+	
+loop
+	angleY
+	manualRate
+	speedForGageMax
+	speedForGageMin
+	
+normalShootGageMax	//array
+normalShootGageMid	//array
+normalShootGageMin	//array
+
+normal_dy
+	gageMax
+	gageMin
+	interpolateRate

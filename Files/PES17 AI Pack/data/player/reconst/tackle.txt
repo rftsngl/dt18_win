@@ -1,0 +1,39 @@
+anime
+	accelBackLimitSpeed
+	accelLimitSpeedIdle
+	accelLimitSpeedMove
+	adjustLimitAngleIdle
+	adjustLimitAngleMove
+	autoShoulderCom, autoShoulderInterruptCom, autoShoulderInterruptUser, autoShoulderUser //all in same block
+	ballVisibleCheck
+	enterSpeed
+	farCutFrame
+	midCutFrame
+	nearCutFrame
+	playbackSpeedHighest
+	playbackSpeedLowest
+	pressTackleEnableAngleIdle
+	pressTackleEnableAngleIdleAggressiveLv1
+	pressTackleEnableAngleIdleAggressiveLv2
+	pressTackleEnableAngleMove
+	pressTackleEnableAngleMoveAggressiveLv1
+	pressTackleEnableAngleMoveAggressiveLv2
+	shoulderCutFrame
+	shoulderInterruptSlideLimit
+	shoulderOnly
+	shoulderSlideLimit
+	stepMoveAutoTackleFarEnable, stepMoveAutoTackleVeryfarEnable, tackleVeryfarEnable //all in same block
+	veryfarCutFrame
+	
+autoSideStepEnable
+check_SaftyRate_Delay
+check_SaftyRate_Last_Line
+check_SaftyRate_No_Cover
+failAfterStopTime
+forecastHitRate
+freeMoveTackleMode
+manualSideStepEnable
+reactionStartFrame
+saftyRate_FarDist
+saftyRate_NearDist
+tackleThinkDisableToTrap

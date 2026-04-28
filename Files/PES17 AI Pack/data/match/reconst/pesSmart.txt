@@ -1,0 +1,159 @@
+InplayTapPassCheckSec
+
+UEFAShootFreekick
+	clickArea
+		h
+		up
+		w
+	curve
+		addKickRot
+		multiply
+		reverseCuveRate
+		swipeDistMax
+		swipeDistMin
+	enable
+	shootHeightFromSwipeSpeed
+		enable
+		goalMouseDown
+		goalMouseOver
+		goalMouseUpMax
+		goalMouseUpMin
+		mouseOverValue
+		nearStrongEnable
+		pixcelDist
+			enable
+			far
+			near
+			nearStrong
+			normalMax
+			normalMin
+	speed
+		kickNormal
+		kickStrong
+		kickWeak
+		swipeFastMax
+		swipeFastMin
+		swipeSlowMax
+		swipeSlowMin
+		
+		
+defenceMarkCalcApproachRate
+	custom
+	rate
+	
+	
+foul
+	action
+		custom
+		time
+	area
+		custom
+		mode
+		
+		
+freekick
+	adjustedTargetSetplay
+		adjustRateMax
+		adjustRateMin
+		custom
+		paraMax
+		paraMin
+		specialist
+		
+		
+gk
+	catchable
+		catchableSpeedDefaultMax
+		catchableSpeedDefaultMin
+		catchableSpeedMin
+		custom
+		frontAdjustRate
+		punchableSpeedMax
+		punchableSpeedMin
+		tooNearDist
+	gkPress
+		advantageousRateClassical
+		advantageousRateNormal
+		advantageousRateOffensive
+		custom
+		
+		
+isAutoKickAfterRun
+	custom
+	
+isShouldTurnBeforePass
+	angle
+		custom
+		max
+		min
+	checkKickPointDist
+	dist
+		checkDistMiddle
+		checkDistShort
+		custom
+		
+		
+stamina
+	contactTired
+		custom
+		value
+	dashTired
+		custom
+		value
+	defenceTired
+		custom
+		value
+		valueOwnSide
+	dribbleTired
+		custom
+		value
+	fallDownTired
+		custom
+		value
+	jostleTired
+		custom
+		value
+	metabolism
+		custom
+		value
+	speedTired
+		custom
+		value
+	staggerTired
+		custom
+		value
+		
+		
+subConcept
+	longPassLayOffAndBreakthroughToDefenceLine
+		checkRot
+		custom
+		
+		
+thinkUnitDribbleBreakThrough
+	custom
+	
+	
+thinkUnitPassCross
+	buildUpShort
+		custom
+		mode
+	getTarget
+		custom
+		reverseSideShootRangeAngleSub
+		
+		
+thinkUnitPassTarget
+	custom
+		
+		
+updateIntention
+	custom
+	
+	
+updateThinkList
+	execSubConcept
+		custom
+		enemyDist
+	intentionChallengeAttackSideCenter
+		custom

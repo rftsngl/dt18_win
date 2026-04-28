@@ -1,0 +1,38 @@
+pad
+
+project1vs1
+	decelerateThreshold
+	enable, loseNoDodgeFlag //both values in same block
+	lostBallAfterStopTime
+	pressCheckStepMoveDistance
+	pressUpdateTimer
+		ballAngleSub
+		distFuzzyEnable
+		distMax
+		distMin
+		hitFrameRate
+		pressAngleSub
+		rateKind
+		timerMax
+	waitTimer
+		ballAngleSub
+		distMax
+		distMin
+		pressAngleSub
+		pressDistMax
+		pressDistMin
+		pressTimerMax
+		rateKind
+		timerMax
+		
+		
+projectKick
+	gageDisp
+	gageSpeed
+		cross
+		longPass
+		shoot
+		shortPass
+		throughPass
+		
+stopConcept

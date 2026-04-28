@@ -1,0 +1,36 @@
+angleKind
+	value
+	
+buttonKind
+	value
+	
+buttonValue
+	value
+
+category
+	value
+
+feintKind
+	value
+
+feintLV
+feintMode
+
+
+list
+	category
+	data
+		angleBase
+		angleL
+		angleR
+		button
+		count
+		downRate
+		kind
+		sec
+	feint
+	inputKind
+	mirror
+	
+stickKind
+	value

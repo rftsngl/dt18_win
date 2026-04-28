@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<Tree Id="defence.xml" Type="Action" AnswerFile="PadCommand.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape2" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="PAD_COMMAND_KIND_SLIDING" NodeType="Answer" />
+    <Node NodeId="Shape3" ConfigId="FuncShape3" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape16" />
+        <Connector End="Shape4" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape4" ConfigId="PAD_COMMAND_KIND_TACKLE" NodeType="Answer" />
+    <Node NodeId="Shape6" ConfigId="FuncShape6" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape13" />
+        <Connector End="Shape7" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape7" ConfigId="PAD_COMMAND_KIND_PRESS" NodeType="Answer" />
+    <Node NodeId="Shape16" ConfigId="FuncShape16" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape20" />
+        <Connector End="Shape6" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape13" ConfigId="PAD_COMMAND_KIND_DELAY" NodeType="Answer" />
+    <Node NodeId="Shape20" ConfigId="PAD_COMMAND_KIND_NOTHING" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckButton" NameJ="ボタンの状態をチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_SLIDING" ValueJ="スライディング(○)">
+              <Options />
+            </Arg>
+            <Arg Type="ButtonStatus" Value="PUSH" ValueJ="押した瞬間">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape3">
+      <Funcs>
+        <Func Name="CheckButtonClick" NameJ="ボタンが連打されているかをチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_TACKLE" ValueJ="タックル(×)">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="2" ValueJ="2">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="16" ValueJ="16">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0" ValueJ="0">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape6">
+      <Funcs>
+        <Func Name="CheckButton" NameJ="ボタンの状態をチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_DASH" ValueJ="ダッシュ(R1)">
+              <Options />
+            </Arg>
+            <Arg Type="ButtonStatus" Value="RRESS" ValueJ="押し続けている状態">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape16">
+      <Funcs>
+        <Func Name="CheckButtonPress" NameJ="ボタンが長押しされているかをチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_TACKLE" ValueJ="タックル(×)">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="8" ValueJ="8">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="-1" ValueJ="-1">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0" ValueJ="0">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckButtonPress" NameJ="ボタンが長押しされているかをチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_TACKLE" ValueJ="タックル(×)">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="8" ValueJ="8">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="-1" ValueJ="-1">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0" ValueJ="0">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="14" Y="2" />
+      <Size Width="152" Height="32" />
+      <Comment Text="スライディングボタンをトリガ" />
+    </Parameter>
+    <Parameter>
+      <Location X="262" Y="2" />
+      <Size Width="101" Height="32" />
+      <Comment Text="スライディング" />
+    </Parameter>
+    <Parameter>
+      <Location X="26" Y="169" />
+      <Size Width="142" Height="32" />
+      <Comment Text="タックルボタンを連打" />
+    </Parameter>
+    <Parameter>
+      <Location X="442" Y="167" />
+      <Size Width="96" Height="32" />
+      <Comment Text="タックル" />
+    </Parameter>
+    <Parameter>
+      <Location X="215" Y="419" />
+      <Size Width="142" Height="32" />
+      <Comment Text="R1推しているかどうか？" />
+    </Parameter>
+    <Parameter>
+      <Location X="444" Y="418" />
+      <Size Width="90" Height="32" />
+      <Comment Text="プレス" />
+    </Parameter>
+    <Parameter>
+      <Location X="30" Y="418" />
+      <Size Width="127" Height="32" />
+      <Comment Text="タックルボタンを長押し" />
+    </Parameter>
+    <Parameter>
+      <Location X="242" Y="545" />
+      <Size Width="90" Height="32" />
+      <Comment Text="ディレイ" />
+    </Parameter>
+    <Parameter>
+      <Location X="50" Y="554" />
+      <Size Width="88" Height="32" />
+      <Comment Text="なし" />
+    </Parameter>
+  </Parameters>
+  <WindowSize Width="793" Height="1122" />
+</Tree>

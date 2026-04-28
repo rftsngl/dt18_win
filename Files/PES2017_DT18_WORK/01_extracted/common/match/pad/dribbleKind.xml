@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Tree Id="dribbleKind.xml" Type="Action" AnswerFile="DribbleKind.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape2" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="DRIBBLE_SIDE" NodeType="Answer" />
+    <Node NodeId="Shape3" ConfigId="DRIBBLE_NORMAL" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckButton" NameJ="ボタンの状態をチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_ACTION" ValueJ="アクション(R2)">
+              <Options />
+            </Arg>
+            <Arg Type="ButtonStatus" Value="RRESS" ValueJ="押し続けている状態">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="162" Y="45" />
+      <Size Width="164" Height="32" />
+      <Comment Text="R2 = PRESS状態" />
+    </Parameter>
+    <Parameter>
+      <Location X="85" Y="160" />
+      <Size Width="83" Height="32" />
+      <Comment Text="サイドドリブル" />
+    </Parameter>
+    <Parameter>
+      <Location X="353" Y="160" />
+      <Size Width="97" Height="32" />
+      <Comment Text="通常ドリブル" />
+    </Parameter>
+  </Parameters>
+</Tree>

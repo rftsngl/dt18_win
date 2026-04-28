@@ -1,0 +1,24 @@
+longThrowSupport
+	adjustRate
+	enable
+	mode
+	
+mode
+		
+seamlessThrowin
+	dist
+	touchLineDist
+	
+search
+	distFarLongPara
+	distFarNormal
+	distMiddle
+	distNear
+	gageMiddle
+	
+speed
+	adjustDistMax
+	adjustDistMin
+	adjustSpeed
+	baseMaxKph
+	baseMinKph

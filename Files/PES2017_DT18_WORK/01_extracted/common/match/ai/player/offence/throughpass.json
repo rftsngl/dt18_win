@@ -1,0 +1,119 @@
+/// @class auto
+{
+	// ���݂̈ړ��l�̎d�l����
+
+	// �p�X�̌�����
+	"angleAddValue" : 4.0,
+
+	// �p�X�̍Œ�p�x��
+	"angleWidthMin" : 16.0,
+	
+	// �Œ዗���Ƃ��Ĕ��f���鋗��
+	"dashMoveSecForPassgetMin" : 0.5,
+	
+	// �^�[�Q�b�g�̋������Ńp�X�̏o���ꏊ�̒������s��
+	"targetDistZMin" : 14.0,
+	"targetDistZMax" : 20.0,
+	
+	"targetDistMin" : 8.0,
+	"targetDistMax" : 30.0,
+	"targetDistSec" : 1.0,
+	
+	"angleRateMin" : 85.0,
+	"angleRateMax" : 120.0,
+
+	"angleRateMinFly" : 85.0,
+	"angleRateMaxFly" : 120.0,
+
+	// ���݂̈ړ��l�̔��f���e
+	"moveContinueFrameMin" : 25.0,
+	"moveContinueFrameMax" : 50.0,
+	"moveContinueFrameAdjustZposi" : 15.0,
+
+	//-----------------------------------------------------
+	// �{�[���̋����̕��Ɏ󂯂Ă����킹�鎞
+	//-----------------------------------------------------
+	"ballRouteAdjustMoveFrame" : 60.0,
+
+
+	//-----------------------------------------------------
+	// �p�X�R�[�X�̎ז��ɂȂ�I��̒���
+	//-----------------------------------------------------
+
+	// �ǔF������I��̈ړ������̒���
+	"wallTargetDistFrameMin" :  10.0,
+	"wallTargetDistFrameMax" : 110.0,
+
+	// �ǔF������I��̈ړ��Ƌt�����̒���
+	"wallTargetReverseDistRate" : 0.2,
+
+	// �ǔF������I��̒�����
+	"wallTargetAdjustAngleWidth" : 45.0,
+
+	//-----------------------------------------------------
+	// �p�X�^�[�Q�b�g����Ƃ��������̒���
+	//-----------------------------------------------------
+
+	// ���݂̃{�[���ƃ^�[�Q�b�g�̕����Ƌ߂��ꍇ���͂���
+	"passgetAngleSub" : 0.0,
+	
+	// �p�X�̃R�[�X�܂ł̋�������苗���ȉ��Ȃ狓����������H
+	"passgetLineDiff" : 5.0,
+	"passgetOutSideDiff" : 1.2,
+	"passgetMoveAngleDiff" : 2.0,
+	
+	"passgetMovePointRate"    : 40.0,
+	"passgetMovePointDistMax" : 2.2,
+	"passgetMovePointDistMin" : 1.8,
+
+	// �X���[�p�X�̃{�[���ɑ΂��Č��ɒ��������Ƃ��̋�������
+	"passgetMoveLateDist"  : 4.0,
+	"passgetMoveLateRate"  : 70.0,
+	"passgetMoveLateFrame" : -24, // ���܂�Z���ƃg���b�v���Ă��܂��E�E
+	
+	// �p�X�擾���̈ړ����x��Run�Ƃ��čl�����̋���
+	"distToPassgetSpeed" : 3.0,
+
+	// �p�X�R�[�X�ƑI��̋���������Ă��鎞
+	"passgetSpeedRate" : 96.0,
+
+	// �p�X�R�[�X�ƑI��̈ʒu���߂��ꍇ�̑��x	
+	"passgetSpeedRate2" : 93.0,
+
+
+	//-----------------------------------------------------
+	// �p�X�̏o���ꏊ�̍Œ዗������
+	//-----------------------------------------------------
+
+	// �p�X�̏o���ꏊ�����̃{�[���ʒu�Ƃǂꂭ�炢����Ă���K�v�����邩�H
+	"passPointDistMin" : 7.0,
+
+	//-----------------------------------------------------
+	// �t���C�p�X�p�̒���
+	//-----------------------------------------------------
+
+	// �m�[�o�E���h�œ��B�����鋗��
+	"boundDist0" : 23.0,
+	
+	// 1�o�E���h�œ��B�����鋗��
+	"boundDist1" : 40.0,
+
+	// �t���C�p�X���ɍŒ዗�����ǂꂾ���Œ������ɋ߂Â��邩�H
+	"flyDistRate" : 45.0,
+	
+	//-----------------------------------------------------
+	// �}�j���A���p�X�p�̒���
+	//-----------------------------------------------------
+	//�@��{�}�j���A���p�X�X�s�[�h
+	"manualPassSpeedBase" : 38.0,
+	//�@�}�j���A���p�X�X�s�[�h�����l
+	"manualPassSpeedAdjust" : 35.0,
+	
+	//�@��{�}�j���A���p�X�ˏo�p�x
+	"manualPassAngleYBase" : 4.0,
+	//�@��{�}�j���A���p�X�ˏo�p�x�����l
+	"manualPassAngleYAdjust" : 6.0,
+	
+	//�@�}�j���A���t���C�p�X���̒����ˏo�p�x
+	"manualFlyPassAngleYAdjust" : 25.0
+}

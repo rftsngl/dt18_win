@@ -1,0 +1,155 @@
+/// @class auto
+//BallKeepActionOrderPass
+{
+	/*----------------------------------*
+	 | BallKeepActionOrderPassBackSpace	|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassBackSpace::GetTarget()*****************************************************
+	//�p�X�^�[�Q�b�g�T��
+	
+	//������
+	"passBackDist":20.0,
+	
+	//���X�g���C���t�߂ɋ��Ȃ�
+	"passBackDistLLine":6.0,
+	
+	//�v���C���[�ƃS�[���̋����̃��[�g�����߂�Ƃ��̋����̏㉺��
+	"passBackBodyToAttackAngle":80.0,
+	
+	//�����Ă��Ȃ�
+	"passBackTargetSpeed":12.0,
+	
+	//�p�X�o��������
+	//�^�[�Q�b�g�̂ǂꂭ�炢��ɏo���Ƃ��邩
+	"passBackPointAddDist":6.0,
+	
+	
+	//*****BallKeepActionOrderPassBackSpace::CheckPassCourse()*****************************************************
+	//�p�X�R�[�X�̃`�F�b�N
+	
+	//�`�F�b�N�����`�͈̔�
+	"checkSectorWidthBack":30.0,
+	
+	//�t���C�Ɛ؂�ւ��鋗��
+	"flyDist":5.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassFrontLine	|
+	 *----------------------------------*/	
+	//*****BallKeepActionOrderPassFrontLine::GetTarget()*****************************************************
+	//
+	
+	//���g���t���[�̎��A����I�肪���Ȃ���΃_�C���N�g�p�X�����d���鋗��(BallKeepActionOrderPassVsCount::GetTarget(),passSafety�ł��g�p)
+	"directEnemyDist":8.0,
+	
+	//�߂���
+	"passFrontDistNear":5.0,
+	//������
+	"passFrontDistFar":20.0,
+	
+	//*****BallKeepActionOrderPassFrontLine::CheckPassCourse()*****************************************************
+	//�p�X�R�[�X�̃`�F�b�N
+	
+	//�`�F�b�N�����`�͈̔�
+	"checkSectorWidthFront":15.0,
+	//�����p�X�\�͂ɉ����čL����Ƃ��̍ő�l
+	"checkSectorWidthFrontAdd":10.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderVsCount		|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassVsCount::GetTarget()*****************************************************
+	
+	//�߂���
+	"passVsDistNear":5.0,
+	//������
+	"passVsDistFar":20.0,
+	
+	
+	//*****BallKeepActionOrderPassVsCount::CheckPassCourse()*****************************************************
+	//�p�X�R�[�X�̃`�F�b�N
+	
+	//�`�F�b�N�����`�͈̔�
+	"checkSectorWidthVs":15.0,
+	//�����p�X�\�͂ɉ����čL����Ƃ��̍ő�l
+	"checkSectorWidthVsAdd":10.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderSideChange	|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassSideChange::GetTarget()*****************************************************
+	
+	//�U�߃R�[�X������󋵂ł͂��Ȃ�(�U�߂Ă�������̑���I��̐l���𐔂���)
+	//�U�ߕ������瑊��I����`�F�b�N�����`�͈̔�
+	"checkEnemySideChangeWidth":90.0,
+	//��`�̒���
+	"checkEnemySideChangeLength":10.0,
+	//���̐l�����Ȃ���΃T�C�h�`�F���W�͍l���Ȃ�
+	"checkEnemySideChangeNum":2,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassSafety	|
+	 *----------------------------------*/
+	//*****BallKeepActionOrderPassSafety::GetTarget()*****************************************************
+	
+	//����I�肪�߂��Ȃ���Εs�v
+	"dangerEnemyDist":6.0,
+	
+	//�^�[�Q�b�g�̃`�F�b�N
+	//������
+	"passSafetyPlayerTargetDist":20.0,
+	//�^�[�Q�b�g�ɑ���I��߂���
+	"passSafetyTargetEnemyDist":6.0,
+	//�̂̊p�x�I�ɏo�������Ȃ��p�x
+	"passSafetyTargetEnemyAngle":225.0,
+	
+	
+	//*****BallKeepActionOrderPassSafety::CheckPassCourse()*****************************************************
+	//�p�X�R�[�X�̃`�F�b�N
+	
+	//�`�F�b�N�����`�͈̔�
+	"checkSectorWidthSafety":30.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassCentering	|
+	 *----------------------------------*/
+ 	//*****BallKeepActionOrderPassCentering::GetTarget()*****************************************************
+	
+	//����I�肪�߂��Ȃ���΍l���Ȃ�
+	"centeringEnemyDist":6.0,
+	
+	//�^�[�Q�b�g�̃`�F�b�N
+	//�y�i���e�B�}�[�N���痣��Ă���
+	"centeringTargetPMarkDist":15.0,
+	
+	
+	/*----------------------------------*
+	 | BallKeepActionOrderPassLong		|
+	 *----------------------------------*/
+	 //*****BallKeepActionOrderPassLong::GetTarget()*****************************************************
+	 
+	 //�t���[���`�F�b�N���鋗���̍ŏ��l
+	 "freeCheckDistMin":10.0,
+	 //�p�X�\�͂ɉ����ĉ��Z
+	 "freeCheckDistAdd":15.0,
+	 
+	 //�^�[�Q�b�g���O���ɂ��邩�`�F�b�N����p�x
+	 //����ȏ�̓_��
+	 "checkTargetAngleNear":67.5,
+	 //����ȏ�͋����`�F�b�N
+	 "checkTargetAngleFar":30.0,
+	 
+	 //�^�[�Q�b�g�Ƃ̋���
+	 //�߂���
+	 "passLongDistNear":25.0,
+	 //������
+	 "passLongDistFar":50.0,
+	 
+	 //�̂̌���
+	 "passLongBodyAngle":78.8
+}

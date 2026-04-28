@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<Tree Id="defenceGkAI.xml" Type="Action" AnswerFile="Action.xml">
+  <Nodes>
+    <Node NodeId="Shape29" ConfigId="FuncShape29" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape30" />
+        <Connector End="Shape31" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape23" ConfigId="FuncShape23" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape1" />
+        <Connector End="Shape24" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape17" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape3" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape7" ConfigId="FuncShape7" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape8" />
+        <Connector End="Shape11" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape8" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape9" ConfigId="KP_PRESS" NodeType="Answer" />
+    <Node NodeId="Shape4" ConfigId="FuncShape4" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape5" />
+        <Connector End="Shape7" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape5" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape10" ConfigId="FuncShape10" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape13" />
+        <Connector End="Shape9" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape11" ConfigId="FuncShape11" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape14" />
+        <Connector End="Shape12" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape12" ConfigId="KP_PRESS" NodeType="Answer" />
+    <Node NodeId="Shape13" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape14" ConfigId="FuncShape14" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape10" />
+        <Connector End="Shape15" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape15" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape16" ConfigId="KP_PRESS" NodeType="Answer" />
+    <Node NodeId="Shape17" ConfigId="FuncShape17" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape4" />
+        <Connector End="Shape19" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape18" ConfigId="FuncShape18" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape26" />
+        <Connector End="Shape21" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape19" ConfigId="FuncShape19" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape18" />
+        <Connector End="Shape16" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape25" ConfigId="KP_BLOCK_LATE" NodeType="Answer" />
+    <Node NodeId="Shape21" ConfigId="FuncShape21" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape27" />
+        <Connector End="Shape22" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape22" ConfigId="KP_BLOCK" NodeType="Answer" />
+    <Node NodeId="Shape24" ConfigId="KP_SAVING_MOVE" NodeType="Answer" />
+    <Node NodeId="Shape26" ConfigId="FuncShape26" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape28" />
+        <Connector End="Shape27" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape27" ConfigId="KP_PRESS" NodeType="Answer" />
+    <Node NodeId="Shape28" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape30" ConfigId="NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape31" ConfigId="FuncShape31" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape33" />
+        <Connector End="Shape23" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape32" ConfigId="KP_MOVE_FREE_KICK" NodeType="Answer" />
+    <Node NodeId="Shape33" ConfigId="FuncShape33" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape34" />
+        <Connector End="Shape32" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape34" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckUseHand" NameJ="GKが手が使える状況かチェック">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape7">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckDistFlyBallGetPosition" NameJ="フライボール受け取り位置と現在座標の距離チェック">
+          <Args>
+            <Arg Type="Numeric" Value="7" ValueJ="7" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape4">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckInPenaltyAreaFlyBallGetPosition" NameJ="フライボール受け取り位置がペナルティエリア内かチェック">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape10">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckMostNearFlyBallGetPosition" NameJ="フライボール受け取り位置に自分が一番近いかどうか">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape11">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckFlyBallGetPositionY" NameJ="フライボール受け取り位置のY座標チェック">
+          <Args>
+            <Arg Type="Numeric" Value="2" ValueJ="2" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape14">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckInterceptFlyBallGetPosition" NameJ="フライボール受け取り位置に達する前にカットされるかどうか">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape17">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckSortListBall" NameJ="ボールに近い順">
+          <Args>
+            <Arg Type="Numeric" Value="1" ValueJ="1" OptionType="Sign">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape18">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckBallDist" NameJ="ボール距離">
+          <Args>
+            <Arg Type="Numeric" Value="3" ValueJ="3" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape19">
+      <Funcs>
+        <Func Name="CheckBallKeep" NameJ="キープ選手の存在チェック" Deny="true">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape21">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckBodyAngleToBoalAngle" NameJ="体の向きとボール方向">
+          <Args>
+            <Arg Type="Numeric" Value="60" ValueJ="60" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape23">
+      <Funcs>
+        <Func Name="CheckBallTouchKindHistory" NameJ="ボールタッチ種類">
+          <Args>
+            <Arg Type="Numeric" Value="0" ValueJ="0">
+              <Options />
+            </Arg>
+            <Arg Type="BallTouchKind" Value="SHOOT" ValueJ="シュート" OptionType="Not">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape26">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckBallDist" NameJ="ボール距離">
+          <Args>
+            <Arg Type="Numeric" Value="5" ValueJ="5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape29">
+      <Funcs>
+        <Func Name="ConditionNone" NameJ="条件なし">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape31">
+      <Funcs>
+        <Func Name="CheckMatchStatus" NameJ="試合状況">
+          <Args>
+            <Arg Type="MatchStatus" Value="IN_PLAY" ValueJ="インプレイ" OptionType="Not">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape33">
+      <Funcs>
+        <Func Name="CheckSetplayKind" NameJ="セットプレイの種類">
+          <Args>
+            <Arg Type="RestartKind" Value="FREE_KICK" ValueJ="フリーキック" OptionType="Not">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="16" Y="18" />
+      <Size Width="190" Height="32" />
+      <Comment Text="Root of OffenceGK" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/24 20:23:01" />
+    </Parameter>
+    <Parameter>
+      <Location X="51" Y="270" />
+      <Size Width="121" Height="32" />
+      <Comment Text="ボールタッチがシュート" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="47" Y="347" />
+      <Size Width="129" Height="32" />
+      <Comment Text="手が使える状況か" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="388" Y="345" />
+      <Size Width="113" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="906" Y="515" />
+      <Size Width="238" Height="32" />
+      <Comment Text="フライボール受け取り位置が離れすぎていない" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="737" Y="512" />
+      <Size Width="90" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="981" Y="881" />
+      <Size Width="85" Height="32" />
+      <Comment Text="GK飛び出し" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="923" Y="417" />
+      <Size Width="211" Height="32" />
+      <Comment Text="フライボール受け取り位置がペナルティ内" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="1205" Y="345" />
+      <Size Width="96" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="954" Y="797" />
+      <Size Width="140" Height="32" />
+      <Comment Text="受け取り位置に一番近い" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="918" Y="606" />
+      <Size Width="214" Height="32" />
+      <Comment Text="フライボール受け取り位置のY座標チェック" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="743" Y="602" />
+      <Size Width="82" Height="32" />
+      <Comment Text="GK飛び出し" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="1196" Y="722" />
+      <Size Width="88" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="966" Y="714" />
+      <Size Width="116" Height="32" />
+      <Comment Text="インターセプトチェック" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="1198" Y="644" />
+      <Size Width="80" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="75" Y="606" />
+      <Size Width="76" Height="32" />
+      <Comment Text="GK飛び出し" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="57" Y="419" />
+      <Size Width="109" Height="32" />
+      <Comment Text="ボールに一番近い" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="232" Y="512" />
+      <Size Width="111" Height="32" />
+      <Comment Text="ボールから近い" />
+      <Modifier Name="T4128237\sys00001975" Time="2012/09/11 20:05:55" />
+    </Parameter>
+    <Parameter>
+      <Location X="52" Y="512" />
+      <Size Width="118" Height="32" />
+      <Comment Text="キープ選手がいない" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="487" Y="713" />
+      <Size Width="104" Height="32" />
+      <Comment Text="ブロック遅れて" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="186" Y="685" />
+      <Size Width="193" Height="32" />
+      <Comment Text="体の向きとボール方向が６０度以下" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="243" Y="792" />
+      <Size Width="90" Height="32" />
+      <Comment Text="ブロック" />
+      <Modifier Name="T4128237\sys00001975" Time="2012/09/11 20:04:16" />
+    </Parameter>
+    <Parameter>
+      <Location X="384" Y="270" />
+      <Size Width="148" Height="32" />
+      <Comment Text="セービング移動" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="425" Y="513" />
+      <Size Width="111" Height="32" />
+      <Comment Text="ボールから５メートル" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="430" Y="615" />
+      <Size Width="109" Height="32" />
+      <Comment Text="GK飛び出し" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="594" Y="570" />
+      <Size Width="114" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="288" Y="23" />
+      <Size Width="94" Height="32" />
+      <Comment Text="アクションなし" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/24 20:23:01" />
+    </Parameter>
+    <Parameter>
+      <Location X="64" Y="113" />
+      <Size Width="97" Height="32" />
+      <Comment Text="インプレイ中" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/25 17:42:36" />
+    </Parameter>
+    <Parameter>
+      <Location X="189" Y="208" />
+      <Size Width="150" Height="32" />
+      <Comment Text="キーパー移動フリーキック時" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/25 17:42:36" />
+    </Parameter>
+    <Parameter>
+      <Location X="229" Y="113" />
+      <Size Width="170" Height="32" />
+      <Comment Text="セットプレイの種類がフリーキック" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/25 17:42:36" />
+    </Parameter>
+    <Parameter>
+      <Location X="371" Y="207" />
+      <Size Width="112" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/25 17:42:36" />
+    </Parameter>
+  </Parameters>
+  <WindowSize Width="2048" Height="1029" />
+</Tree>

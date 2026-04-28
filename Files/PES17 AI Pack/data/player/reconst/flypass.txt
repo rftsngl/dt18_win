@@ -1,0 +1,44 @@
+attackSideAdjustAngleXZMax		//array
+defenceSideAdjustAngleXZMax		//array
+gageManualTest
+
+height
+	distMax
+	distMax_high
+	distMin
+	distMin_high
+	heightForDistMaxParaMax
+	heightForDistMaxParaMin
+	heightForDistMaxSkill
+	heightForDistMax_high
+	heightForDistMinParaMax
+	heightForDistMinParaMin
+	heightForDistMinSkill
+	heightForDistMin_high
+	
+manual
+	distForGageMax
+	distForGageMin
+	interpolateRate
+	
+manualBlendManualRateGageMax	//array
+manualBlendManualRateGageStrong	//array
+manualBlendManualRateGageWeak	//array
+manualBlendParaMaxAdd
+manualBlendthreshold
+passAssistLevel
+
+search
+	angleRate
+	debugDisp_searchBasePoint
+	distRate
+	passTargetDistMax
+	passTargetDistMaxOffset
+	passTargetDistMin
+	passTargetDistMinOffset
+	searchMaxDist
+	searchMinDist
+	xAxisAngleMaxAngle
+	xAxisAngleZeroAngle
+	zAxisAngleMaxAngle
+	zAxisAngleZeroAngle

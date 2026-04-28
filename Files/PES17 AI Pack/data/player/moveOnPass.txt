@@ -1,0 +1,8 @@
+37.0	//adjustWaitFrame
+50		//baseWaitFrame
+30		//continueFrame
+15.0	//distMax
+5.0		//distMin
+0		//padding
+0		//padding
+0		//padding

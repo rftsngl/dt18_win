@@ -1,0 +1,20 @@
+ClearInfo
+	enemyDist
+	forceKickTime
+	
+LongPassInfo
+	forceEnemyDist
+	forceKickTime
+	limitLineFromPenaltyLine
+	rangeFar
+	rangeNear
+	
+ShortPassInfo
+	courseCheckWidth
+	passAngleSubMax
+	passDistMax
+	rangeFar
+	rangeNear
+	targetFreeDist
+	
+limitLineFromPenaltyLine

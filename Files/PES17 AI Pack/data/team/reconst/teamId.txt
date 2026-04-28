@@ -1,0 +1,91 @@
+ConeKind
+	value
+	
+MatchLevel
+	value
+
+RestartKind
+	value
+
+coneData
+	kind
+	posX
+	posZ
+	radius
+	
+failureDemoTime
+failureWaitTime
+floatValue01
+floatValue02
+floatValue03
+floatValue04
+floatValue05
+floatValue06
+floatValue07
+floatValue08
+floatValue09
+floatValue10
+gradeBronze
+gradeGold
+gradeSilver
+intValue01
+intValue02
+intValue03
+intValue04
+intValue05
+intValue06
+intValue07
+intValue08
+intValue09
+intValue10
+isContinuousTimer
+isCursorFix
+isFoulEnd
+isLineOutEnd
+isOppGoalEnd
+isPylonEnd
+isSetBallMode
+isTimeoutEnd
+limitiTime
+looseBallLimitDistance
+looseBallLimitSpeed
+looseBallTime
+matchLevelAway
+matchLevelHome
+maxContinueCount
+nowConeCount
+nowPanelCount
+
+objectData
+	isTarget
+	kind
+	posX
+	posZ
+	rotation
+	setupEnable
+	
+panelData
+	height
+	posX
+	posY
+	width
+	
+panelType
+
+playerData
+	playerNo
+	setupNo
+	startPosX
+	startPosZ
+	startRot
+	
+playersAction
+restartKind
+runningPlayerNo
+setupCount
+startBallPlayerNo
+startPlayerBallOffset
+startPlayerNo
+successDemoTime
+successWaitTime
+takingBallTime

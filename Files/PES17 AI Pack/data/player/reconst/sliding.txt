@@ -1,0 +1,5 @@
+animeAccelLimitSpeed
+animeAdjustLimitAngle
+animeEnterSpeed
+animePlaybackSpeedHighest
+animePlaybackSpeedLowest

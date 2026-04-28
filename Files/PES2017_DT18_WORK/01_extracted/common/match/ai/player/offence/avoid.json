@@ -1,0 +1,64 @@
+/// @class auto
+{
+	// �����オ�莞�̈ڍs�ɂ����鎞��(sec)
+	"kickOffTime" : 3.0,
+	"throwInTime" : 5.0,
+	"goalKickTime" : 8.0,
+	"cornerKickTime" : 8.0,
+	"freeKickTime" : 8.0,
+	"penaltyKickTime" : 8.0,
+	"offenceSwitchTime" : 5.0,
+
+	// ��������I��̑��x�ɂ���ĉ~�̃T�C�Y��ς���
+	// �����Ƃ��������Ƃ��̉~�̃T�C�Y����
+	"distRateMin" : 0.5,
+
+	// �����Ƃ��~���������Ȃ�Ƃ��̃X�s�[�h(km/h)
+	"speedMin" : 5.0,
+
+	// �����Ƃ��~���傫���Ȃ�Ƃ��̃X�s�[�h(km/h)
+	"speedMax" : 15.0,
+
+	// �ȉ~���S�̃I�t�Z�b�g
+	"offset" : 1.0,
+
+	// �����I��𒆐S�Ƃ����i���֎~�~���a
+	"longDist" : 8.0,
+
+	// �����I��𒆐S�Ƃ����i���֎~�~�Z�a
+	"shortDist" : 8.0,
+
+	// �����I��𒆐S�Ƃ����i���֎~�~���a�ŏ��l
+	"longDistMin" : 4.0,
+
+	// �����I��𒆐S�Ƃ����i���֎~�~�Z�a�ŏ��l
+	"shortDistMin" : 3.0,
+
+	// �B���Ɣ��肳���A���O����
+	"subtleAngleSub" : 20.0,
+
+	// �B���Ɣ��肳���A���O����
+	"subtleAngleSubMargin" : 20.0,
+
+	// Moderate������̊p���x
+	"angleVelocity" : 25.0,
+
+	// �ړI�n�����̒l��艓�����RUN
+	"distRun" : 2.5,
+	"distRunMargin" : 0.75,
+
+	// �ړI�n�����̒l��艓�����DASH
+	"distDash" : 4.5,
+	"distDashMargin" : 1.0,
+
+	// �ړI�n�����̒l��艓�����MOVE
+	"distMove" : 6.0,
+	"distMoveMargin" : 3.0,
+
+	// �O���ɂ���Ɣ��f����p�x
+	"majorAngle" : 70.0,
+	"majorAngleMargin" : 20.0,
+
+	// �ړ��������ێ����鑬�x(km/h)
+	"keepMoveAngleSpeed" : 7.0
+}

@@ -1,0 +1,14 @@
+exec
+
+press
+	checkArea
+	checkDist
+	checkDistShoot
+	enable
+	target
+		centering, longPass, shoot, shortPass //all in same byte
+		shortPassForecast
+		
+touchAfterSec
+	normal
+	speedBall

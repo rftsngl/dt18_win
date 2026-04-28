@@ -1,0 +1,90 @@
+autoR2
+	checkEnemyFutureFrame
+	checkSectorDist
+	checkSectorWidth
+	
+ballForceDirect
+	blendStartAfterFrame
+	blendStartFrame
+		offsetPos_Dash_Dash
+		offsetPos_Dash_Idle
+		offsetPos_Dash_Run
+		offsetPos_Idle_Dash
+		offsetPos_Idle_Idle
+		offsetPos_Idle_Run
+		offsetPos_Run_Idle
+		offsetPos_Run_Run
+		offsetPos_Run_dash
+	blendStartSpeed
+		burst
+		dashOfRun
+		speed_0
+		speed_15
+		speed_28
+		use
+	burstSetting
+		max
+		min
+		ratio
+	cancelFrame
+		offsetPos_Dash_Dash
+		offsetPos_Dash_Idle
+		offsetPos_Dash_Run
+		offsetPos_Idle_Dash
+		offsetPos_Idle_Idle
+		offsetPos_Idle_Run
+		offsetPos_Run_Idle
+		offsetPos_Run_Run
+		offsetPos_Run_dash
+	cancelFrameOffsetPos
+	kickBasis
+		offsetPos_Dash
+		offsetPos_Idle
+		offsetPos_Run
+	rateCollisionSpin
+	runDashSetting
+		max
+		min
+		ratio
+	use
+	
+ballInAngle
+	angleOpen
+	use
+	
+cancel
+	hitBefore
+		jumpStartFrame
+
+defenseTrap
+	checkBallHeight
+	checkBallLimitRange
+	checkBallMoveVecY
+	checkDistKeepPlayerToBall
+	custom
+		angleOut
+		speedOut
+		use
+	use
+	
+reachOut
+	ballSpeed
+	reach
+	use
+	
+staggerTrapHeight
+
+touchAfterSec
+	defence
+	defenceKeep
+	offence
+	shoot
+	shootSpeedBall
+	
+trapChapeuAuto
+
+trapCutFrame
+	default
+	fast
+	
+trapLoss

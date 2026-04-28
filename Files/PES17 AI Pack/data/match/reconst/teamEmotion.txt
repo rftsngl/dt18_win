@@ -1,0 +1,13 @@
+categorys
+	name
+	retry
+	
+downPointMin
+
+gage
+	away_lmt
+	away_max
+	away_mid
+	home_lmt
+	home_max
+	home_mid

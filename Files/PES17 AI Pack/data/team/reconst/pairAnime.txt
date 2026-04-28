@@ -1,0 +1,42 @@
+decideTiming
+	moveSec
+	pes15TestDecideTiming
+		enable
+		maxSec
+		minSec
+	stopSec
+	
+highballEnable
+
+moveContact
+	firstAttackEnd
+		enable
+		paraDiff
+	pes15TestMoveContact
+		calcType
+		defenceIdealRot
+			margin
+			max
+			min
+			paraDown
+		dropOut
+			enable
+			minSec
+		enable, neutralEnd //all in same byte
+		speedDiff
+			paraDown
+			value
+		tackleResultSetAnime
+		
+moveEnable
+
+stamina
+	effect
+	max
+	min
+	
+stopContact
+	keepBodyAngleSub
+	myGoalAngleEnable
+	
+stopEnable

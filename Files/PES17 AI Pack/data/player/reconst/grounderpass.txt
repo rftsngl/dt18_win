@@ -1,0 +1,48 @@
+angleY
+	angleForDistMax
+	angleForDistMin
+	distMax
+	distMin
+	
+calcRecieveSpeed
+	autoRecieveSpeedAddDistMax
+	autoRecieveSpeedAddDistMin
+	autoRecieveSpeedDecDistMax
+	autoRecieveSpeedDecDistMin
+	
+debug
+	angleXZ
+	dist
+	enable
+	recieveBallSpeed
+	
+gageManualTest
+
+lob
+	enemyDistMax
+	enemyDistMin
+	enemyXPos
+	lobHeightDistMax
+	lobHeightDistMin
+	passDistMax
+	passDistMaxThrough
+	
+manual
+	distForGageMax
+	distForGageMin
+	
+manualBlendManualRateGageStrong	//array
+manualBlendManualRateGageWeak	//array
+manualBlendParaMaxAdd
+manualBlendthreshold
+paraMaxSpeedRate
+paraMinSpeedRate
+passAssistLevel
+receiveSpeed					//array
+
+search
+	angleRate
+	debugDisp_searchBasePoint
+	distRate
+	searchMaxDist
+	searchMinDist

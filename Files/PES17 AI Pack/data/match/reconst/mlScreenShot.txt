@@ -1,0 +1,23 @@
+shotPattern
+	cameraPos
+		angleXZ
+		isLocalTransform
+		offsetPoint
+		offsetXZ
+		offsetY
+		point
+	fovY
+	lookAt
+		angleXZ
+		isLocalTransform
+		isOffsetFromGround
+		offsetXZ
+		offsetY
+		point
+	percent
+	scene
+	timing
+		interval
+		offset
+		point
+		range

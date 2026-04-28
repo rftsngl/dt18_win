@@ -1,0 +1,34 @@
+/// @class auto
+// Configuration options
+{
+	//----------------------------------------
+	// ���x�� �_���[�W臒l 0�`255�͈̔͂ł��邱�ƁB
+	//----------------------------------------
+	//����
+	"levelDamageMicro" : 85,
+	//�y��
+	"levelDamageMinor" : 150,
+	//����
+	"levelDamageMiddle" : 220,
+	//�d��
+	"levelDamageSerious" : 240,
+	
+	//----------------------------------------
+	//  �_���[�W臒l 0�`255�͈̔͂ł��邱�ƁB
+	//----------------------------------------
+	//�Ŗo
+	"symptomDamageBruise" : 120,
+	//����
+	"symptomDamageInflammation" : 160,
+	//��
+	"symptomDamageLaceration" : 220,
+	//������
+	"symptomDamageTearMuscle" : 210,
+	//�Ց�(�P��)
+	"symptomDamageLigament" : 240,
+	//����
+	"symptomDamageFracture" : 250,
+
+
+	"dummy" : 0
+}

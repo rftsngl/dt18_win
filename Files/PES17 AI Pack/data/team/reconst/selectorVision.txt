@@ -1,0 +1,6 @@
+offerNum_diagonalRun
+offerNum_lineBreak
+offerNum_pullAway
+offerNum_spaceRunChance
+offerNum_spaceRunCounter
+offerNum_spaceRunSecondLine

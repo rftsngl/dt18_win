@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<Tree Id="offenceSetPlayKeepBall.xml" Type="Action" AnswerFile="Action.xml">
+  <Nodes>
+    <Node NodeId="Shape40" ConfigId="FuncShape40" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape41" />
+        <Connector End="Shape1" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape1" ConfigId="OffenceSetPlayKeepBallFuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape4" />
+        <Connector End="Shape2" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="SHORT_PASS" NodeType="Answer" />
+    <Node NodeId="Shape12" ConfigId="CORNERKICK" NodeType="Answer" />
+    <Node NodeId="Shape4" ConfigId="OffenceSetPlayKeepBallFuncShape4" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape8" />
+        <Connector End="Shape5" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape5" ConfigId="PENALTY_KICK" NodeType="Answer" />
+    <Node NodeId="Shape11" ConfigId="FuncShape11" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape14" />
+        <Connector End="Shape33" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape7" ConfigId="NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape9" ConfigId="GOALKICK" NodeType="Answer" />
+    <Node NodeId="Shape8" ConfigId="FuncShape8" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape11" />
+        <Connector End="Shape31" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape10" ConfigId="FuncShape10" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape7" />
+        <Connector End="Shape36" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape15" ConfigId="FREEKICK_LONG_PASS" NodeType="Answer" />
+    <Node NodeId="Shape14" ConfigId="FuncShape14" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape10" />
+        <Connector End="Shape22" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape13" ConfigId="THROWIN" NodeType="Answer" />
+    <Node NodeId="Shape21" ConfigId="FuncShape21" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape23" />
+        <Connector End="Shape24" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape22" ConfigId="FuncShape22" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape21" />
+        <Connector End="Shape25" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape23" ConfigId="FuncShape23" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape42" />
+        <Connector End="Shape26" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape24" ConfigId="FREEKICK_LONG_PASS" NodeType="Answer" />
+    <Node NodeId="Shape25" ConfigId="THROUGH_PASS" NodeType="Answer" />
+    <Node NodeId="Shape26" ConfigId="SHORT_PASS" NodeType="Answer" />
+    <Node NodeId="Shape31" ConfigId="FuncShape31" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape27" />
+        <Connector End="Shape32" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape32" ConfigId="SHORT_PASS" NodeType="Answer" />
+    <Node NodeId="Shape33" ConfigId="FuncShape33" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape30" />
+        <Connector End="Shape34" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape34" ConfigId="SHORT_PASS" NodeType="Answer" />
+    <Node NodeId="Shape27" ConfigId="FuncShape27" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape28" />
+        <Connector End="Shape9" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape28" ConfigId="FuncShape28" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape9" />
+        <Connector End="Shape29" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape29" ConfigId="NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape30" ConfigId="FuncShape30" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape35" />
+        <Connector End="Shape12" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape35" ConfigId="FuncShape35" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape12" />
+        <Connector End="Shape39" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape36" ConfigId="FuncShape36" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape37" />
+        <Connector End="Shape13" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape37" ConfigId="FuncShape37" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape38" />
+        <Connector End="Shape13" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape38" ConfigId="FuncShape38" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape13" />
+        <Connector End="Shape7" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape39" ConfigId="NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape41" ConfigId="NOTHING" NodeType="Answer" />
+    <Node NodeId="Shape42" ConfigId="FuncShape42" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape15" />
+        <Connector End="Shape43" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape43" ConfigId="FREEKICK_SHOOT" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="OffenceSetPlayKeepBallFuncShape1">
+      <Funcs>
+        <Func Name="CheckSetplayKind" NameJ="セットプレイの種類">
+          <Args>
+            <Arg Type="RestartKind" Value="KICK_OFF" ValueJ="キックオフ" OptionType="Not">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="OffenceSetPlayKeepBallFuncShape4">
+      <Funcs>
+        <Func Name="CheckSetplayKind" NameJ="セットプレイの種類">
+          <Args>
+            <Arg Type="RestartKind" Value="PENALTY_KICK" ValueJ="ペナルティキック" OptionType="Not">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape11">
+      <Funcs>
+        <Func Name="CheckSetplayKind" NameJ="セットプレイの種類">
+          <Args>
+            <Arg Type="RestartKind" Value="CORNER_KICK" ValueJ="コーナーキック" OptionType="Not">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape10">
+      <Funcs>
+        <Func Name="CheckSetplayKind" NameJ="セットプレイの種類">
+          <Args>
+            <Arg Type="RestartKind" Value="THROW_IN" ValueJ="スローイン" OptionType="Not">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape8">
+      <Funcs>
+        <Func Name="CheckSetplayKind" NameJ="セットプレイの種類">
+          <Args>
+            <Arg Type="RestartKind" Value="GOAL_KICK" ValueJ="ゴールキック" OptionType="Not">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape14">
+      <Funcs>
+        <Func Name="CheckSetplayKind" NameJ="セットプレイの種類">
+          <Args>
+            <Arg Type="RestartKind" Value="FREE_KICK" ValueJ="フリーキック" OptionType="Not">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape21">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_LONG" ValueJ="ロングパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape22">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_THROUGH" ValueJ="スルーパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape23">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_SHORT" ValueJ="ショートパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape31">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_SHORT" ValueJ="ショートパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape33">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_SHORT" ValueJ="ショートパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape27">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_LONG" ValueJ="ロングパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape28">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_THROUGH" ValueJ="スルーパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape30">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_LONG" ValueJ="ロングパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape35">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_THROUGH" ValueJ="スルーパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape36">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_LONG" ValueJ="ロングパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape37">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_THROUGH" ValueJ="スルーパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape38">
+      <Funcs>
+        <Func Name="TargetPlayerA" NameJ="対象A(選手)">
+          <Args>
+            <Arg Type="TargetPlayer" Value="EXCEPT_ME" ValueJ="自分以外" OptionType="Friend">
+              <Options>
+                <Option Value="FRIEND" ValueJ="味方" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckRequestPass" NameJ="パス要求チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_SHORT" ValueJ="ショートパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape40">
+      <Funcs>
+        <Func Name="ConditionNone" NameJ="条件なし">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape42">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckGoalDist" NameJ="ゴール距離">
+          <Args>
+            <Arg Type="Numeric" Value="30" ValueJ="30" OptionType="FriendSign">
+              <Options>
+                <Option Value="ENEMY" ValueJ="敵" />
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="198" Y="18" />
+      <Size Width="147" Height="32" />
+      <Comment Text="Root of offenceSetPlayKeepBall" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/24 19:56:12" />
+    </Parameter>
+    <Parameter>
+      <Location X="220" Y="99" />
+      <Size Width="104" Height="32" />
+      <Comment Text="キックオフか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="417" Y="101" />
+      <Size Width="100" Height="32" />
+      <Comment Text="SHORT_PASS" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="791" Y="514" />
+      <Size Width="82" Height="32" />
+      <Comment Text="コーナーキック" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="207" Y="171" />
+      <Size Width="136" Height="32" />
+      <Comment Text="ペナルティキックかどうか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="400" Y="171" />
+      <Size Width="108" Height="32" />
+      <Comment Text="PENALTY_KICK" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="210" Y="418" />
+      <Size Width="136" Height="32" />
+      <Comment Text="コーナーキックかどうか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="630" Y="951" />
+      <Size Width="108" Height="32" />
+      <Comment Text="アクションなし" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="722" Y="329" />
+      <Size Width="151" Height="33" />
+      <Comment Text="ゴールキック" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="207" Y="249" />
+      <Size Width="136" Height="32" />
+      <Comment Text="ゴールキックかどうか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="204" Y="750" />
+      <Size Width="140" Height="48" />
+      <Comment Text="スローイン" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="1186" Y="557" />
+      <Size Width="118" Height="32" />
+      <Comment Text="フリーキックロングパス" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/09/24 18:34:19" />
+    </Parameter>
+    <Parameter>
+      <Location X="209" Y="593" />
+      <Size Width="136" Height="32" />
+      <Comment Text="フリーキックかどうか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="627" Y="844" />
+      <Size Width="116" Height="49" />
+      <Comment Text="スローイン" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="585" Y="593" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ロングパス要求があるか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="383" Y="593" />
+      <Size Width="163" Height="32" />
+      <Comment Text="スルーパス要求があるか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="801" Y="590" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ショートパス要求があるか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="601" Y="676" />
+      <Size Width="132" Height="32" />
+      <Comment Text="フリーキックロングパス" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="399" Y="680" />
+      <Size Width="132" Height="32" />
+      <Comment Text="スルーパス" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="817" Y="674" />
+      <Size Width="132" Height="32" />
+      <Comment Text="ショートパス" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="401" Y="251" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ショートパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/13 20:37:03" />
+    </Parameter>
+    <Parameter>
+      <Location X="406" Y="334" />
+      <Size Width="132" Height="32" />
+      <Comment Text="ショートパス" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/13 20:37:03" />
+    </Parameter>
+    <Parameter>
+      <Location X="394" Y="418" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ショートパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/13 20:37:20" />
+    </Parameter>
+    <Parameter>
+      <Location X="407" Y="518" />
+      <Size Width="132" Height="32" />
+      <Comment Text="ショートパス" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/13 20:37:20" />
+    </Parameter>
+    <Parameter>
+      <Location X="609" Y="251" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ロングパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:09:16" />
+    </Parameter>
+    <Parameter>
+      <Location X="843" Y="252" />
+      <Size Width="163" Height="32" />
+      <Comment Text="スルーパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:09:38" />
+    </Parameter>
+    <Parameter>
+      <Location X="1049" Y="251" />
+      <Size Width="108" Height="32" />
+      <Comment Text="アクションなし" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:10:18" />
+    </Parameter>
+    <Parameter>
+      <Location X="652" Y="418" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ロングパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:11:29" />
+    </Parameter>
+    <Parameter>
+      <Location X="864" Y="418" />
+      <Size Width="163" Height="32" />
+      <Comment Text="スルーパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:12:01" />
+    </Parameter>
+    <Parameter>
+      <Location X="390" Y="758" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ロングパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:13:13" />
+    </Parameter>
+    <Parameter>
+      <Location X="603" Y="758" />
+      <Size Width="163" Height="32" />
+      <Comment Text="スルーパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:13:41" />
+    </Parameter>
+    <Parameter>
+      <Location X="812" Y="758" />
+      <Size Width="163" Height="32" />
+      <Comment Text="ショートパス要求があるか" />
+      <Modifier Name="T4131118\usr10043742" Time="2012/06/14 17:13:54" />
+    </Parameter>
+    <Parameter>
+      <Location X="1079" Y="418" />
+      <Size Width="108" Height="32" />
+      <Comment Text="アクションなし" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/24 19:53:48" />
+    </Parameter>
+    <Parameter>
+      <Location X="449" Y="19" />
+      <Size Width="108" Height="32" />
+      <Comment Text="アクションなし" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/24 19:56:28" />
+    </Parameter>
+    <Parameter>
+      <Location X="1002" Y="590" />
+      <Size Width="129" Height="32" />
+      <Comment Text="敵ゴールまで30M以下" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/09/24 18:35:00" />
+    </Parameter>
+    <Parameter>
+      <Location X="1188" Y="615" />
+      <Size Width="109" Height="32" />
+      <Comment Text="フリーキックシュート" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/09/24 18:34:08" />
+    </Parameter>
+  </Parameters>
+  <WindowSize Width="1500" Height="1122" />
+</Tree>

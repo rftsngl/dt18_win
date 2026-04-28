@@ -1,0 +1,18 @@
+adjustAngleFlag, burstTest, cancelAfterRotation //all in same block
+dribbleAngleLimitDash
+dribbleAngleLimitRunToDash
+dribbleAngleLimitStopToDash
+dribbleFrontNormalTouchEnable
+dribbleFrontNormalTouchRate
+dribbleGotoAddFrame
+dribbleStopDist
+dribbleStopSpeed
+
+slowDribble
+	enable, jogEnable, neutralEnable //all in same block
+	stickKeepTime
+	stickRate
+	
+staggerDribble
+	debugAlways, enable	//all in same block
+	enemyDist

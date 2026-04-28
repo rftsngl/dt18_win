@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<Tree Id="offenceGk.xml" Type="Action" AnswerFile="Action.xml">
+  <Nodes>
+    <Node NodeId="Shape22" ConfigId="FuncShape22" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape23" />
+        <Connector End="Shape1" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape4" />
+        <Connector End="Shape10" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape3" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape4" ConfigId="FuncShape4" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape5" />
+        <Connector End="Shape3" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape5" ConfigId="FuncShape5" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape7" />
+        <Connector End="Shape6" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape6" ConfigId="FuncShape6" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape19" />
+        <Connector End="Shape17" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape7" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape19" ConfigId="KP_BASE_POSITION" NodeType="Answer" />
+    <Node NodeId="Shape11" ConfigId="FuncShape11" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape14" />
+        <Connector End="Shape15" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape10" ConfigId="FuncShape10" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape20" />
+        <Connector End="Shape11" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape12" ConfigId="LONG_PASS" NodeType="Answer" />
+    <Node NodeId="Shape13" ConfigId="KP_AFTER_CATCH_MOVE" NodeType="Answer" />
+    <Node NodeId="Shape14" ConfigId="FuncShape14" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape16" />
+        <Connector End="Shape13" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape16" ConfigId="LONG_PASS" NodeType="Answer" />
+    <Node NodeId="Shape15" ConfigId="KP_AFTER_CATCH_MOVE" NodeType="Answer" />
+    <Node NodeId="Shape17" ConfigId="FuncShape17" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape18" />
+        <Connector TreeId="Data/common/ai/player/defence/defenceGkAuto.xml" End="Shape1" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape18" ConfigId="PRESS" NodeType="Answer" />
+    <Node NodeId="Shape20" ConfigId="FuncShape20" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape21" />
+        <Connector End="Shape12" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape21" ConfigId="DRIBBLE" NodeType="Answer" />
+    <Node NodeId="Shape23" ConfigId="NOTHING" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckBallKeepHistory" NameJ="ボール保持者の履歴">
+          <Args>
+            <Arg Type="Numeric" Value="0" ValueJ="0" OptionType="Not">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape4">
+      <Funcs>
+        <Func Name="CheckBallKeep" NameJ="キープ選手の存在チェック">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape5">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckTarget" NameJ="チェック対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckSortListBall" NameJ="ボールに近い順">
+          <Args>
+            <Arg Type="Numeric" Value="1" ValueJ="1" OptionType="Sign">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape6">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckBallDist" NameJ="ボール距離">
+          <Args>
+            <Arg Type="Numeric" Value="10" ValueJ="10" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape10">
+      <Funcs>
+        <Func Name="CheckBallTouchKind" NameJ="ボールタッチ">
+          <Args>
+            <Arg Type="BallTouchKind" Value="CATCH" ValueJ="キャッチ" OptionType="Not">
+              <Options>
+                <Option Value="EQUAL" ValueJ="同等" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape11">
+      <Funcs>
+        <Func Name="CheckKeepTime" NameJ="キープ時間">
+          <Args>
+            <Arg Type="Numeric" Value="5" ValueJ="5" OptionType="Sign">
+              <Options>
+                <Option Value="UNDER" ValueJ="以下" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape14">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckGoalAngle" NameJ="ゴール方向と体の向き比較">
+          <Args>
+            <Arg Type="Numeric" Value="360" ValueJ="360" OptionType="AngleSign">
+              <Options>
+                <Option Value="ANGLE_OFFENCE" ValueJ="攻撃方向" />
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape17">
+      <Funcs>
+        <Func Name="Target" NameJ="処理対象">
+          <Args>
+            <Arg Type="Target" Value="ME" ValueJ="自分" OptionType="Friend">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+        <Func Name="CheckGoalKeeperFlag" NameJ="ゴールキーパー判断フラグチェック">
+          <Args>
+            <Arg Type="GoalKeeperFlag" Value="CATCH" ValueJ="キャッチandパンチング">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape20">
+      <Funcs>
+        <Func Name="CheckPassTarget" NameJ="パス対象チェック">
+          <Args>
+            <Arg Type="PassKind" Value="PASS_KIND_LONG" ValueJ="ロングパス">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape22">
+      <Funcs>
+        <Func Name="ConditionNone" NameJ="条件なし">
+          <Args />
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="62" Y="25" />
+      <Size Width="190" Height="32" />
+      <Comment Text="Root of OffenceGK" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/24 19:42:35" />
+    </Parameter>
+    <Parameter>
+      <Location X="82" Y="126" />
+      <Size Width="144" Height="32" />
+      <Comment Text="自分がボールキープ選手" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="630" Y="219" />
+      <Size Width="95" Height="32" />
+      <Comment Text="GKベースポジション&#xD;&#xA;PLAYER_ACTION_KIND_KP_BASE_POSITION" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="627" Y="125" />
+      <Size Width="102" Height="32" />
+      <Comment Text="キープ選手がいる&#xD;&#xA;" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="796" Y="124" />
+      <Size Width="109" Height="32" />
+      <Comment Text="ボールに一番近い&#xD;&#xA;" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="798" Y="219" />
+      <Size Width="104" Height="32" />
+      <Comment Text="ボール距離が近いか" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="971" Y="127" />
+      <Size Width="92" Height="32" />
+      <Comment Text="GKベースポジション&#xD;&#xA;PLAYER_ACTION_KIND_KP_BASE_POSITION" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="971" Y="217" />
+      <Size Width="94" Height="32" />
+      <Comment Text="GKベースポジション" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="66" Y="337" />
+      <Size Width="175" Height="32" />
+      <Comment Text="キープしてから一定時間経過した" />
+      <Modifier Name="T4128237\sys00001975" Time="2012/08/28 20:55:44" />
+    </Parameter>
+    <Parameter>
+      <Location X="94" Y="197" />
+      <Size Width="119" Height="32" />
+      <Comment Text="ボールタッチがキャッチ" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="338" Y="278" />
+      <Size Width="106" Height="32" />
+      <Comment Text="LONG_PASS" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="307" Y="423" />
+      <Size Width="166" Height="32" />
+      <Comment Text="KP_AFTER_CATCH_MOVE" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="81" Y="425" />
+      <Size Width="146" Height="32" />
+      <Comment Text="敵ゴールとの角度が大きい&#xD;&#xA;(現在キーパーの体の向きがゴールを向かないので必ずtrueになるようにしている)" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="105" Y="523" />
+      <Size Width="94" Height="32" />
+      <Comment Text="LONG_PASS" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="305" Y="339" />
+      <Size Width="158" Height="32" />
+      <Comment Text="KP_AFTER_CATCH_MOVE" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="781" Y="316" />
+      <Size Width="140" Height="32" />
+      <Comment Text="キャッチ判断フラグチェック" />
+      <Modifier Name="" Time="" />
+      <Reference>
+        <Affirmative>
+          <Location X="751" Y="406" />
+          <Size Width="163" Height="32" />
+          <Comment Text="キープ選手の存在チェック" />
+          <Modifier Name="" Time="" />
+        </Affirmative>
+      </Reference>
+    </Parameter>
+    <Parameter>
+      <Location X="972" Y="316" />
+      <Size Width="88" Height="32" />
+      <Comment Text="PRESS" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="320" Y="201" />
+      <Size Width="141" Height="32" />
+      <Comment Text="ロングパスターゲットがいる" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="513" Y="201" />
+      <Size Width="72" Height="32" />
+      <Comment Text="ドリブル" />
+      <Modifier Name="" Time="" />
+    </Parameter>
+    <Parameter>
+      <Location X="509" Y="25" />
+      <Size Width="170" Height="32" />
+      <Comment Text="アクションなし" />
+      <Modifier Name="T4131090\usr10033116" Time="2012/07/24 19:42:49" />
+    </Parameter>
+  </Parameters>
+  <WindowSize Width="2000" Height="1122" />
+</Tree>

@@ -1,0 +1,78 @@
+aiDebugCamera
+	cameraY
+	cameraZ
+	isEnable
+	lookAtZ
+	
+	
+cameraMoveAreaSize
+	isCustomize
+	x
+	z
+	
+	
+cameraMoveMarginTime
+	isCustomize
+	mergetime
+	movetime
+	
+	
+dropPointDispFast
+	afterKickTime
+	decelerateRate
+	isEnable
+	isGrounderEnable
+	passDistFly
+	passDistGrounder
+	speedLimit
+	
+	
+newWideCamera
+	ballZRangeMarginUnder
+	ballZRangeMarginUpper
+	isEnable
+	paramMax
+		distance
+		height
+		isCustomize
+		paramTable
+			Fov
+			LookY
+			Mani
+			Pan
+			PosY
+			PosZ
+			X_limit
+			Z_max
+			Z_min
+			isCustomize
+	paramMin
+		distance
+		height
+		isCustomize
+		paramTable
+			Fov
+			LookY
+			Mani
+			Pan
+			PosY
+			PosZ
+			X_limit
+			Z_max
+			Z_min
+			isCustomize
+	relayParam
+		distance
+		height
+		isEnable
+		paramTable
+			Fov
+			LookY
+			Mani
+			Pan
+			PosY
+			PosZ
+			X_limit
+			Z_max
+			Z_min
+		relayBallPosZ

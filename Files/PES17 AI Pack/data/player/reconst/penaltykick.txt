@@ -1,0 +1,2 @@
+shootSpeedKPHMax
+shootSpeedKPHMin

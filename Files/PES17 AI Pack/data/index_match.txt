@@ -1,0 +1,26 @@
+//FORMAT: Lenght - Unknown - Ending Position in DEC//
+//index is special, the length value is actually the amount of files in the binary//
+23 - 8 - 640		//index
+608 - 284 - 1248	//ball
+256 - 291 - 1504	//blockDebug
+352 - 304 - 1856	//cameraInplay
+48 - 319 - 1904		//command
+1232 - 329 - 3136	//cpuLevel
+16 - 340 - 3152		//cursor
+7584 - 349 - 10736	//feint
+48 - 357 - 10784	//injury
+32 - 366 - 10816	//inplayDemo
+1792 - 379 - 12608	//mlScreenShot
+224 - 394 - 12832	//modeMatchup
+176 - 408 - 13008	//pes15Test
+848 - 420 - 13856	//pesSmart
+3408 - 431 - 17264	//rating
+32 - 440 - 17296	//setplayGuideCommon
+176 - 461 - 17472	//setplayGuideCornerKick
+176 - 486 - 17648	//setplayGuideFreeKickFar
+176 - 512 - 17824	//setplayGuideFreeKickMiddle
+176 - 541 - 18000	//setplayGuideFreeKickNear
+176 - 568 - 18176	//setplayGuideGoalKick
+448 - 591 - 18624	//teamEmotion
+128 - 605 - 18752	//throwin
+112 - 615 - 		//userPlayTendencyTest

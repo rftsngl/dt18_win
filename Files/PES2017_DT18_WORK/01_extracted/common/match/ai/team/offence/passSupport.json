@@ -1,0 +1,64 @@
+/// @class auto
+// Configuration options
+{
+	// サポートエリア内径
+	"innerDiameter" : 8.0,
+
+	// サポートエリア外径
+	"outerDiameter" : 10.0,
+	
+	// サポート調整距離
+	"adjustSupportDist" : 10.0,
+
+	// 前方にいくほどサポート距離を狭くする。その最大圧縮率。
+	"supportDistRate" : 0.90,
+
+	// スペースとして認識する矩形の辺の長さ
+	"spaceRectLength" : 6.0,
+
+	// 継続時サポート位置更新頻度
+	"timeUpdateDelta" : 30,
+
+	// 安定したとみなされるボールプレイヤーの進行方向差分
+	"angleAbsAve" : 20.0,
+
+	// 継続時にスコアにかかる係数
+	"scoreWeight" : 0.65,
+
+	// 新規時の距離スコア(古いサポート位置と新しいサポート位置との距離)
+	"scoreDistDefault" : 1.0,
+
+	// 距離スコア単位(6mで1点)
+	"scoreDistUnit" : 6.0,
+
+	// 角度スコア単位(30度ごとに何点になるか)
+	"scoreAngleRate" : 1.5,
+
+	// 目的地がこの値より遠ければRUN
+	"distRun" : 5.0,
+	"distRunMargin" : 2.0,
+
+	// 目的地がこの値より遠ければDASH
+	"distDash" : 15.0,
+	"distDashMargin" : 0.0,
+	
+	// 連携パラが反映する範囲
+	"upperConnectionParam" : 70.0,
+	"lowerConnectionParam" : 50.0,
+	
+	// 連携パラによるサポート処理を判断しない最大時間
+	"maxWaitTime" : 60.0,
+	
+	// パラメータ:パスサポート距離　TODO::削除予定
+	"passSupportDist" : 20,
+	
+	// パラメータ:パスサポート意識　TODO::削除予定
+	"passSupportRisk" : 0,
+	
+	// 基本ポジションとサポート位置との距離チェック用
+	"passSupportRiskMinDist" : 10.0,
+	"passSupportRiskAdjustDist" : 15.0,
+	
+	// TODO::デバッグ用　仮置き
+	"offenceSwitch": 0
+}

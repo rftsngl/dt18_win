@@ -1,0 +1,4 @@
+cpustyle
+param
+playstyle
+skill

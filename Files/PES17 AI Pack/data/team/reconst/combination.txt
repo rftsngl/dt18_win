@@ -1,0 +1,17 @@
+checkDist
+checkWedgeAngle
+checkWedgeFarX
+checkWedgeNearX
+checkWedgeOffsideX
+checkZ
+
+combsCom
+	area
+	kind
+	
+combsSide
+	combs
+		area
+		kind
+		
+useJson

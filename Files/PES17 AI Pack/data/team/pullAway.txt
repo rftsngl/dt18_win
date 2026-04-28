@@ -1,0 +1,12 @@
+90.0	//angleDiff
+140.0	//angleDiff_good
+22.0	//checkBallDist
+5.0		//checkBallDistBP
+6.5		//checkBallDistBP_good
+30.0	//checkBallDist_good
+7.0		//checkLastLineDist
+13.0	//checkLastLineDist_good
+27.0	//checkZ
+35.0	//checkZ_good
+0.0 	//HEX 0x000101010, contains eyeOff, lastLine, lastLineEnemy, pullAway
+1		//pullAwaySide

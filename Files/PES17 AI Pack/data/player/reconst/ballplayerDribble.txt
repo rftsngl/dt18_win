@@ -1,0 +1,55 @@
+BallGard
+	dummy
+
+BreakThrough
+	DashCheckSecotor
+		angle
+		dist
+	distDecideAngle
+	distThikStart
+	enemySearchAngle
+	
+MatchUp
+	Burst
+		angleSubMax
+		enemyFanWidth
+		enemyFutureSec
+		startDist
+	OneTwo
+		courseCheckWidth
+		distTargetToEnemy
+		passTimingDist
+		rangeFar
+		rangeNear
+	Slide
+		keepDistMax
+		keepDistMin
+		startDist
+	distThikStart
+	
+Nomal
+	distDecideAngle
+	distLeaveEnemy
+	enemySearchAngle
+	frameLeaveEnemy
+	rateLeaveEnemy
+	
+QuickTurn
+	dummy
+	
+Safety
+	GearDownCheckSecotor
+		angle
+		dist
+		frame
+	distDecideAngle
+	distLeaveEnemy
+	enemyCheckDistMax
+	enemyCheckDistMin
+	enemySearchAngle
+	frameLeaveEnemy
+	gearDownMoveAngleSub
+	rateLeaveEnemy
+	
+Stop
+	dummy

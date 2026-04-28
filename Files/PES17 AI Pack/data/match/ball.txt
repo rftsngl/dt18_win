@@ -1,0 +1,174 @@
+1.0		//airRegistNormal
+1.0		//backSpinBuoyancyRate
+7.0		//backSpinLogRate
+12.0	//boundBoundSpeedMax
+2.0		//boundBoundSpeedMin
+256		//boundCheckBoundAddRate array
+288		//boundCheckFrictionAddRate array
+0		//boundCheckRotationDecRate
+25.0	//boundFrictionSpeedMax
+10.0	//boundFrictionSpeedMin
+320		//boundRate	array
+7.5		//boundRollMax
+20.0	//boundRotationSpeedMax
+5.0		//boundRotationSpeedMin
+352		//boundToRotationAddRateXZ array
+0.07	//boundToRotationAddRateY
+384		//boundToRotationBaseXZ array
+0.03	//boundToRotationBaseY
+0.7		//boundToRotationSpeedMaxXZ
+0.7		//boundToRotationSpeedMaxY
+0.1		//boundToRotationSpeedMinXZ
+0.1		//boundToRotationSpeedMinY
+0		//curve
+6.6		//curveToSpeedMaxCurve
+0		//curveToSpeedMaxKPH
+0.7		//curveToSpeedSpeedYMax
+0.1		//curveToSpeedSpeedYMin
+0.7		//curveToSpeedSpeedYRateBase
+3.0		//debugKickAngle
+35.0	//debugKickSpeed
+96.995	//dragSpeedMax
+56.996	//dragSpeedMin
+416		//frictionRollRateMax array
+448		//frictionRollRateMin array
+480		//frictionRollSpeedMax array
+512		//frictionRollSpeedMin array
+0.085	//grounderBoundYAdd
+8.0		//grounderCTan
+0.98	//grounderFrictionRate
+20.0	//grounderSpeed
+0.035	//magnusRate
+544		//natualBoundA array
+0.4		//natualBoundB
+2.0		//naturalRoll
+105.0	//nonSpinMax
+45.0	//nonSpinMin
+1.0		//nonSpinRate
+1.0		//nonSpinTopDownDecRate
+1.0		//nonSpinTopRiseDecRate
+nan		//pitchCondition
+-2.0	//roll
+0.07	//rollToBoundAdd
+7.0		//rollToBoundRollMax
+2.0		//rollToBoundRollMin
+576		//rollToSpeedMaxKPH
+7.5		//rollToSpeedMaxRoll
+0.7		//rollToSpeedSpeedYMax
+0.1		//rollToSpeedSpeedYMin
+0.2		//rollToSpeedSpeedYRateBase
+0		//HEX 0x00000000, contains rotationCustom, speedCustom, NULL, NULL
+0.175	//stopSpeed
+10.0	//topSpinChangeSpeed
+1.0		//topSpinDownDecRate
+1.0		//topSpinRiseDecRate
+
+//boundCheckBoundAddRate//
+10.0
+5.0
+0
+0
+10.0
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//boundCheckFrictionAddRate//
+0
+7.5
+15.0
+0
+15.0
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//boundRate//
+0.7
+0.7
+0.7
+0.5
+0.7
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//boundToRotationAddRateXZ//
+0.6
+0.62
+0.64
+0.07
+0.64
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//boundToRotationBaseXZ//
+0.16
+0.2
+0.24
+0.13
+0.22
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//frictionRollRateMax//
+0.96
+0.955
+0.95
+0.96
+0.993
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//frictionRollRateMin//
+0.989
+0.987
+0.985
+0.95
+0.989
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//frictionRollSpeedMax//
+25.0
+25.0
+25.0
+70.0
+8.0
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//frictionRollSpeedMin//
+15.0
+15.0
+15.0
+30.0
+2.0
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//natualBoundA//
+0.065
+0.055
+0.045
+0.065
+0.065
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)
+
+//rollToSpeedMaxKPH//
+18.0
+18.0
+18.0
+9.0
+18.0
+0	//padding (?)
+0	//padding (?)
+0	//padding (?)

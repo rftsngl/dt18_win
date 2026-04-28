@@ -1,0 +1,322 @@
+/// @class auto
+// Configuration options
+{
+	//----------------------------------------
+	// �U�����̐ݒ�
+	//----------------------------------------
+	// �U������FW-DF�Ԃ̋�����
+	"lengthOf" : 40.0,
+
+	// �U�����̃T�C�h�ւ̍L����
+	"offencWideLength" : 50.0,
+	
+	// �T�C�h���C���Ƃ̃}�[�W��
+	"marginSide" : 10.0,
+
+	// �U�������̑S�̒���
+	"adjustFrontOF" : 18.0,
+
+	// �U�������̑S�̒���
+	"adjustBackOF" : 0.0,
+
+	// �O�ւ̏オ�葬�x�ω�
+	"xposiRateCustom" : false,
+	
+	// FW�J�e�S���̑傫��
+	"fwGroupRate" : 0.8,
+	
+	// �`�[���s������O���[�v���̍s���ɕω�����̂������邩�ǂ���
+	"teamToGroupAdjustEnable" : false,
+	
+	// �`�[���s������O���[�v���̍s���ɕω����鋗��
+	"teamToGroupAdjustStart" : -10.0,
+	
+	// �`�[���s������O���[�v���̍s���ɕω����鋗��
+	"teamToGroupAdjustEnd" : 0.0,
+	
+	// Z���W�̕␳���ʏ���J������
+	"offenceZposiAdjust" : true,
+	
+	// Z���W�̕␳�J�n�ʒu��������
+	"offenceZposiAdjustDist" : 0.0,
+	
+	// �T�C�h�ɊJ�������ŊO�ɊJ�����I��ɑ΂��钆���̑I��̃T�C�h�ւ̈ړ���������
+	"openSideAdjustZRate" : 0.15,
+	
+	
+	//----------------------------------------
+	// �Z�b�g�v���C�p�̒���
+	//----------------------------------------
+	"adjustSetplay" : true,
+	
+	"setplayToInplayHeightMin" : 0.3,
+	"setplayToInplayHeightMax" : 0.9,
+
+	// �S�[���L�b�N�p�̒���
+	"gklBaseX"          : 8.0,
+	"gklBaseZRate"      : 0.5,
+	"gklAdjustRateX"    : 0.0,
+	"gklAdjustRateZ_FW" : 0.0,
+	"gklAdjustRateZ_MF" : 0.0,
+	"gklAdjustRateZ_DF" : 0.0,
+	"gklSupportRate"    : 20.0,
+	"gklWidthZ"         : 38.0,
+	
+	"gksBaseX"            : 30.0,
+	"gksBaseZRate"        : 0.5,
+	"gksAdjustRateX"      : 0.0,
+	"gksAdjustRateZ_FW"   : 0.0,
+	"gksAdjustRateZ_MF"   : 0.0,
+	"gksAdjustRateZ_DF"   : 0.0,
+	"gksHalfLineRateX_SB" : 60.0,
+	"gksSideLineRateZ_SB" : 0.0,
+	"gksPenaltyLineRateX_DF" : 40.0,
+	"gksWidthZ"           : 50.0,
+	
+
+	// �U�����̃T�C�h�ւ̍L����
+	"throwinWidthZ" : 25.0,	
+	
+	//�X���[�C���A�������FW-DF�Ԃ̋�����
+	"throwinLengthDf" : 20.0,	
+	
+	// �t���[�L�b�N����MF�̏オ��
+	"freeKickAdjustRateX_MF" : 1.0,
+	"freeKickAdjustRateZ_FW" : 63.0,
+	"freeKickAdjustRateZ"    : 55.0,
+	
+	// �t���[�L�b�N���̂�����l�̐ݒ�
+	"freekickAttackAddNum" : 2,
+	"freekickAttackForce0" : -1,
+	"freekickAttackForce1" : -1,
+	"freekickAttackForce2" : -1,
+	
+	// �L�b�N�I�t���̍U����������C���ʒu
+	"kickoffDfLineX" : -18.0,
+	
+
+	//----------------------------------------
+	// ������̐ݒ�
+	//----------------------------------------
+	// �������FW-DF�Ԃ̋�����
+	"lengthDf" : 25.0,
+	// �T�C�h�ւ̕΂�
+	"wideRate" : 0.1,
+
+	//�U������DF���C���̍���
+	"dfLineRate": 0.3,
+	
+	// DF���C���̍�������
+	"dfLine" : 10,
+
+	// DF�J�e�S���̑傫��
+	"dfGroupRate" : 0.4,
+
+	// FW���C���̍����������v���X�J�n�ʒu
+	"pressRate" : 0.5,
+	
+	// FW-MF�̍Œ዗����
+	"minDistMF_FW" : 1.5,
+
+	// MF-DF�̍Œ዗����
+	"minDistMF_DF" : 6.0,
+
+	// MF���C���̍�������
+	"mfLineRate" : 0.2,
+
+	// MF�J�e�S���̑傫��
+	"mfGroupRate" : 0.3,
+	
+	// DF���C�����{�[���ɂ��킹�ĉ�����͂��߂�{�[���Ƃ̋���
+	"dfLineBack" : 10.0,
+	
+	//DF�̔�����(3�l�p)
+	"dfLineWidth_3" : 18.0,
+	//DF�̔�����(4�l�p)
+	"dfLineWidth_4" : 23.0,
+	//DF�̔�����(5�l�p)
+	"dfLineWidth_5" : 28.0,
+	//DF�̔�����(�R�[�i�[�L�b�N�p)
+	"dfLineWidth_Corner" : 10.0,
+	
+	//DF���U�ߍ��܂ꂽ�Ƃ��ɍi��DF���̍ő劄��
+	"dfLineCloseRate" : 0.7,
+
+	// �����I�ɃJ�e�S���Ԃ̋����𓙊Ԋu�ɂ���
+	"dfForceAverageZ" : true,
+
+	// ��{�|�W�V��������Ȃ��ă{�[�����ʂɊ�鏈��
+	"dfAdjustZ" : true,
+	
+	// �{�[�����ɍő�ŉ�%�قǋ߂Â����H
+	"dfAdjustZRateMax" : 40.0,
+
+	// �{�[�����ʂɊ񂹂������Ȃ��悤�ɂ��镝
+	"dfAdjustZCheckWidthMin" : 5.0,
+
+	// �}�[�W�����܂߂��e���͈͂̓͂��ő勗��
+	"dfAdjustZCheckWidthMax" : 30.0,
+	
+	// X�����������̋����ȉ����ƃ{�[�������Ɋ�钲���l���ő�ɂȂ�
+	"dfAdjustZCheckLenMin" : 12.5,
+
+	// X�����������̋����ȏゾ�ƃ{�[�������Ɋ�钲���l���Ȃ��Ȃ�
+	"dfAdjustZCheckLenMax" : 20.0,
+
+
+	// ������C���̍ő�̍�������
+	"dfLineAdjustMax" : -4.0,
+	"dfLineAdjustMin" : -4.0,
+
+
+	// ������C�����Z���^�[���C���܂ŏオ�鎞�̃{�[���ʒu����
+	"dfLineCenterAdjustMax" :  2.0,
+	"dfLineCenterAdjustMin" : -10.0,
+	
+
+	// �J�o�[������L���ɂ��邩�ǂ����H
+	"dfCoverEnable" : true,
+	
+	// �J�o�[���ɂ�鏈����L���ɂ��邩�ǂ����H
+	"dfCoverAdjustX" : true,
+	
+	// ��{�|�W�V�������ǂꂭ�炢�J�o�[�ʒu�ɋ߂Â��邩�H
+	"coverRateZ" : 0.4,
+	
+	
+	// ���[�U�[�|�W�V�����ɂ�钲��
+	"dfUserPositionAdjustEnable" : true,
+	"dfUserPositionAdjustRate"   : 1.0,
+	"dfUserPositionAdjustTime"   : 30,
+	
+	
+	// �G�̍U�����ɍ��킹�鏈��
+	"dfAttackWidthEnable" : true,
+	
+	// �f�o�b�O�p�r�F�G�̍U�����Ɍ��肷��
+	"dfAttackWidthForce" : true,
+	
+	// �O���[�v�̐擪����ǂꂭ�炢�O���̓G��F�����邩
+	"dfAttackWidthFront" : 7.8,
+	
+	// �O���[�v�̌������ǂꂭ�炢���̓G��F�����邩
+	"dfAttackWidthBack" : 2.0,
+	
+	// �}�[�W��
+	"dfAttackWidthMarginFront" : 12.0,
+	
+	// �}�[�W��
+	"dfAttackWidthMarginBack" : 5.0,
+	
+	
+	// �R�[�i�[�L�b�N����MF���C���̍L����
+	"cornerkickDefenceMFWidth" : 100.0,
+	
+	// MF���t�T�C�h���ǂꂭ�炢�T�|�[�g���邩�H
+	"cornerkickDefenceMFSide" : 100.0,
+	
+	// �S�[���L�b�N���Ƀf�B�t�F���X���C�����ǂꂭ�炢�オ�邩�H
+	"gksDefenceBackRate" : 100.0,
+	"gklDefenceBackRate" : 40.0,
+	
+	// �X�y�[�X�J�o�[�̊���
+	"spaceCoverRate" : 0.4,
+	
+	// DF�ڕW���C���̍ő�l�������s�Ȃ�MF���C�����_
+	"mfLineScore_adjustMax" : 150.0,
+	
+	// DF���C����MF���C�����̉��������ő�␳�l�Ƃ��邩
+	"adjustDiv" : 4.0,
+
+	// WALK����MF���C���̃X�R�A
+	"walkMfLineScore" : 160.0,
+	
+	//----------------------------------------
+	// �U�狤�ʂ̏���
+	//----------------------------------------
+	// �t�T�C�h������{�|�W�V�������O���ɂ��炷
+	"slide" : false,
+
+	// �X���C�h���� 0:��� 1:2���Ȑ�
+	"slideKind" : 0,
+
+	// �X���C�h���̍ō��l
+	"slideWidth" : 3.0,
+
+	// �X���C�h�����ō��ɂȂ鎞�̋���
+	"slideDistMax" : 25.0,
+	
+	// �X���C�h���̍Œ�l���ێ����鋗��
+	"slideDistMin" : 8.0,
+	
+	// �X���C�h���肳���鋗��
+	"slideJudgeWidthBase" : 10.0,
+	
+	// �X���C�h����̃}�[�W��
+	"slideJudgeWidthMargin" : 10.0,	
+
+
+	// X���ڕW���C���̕ω���
+	"targetLineXVariation" : 0.2,
+	
+	// Z���ڕW���C���̕ω���
+	"targetLineZVariation" : 0.2,
+
+	//----------------------------------------
+	// �ړ��n�̕~���l �Ԏ؂肵�Ă܂��E�E
+	//----------------------------------------
+	// �����o������
+	"moveStartDist" : 0.8,
+
+	// �ړ��n�̑��x�`�F�b�N
+	"forceWalkDist" : 1.2,
+	
+	// �ړ��n�̑��x�`�F�b�N
+	"forceJogDist" : 2.4,
+
+	// �ړ��n�̑��x�`�F�b�N
+	"forceDashDist" : 9.0,
+
+	// �_�b�V�����烉���ɑJ�ڂ���ڕW�Ƃ̋���
+	"speedDownRunDist" : 5.0,
+
+	// �W���O���烉���ɑJ�ڂ���ڕW�Ƃ̋���
+	"speedUpRunDist" : 4.0,
+	
+	//----------------------------------------
+	// �A�g�p���ɂ���ăJ�o�[��x�点��
+	//----------------------------------------
+	
+	// �A�g�p�������f����͈�
+	"upperConnectionParam" : 70.0,
+	"lowerConnectionParam" : 50.0,
+	
+	// �A�g�p���ɂ��J�o�[�����Ȃ��ő厞��
+	"maxWaitTime" : 30.0,
+	
+	//�@�U���ӎ��ɂ���Ċ�{�|�W�V������X���W���グ��
+	"adjustXFromAttackAwareness3" : 2.5,
+	"adjustXFromAttackAwareness4" : 5.0,
+	
+	// �f�o�b�O�p�@TODO::�폜�\��
+	"defenceCompact" : 25,
+	
+	//�R���p�N�g�l�X�p���ɑ΂��Ă�FW��X���W���z���C����������
+	"adjustXCompactFW" : 0.5,
+	
+	//�R���p�N�g�l�X�p���ɑ΂��Ă�Z���W���z���C���̒�������
+	"adjustZCompact" : 0.95,
+	
+	//�R���p�N�g�l�X�p���ɑ΂��Ă�Z���W���z���C�������̒�������
+	"adjustZMinCompact" : 0.5,
+	
+	//----------------------------------------
+	// �]�[���f�B�t�F���X
+	//----------------------------------------
+	
+	//�}�b�`�A�b�v�I�肪DF��MF�ɂȂ�ꍇ�̃`�F�b�N��{����
+	"checkBaseDist" : 4.0,
+	
+	//�}�b�`�A�b�v�I�肪DF��MF�ɂȂ�ꍇ�̃`�F�b�N��������
+	"checkAdjustDist" : 3.0
+}

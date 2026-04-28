@@ -1,0 +1,19 @@
+//FORMAT: Lenght in Bytes (DEC) - Unknown - Ending Offset in DEC//
+//index is special, the length value is actually the amount of files in the binary//
+16 - 8 - 416		//index
+864 - 200 - 1280	//basePosition
+16 - 215 - 1296		//centeringGet
+288 - 230 - 1584	//combination
+144 - 244 - 1728	//defence
+144 - 254 - 1872	//defenceCover
+320 - 269 - 2192	//defenceMark
+96 - 283 - 2288		//diagonalRun
+64 - 297 - 2352		//lineBreak
+32 - 309 - 2384		//overlap
+208 - 319 - 2592	//pairAnime
+48 - 331 - 2640		//pullAway
+224 - 342 - 2864	//selectorVision
+336 - 359 - 3200	//spaceRun
+208 - 370 - 3408	//subConcept
+240 - 383 - 3648	//support
+112 - 393 - 		//teamId

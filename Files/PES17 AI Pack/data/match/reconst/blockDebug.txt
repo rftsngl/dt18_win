@@ -1,0 +1,51 @@
+defence
+	keeper
+	moveKind
+	moveMode
+	moveSpeed
+	parameter
+		control, fishDive, heel	//all in same block
+		keeperCheckStyle
+		keeperCheckType
+		keeperStartParam
+		kickerStartParam
+	pattern
+	situation
+	stop
+	
+	
+offence
+	kickAuto
+		checkXRate
+		checkZ
+		enable
+	kickDebug
+		adjustY
+		adjustZ
+		checkXRate
+		checkZ
+		enable
+		shootKind
+		startSpeedLevel
+	kickMode
+	kickPointBall
+		y
+		z
+	kickPointDirect
+		y
+		z
+	kickPointGoal
+		y
+		z
+	kickPosition
+		angle
+		dist
+		dribbleAiThink, dribbleStart	//both in same block
+		shootGoalDist
+		shootKpDist
+	kickRotMode
+	
+retry
+	auto
+	code
+	setid

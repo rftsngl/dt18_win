@@ -1,0 +1,64 @@
+/// @class auto
+{
+	// �������W�t���[��
+	"future" : 30,
+
+	// �V���[�g�����`臒l
+	"outTrapezoid0" : 90.0,
+	"outTrapezoid1" : 10.0,
+
+	// �V���[�g����ő�p�x
+	"outAngle" : 15.0,
+
+	// �`�b�v�L�b�N臒l(����/���[�g��)
+	"chipThreshold0" : 0.0,
+	"chipThreshold1" : 8.0,
+
+	// �V���[�g�����Ƃ݂Ȃ��p�x��
+	"loopAngleSub" : 30.0,
+
+
+	// ���[�v�V���[�g��{���x
+	"loopSpeed" : 50.0,
+
+	// ���[�v�V���[�g�ő���Z���x
+	"loopSpeedDelta" : 50.0,
+
+	// ���[�v�V���[�g��{�p
+	"loopElevation" : 20.0,
+
+	// ���[�v�V���[�g�ő���Z�p
+	"loopElevationDelta" : 30.0,
+
+	// ���[�v�V���[�g��{�X�s��
+	"loopSpin" : -1.0,
+
+	// ���[�v�V���[�g�ő���Z�X�s��
+	"loopSpinDelta" : -3.0,
+
+
+	// �`�b�v�L�b�N��{���x
+	"chipSpeed" : 35.0,
+
+	// �`�b�v�L�b�N�ő���Z���x
+	"chipSpeedDelta" : 50.0,
+
+	// �`�b�v�L�b�N��{�p
+	"chipElevation" : 22.0,
+
+	// �`�b�v�L�b�N�ő���Z�p
+	"chipElevationDelta" : 12.0,
+
+	// �`�b�v�L�b�N��{�X�s��
+	"chipSpin" : -1.5,
+
+	// �`�b�v�L�b�N�ő���Z�X�s��
+	"chipSpinDelta" : -2.0,
+
+
+	// �Ҕ����V���[�g��{���x
+	"nutmegSpeed" : 50.0,
+
+	// �Ҕ����V���[�g�ő���Z���x
+	"nutmegSpeedDelta" : 50.0
+}

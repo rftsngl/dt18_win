@@ -1,0 +1,58 @@
+/// @class auto
+//BallKeepActionOrderClear
+{
+	//*****CheckClearTiming()*****************************************************
+	//�N���A����
+	
+	//�y�i���e�B�G���A�����S�[�������苗�����Ń{�[���������Ă���Ƃ��ɑ���I�肪�߂��Ɉ�萔������N���A
+	//�N���A���邩�l���鋗��(�G���A�������̋����ȓ��Ń{�[���������Ă�����)
+	"clearCheckGoalDistArea" : 20.0,
+	//������Ƌ߂�
+	"checkFarCountDist":9.0,
+	//���̐l�͈ړ��p�x��������{�[�������Ȃ�J�E���g
+	"farCountMoveAngle":30.0,
+	//�߂��B����ȓ��Ȃ�J�E���g
+	"nearCountDist":4.5,
+	//������Ƌ߂��l�������葽����΃N���A
+	"clearCountFar":2.0,
+	//�߂��l�������葽����΃N���A
+	"clearCountNear":1.0,
+	
+	//���܂łŃN���A����Ȃ������Ƃ�-----------------------------------
+	
+	//�S�[���ɋ߂��Ƃ���ł̃N���A���l���鋗��--------------------------
+	"clearCheckGoalDistNear" : 14.0,
+	//�{�[��������I�������
+	"clearCheckNearAngle":124.5,
+	//�����葊��ɋ߂���΃N���A
+	"clearEnemyDistNear":6.0,
+	//�L�[�p�[�p�̋���
+	"clearEnemyDistNearGK":6.0,
+	//�L�[�p�[���g���b�v�����ɃN���A
+	"clearEnemyDistNearGKDirect":8.0,
+	//���肪������(�h���u��)
+	"clearEnemyDistDribble":4.0,
+	//�����g���b�v���ł��ĂȂ�����
+	"clearBadTrapSpeed":11.2,
+	"clearBadTrapAngle":112.5,
+	//�O�������Ă��Ȃ�
+	"notClearBodyAngle":112.5,
+	
+	//�܂��܂��߂����̃N���A���l����S�[������̋���--------------------
+	"clearCheckGoalDistFar" : 25.0,
+	//����ɂ����莩�g�Ƌ߂���΍l����
+	"clearCheckEnemyDistFar":4.0,
+	//�������͂�����߂���
+	"clearCheckEnemyDistNear":2.0,
+	//�p�x�����̊p�x���������Ă��Ă���Ȃ�l����
+	"clearCheckEnemyAngleNear":56.3,
+	
+	//���[�Y�{�[���̃N���A����
+	//����I�肪�{�[������
+	"clearCheckEnemyAngleLooseBall":78.8,
+	//����S�[�������������Ă���
+	"clearCheckGoalAngleLooseBall":78.8
+	
+	//���[�Y�{�[������Ȃ�
+	//����ɃX�y�[�X������(�X�y�[�X�Ƀh���u��)
+}

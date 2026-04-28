@@ -1,0 +1,28 @@
+BackSpaceInfo
+	dummy
+	
+CrossInfo
+	dummy
+
+EarlyCrossInfo
+	dummy
+
+LongPassInfo
+	dummy
+
+OneTwoInfo
+	dummy
+
+RotateInfo
+	dummy
+
+SafetyPassInfo
+	dummy
+
+SideChangeInfo
+	dummy
+
+VsCountInfo
+	dummy
+
+forceTargetGkTest

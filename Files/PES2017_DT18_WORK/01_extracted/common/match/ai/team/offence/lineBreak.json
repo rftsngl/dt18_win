@@ -1,0 +1,23 @@
+/// @class auto
+// Configuration options
+{
+	// �{�[���Ƃ̃`�F�b�NZ����
+	"checkZ"      : 22.0,
+	"checkZ_good" : 28.0,
+	
+	// �{�[���Ƃ̃`�F�b�N����
+	"checkBallDist"      : 35.0,
+	"checkBallDist_good" : 35.0,
+	
+	// �ŏI���C������̃`�F�b�N����
+	"checkLastLineDist"      : 6.0,
+	"checkLastLineDist_good" : 9.0,
+	
+	//BP�Ƃ̑̂̌����`�F�b�N
+	"angleDiff"      : 60.0,
+	"angleDiff_good" : 100.0,
+	
+	//BP�̃{�[�������`�F�b�N
+	"checkBallDistBP"      : 1.0,
+	"checkBallDistBP_good" : 1.5
+}

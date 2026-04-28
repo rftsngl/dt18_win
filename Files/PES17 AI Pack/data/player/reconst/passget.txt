@@ -1,0 +1,46 @@
+autoFrontMove
+	enable
+	moveKind
+	pressure
+		circleDist
+		mode
+		secDiff
+		thinkDelay
+	slowMoveEnable
+	
+ballArrivalFastSec
+ballAvoidEnable
+
+defence
+	paraMax
+	paraMin
+	secMax
+	secMin
+	
+inputMoveAir
+	ballBound
+	ballHeight
+	enable
+	moveRange
+		length
+		side
+	moveRangeFree
+		length
+		side
+	targetDist
+	
+inputMovePosition
+	enable
+	
+manualPassGetRate
+neutralTrapAutoFront
+nextPlayEnable
+openBodyMaxValue
+passGetThroughNoTrap
+positionAdjustAngleSubMax
+positionAdjustEnable
+positionAdjustSide
+thinkPressFilterUntilTargetBallThrough, trapRunReceiveMotionFreeMove, trapRunReceiveMotionStepMove, trapStopThinkEnemyFarFoot //all in same block
+trapStopThinkEnemyFrameDiffSec
+trapStopThinkStrongerFoot
+trapStopThinkStrongerFootBallSpeedKph

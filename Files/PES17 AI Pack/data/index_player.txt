@@ -1,0 +1,37 @@
+//FORMAT: Lenght - Unknown - Ending Position in DEC//
+//index is special, the length value is actually the amount of files in the binary//
+34 - 8 - 848		//index
+80 - 416 - 928		//avoid
+16 - 424 - 944		//ballplayer
+16 - 437 - 960		//ballplayerAnalyze
+16 - 457 - 976		//ballplayerClear
+480 - 475 - 1456	//ballplayerDebug
+288 - 493 - 1744	//ballplayerDribble
+16 - 513 - 1760		//ballplayerFeint
+96 - 531 - 1856		//ballplayerGk
+192 - 546 - 2048	//ballplayerPass
+64 - 563 - 2112		//ballplayerSetplay
+32 - 583 - 2144		//ballplayerShoot
+80 - 601 - 2224		//block
+160 - 609 - 2384	//centering
+80 - 621 - 2464		//contact
+80 - 631 - 2544		//dribble
+256 - 641 - 2800	//flypass
+16 - 651 - 2816		//freekick
+80 - 662 - 2896		//freemove
+128 - 673 - 3024	//gk
+32 - 678 - 3056		//goalKick
+256 - 689 - 3312	//grounderpass
+48 - 704 - 3360		//matchup
+32 - 714 - 3392		//motivation
+32 - 727 - 3424		//moveOnPass
+208 - 740 - 3632	//passget
+16 - 750 - 3648		//penaltykick
+1872 - 764 - 5520	//playStyle
+16 - 776 - 5536		//press
+16 - 784 - 5552		//reaction
+320 - 795 - 5872	//shoot
+32 - 803 - 5904		//sliding
+176 - 813 - 6080	//tackle
+480 - 822 - 6560	//throughpass
+448 - 836 - 		//trap

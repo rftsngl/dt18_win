@@ -1,0 +1,64 @@
+airRegistNormal
+backSpinBuoyancyRate
+backSpinLogRate
+boundBoundSpeedMax
+boundBoundSpeedMin
+boundCheckBoundAddRate		//array
+boundCheckFrictionAddRate	//array
+boundCheckRotationDecRate
+boundFrictionSpeedMax
+boundFrictionSpeedMin
+boundRate					//array
+boundRollMax
+boundRotationSpeedMax
+boundRotationSpeedMin
+boundToRotationAddRateXZ	//array
+boundToRotationAddRateY
+boundToRotationBaseXZ		//array
+boundToRotationBaseY
+boundToRotationSpeedMaxXZ
+boundToRotationSpeedMaxY
+boundToRotationSpeedMinXZ
+boundToRotationSpeedMinY
+curve
+curveToSpeedMaxCurve
+curveToSpeedMaxKPH
+curveToSpeedSpeedYMax
+curveToSpeedSpeedYMin
+curveToSpeedSpeedYRateBase
+debugKickAngle
+debugKickSpeed
+dragSpeedMax
+dragSpeedMin
+frictionRollRateMax		//array
+frictionRollRateMin		//array
+frictionRollSpeedMax	//array
+frictionRollSpeedMin	//array
+grounderBoundYAdd
+grounderCTan
+grounderFrictionRate
+grounderSpeed
+magnusRate
+natualBoundA			//array
+natualBoundB
+naturalRoll
+nonSpinMax
+nonSpinMin
+nonSpinRate
+nonSpinTopDownDecRate
+nonSpinTopRiseDecRate
+pitchCondition
+roll
+rollToBoundAdd
+rollToBoundRollMax
+rollToBoundRollMin
+rollToSpeedMaxKPH		//array
+rollToSpeedMaxRoll
+rollToSpeedSpeedYMax
+rollToSpeedSpeedYMin
+rollToSpeedSpeedYRateBase
+rotationCustom, speedCustom	//same block
+stopSpeed
+topSpinChangeSpeed
+topSpinDownDecRate
+topSpinRiseDecRate

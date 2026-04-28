@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Tree Id="moveSpeed.xml" Type="Action" AnswerFile="MoveSpeed.xml">
+  <Nodes>
+    <Node NodeId="Shape1" ConfigId="FuncShape1" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape3" />
+        <Connector End="Shape2" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape2" ConfigId="DASH" NodeType="Answer" />
+    <Node NodeId="Shape3" ConfigId="FuncShape3" NodeType="Condition">
+      <Connectors>
+        <Connector End="Shape5" />
+        <Connector End="Shape4" />
+      </Connectors>
+    </Node>
+    <Node NodeId="Shape4" ConfigId="RUN" NodeType="Answer" />
+    <Node NodeId="Shape5" ConfigId="RUN" NodeType="Answer" />
+  </Nodes>
+  <Configs>
+    <Config Name="FuncShape1">
+      <Funcs>
+        <Func Name="CheckButton" NameJ="ボタンの状態をチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_DASH" ValueJ="ダッシュ(R1)">
+              <Options />
+            </Arg>
+            <Arg Type="ButtonStatus" Value="RRESS" ValueJ="押し続けている状態">
+              <Options />
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+    <Config Name="FuncShape3">
+      <Funcs>
+        <Func Name="CheckButtonRate" NameJ="ボタンの押し込み具合をチェック">
+          <Args>
+            <Arg Type="ButtonKind" Value="PAD_ID_L3" ValueJ="L3">
+              <Options />
+            </Arg>
+            <Arg Type="Numeric" Value="0.95" ValueJ="0.95" OptionType="Sign">
+              <Options>
+                <Option Value="OVER" ValueJ="以上" />
+              </Options>
+            </Arg>
+          </Args>
+        </Func>
+      </Funcs>
+    </Config>
+  </Configs>
+  <Parameters>
+    <Parameter>
+      <Location X="143" Y="44" />
+      <Size Width="154" Height="32" />
+      <Comment Text="R1が押されている" />
+    </Parameter>
+    <Parameter>
+      <Location X="53" Y="206" />
+      <Size Width="130" Height="32" />
+      <Comment Text="DASH" />
+    </Parameter>
+    <Parameter>
+      <Location X="280" Y="206" />
+      <Size Width="175" Height="32" />
+      <Comment Text="L3が最大限に倒されている" />
+    </Parameter>
+    <Parameter>
+      <Location X="250" Y="296" />
+      <Size Width="80" Height="32" />
+      <Comment Text="RUN" />
+    </Parameter>
+    <Parameter>
+      <Location X="410" Y="296" />
+      <Size Width="73" Height="32" />
+      <Comment Text="RUN" />
+    </Parameter>
+  </Parameters>
+</Tree>

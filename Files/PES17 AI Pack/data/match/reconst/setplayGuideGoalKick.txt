@@ -1,0 +1,36 @@
+gage
+
+rot
+	addBackSpin
+	addHigh
+	adjustDist
+		addValue
+		distMax
+		distMin
+		enable
+	base
+	topSpinRot
+	
+speed
+	addGage
+		addParaRate
+		base
+	base
+	kickPowerParameter
+		debugParameter
+		max
+		min
+		mode
+		
+		
+spin
+	backSpin
+		base
+		paraRate
+	sideSpin
+		base
+		paraRate
+		revers
+	topSpin
+		base
+		paraRate

@@ -1,0 +1,13 @@
+FreekickShoot
+	range_frontZ
+	range_max
+	range_middle
+	range_short
+	range_width
+	
+Throwin
+	range_long
+	range_min
+	range_short
+	
+waitTimerMin

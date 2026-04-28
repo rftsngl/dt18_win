@@ -1,0 +1,14 @@
+gk_entry
+playerPosNo
+
+playerPosTable
+	enemyAngle
+	enemyDist
+	kickerAngle
+	kickerDist
+	
+restartPosNo
+
+restartPosTable
+	x
+	z

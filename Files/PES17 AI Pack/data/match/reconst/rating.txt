@@ -1,0 +1,35 @@
+addPoint
+	assist_over2
+	assist_over4
+	goal_king
+	goal_or_assist
+	goal_over2
+	goal_over3
+	goal_over6
+	lost_goal_many
+	many_save
+	snatchedMany_dribble
+	snatchedMany_pass
+	
+	
+angleDiffMoveAngleToPos
+baseRatingMax
+baseRatingMin
+df_rate
+distOneArrow
+distTwoArrow
+fw_rate
+gk_rate
+mf_rate
+ratingMax
+ratingMin
+subValue100percent
+subValue10percent
+subValue20percent
+subValue30percent
+subValue40percent
+subValue50percent
+subValue60percent
+subValue70percent
+subValue80percent
+subValue90percent
